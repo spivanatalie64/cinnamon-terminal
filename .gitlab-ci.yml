@@ -52,7 +52,6 @@ package:arch:
       meson ninja gettext glib2 gtk4 libadwaita
       vte4 pcre2 gsettings-desktop-schemas
       libxslt itstool appstream-glib
-    - # Create source tarball so makepkg doesn't download
     - PKGVER="${CI_COMMIT_TAG#v}"; PKGVER="${PKGVER:-3.97.1}"
     - ln -sf "$CI_PROJECT_DIR" "../cinnamon-terminal-$PKGVER"
     - tar -chzf "cinnamon-terminal-$PKGVER.tar.gz" -C .. "cinnamon-terminal-$PKGVER"
