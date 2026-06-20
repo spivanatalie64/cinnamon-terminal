@@ -35,7 +35,6 @@ variables:
   GIT_DEPTH: 50
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
 
-<<<<<<< HEAD
 # ─── Default rules ────────────────────────────────────────────────────────────
 
 .default_rules: &default_rules
@@ -46,6 +45,21 @@ variables:
   - if: $CI_COMMIT_BRANCH == "unstable"
   - if: $CI_COMMIT_BRANCH =~ /^release\//
   - if: $CI_COMMIT_TAG
+
+default:
+  cache:
+    key:
+      files:
+        - meson.build
+        - meson_options.txt
+    paths:
+      - build/
+      - .cache/
+    policy: pull-push
+
+workflow:
+  auto_cancel:
+    on_new_commit: interruptible
 
 # ─── Stage: build ─────────────────────────────────────────────────────────────
 
@@ -67,24 +81,7 @@ build:linux:
   rules: *default_rules
   tags:
     - linux
-=======
-default:
-  cache:
-    key:
-      files:
-        - meson.build
-        - meson_options.txt
-    paths:
-      - build/
-      - .cache/
-    policy: pull-push
->>>>>>> 13822b04 (feat: implement industry best practices across the project)
 
-workflow:
-  auto_cancel:
-    on_new_commit: interruptible
-
-<<<<<<< HEAD
 test:linux:
   stage: test
   needs: ["build:linux"]
@@ -298,21 +295,4 @@ mirror:check:
   variables:
     GIT_STRATEGY: clone
     GIT_DEPTH: "0"
-=======
-# ─── Security scanning (GitLab SAST) ─────────────────────────────────────────
-include:
-  - template: Jobs/SAST.gitlab-ci.yml
-  - template: Jobs/Secret-Detection.gitlab-ci.yml
 
-# ─── Project-specific CI includes ────────────────────────────────────────────
-include:
-  local:
-    - .gitlab/ci/templates.yml
-    - .gitlab/ci/lint.yml
-    - .gitlab/ci/build.yml
-    - .gitlab/ci/test.yml
-    - .gitlab/ci/package.yml
-    - .gitlab/ci/merge.yml
-    - .gitlab/ci/release.yml
-    - .gitlab/ci/mirror.yml
->>>>>>> 13822b04 (feat: implement industry best practices across the project)
