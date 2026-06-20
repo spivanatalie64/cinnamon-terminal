@@ -1,0 +1,45 @@
+# Release jobs
+# Create GitLab releases from tags
+
+release:create:
+  stage: release
+  needs: ["build:linux", "test:unit"]
+  script:
+    - apt-get update -qq
+    - apt-get install -y -qq curl jq
+    - VERSION="${CI_COMMIT_TAG#v}"
+    - echo "Releasing version $VERSION from tag $CI_COMMIT_TAG"
+    - chmod +x scripts/release-changelog.sh
+    - |
+      LAST_TAG=$(git tag --list 'v*' --sort=-v:refname | head -2 | tail -1 || echo "")
+      if [ -n "$LAST_TAG" ]; then
+        ./scripts/release-changelog.sh "$LAST_TAG" "$CI_COMMIT_TAG" > release-notes.md
+      else
+        ./scripts/release-changelog.sh "$(git rev-list --max-parents=0 HEAD)" "$CI_COMMIT_TAG" > release-notes.md
+      fi
+    - echo "Changelog generated:"
+    - cat release-notes.md
+    - |
+      RELEASE_NOTES=$(cat release-notes.md | python3 -c "import sys,json; print(json.dumps(sys.stdin.read()))" 2>/dev/null || cat release-notes.md | jq -Rs .)
+    - |
+      curl --silent --fail \
+        --header "PRIVATE-TOKEN: ${CI_JOB_TOKEN}" \
+        --header "Content-Type: application/json" \
+        --data "
+      {
+        \"name\": \"Cinnamon Terminal $VERSION\",
+        \"tag_name\": \"$CI_COMMIT_TAG\",
+        \"ref\": \"$CI_COMMIT_TAG\",
+        \"description\": $RELEASE_NOTES
+      }
+      " \
+        "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/releases" | jq .
+    - echo "Release $CI_COMMIT_TAG created successfully!"
+  rules:
+    - if: '$CI_COMMIT_TAG =~ /^v/'
+      when: always
+  tags:
+    - linux
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "0"

@@ -1,0 +1,69 @@
+# Build jobs
+# Compile the project with different configurations
+
+build:linux:
+  stage: build
+  needs: []
+  before_script:
+    - sudo pacman -S --noconfirm --needed
+      meson ninja gettext glib2 gtk3 gtk4 libadwaita
+      vte3 vte4 pcre2 gsettings-desktop-schemas
+      libxslt itstool appstream-glib clang
+  script:
+    - meson setup build --prefix=/usr
+      -Dbuildtype=release
+      -Ddocs=true
+      -Dnautilus_extension=true
+      -Dsearch_provider=true
+    - meson compile -C build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 2 hours
+  rules: *default_rules
+  tags:
+    - linux
+
+build:sanitizers:
+  stage: build
+  needs: []
+  before_script:
+    - sudo pacman -S --noconfirm --needed
+      meson ninja gettext glib2 gtk3 gtk4 libadwaita
+      vte3 vte4 pcre2 gsettings-desktop-schemas
+      libxslt itstool appstream-glib clang
+  script:
+    - meson setup build-asan --prefix=/usr
+      -Dbuildtype=debugoptimized
+      -Db_sanitize=address,undefined
+      -Db_lundef=false
+    - meson compile -C build-asan
+  artifacts:
+    paths:
+      - build-asan/
+    expire_in: 2 hours
+  rules: *default_rules
+  tags:
+    - linux
+
+build:gcc:
+  stage: build
+  needs: []
+  before_script:
+    - sudo pacman -S --noconfirm --needed
+      meson ninja gettext glib2 gtk3 gtk4 libadwaita
+      vte3 vte4 pcre2 gsettings-desktop-schemas
+      libxslt itstool appstream-glib gcc
+  variables:
+    CC: gcc
+    CXX: g++
+  script:
+    - meson setup build-gcc --prefix=/usr -Dbuildtype=release
+    - meson compile -C build-gcc
+  artifacts:
+    paths:
+      - build-gcc/
+    expire_in: 2 hours
+  rules: *default_rules
+  tags:
+    - linux

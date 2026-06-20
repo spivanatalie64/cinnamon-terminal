@@ -1,0 +1,48 @@
+# Mirror sync jobs
+# Verify all mirrors are in sync with origin
+
+mirror:check:
+  stage: mirror
+  needs: []
+  script:
+    - echo "Checking mirror sync status..."
+    - echo "Primary remote: origin"
+    - git remote -v
+    - |
+      for remote in codeberg github-org github-user; do
+        if git remote get-url "$remote" >/dev/null 2>&1; then
+          echo ""
+          echo "--- Checking mirror: $remote ---"
+          git fetch "$remote" --quiet 2>&1 || echo "  WARNING: Could not fetch from $remote"
+          if git rev-parse --verify "refs/remotes/$remote/master" >/dev/null 2>&1; then
+            BEHIND=$(git rev-list --count "refs/remotes/$remote/master..origin/master" 2>/dev/null || echo "?")
+            AHEAD=$(git rev-list --count "origin/master..refs/remotes/$remote/master" 2>/dev/null || echo "?")
+            echo "  Origin master ahead of $remote/master: ${BEHIND} commits"
+            echo "  $remote/master ahead of origin master: ${AHEAD} commits"
+            if [ "$BEHIND" -gt 10 ] 2>/dev/null; then
+              echo "  ⚠ MIRROR LAGGING: $remote is $BEHIND commits behind origin"
+            elif [ "$BEHIND" = "0" ] 2>/dev/null; then
+              echo "  ✓ Mirror is up to date"
+            fi
+          else
+            echo "  Could not find master branch on $remote"
+          fi
+        else
+          echo ""
+          echo "--- Skipping mirror: $remote (not configured) ---"
+        fi
+      done
+    - echo ""
+    - echo "Mirror check complete."
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: always
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: always
+    - when: manual
+      allow_failure: true
+  tags:
+    - linux
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "0"

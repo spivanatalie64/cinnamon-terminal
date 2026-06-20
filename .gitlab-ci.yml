@@ -2,26 +2,28 @@
 # Cinnamon Terminal CI/CD Pipeline
 #
 # Stages:
-#   - build       — Compile the project
-#   - test        — Run unit/integration tests
-#   - package     — Build Arch/Flatpak/Snap packages
-#   - merge       — Upstream merge (nightly)
-#   - release     — Tag-based release creation
-#   - mirror      — Mirror sync health checks
+#   - lint      — Static analysis and code quality
+#   - build     — Compile the project (clang, gcc, sanitizers)
+#   - test      — Run unit/integration tests
+#   - package   — Build Arch/Flatpak/Snap packages
+#   - merge     — Upstream merge from GNOME gnome-terminal
+#   - release   — Tag-based release creation
+#   - mirror    — Mirror sync health checks
 #
 # Branch structure:
-#   master        — Stable, production-quality
-#   unstable      — Accepts upstream merges + experimental X11 work
-#   release/*     — Per-release stabilization branches
+#   master      — Stable, production-quality
+#   unstable    — Accepts upstream merges + experimental X11 work
+#   release/*   — Per-release stabilization branches
 #
 # Remote structure:
 #   origin        → gitlab.acreetionos.org:2499/acreetionos-code/cinnamon-terminal.git
-#   upstream      → https://gitlab.gnome.org/GNOME/gnome-terminal.git
-#   codeberg      → codeberg.org:sprunglesontheberg/cinnamon-terminal.git
-#   github-org    → github.com:AcreetionOS-Code/cinnamon-terminal.git
-#   github-user   → github.com:spivanatalie64/cinnamon-terminal.git
+#   upstream      → https://gitlab.gnome.org/GNOME/gnome-terminal.git (read-only)
+#   codeberg      → codeberg.org:sprunglesontheberg/cinnamon-terminal.git (mirror)
+#   github-org    → github.com:AcreetionOS-Code/cinnamon-terminal.git (mirror)
+#   github-user   → github.com:spivanatalie64/cinnamon-terminal.git (mirror)
 
 stages:
+  - lint
   - build
   - test
   - package
@@ -31,7 +33,9 @@ stages:
 
 variables:
   GIT_DEPTH: 50
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
 
+<<<<<<< HEAD
 # ─── Default rules ────────────────────────────────────────────────────────────
 
 .default_rules: &default_rules
@@ -63,9 +67,24 @@ build:linux:
   rules: *default_rules
   tags:
     - linux
+=======
+default:
+  cache:
+    key:
+      files:
+        - meson.build
+        - meson_options.txt
+    paths:
+      - build/
+      - .cache/
+    policy: pull-push
+>>>>>>> 13822b04 (feat: implement industry best practices across the project)
 
-# ─── Stage: test ──────────────────────────────────────────────────────────────
+workflow:
+  auto_cancel:
+    on_new_commit: interruptible
 
+<<<<<<< HEAD
 test:linux:
   stage: test
   needs: ["build:linux"]
@@ -278,3 +297,21 @@ mirror:check:
   variables:
     GIT_STRATEGY: clone
     GIT_DEPTH: "0"
+=======
+# ─── Security scanning (GitLab SAST) ─────────────────────────────────────────
+include:
+  - template: Jobs/SAST.gitlab-ci.yml
+  - template: Jobs/Secret-Detection.gitlab-ci.yml
+
+# ─── Project-specific CI includes ────────────────────────────────────────────
+include:
+  local:
+    - .gitlab/ci/templates.yml
+    - .gitlab/ci/lint.yml
+    - .gitlab/ci/build.yml
+    - .gitlab/ci/test.yml
+    - .gitlab/ci/package.yml
+    - .gitlab/ci/merge.yml
+    - .gitlab/ci/release.yml
+    - .gitlab/ci/mirror.yml
+>>>>>>> 13822b04 (feat: implement industry best practices across the project)

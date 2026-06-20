@@ -1,0 +1,39 @@
+# Upstream merge jobs
+# Automatically merge upstream GNOME Terminal into unstable
+
+merge:upstream:nightly:
+  stage: merge
+  needs: []
+  script:
+    - git config user.email "ci@acreetionos.org"
+    - git config user.name "Cinnamon Terminal CI"
+    - chmod +x scripts/merge-upstream.sh
+    - ./scripts/merge-upstream.sh --push
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: always
+    - when: manual
+      allow_failure: true
+  tags:
+    - linux
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "0"
+
+merge:upstream:manual:
+  stage: merge
+  needs: []
+  script:
+    - git config user.email "ci@acreetionos.org"
+    - git config user.name "Cinnamon Terminal CI"
+    - chmod +x scripts/merge-upstream.sh
+    - ./scripts/merge-upstream.sh --push
+  rules:
+    - if: '$CI_MERGE_REQUEST_ID'
+      when: manual
+      allow_failure: true
+  tags:
+    - linux
+  variables:
+    GIT_STRATEGY: clone
+    GIT_DEPTH: "0"

@@ -3,6 +3,13 @@
 > **A terminal for people who actually use terminals.**
 > Forked from [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal), optimized for the [Cinnamon Desktop](https://github.com/linuxmint/cinnamon).
 
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+[![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.1.0-%23E05735)](https://keepachangelog.com)
+[![SemVer](https://img.shields.io/badge/SemVer-2.0.0-blue)](https://semver.org)
+[![License: GPL v3+](https://img.shields.io/badge/License-GPL%20v3%2B-blue)](COPYING)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa)](CODE_OF_CONDUCT.md)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/0/badge)](https://www.bestpractices.dev/projects/0)
+
 ## Why Cinnamon Terminal?
 
 GNOME Terminal was the gold standard for Linux terminals for over two decades. But the GNOME project has been on a trajectory that leaves a lot of users behind:
@@ -279,9 +286,25 @@ We welcome:
 
 Please read [CONTRIBUTING.md](https://gitlab.acreetionos.org/acreetionos-code/cinnamon-terminal/-/blob/master/docs/CONTRIBUTING.md) for our contribution guidelines, branch strategy, and review process.
 
+## Project Standards
+
+Cinnamon Terminal follows industry best practices for open source development:
+
+| Standard | Specification | File |
+|----------|--------------|------|
+| **Commit Messages** | [Conventional Commits 1.0.0](https://www.conventionalcommits.org/) | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| **Versioning** | [SemVer 2.0](https://semver.org/) + [CalVer](https://calver.org/) | [RELEASE_SCHEDULE.md](docs/RELEASE_SCHEDULE.md) |
+| **Changelog** | [Keep a Changelog 1.1.0](https://keepachangelog.com/) | [CHANGELOG.md](CHANGELOG.md) |
+| **Code of Conduct** | [Contributor Covenant 2.1](https://www.contributor-covenant.org/) | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
+| **Security** | [OpenSSF Best Practices](https://www.bestpractices.dev/) | [SECURITY.md](SECURITY.md) |
+| **Code Style** | clang-format (GNU-based) | [.clang-format](.clang-format) |
+| **Static Analysis** | clang-tidy | [.clang-tidy](.clang-tidy) |
+| **Editor Config** | EditorConfig | [.editorconfig](.editorconfig) |
+| **Pre-commit** | pre-commit hooks | [.pre-commit-config.yaml](.pre-commit-config.yaml) |
+
 ## Documentation
 
-Comprehensive project documentation is maintained in the [AcreetionOS Documentation](https://gitlab.acreetionos.org/acreetionos-code/cinnamon-terminal/-/tree/master/docs) directory:
+Comprehensive project documentation is available:
 
 | Document | Description |
 |----------|-------------|

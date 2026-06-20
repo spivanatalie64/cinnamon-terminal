@@ -1,0 +1,29 @@
+# Test jobs
+# Run unit/integration tests
+
+test:unit:
+  stage: test
+  needs: ["build:linux"]
+  script:
+    - meson test -C build --verbose --no-suite flaky
+  rules: *default_rules
+  tags:
+    - linux
+
+test:sanitizers:
+  stage: test
+  needs: ["build:sanitizers"]
+  script:
+    - meson test -C build-asan --verbose --no-suite flaky
+  rules: *default_rules
+  tags:
+    - linux
+
+test:gcc:
+  stage: test
+  needs: ["build:gcc"]
+  script:
+    - meson test -C build-gcc --verbose --no-suite flaky
+  rules: *default_rules
+  tags:
+    - linux

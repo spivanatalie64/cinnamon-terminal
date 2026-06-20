@@ -1,0 +1,59 @@
+# Package jobs
+# Build distribution packages
+
+package:arch:
+  stage: package
+  needs: []
+  before_script:
+    - sudo pacman -S --noconfirm --needed
+      meson ninja gettext glib2 gtk3 gtk4 libadwaita
+      vte3 vte4 pcre2 gsettings-desktop-schemas
+      libxslt itstool appstream-glib
+    - PKGVER="${CI_COMMIT_TAG#v}"; PKGVER="${PKGVER:-3.97.1}"
+    - ln -sf "$CI_PROJECT_DIR" "../cinnamon-terminal-$PKGVER"
+    - tar -chzf "cinnamon-terminal-$PKGVER.tar.gz" -C .. "cinnamon-terminal-$PKGVER"
+    - rm -f "../cinnamon-terminal-$PKGVER"
+  script:
+    - makepkg -s --noconfirm
+  artifacts:
+    paths:
+      - cinnamon-terminal-*.pkg.tar.zst
+    expire_in: 1 month
+  rules:
+    - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  tags:
+    - linux
+
+package:flatpak:
+  stage: package
+  needs: []
+  script:
+    - flatpak-builder --system --force-clean flatpak-build flatpak/org.gnome.Terminal.json
+    - flatpak build-bundle flatpak-build cinnamon-terminal.flatpak org.gnome.Terminal
+  artifacts:
+    paths:
+      - cinnamon-terminal.flatpak
+    expire_in: 1 month
+  rules:
+    - if: $CI_COMMIT_TAG
+  tags:
+    - linux
+
+package:snap:
+  stage: package
+  needs: []
+  before_script:
+    - command -v snapcraft >/dev/null 2>&1 || { echo "snapcraft not installed — see docs in CI for setup"; exit 1; }
+  script:
+    - snapcraft --destructive-mode
+  artifacts:
+    paths:
+      - cinnamon-terminal_*.snap
+    expire_in: 1 month
+  rules:
+    - if: $CI_COMMIT_TAG
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  when: manual
+  tags:
+    - linux
