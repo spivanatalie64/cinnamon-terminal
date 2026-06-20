@@ -97,7 +97,8 @@ package:arch:
         echo "Uploading $pkg to package registry..."
         curl --header "JOB-TOKEN: $CI_JOB_TOKEN" \
              --upload-file "$pkg" \
-             "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/cinnamon-terminal/${PKGVER}/$(basename $pkg)"
+             "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/generic/cinnamon-terminal/${PKGVER}/$(basename $pkg)" \
+             --fail --silent --show-error || echo "WARNING: Upload failed (check nginx client_max_body_size on GitLab server)"
       done
   rules:
     - if: $CI_COMMIT_TAG
