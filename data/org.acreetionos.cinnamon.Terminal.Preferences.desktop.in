@@ -2,13 +2,13 @@
 Categories=GNOME;GTK;System;TerminalEmulator;
 Comment=Configure the command line
 DBusActivatable=false
-Exec=gnome-terminal --preferences
-Icon=org.gnome.Terminal.Preferences
+Exec=cinnamon-terminal --preferences
+Icon=org.acreetionos.cinnamon.Terminal.Preferences
 Keywords=shell;prompt;command;commandline;cmd;
 Name=Terminal Preferences
 NoDisplay=true
 SingleMainWindow=true
 StartupNotify=true
 StartupWMClass=Gnome-terminal-preferences
-TryExec=gnome-terminal
+TryExec=cinnamon-terminal
 Type=Application

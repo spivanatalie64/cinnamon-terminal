@@ -3,7 +3,7 @@
   "runtime": "org.gnome.Platform",
   "runtime-version": "47",
   "sdk": "org.gnome.Sdk",
-  "command": "gnome-terminal",
+  "command": "cinnamon-terminal",
   "finish-args": [
     "--share=ipc",
     "--socket=wayland",
@@ -13,11 +13,11 @@
     "--device=dri",
     "--filesystem=host",
     "--filesystem=/tmp",
-    "--talk-name=org.gnome.Terminal",
+    "--talk-name=org.acreetionos.cinnamon.Terminal",
     "--talk-name=org.gnome.Shell",
     "--talk-name=org.freedesktop.Flatpak",
     "--talk-name=org.freedesktop.secrets",
-    "--own-name=org.gnome.Terminal.*",
+    "--own-name=org.acreetionos.cinnamon.Terminal.*",
     "--env=GSETTINGS_SCHEMA_DIR=/app/share/glib-2.0/schemas"
   ],
   "cleanup": [

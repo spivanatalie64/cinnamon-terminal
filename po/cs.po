@@ -1,7 +1,7 @@
-# Czech translation of GNOME Terminal.
-# Copyright (C) 2002, 2006, 2008, 2009 the author(s) of GNOME Terminal.
+# Czech translation of Cinnamon Terminal.
+# Copyright (C) 2002, 2006, 2008, 2009 the author(s) of Cinnamon Terminal.
 # Copyright (C) 2004, 2005, 2006 Miloslav Trmac <mitr@volny.cz>.
-# This file is distributed under the same license as the gnome-terminal package.
+# This file is distributed under the same license as the cinnamon-terminal package.
 #
 # Stanislav Brabec <utx@penguin.cz>, 2002.
 # Michal Bukovjan <bukm@centrum.cz>, 2002.
@@ -14,7 +14,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal\n"
+"Project-Id-Version: cinnamon-terminal\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-terminal/issues\n"
 "POT-Creation-Date: 2023-08-09 23:31+0000\n"
 "PO-Revision-Date: 2023-08-15 21:02+0200\n"
@@ -27,142 +27,142 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Poedit 3.3.2\n"
 
-#: data/org.gnome.Terminal.desktop.in:3
-#: data/org.gnome.Terminal.metainfo.xml.in:37 src/server.cc:184
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:3
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:37 src/server.cc:184
 #: src/terminal-accels.cc:232 src/terminal-menubar.ui.in:144
 #: src/terminal-tab-label.cc:81 src/terminal-window.cc:1903
 #: src/terminal-window.cc:2207 src/terminal-window.cc:2522 src/terminal.cc:598
 msgid "Terminal"
 msgstr "Terminál"
 
-#: data/org.gnome.Terminal.desktop.in:4
-#: data/org.gnome.Terminal.metainfo.xml.in:38
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:4
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:38
 msgid "Use the command line"
 msgstr "Používejte příkazový řádek"
 
-#: data/org.gnome.Terminal.desktop.in:5
-#: data/org.gnome.Terminal.Preferences.desktop.in:8
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:5
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:8
 msgid "shell;prompt;command;commandline;cmd;"
 msgstr "shell;prompt;výzva;příkaz;příkazový řádek;příkazová řádka;"
 
-#: data/org.gnome.Terminal.desktop.in:18 src/terminal-accels.cc:127
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:18 src/terminal-accels.cc:127
 msgid "New Window"
 msgstr "Nové okno"
 
-#: data/org.gnome.Terminal.desktop.in:22 src/terminal-accels.cc:146
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:22 src/terminal-accels.cc:146
 msgid "Preferences"
 msgstr "Předvolby"
 
-#: data/org.gnome.Terminal.Preferences.desktop.in:4
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:4
 msgid "Configure the command line"
 msgstr "Nastavit příkazový řádek"
 
-#: data/org.gnome.Terminal.Preferences.desktop.in:9 src/prefs-main.cc:143
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:9 src/prefs-main.cc:143
 msgid "Terminal Preferences"
 msgstr "Předvolby terminálu"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:34
-#: data/org.gnome.Terminal.metainfo.xml.in:63
-msgid "org.gnome.Terminal.desktop"
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:34
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:63
+msgid "org.acreetionos.cinnamon.Terminal.desktop"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:35
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:36
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:35
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:36
 msgid "GPL-3.0+ or GFDL-1.3-only"
 msgstr "GPL-3.0+ nebo GFDL-1.3 výhradně"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:36
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:37
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:36
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:37
 msgid "GPL-3.0+"
 msgstr "GPL-3.0+"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:40
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:40
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
 "Terminál GNOME je aplikace emulující terminál pro přístup k prostředí "
 "UNIXového shellu a v něm umožňuje spouštět programy dostupné ve vašem "
 "systému."
 
-#: data/org.gnome.Terminal.metainfo.xml.in:41
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:41
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
 msgstr ""
 "Podporuje více profilů, více terminálů v kartách a řadu klávesových zkratek."
 
-#: data/org.gnome.Terminal.metainfo.xml.in:44
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:44
 msgid "console"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:45
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:45
 msgid "keyboard"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:46
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:46
 msgid "pointing"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:50
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:50
 msgid ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
 msgstr ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:54
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:54
 msgid "HiDpiIcon"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:55
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:55
 msgid "HighContrast"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:56
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:56
 msgid "ModernToolkit"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:57
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:57
 msgid "SearchProvider"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:58
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:58
 msgid "UserDocs"
 msgstr ""
 
-#: data/org.gnome.Terminal.metainfo.xml.in:60
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:43
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:60
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:43
 msgid "https://wiki.gnome.org/Apps/Terminal"
 msgstr "https://wiki.gnome.org/Apps/Terminal"
 
 #. This is the name of a colour scheme
-#: data/org.gnome.Terminal.metainfo.xml.in:61
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:44 src/preferences.ui:214
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:61
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:44 src/preferences.ui:214
 msgid "GNOME"
 msgstr "GNOME"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:62
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:45
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:62
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:45
 msgid "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 msgstr "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:34
-msgid "org.gnome.Terminal.Nautilus"
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:34
+msgid "org.acreetionos.cinnamon.Terminal.Nautilus"
 msgstr ""
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:35
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:35
 msgid "org.gnome.Nautilus.desktop"
 msgstr ""
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:38
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:38
 msgid "Terminal plugin for Files"
 msgstr "Zásuvný modul Terminál pro Soubory"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:39
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:39
 msgid "Open a terminal from Files"
 msgstr "Otevírá terminál z aplikace Soubory"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:41
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:41
 msgid ""
 "Open Terminal is a plugin for the Files application that adds a menu item to "
 "the context menu to open a terminal in the currently browsed directory."
@@ -170,29 +170,29 @@ msgstr ""
 "Otevřít terminál je zásuvný modul pro aplikaci Soubory, který přidává do "
 "kontextové nabídky položku pro otevření terminálu v právě procházené složce."
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:46
-msgid "gnome-terminal"
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:46
+msgid "cinnamon-terminal"
 msgstr ""
 
 #. Translators: This needs to be parsed as a GVariant string, so keep the regular single quotes around the string as-is, and do not add extra quotes.
-#: src/org.gnome.Terminal.gschema.xml:133
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:133
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'Bez názvu'"
 
-#: src/org.gnome.Terminal.gschema.xml:134
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:134
 msgid "Human-readable name of the profile"
 msgstr "Člověkem čitelný název profilu"
 
-#: src/org.gnome.Terminal.gschema.xml:135
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:135
 msgid "Human-readable name of the profile."
 msgstr "Člověkem čitelný název profilu."
 
-#: src/org.gnome.Terminal.gschema.xml:139
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:139
 msgid "Default color of text in the terminal"
 msgstr "Výchozí barva textu v terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:140
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:140
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -200,11 +200,11 @@ msgstr ""
 "Výchozí barva textu v terminálu, v podobě specifikace barvy (mohou to být "
 "šestnáctkové číslice ve stylu HTML nebo název barvy, např. „red“)."
 
-#: src/org.gnome.Terminal.gschema.xml:144
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:144
 msgid "Default color of terminal background"
 msgstr "Výchozí barva pozadí terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:145
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:145
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -212,11 +212,11 @@ msgstr ""
 "Výchozí barva pozadí terminálu, v podobě specifikace barvy (může se jednat o "
 "šestnáctkové číslice ve stylu HTML nebo název barvy, např. „red“)."
 
-#: src/org.gnome.Terminal.gschema.xml:149
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:149
 msgid "Default color of bold text in the terminal"
 msgstr "Výchozí barva tučného textu v terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:150
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:150
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”). This is ignored if "
@@ -227,18 +227,18 @@ msgstr ""
 "Toto nastavení bude ignorováno, pokud je klíč bold-color-same-as-fg nastaven "
 "na „true“."
 
-#: src/org.gnome.Terminal.gschema.xml:154
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:154
 msgid "Whether bold text should use the same color as normal text"
 msgstr "Jestli má mít tučný text stejnou barvu jako text normální"
 
-#: src/org.gnome.Terminal.gschema.xml:155
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:155
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr ""
 "Je-li zapnuto, tučný text bude vykreslen pomocí stejné barvy jako text "
 "normální"
 
-#: src/org.gnome.Terminal.gschema.xml:160
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:160
 msgid ""
 "Scale factor for the cell height to increase line spacing. (Does not "
 "increase the font’s height.)"
@@ -246,7 +246,7 @@ msgstr ""
 "Faktor změny velikost výšky buňky pro změnu rozestupu řádků. (Nemění výšku "
 "písma.)"
 
-#: src/org.gnome.Terminal.gschema.xml:165
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:165
 msgid ""
 "Scale factor for the cell width to increase letter spacing. (Does not "
 "increase the font’s width.)"
@@ -254,19 +254,19 @@ msgstr ""
 "Faktor změny velikost šířky buňky pro změnu rozestupu znaků. (Nemění šířku "
 "písma.)"
 
-#: src/org.gnome.Terminal.gschema.xml:169
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:169
 msgid "Whether to use custom cursor colors"
 msgstr "Zda používat vlastní barvy kurzoru"
 
-#: src/org.gnome.Terminal.gschema.xml:170
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:170
 msgid "If true, use the cursor colors from the profile."
 msgstr "Je-li zapnuto, použije se barva kurzoru z profilu."
 
-#: src/org.gnome.Terminal.gschema.xml:174
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:174
 msgid "Cursor background color"
 msgstr "Barva pozadí kurzoru"
 
-#: src/org.gnome.Terminal.gschema.xml:175
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:175
 msgid ""
 "Custom color of the background of the terminal’s cursor, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
@@ -277,11 +277,11 @@ msgstr ""
 "„red“). Toto nastavení bude ignorováno, pokud je klíč cursor-colors-set "
 "nastaven na „false“."
 
-#: src/org.gnome.Terminal.gschema.xml:179
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:179
 msgid "Cursor foreground colour"
 msgstr "Barva popředí kurzoru"
 
-#: src/org.gnome.Terminal.gschema.xml:180
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:180
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "cursor position, as a color specification (can be HTML-style hex digits, or "
@@ -292,19 +292,19 @@ msgstr ""
 "nebo název barvy, např. „red“). Toto nastavení bude ignorováno, pokud je "
 "klíč cursor-colors-set nastaven na „false“."
 
-#: src/org.gnome.Terminal.gschema.xml:184
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:184
 msgid "Whether to use custom highlight colors"
 msgstr "Zda používat vlastní barvy zváraznění"
 
-#: src/org.gnome.Terminal.gschema.xml:185
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:185
 msgid "If true, use the highlight colors from the profile."
 msgstr "Je-li zapnuto, použije se barva zvýraznění z profilu."
 
-#: src/org.gnome.Terminal.gschema.xml:189
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:189
 msgid "Highlight background color"
 msgstr "Barva pozadí zvýraznění"
 
-#: src/org.gnome.Terminal.gschema.xml:190
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:190
 msgid ""
 "Custom color of the background of the terminal’s highlight, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
@@ -315,11 +315,11 @@ msgstr ""
 "„red“). Toto nastavení bude ignorováno, pokud je klíč highlight-colors-set "
 "nastaven na „false“."
 
-#: src/org.gnome.Terminal.gschema.xml:194
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:194
 msgid "Highlight foreground colour"
 msgstr "Barva popředí zvýraznění"
 
-#: src/org.gnome.Terminal.gschema.xml:195
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:195
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "highlight position, as a color specification (can be HTML-style hex digits, "
@@ -331,39 +331,39 @@ msgstr ""
 "nebo název barvy, např. „red“). Toto nastavení bude ignorováno, pokud je "
 "klíč highlight-colors-set nastaven na „false“."
 
-#: src/org.gnome.Terminal.gschema.xml:199
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:199
 msgid "Whether to perform bidirectional text rendering"
 msgstr "Zda provádět vykreslování obousměrného textu"
 
-#: src/org.gnome.Terminal.gschema.xml:200
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:200
 msgid "If true, perform bidirectional text rendering (“BiDi”)."
 msgstr ""
 "Je-li zapnuto, bude se provádět vykreslování obousměrného textu („BiDi“)"
 
-#: src/org.gnome.Terminal.gschema.xml:204
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:204
 msgid "Whether to perform Arabic shaping"
 msgstr "Zda provádět změnu podoby arabských znaků"
 
-#: src/org.gnome.Terminal.gschema.xml:205
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:205
 msgid "If true, shape Arabic text."
 msgstr ""
 "Je-li zapnuto, budou se vykreslovat arabské glyfy v různých podobách podle "
 "výskytu ve slovech."
 
-#: src/org.gnome.Terminal.gschema.xml:209
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:209
 msgid "Whether to enable SIXEL images"
 msgstr "Zda povolit obrázky SIXEL"
 
-#: src/org.gnome.Terminal.gschema.xml:210
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:210
 msgid "If true, SIXEL sequences are parsed and images are rendered."
 msgstr ""
 "Je-li zapnuto, budou zpracovávány posloupnosit SIXEL a obrázky vykreslovány."
 
-#: src/org.gnome.Terminal.gschema.xml:214
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:214
 msgid "Whether bold is also bright"
 msgstr "Zda je tučný text také jasný"
 
-#: src/org.gnome.Terminal.gschema.xml:215
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:215
 msgid ""
 "If true, setting bold on the first 8 colors also switches to their bright "
 "variants."
@@ -371,11 +371,11 @@ msgstr ""
 "Je-li zapnuto, bude nastavení tučného textu navíc přepnuto z prvních 8 barev "
 "na jejich jasnější varianty."
 
-#: src/org.gnome.Terminal.gschema.xml:219
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:219
 msgid "Whether to ring the terminal bell"
 msgstr "Zda vyzvánět zvonkem terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:223
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:223
 msgid ""
 "List of ASCII punctuation characters that are not to be treated as part of a "
 "word when doing word-wise selection"
@@ -383,11 +383,11 @@ msgstr ""
 "Seznam interpunkčních znaků ASCII, které nemají být považovány za součást "
 "slova, když se provádí výběr slova."
 
-#: src/org.gnome.Terminal.gschema.xml:228
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:228
 msgid "Default number of columns"
 msgstr "Výchozí počet sloupců"
 
-#: src/org.gnome.Terminal.gschema.xml:229
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:229
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -395,11 +395,11 @@ msgstr ""
 "Počet slupců nově vytvořeného okna terminálu. Nemá žádný vliv, pokud není "
 "zapnutá volba use_custom_default_size."
 
-#: src/org.gnome.Terminal.gschema.xml:234
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:234
 msgid "Default number of rows"
 msgstr "Vývhozí počet řádek"
 
-#: src/org.gnome.Terminal.gschema.xml:235
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:235
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -407,15 +407,15 @@ msgstr ""
 "Počet řádků nově vytvořeného okna terminálu. Nemá žádný vliv, pokud není "
 "zapnutá volba use_custom_default_size."
 
-#: src/org.gnome.Terminal.gschema.xml:239
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:239
 msgid "When to show the scrollbar"
 msgstr "Kdy zobrazit posuvníky"
 
-#: src/org.gnome.Terminal.gschema.xml:243
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:243
 msgid "Number of lines to keep in scrollback"
 msgstr "Počet řádků, které udržovat pro posunování"
 
-#: src/org.gnome.Terminal.gschema.xml:244
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:244
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
@@ -425,11 +425,11 @@ msgstr ""
 "tento počet řádků; řádky, které se nevejdou, jsou zahozeny. Pokud je klíč "
 "scrollback_unlimited nastaven na zapnuto, tato hodnota je ignorována."
 
-#: src/org.gnome.Terminal.gschema.xml:248
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:248
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "Jestli nemá být udržovaný počet řádek pro posunování omezen"
 
-#: src/org.gnome.Terminal.gschema.xml:249
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:249
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -439,30 +439,30 @@ msgstr ""
 "dočasně ukládána na disk, proto může tato volba způsobit zaplnění volného "
 "místa, pokud bude terminál produkovat hodně výstupu."
 
-#: src/org.gnome.Terminal.gschema.xml:253
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:253
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Zda se přesunout dolů, když je zmáčknuta klávesa"
 
-#: src/org.gnome.Terminal.gschema.xml:254
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:254
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Je-li zapnuto, zmáčknutí klávesy skočí posuvníkem úplně dolů."
 
-#: src/org.gnome.Terminal.gschema.xml:258
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:258
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Zda se přesunout dolů, když je nový výstup"
 
-#: src/org.gnome.Terminal.gschema.xml:259
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:259
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
 "Je-li zapnuto, posune se terminál úplně dolů, kdykoli se na něm objeví nový "
 "výstup."
 
-#: src/org.gnome.Terminal.gschema.xml:263
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:263
 msgid "What to do with the terminal when the child command exits"
 msgstr "Co udělat s terminálem, když příkaz potomka skončí"
 
-#: src/org.gnome.Terminal.gschema.xml:264
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:264
 msgid ""
 "Possible values are “close” to close the terminal, “restart” to restart the "
 "command, and “hold” to keep the terminal open with no command running inside."
@@ -471,11 +471,11 @@ msgstr ""
 "příkazu a „hold“ pro zachování otevřeného terminálu bez běžícího příkazu "
 "uvnitř."
 
-#: src/org.gnome.Terminal.gschema.xml:268
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:268
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "Jestli spouštět příkaz v terminálu jako přihlašovací shell"
 
-#: src/org.gnome.Terminal.gschema.xml:269
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:269
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -483,11 +483,11 @@ msgstr ""
 "Je-li zapnuto, příkaz uvnitř terminálu bude spuštěn jako přihlašovací shell "
 "(argv[0] bude mít před sebou spojovník)."
 
-#: src/org.gnome.Terminal.gschema.xml:273
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:273
 msgid "Whether to preserve the working directory when opening a new terminal"
 msgstr "Zda zachovat pracovní složku při otevírání nového terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:274
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:274
 msgid ""
 "Controls when opening a new terminal from a previous one carries over the "
 "working directory of the opening terminal to the new one."
@@ -495,11 +495,11 @@ msgstr ""
 "Řídí, jestli se má při otevření nového terminálu přepnout do stejné pracovní "
 "složky, jako je v předchozím aktivním terminálu."
 
-#: src/org.gnome.Terminal.gschema.xml:280
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:280
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Zda spustit vlastní příkaz místo shellu"
 
-#: src/org.gnome.Terminal.gschema.xml:281
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:281
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -507,11 +507,11 @@ msgstr ""
 "Je-li zapnuto, hodnota nastavení custom_command se bude používat místo "
 "spouštění shellu."
 
-#: src/org.gnome.Terminal.gschema.xml:285
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:285
 msgid "Whether to blink the cursor"
 msgstr "Jestli používat blikání kurzoru"
 
-#: src/org.gnome.Terminal.gschema.xml:286
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:286
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -519,11 +519,11 @@ msgstr ""
 "Možné hodnoty jsou „system“ pro použití globálního nastavení blikání "
 "kurzoru, nebo „on“ a „off“ pro zapnutí, respektive vypnutí."
 
-#: src/org.gnome.Terminal.gschema.xml:290
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:290
 msgid "The cursor appearance"
 msgstr "Vzhled kurzoru"
 
-#: src/org.gnome.Terminal.gschema.xml:294
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:294
 msgid ""
 "Possible values are “always” or “never” allow blinking text, or only when "
 "the terminal is “focused” or “unfocused”."
@@ -532,48 +532,48 @@ msgstr ""
 "povolují nebo zakazují, a „focused“ nebo „unfocused“, které jej povolí jen "
 "při zaměření terminálu nebo jeho ztrátě zaměření."
 
-#: src/org.gnome.Terminal.gschema.xml:298
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:298
 msgid "Custom command to use instead of the shell"
 msgstr "Vlastní příkazy, které používat místo shellu"
 
-#: src/org.gnome.Terminal.gschema.xml:299
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:299
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr "Spustit tento příkaz místo shellu, je-li use_custom_command true."
 
-#: src/org.gnome.Terminal.gschema.xml:318
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:318
 msgid "Palette for terminal applications"
 msgstr "Paleta pro aplikace terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:322
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:322
 msgid "A Pango font name and size"
 msgstr "Název a velikost písma Pango"
 
-#: src/org.gnome.Terminal.gschema.xml:326
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:326
 msgid "The code sequence the Backspace key generates"
 msgstr "Klávesa _Backspace generuje sekvenci kódů:"
 
-#: src/org.gnome.Terminal.gschema.xml:330
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:330
 msgid "The code sequence the Delete key generates"
 msgstr "Klávesa _Delete generuje sekvenci kódů:"
 
-#: src/org.gnome.Terminal.gschema.xml:334
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:334
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Jestli používat barvy z motivu widgetu terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:338
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:338
 msgid "Whether to use the system monospace font"
 msgstr "Zda používat systémové písmo s pevnou šířkou"
 
-#: src/org.gnome.Terminal.gschema.xml:342
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:342
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr ""
 "Jestli při změně velikosti okna znovu zalámat řádky s obsahem terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:346
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:346
 msgid "Which encoding to use"
 msgstr "Které kódování se má používat"
 
-#: src/org.gnome.Terminal.gschema.xml:350
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:350
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
@@ -581,19 +581,19 @@ msgstr ""
 "Zda mají být při použití kódování UTF-8 znaky s nejednoznačnou šířkou "
 "považovány za úzké nebo široké"
 
-#: src/org.gnome.Terminal.gschema.xml:359
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:359
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Klávesová zkratka pro otevření nové karty"
 
-#: src/org.gnome.Terminal.gschema.xml:363
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:363
 msgid "Keyboard shortcut to open a new window"
 msgstr "Klávesová zkratka pro otevření nového okna"
 
-#: src/org.gnome.Terminal.gschema.xml:367
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:367
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "Klávesová zkratka pro uložení obsahu aktuální karty do souboru"
 
-#: src/org.gnome.Terminal.gschema.xml:371
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:371
 msgid ""
 "Keyboard shortcut to export the current tab contents to file in various "
 "formats"
@@ -601,162 +601,162 @@ msgstr ""
 "Klávesová zkratka pro export obsahu aktuální karty do souboru v různých "
 "formátech"
 
-#: src/org.gnome.Terminal.gschema.xml:375
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:375
 msgid "Keyboard shortcut to print the current tab contents to printer or file"
 msgstr ""
 "Klávesová zkratka pro tisk obsahu aktuální karty na tiskárnu nebo do souboru"
 
-#: src/org.gnome.Terminal.gschema.xml:379
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:379
 msgid "Keyboard shortcut to close a tab"
 msgstr "Klávesová zkratka pro zavření karty"
 
-#: src/org.gnome.Terminal.gschema.xml:383
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:383
 msgid "Keyboard shortcut to close a window"
 msgstr "Klávesová zkratka pro zavření okna"
 
-#: src/org.gnome.Terminal.gschema.xml:387
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:387
 msgid "Keyboard shortcut to copy text"
 msgstr "Klávesová zkratka pro kopírování textu"
 
-#: src/org.gnome.Terminal.gschema.xml:391
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:391
 msgid "Keyboard shortcut to copy text as HTML"
 msgstr "Klávesová zkratka pro kopírování textu jako HTML"
 
-#: src/org.gnome.Terminal.gschema.xml:395
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:395
 msgid "Keyboard shortcut to paste text"
 msgstr "Klávesová zkratka pro vložení textu"
 
-#: src/org.gnome.Terminal.gschema.xml:399
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:399
 msgid "Keyboard shortcut to select all text"
 msgstr "Klávesová zkratka pro výběr veškerého textu"
 
-#: src/org.gnome.Terminal.gschema.xml:403
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:403
 msgid "Keyboard shortcut to open the Preferences dialog"
 msgstr "Klávesová zkratka pro otevření dialogového okna předvoleb"
 
-#: src/org.gnome.Terminal.gschema.xml:407
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:407
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Klávesová zkratka pro přepnutí režimu přes celou obrazovku"
 
-#: src/org.gnome.Terminal.gschema.xml:411
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:411
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Klávesová zkratka pro přepnutí viditelnosti nabídkové lišty"
 
-#: src/org.gnome.Terminal.gschema.xml:415
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:415
 msgid "Keyboard shortcut to toggle the read-only state"
 msgstr "Klávesová zkratka pro přepnutí režimu jen pro čtení"
 
-#: src/org.gnome.Terminal.gschema.xml:419
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:419
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Klávesová zkratka pro inicializaci terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:423
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:423
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Klávesová zkratka pro inicializaci a vymazání terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:427
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:427
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "Klávesová zkratka pro otevření vyhledávacího dialogového okna"
 
-#: src/org.gnome.Terminal.gschema.xml:431
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:431
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr "Klávesová zkratka pro vyhledání následujícího výskytu hledaného výrazu"
 
-#: src/org.gnome.Terminal.gschema.xml:435
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:435
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr "Klávesová zkratka pro vyhledání předchozího výskytu hledaného výrazu"
 
-#: src/org.gnome.Terminal.gschema.xml:439
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:439
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr "Klávesová zkratka pro zrušení zvýraznění hledaného výrazu"
 
-#: src/org.gnome.Terminal.gschema.xml:443
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:443
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Klávesová zkratka pro přepnutí na předchozí kartu"
 
-#: src/org.gnome.Terminal.gschema.xml:447
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:447
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Klávesová zkratka pro přepnutí na následující kartu"
 
-#: src/org.gnome.Terminal.gschema.xml:451
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:451
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "Klávesová zkratka pro posun aktuální karty doleva"
 
-#: src/org.gnome.Terminal.gschema.xml:455
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:455
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "Klávesová zkratka pro posun aktuální karty doprava"
 
-#: src/org.gnome.Terminal.gschema.xml:459
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:459
 msgid "Keyboard shortcut to detach current tab"
 msgstr "Klávesová zkratka pro odpojení aktální karty"
 
-#: src/org.gnome.Terminal.gschema.xml:463
-#: src/org.gnome.Terminal.gschema.xml:467
-#: src/org.gnome.Terminal.gschema.xml:471
-#: src/org.gnome.Terminal.gschema.xml:475
-#: src/org.gnome.Terminal.gschema.xml:479
-#: src/org.gnome.Terminal.gschema.xml:483
-#: src/org.gnome.Terminal.gschema.xml:487
-#: src/org.gnome.Terminal.gschema.xml:491
-#: src/org.gnome.Terminal.gschema.xml:495
-#: src/org.gnome.Terminal.gschema.xml:499
-#: src/org.gnome.Terminal.gschema.xml:503
-#: src/org.gnome.Terminal.gschema.xml:507
-#: src/org.gnome.Terminal.gschema.xml:511
-#: src/org.gnome.Terminal.gschema.xml:515
-#: src/org.gnome.Terminal.gschema.xml:519
-#: src/org.gnome.Terminal.gschema.xml:523
-#: src/org.gnome.Terminal.gschema.xml:527
-#: src/org.gnome.Terminal.gschema.xml:531
-#: src/org.gnome.Terminal.gschema.xml:535
-#: src/org.gnome.Terminal.gschema.xml:539
-#: src/org.gnome.Terminal.gschema.xml:543
-#: src/org.gnome.Terminal.gschema.xml:547
-#: src/org.gnome.Terminal.gschema.xml:551
-#: src/org.gnome.Terminal.gschema.xml:555
-#: src/org.gnome.Terminal.gschema.xml:559
-#: src/org.gnome.Terminal.gschema.xml:563
-#: src/org.gnome.Terminal.gschema.xml:567
-#: src/org.gnome.Terminal.gschema.xml:571
-#: src/org.gnome.Terminal.gschema.xml:575
-#: src/org.gnome.Terminal.gschema.xml:579
-#: src/org.gnome.Terminal.gschema.xml:583
-#: src/org.gnome.Terminal.gschema.xml:587
-#: src/org.gnome.Terminal.gschema.xml:591
-#: src/org.gnome.Terminal.gschema.xml:595
-#: src/org.gnome.Terminal.gschema.xml:599
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:463
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:467
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:471
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:475
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:479
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:483
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:487
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:491
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:495
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:499
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:503
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:507
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:511
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:515
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:519
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:523
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:527
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:531
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:535
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:539
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:543
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:547
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:551
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:555
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:559
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:563
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:567
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:571
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:575
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:579
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:583
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:587
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:591
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:595
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:599
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "Klávesová zkratka pro přepnutí na očíslovanou kartu"
 
-#: src/org.gnome.Terminal.gschema.xml:603
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:603
 msgid "Keyboard shortcut to switch to the last tab"
 msgstr "Klávesová zkratka pro přepnutí na poslední kartu"
 
-#: src/org.gnome.Terminal.gschema.xml:607
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:607
 msgid "Keyboard shortcut to launch help"
 msgstr "Klávesová zkratka pro spuštění nápovědy"
 
-#: src/org.gnome.Terminal.gschema.xml:611
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:611
 msgid "Keyboard shortcut to make font larger"
 msgstr "Klávesová zkratka pro zvětšení písma"
 
-#: src/org.gnome.Terminal.gschema.xml:615
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:615
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Klávesová zkratka pro zmenšení písma"
 
-#: src/org.gnome.Terminal.gschema.xml:619
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:619
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Klávesová zkratka pro nastavení normální velikosti písma"
 
-#: src/org.gnome.Terminal.gschema.xml:623
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:623
 msgid "Keyboard shortcut to show the primary menu"
 msgstr "Klávesová zkratka pro zobrazení hlavní nabídky"
 
-#: src/org.gnome.Terminal.gschema.xml:633
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:633
 msgid "Whether the menubar has access keys"
 msgstr "Zda má nabídková lišta horké klávesy"
 
-#: src/org.gnome.Terminal.gschema.xml:634
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:634
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it’s possible to turn them "
@@ -766,11 +766,11 @@ msgstr ""
 "Mohou kolidovat s některými aplikacemi uvnitř terminálu, takže je možné je "
 "vypnout."
 
-#: src/org.gnome.Terminal.gschema.xml:643
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:643
 msgid "Whether shortcuts are enabled"
 msgstr "Zda jsou povoleny klávesové zkratky"
 
-#: src/org.gnome.Terminal.gschema.xml:644
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:644
 msgid ""
 "Whether shortcuts are enabled. They may interfere with some applications run "
 "inside the terminal so it’s possible to turn them off."
@@ -778,13 +778,13 @@ msgstr ""
 "Jestli jsou povoleny klávesové zkratky. Mohou být v konfliktu s některými "
 "aplikacemi běžícími uvnitř terminálu, takže máte možnost je zakázat."
 
-#: src/org.gnome.Terminal.gschema.xml:653
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:653
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr ""
 "Zda je povolena standardní klávesová zkratka GTK pro přístup k nabídkové "
 "liště"
 
-#: src/org.gnome.Terminal.gschema.xml:654
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:654
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -794,47 +794,47 @@ msgstr ""
 "upraveno pomocí gtkrc (gtk-menu-bar-accel = „whatever“). Tato volba umožňuje "
 "vypnout standardní klávesovou zkratku nabídky."
 
-#: src/org.gnome.Terminal.gschema.xml:664
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:664
 msgid "Whether the shell integration is enabled"
 msgstr "Zda je povolena integrace shellu"
 
-#: src/org.gnome.Terminal.gschema.xml:669
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:669
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "Zda žádat o potvrzení před zavření terminálu"
 
-#: src/org.gnome.Terminal.gschema.xml:674
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:674
 msgid "Additional info section items to appear in the context menu"
 msgstr ""
 "Dodatečné položky, které se objeví v informační části kontextové nabídky"
 
-#: src/org.gnome.Terminal.gschema.xml:679
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:679
 msgid "Whether to show the menubar in new windows"
 msgstr "Zda zobrazovat lištu s nabídkami v nových oknech"
 
-#: src/org.gnome.Terminal.gschema.xml:684
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:684
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "Jestli otevírat nové terminály jako okna nebo karty"
 
-#: src/org.gnome.Terminal.gschema.xml:689
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:689
 msgid "When to show the tabs bar"
 msgstr "Kdy zobrazit lištu s kartami"
 
-#: src/org.gnome.Terminal.gschema.xml:694
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:694
 msgid "The position of the tab bar"
 msgstr "Umístění lišty s kartami"
 
-#: src/org.gnome.Terminal.gschema.xml:699
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:699
 msgid "Which theme variant to use"
 msgstr "Která varianta motivu se má používat"
 
-#: src/org.gnome.Terminal.gschema.xml:704
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:704
 msgid ""
 "Whether new tabs should open next to the current one or at the last position"
 msgstr ""
 "Zda se mají nové karty otevřít vedle aktuální karty nebo na poslední pozici"
 
-#: src/org.gnome.Terminal.gschema.xml:711
-msgid "Always check whether GNOME Terminal is the default terminal"
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:711
+msgid "Always check whether Cinnamon Terminal is the default terminal"
 msgstr "Vždy zkontrolovat, zda je Terminál GNOME výchozím terminálem"
 
 #. Open new terminal in new window
@@ -1940,7 +1940,7 @@ msgid ""
 "Option “%s” is deprecated and might be removed in a later version of gnome-"
 "terminal."
 msgstr ""
-"Volba „%s“ je zavržená a může být v boudoucí verzi gnome-terminal odstraněna."
+"Volba „%s“ je zavržená a může být v boudoucí verzi cinnamon-terminal odstraněna."
 
 #. %s is being replaced with "-- " (without quotes), which must be used literally, not translatable
 #: src/terminal-options.cc:343
@@ -1952,8 +1952,8 @@ msgstr "Použít „%s“ k zakončení voleb a vše za použít jako příkaz k
 
 #: src/terminal-options.cc:353 src/terminal-options.cc:366
 #, c-format
-msgid "Option “%s” is no longer supported in this version of gnome-terminal."
-msgstr "Volba „%s“ není v této verzi gnome-terminal nadále podporována."
+msgid "Option “%s” is no longer supported in this version of cinnamon-terminal."
+msgstr "Volba „%s“ není v této verzi cinnamon-terminal nadále podporována."
 
 #: src/terminal-options.cc:438
 #, c-format
@@ -2146,11 +2146,11 @@ msgid "COMMAND"
 msgstr "PŘÍKAZ"
 
 #: src/terminal-options.cc:1701
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "Emulátor terminálu pro GNOME"
 
 #: src/terminal-options.cc:1702
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "Zobrazit nastavení Terminálu GNOME"
 
 #: src/terminal-options.cc:1712
@@ -2319,7 +2319,7 @@ msgid "A terminal emulator for the GNOME desktop"
 msgstr "Emulátor terminálu pro pracovní prostředí GNOME"
 
 #: src/terminal-util.cc:252
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminál GNOME"
 
 #: src/terminal-util.cc:262
@@ -2341,19 +2341,19 @@ msgstr "Nelze otevřít adresu „%s“"
 
 #: src/terminal-util.cc:406
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"GNOME Terminal je svobodný software; můžete jej šířit a upravovat podle "
+"Cinnamon Terminal je svobodný software; můžete jej šířit a upravovat podle "
 "ustanovení GNU General Public License, vydávané Free Software Foundation; a "
 "to buď ve verzi 3 této licence anebo (podle vlastního uvážení) kterékoliv "
 "pozdější verze."
 
 #: src/terminal-util.cc:410
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -2365,7 +2365,7 @@ msgstr ""
 #: src/terminal-util.cc:414
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "Kopii GNU General Public License jste měli obdržet spolu s aplikací GNOME "
 "Terminal. Pokud se tak nestalo, najdete ji na <http://www.gnu.org/licenses/>."
@@ -2431,7 +2431,7 @@ msgid "L_eave Full Screen"
 msgstr "Opustit c_elou obrazovku"
 
 #: src/terminal-window.cc:2291
-msgid "Set GNOME Terminal as your default terminal?"
+msgid "Set Cinnamon Terminal as your default terminal?"
 msgstr "Nastavit Terminál GNOME jako výchozí terminál?"
 
 #: src/terminal-window.cc:2297

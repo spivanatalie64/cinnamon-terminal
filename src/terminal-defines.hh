@@ -28,10 +28,10 @@ enum {
   _EXIT_FAILURE_ARGPARSE = 11,
 };
 
-#define TERMINAL_APPLICATION_ID                 "org.gnome.Terminal"
+#define TERMINAL_APPLICATION_ID                 "org.acreetionos.cinnamon.Terminal"
 
 #define TERMINAL_OBJECT_PATH_PREFIX             "/org/gnome/Terminal"
-#define TERMINAL_OBJECT_INTERFACE_PREFIX        "org.gnome.Terminal"
+#define TERMINAL_OBJECT_INTERFACE_PREFIX        "org.acreetionos.cinnamon.Terminal"
 
 #define TERMINAL_FACTORY_OBJECT_PATH            TERMINAL_OBJECT_PATH_PREFIX "/Factory0"
 #define TERMINAL_FACTORY_INTERFACE_NAME         TERMINAL_OBJECT_INTERFACE_PREFIX ".Factory0"
@@ -41,7 +41,7 @@ enum {
 
 #define TERMINAL_SEARCH_PROVIDER_PATH           TERMINAL_OBJECT_PATH_PREFIX "/SearchProvider"
 
-#define TERMINAL_SETTINGS_BRIDGE_INTERFACE_NAME "org.gnome.Terminal.SettingsBridge0"
+#define TERMINAL_SETTINGS_BRIDGE_INTERFACE_NAME "org.acreetionos.cinnamon.Terminal.SettingsBridge0"
 #define TERMINAL_SETTINGS_BRIDGE_OBJECT_PATH    TERMINAL_OBJECT_PATH_PREFIX "/SettingsBridge"
 
 #define TERMINAL_PREFERENCES_APPLICATION_ID     TERMINAL_APPLICATION_ID ".Preferences"
@@ -50,7 +50,7 @@ enum {
 #define TERMINAL_ENV_SERVICE_NAME               "GNOME_TERMINAL_SERVICE"
 #define TERMINAL_ENV_SCREEN                     "GNOME_TERMINAL_SCREEN"
 
-#define TERMINAL_PREFERENCES_BINARY_NAME        "gnome-terminal-preferences"
+#define TERMINAL_PREFERENCES_BINARY_NAME        "cinnamon-terminal-preferences"
 
 G_END_DECLS
 

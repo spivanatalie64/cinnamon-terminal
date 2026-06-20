@@ -87,7 +87,7 @@ profiles_sources = files(
 
 settings_dbus_sources = gnome.gdbus_codegen(
   'terminal-settings-bridge-generated',
-  'org.gnome.Terminal.SettingsBridge.xml',
+  'org.acreetionos.cinnamon.Terminal.SettingsBridge.xml',
   autocleanup: 'all',
   install_header: false,
   interface_prefix: gt_dns_name,

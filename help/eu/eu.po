@@ -1,10 +1,10 @@
-# Basque translation for gnome-terminal.
-# Copyright (C) 2021 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Basque translation for cinnamon-terminal.
+# Copyright (C) 2021 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Asier Sarasua Garmendia <asiersarasua@ni.eus>, 2021.
 #
 msgid ""
-msgstr "Project-Id-Version: gnome-terminal gnome-41\n"
+msgstr "Project-Id-Version: cinnamon-terminal gnome-41\n"
 "POT-Creation-Date: 2022-06-14 15:22+0000\n"
 "PO-Revision-Date: 2022-06-25 02:16+0000\n"
 "Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>\n"
@@ -1545,7 +1545,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "GNOME terminala"
 
 #. (itstool) path: figure/desc
@@ -1561,9 +1561,9 @@ msgstr ""
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
-msgstr "external ref='figures/gnome-terminal.png' md5='50826cb88874cf2c3d96ddf0c58d0c05'"
+msgstr "external ref='figures/cinnamon-terminal.png' md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 
 #. (itstool) path: p/link
 #: C/legal.xml:4

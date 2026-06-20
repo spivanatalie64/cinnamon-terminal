@@ -1,5 +1,5 @@
 # Upstream merge jobs
-# Automatically merge upstream GNOME Terminal into unstable
+# Automatically merge upstream Cinnamon Terminal into unstable
 
 merge:upstream:nightly:
   stage: merge

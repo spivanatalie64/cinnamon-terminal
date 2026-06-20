@@ -131,7 +131,7 @@ struct _TerminalWindow
 #endif
 #endif
 
-/* See bug #789356 and issue gnome-terminal#129*/
+/* See bug #789356 and issue cinnamon-terminal#129*/
 static inline constexpr auto
 window_state_is_snapped(GdkToplevelState state) noexcept
 {
@@ -2181,7 +2181,7 @@ terminal_window_init (TerminalWindow *window)
     gtk_info_bar_set_show_close_button(GTK_INFO_BAR(infobar), true);
     gtk_info_bar_set_message_type(GTK_INFO_BAR(infobar), GTK_MESSAGE_QUESTION);
 
-    auto const question = gtk_label_new (_("Set GNOME Terminal as your default terminal?"));
+    auto const question = gtk_label_new (_("Set Cinnamon Terminal as your default terminal?"));
     gtk_label_set_wrap(GTK_LABEL(question), true);
     gtk_info_bar_add_child(GTK_INFO_BAR(infobar), question);
     gtk_widget_show(question);
@@ -2227,7 +2227,7 @@ terminal_window_init (TerminalWindow *window)
   GdkSurface *surface = gtk_native_get_surface (GTK_NATIVE (window));
   if (GDK_IS_X11_SURFACE (surface)) {
     char role[64];
-    g_snprintf (role, sizeof (role), "gnome-terminal-window-%s", uuidstr);
+    g_snprintf (role, sizeof (role), "cinnamon-terminal-window-%s", uuidstr);
     gdk_x11_surface_set_utf8_property (surface, "WM_WINDOW_ROLE", role);
   }
 #endif

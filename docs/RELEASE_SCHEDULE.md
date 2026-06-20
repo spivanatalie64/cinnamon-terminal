@@ -4,7 +4,7 @@
 > This document defines the release cadence, versioning scheme, branch strategy, governance model, and communication plan for Cinnamon Terminal.
 
 **Document owner:** Release Engineering
-**Applies to:** Cinnamon Terminal (fork of GNOME Terminal)
+**Applies to:** Cinnamon Terminal (fork of Cinnamon Terminal)
 **Primary repo:** `gitlab.acreetionos.org/acreetionos-code/cinnamon-terminal`
 **Status:** Active
 
@@ -139,7 +139,7 @@ Example: `25.06.0-dev+git.a1b2c3d`
 The canonical version is defined in `meson.build`:
 
 ```meson
-project('gnome-terminal',
+project('cinnamon-terminal',
   version: '25.06.0',
   ...
 )
@@ -208,7 +208,7 @@ Rules:
 
 Rules:
 - `unstable` may break — it's the sandbox
-- All upstream GNOME Terminal merges land on `unstable` first (never directly on `master`)
+- All upstream Cinnamon Terminal merges land on `unstable` first (never directly on `master`)
 - X11 porting work happens here until stabilized
 - Experimental features land here for testing before promotion to `master`
 - `unstable` is force-pushable (rebases are expected)
@@ -231,7 +231,7 @@ Rules:
 ### 3.5 Change Flow Diagram
 
 ```
-upstream/master (GNOME Terminal)
+upstream/master (Cinnamon Terminal)
        │
        │ git fetch upstream
        ▼
@@ -289,7 +289,7 @@ The following changes are eligible for merge to `master`:
 | **Performance improvements** | Latency, memory, CPU optimization with benchmarks | 1 reviewer |
 | **CI/build fixes** | Build break fixes, CI pipeline fixes, dependency updates | 1 reviewer (expedited) |
 | **Documentation** | README updates, doc fixes, inline comments | 1 reviewer |
-| **Upstream sync** | Cherry-picked commits from GNOME Terminal | 1 reviewer + X11 compliance check |
+| **Upstream sync** | Cherry-picked commits from Cinnamon Terminal | 1 reviewer + X11 compliance check |
 | **New features (targeted)** | Well-scoped, tested features behind feature flags | 2 reviewers + Release Manager approval |
 | **X11 compatibility** | Restoration or maintenance of X11 code paths | 1 reviewer + X11 test pass |
 
@@ -357,8 +357,8 @@ meson compile -C build
 meson test -C build
 
 # Quick smoke test
-./build/gnome-terminal-server --app-id org.gnome.Terminal.test &
-GNOME_TERMINAL_SERVICE=org.gnome.Terminal.test ./build/gnome-terminal --version
+./build/cinnamon-terminal-server --app-id org.acreetionos.cinnamon.Terminal.test &
+GNOME_TERMINAL_SERVICE=org.acreetionos.cinnamon.Terminal.test ./build/cinnamon-terminal --version
 ```
 
 #### 4.4.2 Pre-release Testing (Hardening Phase)
@@ -617,7 +617,7 @@ We track the following upstream sources:
 
 | Source | Repository | What We Track |
 |--------|-----------|---------------|
-| GNOME Terminal | `gitlab.gnome.org/GNOME/gnome-terminal` | Bug fixes, security patches, API changes |
+| Cinnamon Terminal | `gitlab.gnome.org/GNOME/gnome-terminal` | Bug fixes, security patches, API changes |
 | VTE | `gitlab.gnome.org/GNOME/vte` | Security patches, terminal emulation fixes |
 | GTK | `gitlab.gnome.org/GNOME/gtk` | Deprecation notices, API changes (informational) |
 
@@ -625,8 +625,8 @@ We track the following upstream sources:
 
 | Source | Check Frequency | Action |
 |--------|----------------|--------|
-| GNOME Terminal commits | Weekly (automated) | Cherry-pick relevant fixes to `unstable` |
-| GNOME Terminal releases | Per release | Evaluate merge conflicts, plan upstream sync |
+| Cinnamon Terminal commits | Weekly (automated) | Cherry-pick relevant fixes to `unstable` |
+| Cinnamon Terminal releases | Per release | Evaluate merge conflicts, plan upstream sync |
 | VTE security advisories | Real-time (notifications) | Immediate cherry-pick to `unstable` |
 | GNOME security announcements | Real-time (RSS feed) | Immediate triage |
 
@@ -760,7 +760,7 @@ Security:
   - Fixed CVE-2025-XXXX: Buffer overflow in PTY handling (!790)
 
 Upstream Sync:
-  - Cherry-picked GNOME Terminal fixes up to commit abc1234
+  - Cherry-picked Cinnamon Terminal fixes up to commit abc1234
   - Sync includes fixes for: terminal-screen crash, profile loading
 
 X11:

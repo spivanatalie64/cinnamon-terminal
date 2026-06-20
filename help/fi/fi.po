@@ -1,12 +1,12 @@
-# Finnish translation for gnome-terminal.
-# Copyright (C) 2014 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Finnish translation for cinnamon-terminal.
+# Copyright (C) 2014 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 #
 # Sami Jaktholm <sjakthol@outlook.com>, 2014.
 # Lasse Liehu <lasse.liehu@gmail.com>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "POT-Creation-Date: 2014-08-09 07:49+0000\n"
 "PO-Revision-Date: 2014-08-09 13:21+0300\n"
 "Last-Translator: Lasse Liehu <lasse.liehu@gmail.com>\n"
@@ -1700,10 +1700,10 @@ msgstr "Ongelmanratkaisu"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='835c028558c16a9c263aaacfe5a1f81d'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='835c028558c16a9c263aaacfe5a1f81d'"
 
 #. (itstool) path: info/desc
@@ -1736,7 +1736,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "GNOME Pääte"
 
 #. (itstool) path: figure/desc
@@ -3600,12 +3600,12 @@ msgid ""
 "<app>Terminal</app> will look for the entire keyword and will ignore results "
 "that partially match your search keyword. For example, if you have searched "
 "for \"gnome\", <app>Terminal</app> will show only results that match this "
-"keyword exactly and omit results such as \"gnome-terminal\"."
+"keyword exactly and omit results such as \"cinnamon-terminal\"."
 msgstr ""
 "<app>Pääte</app> etsii koko hakusanaa ja sivuuttaa vastaavuudet, jotka eivät "
 "vastaa hakusanaa täysin. Jos esimerkiksi haetaan sanalla \"gnome\", "
 "<app>Pääte</app> näyttää vain ne tulokset, jotka täsmäävät tarkasti "
-"hakusanaan ja jättää huomiotta muut tulokset, kuten \"gnome-terminal\"."
+"hakusanaan ja jättää huomiotta muut tulokset, kuten \"cinnamon-terminal\"."
 
 #. (itstool) path: item/title
 #: C/txt-search.page:64

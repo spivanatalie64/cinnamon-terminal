@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal HEAD\n"
+"Project-Id-Version: cinnamon-terminal HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 18:41+0000\n"
 "PO-Revision-Date: 2023-02-19 23:12+0100\n"
@@ -1551,7 +1551,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "გნომ ტერმინალი"
 
 #. (itstool) path: figure/desc
@@ -1567,7 +1567,7 @@ msgstr ""
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 msgstr ""
 
@@ -4145,8 +4145,8 @@ msgstr ""
 
 #, fuzzy
 #~ msgid ""
-#~ "List of profiles known to gnome-terminal. The list contains strings "
-#~ "naming subdirectories relative to /apps/gnome-terminal/profiles."
+#~ "List of profiles known to cinnamon-terminal. The list contains strings "
+#~ "naming subdirectories relative to /apps/cinnamon-terminal/profiles."
 #~ msgstr "სია - -სკენ ტერმინალი სია შეიცავს -სკენ ტერმინალი."
 
 #, fuzzy
@@ -4569,7 +4569,7 @@ msgstr ""
 
 #, c-format
 #~ msgid ""
-#~ "GNOME Terminal: font name \"%s\" set in configuration database is not "
+#~ "Cinnamon Terminal: font name \"%s\" set in configuration database is not "
 #~ "valid\n"
 #~ msgstr ""
 #~ "GNOME-ის ტერმინალი: მონაცემთა ბაზაში დაყენებული ფონტის სახელი (%s) "
@@ -5035,11 +5035,11 @@ msgstr ""
 
 #, c-format
 #~ msgid ""
-#~ "Option --%s is no longer supported in this version of gnome-terminal; you "
+#~ "Option --%s is no longer supported in this version of cinnamon-terminal; you "
 #~ "might want to create a profile with the desired setting, and use the new "
 #~ "--window-with-profile option\n"
 #~ msgstr ""
-#~ "პარამეტრი - %s gnome-terminal-ის ვერსიაში უკვე მიუწვდომელია. შეგიძლიათ "
+#~ "პარამეტრი - %s cinnamon-terminal-ის ვერსიაში უკვე მიუწვდომელია. შეგიძლიათ "
 #~ "შექმნათ პროფილი, ოირგოთ და გამოიყენოთ ახალი --window-with-profile "
 #~ "პარამეტრი\n"
 
@@ -5132,10 +5132,10 @@ msgstr ""
 #~ "ფაილი %s-ის პოვნა შეუძლებელია. ეს ნიშნავს, რომ პროგრამა არასწორად აყენია."
 
 #~ msgid ""
-#~ "It appears that you do not have gnome-terminal.server installed in a "
+#~ "It appears that you do not have cinnamon-terminal.server installed in a "
 #~ "valid location. Factory mode disabled.\n"
 #~ msgstr ""
-#~ "როგორც ჩანს თქვენ არ გაქვთ gnome-terminal.server-ი სწორ ადგილას "
+#~ "როგორც ჩანს თქვენ არ გაქვთ cinnamon-terminal.server-ი სწორ ადგილას "
 #~ "დაყენებული. ქარხნული რეჟიმი გამორთულია.\n"
 
 #~ msgid ""

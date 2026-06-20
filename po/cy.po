@@ -1,6 +1,6 @@
-# translation of gnome-terminal.HEAD.cy.po to Cymraeg
-# gnome-terminal yn Gymraeg.
-# This file is distributed under the same license as the gnome-terminal
+# translation of cinnamon-terminal.HEAD.cy.po to Cymraeg
+# cinnamon-terminal yn Gymraeg.
+# This file is distributed under the same license as the cinnamon-terminal
 # package.
 # Dafydd Harries <daf@muse.19inch.net>, 2003 2004.
 # Dafydd Tomos <l10n@da.fydd.org>, 2004.
@@ -8,7 +8,7 @@
 # Rhys Jones <rhys@sucs.org>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal.HEAD.cy\n"
+"Project-Id-Version: cinnamon-terminal.HEAD.cy\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-08-06 08:29+0100\n"
 "PO-Revision-Date: 2006-02-22 18:02-0000\n"
@@ -20,13 +20,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n == 2) ? 1 : 0;\n"
 
-#: ../gnome-terminal.desktop.in.in.h:1 ../src/gnome-terminal.schemas.in.h:119
+#: ../cinnamon-terminal.desktop.in.in.h:1 ../src/cinnamon-terminal.schemas.in.h:119
 #: ../src/terminal-accels.c:222 ../src/terminal.c:296
 #: ../src/terminal-profile.c:144 ../src/terminal-window.c:1842
 msgid "Terminal"
 msgstr "Terfynell"
 
-#: ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "Defnyddio'r llinell orchymyn"
 
@@ -72,7 +72,7 @@ msgstr "Ychwanegu neu Dynnu Amgodiadau Terfynell"
 msgid "E_ncodings shown in menu:"
 msgstr "_Amgodiadau a ddangosir yn y ddewislen:"
 
-#: ../src/gnome-terminal.schemas.in.h:1
+#: ../src/cinnamon-terminal.schemas.in.h:1
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
 "is a list of encodings to appear there. The special encoding name \"current"
@@ -82,7 +82,7 @@ msgstr ""
 "rhestr o amgodiadau i'w cynnwys yno. Mae'r enw amgodiad arbennig \"current\" "
 "yn golygu dylid dangos amgodiad y locale cyfredol."
 
-#: ../src/gnome-terminal.schemas.in.h:2
+#: ../src/cinnamon-terminal.schemas.in.h:2
 msgid ""
 "A value between 0.0 and 1.0 indicating how much to darken the background "
 "image. 0.0 means no darkness, 1.0 means fully dark. In the current "
@@ -94,7 +94,7 @@ msgstr ""
 "gosodiad yn ymddwyn fel gwerth Boole, lle mae 0.0 yn analluogi'r effaith "
 "tywyllu."
 
-#: ../src/gnome-terminal.schemas.in.h:3
+#: ../src/cinnamon-terminal.schemas.in.h:3
 msgid ""
 "Accelerator key to detach current tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -105,7 +105,7 @@ msgstr ""
 "arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd ar gyfer y weithred "
 "hon."
 
-#: ../src/gnome-terminal.schemas.in.h:4
+#: ../src/cinnamon-terminal.schemas.in.h:4
 msgid ""
 "Accelerator key to move the current tab to the left. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -117,7 +117,7 @@ msgstr ""
 "llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd ar gyfer y "
 "weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:5
+#: ../src/cinnamon-terminal.schemas.in.h:5
 msgid ""
 "Accelerator key to move the current tab to the right. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -129,47 +129,47 @@ msgstr ""
 "arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd ar gyfer y weithred "
 "hon."
 
-#: ../src/gnome-terminal.schemas.in.h:6
+#: ../src/cinnamon-terminal.schemas.in.h:6
 msgid "Accelerator to detach current tab."
 msgstr "Allwedd gyflym er mwyn datod y tab presennol."
 
-#: ../src/gnome-terminal.schemas.in.h:7
+#: ../src/cinnamon-terminal.schemas.in.h:7
 msgid "Accelerator to move the current tab to the left."
 msgstr "Cyflymydd i symud y tab presennol i'r chwith."
 
-#: ../src/gnome-terminal.schemas.in.h:8
+#: ../src/cinnamon-terminal.schemas.in.h:8
 msgid "Accelerator to move the current tab to the right."
 msgstr "Cyflymydd i symud y tab presennol i'r dde."
 
-#: ../src/gnome-terminal.schemas.in.h:9
+#: ../src/cinnamon-terminal.schemas.in.h:9
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr "Enw Ffont Pango. Enghreifftiau: \"Sans 12\" neu \"Monospace Bold 14\"."
 
-#: ../src/gnome-terminal.schemas.in.h:10
+#: ../src/cinnamon-terminal.schemas.in.h:10
 msgid "Background image"
 msgstr "Delwedd cefndir"
 
-#: ../src/gnome-terminal.schemas.in.h:11
+#: ../src/cinnamon-terminal.schemas.in.h:11
 msgid "Background type"
 msgstr "Math cefndir"
 
-#: ../src/gnome-terminal.schemas.in.h:12
+#: ../src/cinnamon-terminal.schemas.in.h:12
 msgid "Characters that are considered \"part of a word\""
 msgstr "Nodau a ymdrinir â hwy fel \"rhan gair\""
 
-#: ../src/gnome-terminal.schemas.in.h:13
+#: ../src/cinnamon-terminal.schemas.in.h:13
 msgid "Custom command to use instead of the shell"
 msgstr "Gorchymyn i'w weithredu yn lle'r gragen"
 
-#: ../src/gnome-terminal.schemas.in.h:14
+#: ../src/cinnamon-terminal.schemas.in.h:14
 msgid "Default"
 msgstr "Rhagosodiad"
 
-#: ../src/gnome-terminal.schemas.in.h:15
+#: ../src/cinnamon-terminal.schemas.in.h:15
 msgid "Default color of terminal background"
 msgstr "Lliw cefndir y rhagosodedig y derfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:16
+#: ../src/cinnamon-terminal.schemas.in.h:16
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -177,11 +177,11 @@ msgstr ""
 "Rhagosodiad lliw cefndir y derfynell, fel penodid lliw (gall fod mewn hecs-"
 "ddigidau fel yn HTML neu fel enw lliw megis \"red\")."
 
-#: ../src/gnome-terminal.schemas.in.h:17
+#: ../src/cinnamon-terminal.schemas.in.h:17
 msgid "Default color of text in the terminal"
 msgstr "Lliw rhagosodedig testun yn y derfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:18
+#: ../src/cinnamon-terminal.schemas.in.h:18
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -189,50 +189,50 @@ msgstr ""
 "Lliw rhagosodol testun yn y derfynell, fel penodid lliw (gall fod mewn hecs-"
 "ddigidau fel yn HTML neu fel enw lliw megis \"red\")."
 
-#: ../src/gnome-terminal.schemas.in.h:19
+#: ../src/cinnamon-terminal.schemas.in.h:19
 msgid "Effect of the Backspace key"
 msgstr "Effaith y fysell Olnod"
 
-#: ../src/gnome-terminal.schemas.in.h:20
+#: ../src/cinnamon-terminal.schemas.in.h:20
 msgid "Effect of the Delete key"
 msgstr "Effaith y fysell Dileu"
 
-#: ../src/gnome-terminal.schemas.in.h:21
+#: ../src/cinnamon-terminal.schemas.in.h:21
 msgid "Filename of a background image."
 msgstr "Enw ffeil delwedd cefndir"
 
-#: ../src/gnome-terminal.schemas.in.h:22
+#: ../src/cinnamon-terminal.schemas.in.h:22
 msgid "Font"
 msgstr "Ffont"
 
 #. Translators: S/Key is the name of an application, so it should
 #. not be translated.
-#: ../src/gnome-terminal.schemas.in.h:25
+#: ../src/cinnamon-terminal.schemas.in.h:25
 msgid "Highlight S/Key challenges"
 msgstr "Amlygu'r heriau S/Key"
 
-#: ../src/gnome-terminal.schemas.in.h:26
+#: ../src/cinnamon-terminal.schemas.in.h:26
 msgid "How much to darken the background image"
 msgstr "Faint i dywyllu delwedd y cefndir"
 
-#: ../src/gnome-terminal.schemas.in.h:27
+#: ../src/cinnamon-terminal.schemas.in.h:27
 msgid "Human-readable name of the profile"
 msgstr "Enw darllenadwy-gan-berson y proffil"
 
-#: ../src/gnome-terminal.schemas.in.h:28
+#: ../src/cinnamon-terminal.schemas.in.h:28
 msgid "Human-readable name of the profile."
 msgstr "Enw darllenadwy-gan-berson y proffil."
 
-#: ../src/gnome-terminal.schemas.in.h:29
+#: ../src/cinnamon-terminal.schemas.in.h:29
 msgid "Icon for terminal window"
 msgstr "Eicon ar gyfer ffenest terfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:30
+#: ../src/cinnamon-terminal.schemas.in.h:30
 msgid "Icon to use for tabs/windows containing this profile."
 msgstr ""
 "Yr eicon i'w ddefnyddio ar gyfer tabiau/ffenestri'n defnyddio'r proffil hwn."
 
-#: ../src/gnome-terminal.schemas.in.h:31
+#: ../src/cinnamon-terminal.schemas.in.h:31
 msgid ""
 "If the application in the terminal sets the title (most typically people "
 "have their shell set up to do this), the dynamically-set title can erase the "
@@ -244,11 +244,11 @@ msgstr ""
 "dileu'r teitl a gyfluniwyd, mynd cyn y teitl, mynd ar ei ôl, neu gymryd ei "
 "le. Y gwerthoedd posib: \"replace\", \"before\", \"after\" ac \"ignore\"."
 
-#: ../src/gnome-terminal.schemas.in.h:32
+#: ../src/cinnamon-terminal.schemas.in.h:32
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr "Os yn wir, caniatáu i raglenni yn y derfynell i wneud testun yn drwm."
 
-#: ../src/gnome-terminal.schemas.in.h:33
+#: ../src/cinnamon-terminal.schemas.in.h:33
 msgid ""
 "If true, don't make a noise when applications send the escape sequence for "
 "the terminal bell."
@@ -256,11 +256,11 @@ msgstr ""
 "Os yn wir, peidio gwneud sŵn pan mae rhaglenni yn anfon y dilyniant dianc ar "
 "gyfer clock y derfynell."
 
-#: ../src/gnome-terminal.schemas.in.h:34
+#: ../src/cinnamon-terminal.schemas.in.h:34
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Os yn wir, mae gwasgu bysell yn llamu'r bar sgrolio i'r gwaelod."
 
-#: ../src/gnome-terminal.schemas.in.h:35
+#: ../src/cinnamon-terminal.schemas.in.h:35
 msgid ""
 "If true, scroll the background image with the foreground text; if false, "
 "keep the image in a fixed position and scroll the text above it."
@@ -268,7 +268,7 @@ msgstr ""
 "Os yn wir, sgrolio delwedd y cefndir gyda thestun y blaendir; os yn anwir, "
 "cadw'r ddelwedd mewn safle gosodedig a sgrolio'r testun dros ei ben."
 
-#: ../src/gnome-terminal.schemas.in.h:36
+#: ../src/cinnamon-terminal.schemas.in.h:36
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell. "
 "(argv[0] will have a hyphen in front of it.)"
@@ -276,7 +276,7 @@ msgstr ""
 "Os yn wir, fe fydd y gorchymyn o fewn y derfynell yn cael ei lansio fel "
 "cragen mewngofnodi. (Fe fydd gan argv[0] ?? o'i flaen.)"
 
-#: ../src/gnome-terminal.schemas.in.h:37
+#: ../src/cinnamon-terminal.schemas.in.h:37
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
@@ -284,7 +284,7 @@ msgstr ""
 "Os yn wir, diweddarir cofnodion mewngofnodi'r system utmp a wtmp wrth i'r "
 "gorchymyn gael ei lansio o fewn y derfynell."
 
-#: ../src/gnome-terminal.schemas.in.h:38
+#: ../src/cinnamon-terminal.schemas.in.h:38
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -292,7 +292,7 @@ msgstr ""
 "Os yn wir, fe fydd y derfynell yn defnyddio'r ffont safon penbwrdd-eang os "
 "mae'n unlled (a'r ffont mwyaf tebyg gellir ei ganfod fel arall)."
 
-#: ../src/gnome-terminal.schemas.in.h:39
+#: ../src/cinnamon-terminal.schemas.in.h:39
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -301,7 +301,7 @@ msgstr ""
 "testun ei ddefnyddio ar gyfer y derfynell, yn lle lliwiau a ddarparwyd gan y "
 "defnyddiwr."
 
-#: ../src/gnome-terminal.schemas.in.h:40
+#: ../src/cinnamon-terminal.schemas.in.h:40
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -309,13 +309,13 @@ msgstr ""
 "Os yn wir, caiff gwerth y gosodiad custom_command ei ddefnyddio yn lle "
 "gweithredu cragen."
 
-#: ../src/gnome-terminal.schemas.in.h:41
+#: ../src/cinnamon-terminal.schemas.in.h:41
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr ""
 "Os yn wir, fe fydd y derfynell yn sgrolio i'r gwaelod pan mae allbwn newydd."
 
-#: ../src/gnome-terminal.schemas.in.h:42
+#: ../src/cinnamon-terminal.schemas.in.h:42
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
@@ -327,7 +327,7 @@ msgstr ""
 "+. Os ydych yn gosod yr opsiwn i'r llinyn arbenning \"disabled\", yna ni "
 "fydd byrlwybr bysellfwrdd ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:43
+#: ../src/cinnamon-terminal.schemas.in.h:43
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -338,7 +338,7 @@ msgstr ""
 "llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd ar gyfer y "
 "weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:44
+#: ../src/cinnamon-terminal.schemas.in.h:44
 msgid ""
 "Keyboard shortcut key for closing a window. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -350,7 +350,7 @@ msgstr ""
 "llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd ar gyfer y "
 "weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:45
+#: ../src/cinnamon-terminal.schemas.in.h:45
 msgid ""
 "Keyboard shortcut key for copying selected text to the clipboard. Expressed "
 "as a string in the same format used for GTK+ resource files. If you set the "
@@ -362,7 +362,7 @@ msgstr ""
 "+. Os ydych yn gosod yr opsiwn i'r llinyn arbenning \"disabled\", yna ni "
 "fydd byrlwybr bysellfwrdd ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:46
+#: ../src/cinnamon-terminal.schemas.in.h:46
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -373,7 +373,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:47
+#: ../src/cinnamon-terminal.schemas.in.h:47
 msgid ""
 "Keyboard shortcut key for making font larger. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -385,7 +385,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:48
+#: ../src/cinnamon-terminal.schemas.in.h:48
 msgid ""
 "Keyboard shortcut key for making font smaller. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -397,7 +397,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:49
+#: ../src/cinnamon-terminal.schemas.in.h:49
 msgid ""
 "Keyboard shortcut key for making font the normal size. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -409,7 +409,7 @@ msgstr ""
 "yr opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr "
 "bysellfwrdd ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:50
+#: ../src/cinnamon-terminal.schemas.in.h:50
 msgid ""
 "Keyboard shortcut key for opening a new tab. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -421,7 +421,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:51
+#: ../src/cinnamon-terminal.schemas.in.h:51
 msgid ""
 "Keyboard shortcut key for opening a new window. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -433,7 +433,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:52
+#: ../src/cinnamon-terminal.schemas.in.h:52
 msgid ""
 "Keyboard shortcut key for pasting the contents of the clipboard into the "
 "terminal. Expressed as a string in the same format used for GTK+ resource "
@@ -445,7 +445,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:53
+#: ../src/cinnamon-terminal.schemas.in.h:53
 msgid ""
 "Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -456,7 +456,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:54
+#: ../src/cinnamon-terminal.schemas.in.h:54
 msgid ""
 "Keyboard shortcut key for switch to tab 10. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -468,7 +468,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:55
+#: ../src/cinnamon-terminal.schemas.in.h:55
 msgid ""
 "Keyboard shortcut key for switch to tab 11. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -480,7 +480,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:56
+#: ../src/cinnamon-terminal.schemas.in.h:56
 msgid ""
 "Keyboard shortcut key for switch to tab 12. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -492,7 +492,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:57
+#: ../src/cinnamon-terminal.schemas.in.h:57
 msgid ""
 "Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -503,7 +503,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:58
+#: ../src/cinnamon-terminal.schemas.in.h:58
 msgid ""
 "Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -514,7 +514,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:59
+#: ../src/cinnamon-terminal.schemas.in.h:59
 msgid ""
 "Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -525,7 +525,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:60
+#: ../src/cinnamon-terminal.schemas.in.h:60
 msgid ""
 "Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -536,7 +536,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:61
+#: ../src/cinnamon-terminal.schemas.in.h:61
 msgid ""
 "Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -547,7 +547,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:62
+#: ../src/cinnamon-terminal.schemas.in.h:62
 msgid ""
 "Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -558,7 +558,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:63
+#: ../src/cinnamon-terminal.schemas.in.h:63
 msgid ""
 "Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -569,7 +569,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:64
+#: ../src/cinnamon-terminal.schemas.in.h:64
 msgid ""
 "Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -580,7 +580,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:65
+#: ../src/cinnamon-terminal.schemas.in.h:65
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -592,7 +592,7 @@ msgstr ""
 "yn gosod yr opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr "
 "bysellfwrdd ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:66
+#: ../src/cinnamon-terminal.schemas.in.h:66
 msgid ""
 "Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -604,7 +604,7 @@ msgstr ""
 "yn gosod yr opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr "
 "bysellfwrdd ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:67
+#: ../src/cinnamon-terminal.schemas.in.h:67
 msgid ""
 "Keyboard shortcut key to reset the terminal. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -616,7 +616,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:68
+#: ../src/cinnamon-terminal.schemas.in.h:68
 msgid ""
 "Keyboard shortcut key to set the terminal title. Expressed as a string in "
 "the same format used for GTK+ resource files. If you set the option to the "
@@ -628,7 +628,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:69
+#: ../src/cinnamon-terminal.schemas.in.h:69
 msgid ""
 "Keyboard shortcut key to switch to the next tab. Expressed as a string in "
 "the same format used for GTK+ resource files. If you set the option to the "
@@ -640,7 +640,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:70
+#: ../src/cinnamon-terminal.schemas.in.h:70
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -652,7 +652,7 @@ msgstr ""
 "opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr bysellfwrdd "
 "ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:71
+#: ../src/cinnamon-terminal.schemas.in.h:71
 msgid ""
 "Keyboard shortcut key to toggle the visibility of the menubar. Expressed as "
 "a string in the same format used for GTK+ resource files. If you set the "
@@ -664,144 +664,144 @@ msgstr ""
 "yn gosod yr opsiwn i'r llinyn arbenning \"disabled\", yna ni fydd byrlwybr "
 "bysellfwrdd ar gyfer y weithred hon."
 
-#: ../src/gnome-terminal.schemas.in.h:72
+#: ../src/cinnamon-terminal.schemas.in.h:72
 msgid "Keyboard shortcut to close a tab"
 msgstr "Byrlwybr bysellfwrdd er mwyn cau tab"
 
-#: ../src/gnome-terminal.schemas.in.h:73
+#: ../src/cinnamon-terminal.schemas.in.h:73
 msgid "Keyboard shortcut to close a window"
 msgstr "Byrlwybr bysellfwrdd er mwyn cau ffenest"
 
-#: ../src/gnome-terminal.schemas.in.h:74
+#: ../src/cinnamon-terminal.schemas.in.h:74
 msgid "Keyboard shortcut to copy text"
 msgstr "Byrlwybrau bysellfwrdd er mwyn copïo testun"
 
-#: ../src/gnome-terminal.schemas.in.h:75
+#: ../src/cinnamon-terminal.schemas.in.h:75
 msgid "Keyboard shortcut to create a new profile"
 msgstr "Byrlwybr bysellfwrdd ar gyfer creu proffeil newydd"
 
-#: ../src/gnome-terminal.schemas.in.h:76
+#: ../src/cinnamon-terminal.schemas.in.h:76
 msgid "Keyboard shortcut to launch help"
 msgstr "Byrlwybr bysellfwrdd er mwyn lansio cymorth"
 
-#: ../src/gnome-terminal.schemas.in.h:77
+#: ../src/cinnamon-terminal.schemas.in.h:77
 msgid "Keyboard shortcut to make font larger"
 msgstr "Byrlwybr bysellfwrdd ar gyfer cynyddu maint y ffont"
 
-#: ../src/gnome-terminal.schemas.in.h:78
+#: ../src/cinnamon-terminal.schemas.in.h:78
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Byrlwybr bysellfwrdd ar gyfer gwneud main y ffont yn arferol"
 
-#: ../src/gnome-terminal.schemas.in.h:79
+#: ../src/cinnamon-terminal.schemas.in.h:79
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Byrlwybr bysellfwrdd ar gyfer lleihau maint y ffont"
 
-#: ../src/gnome-terminal.schemas.in.h:80
+#: ../src/cinnamon-terminal.schemas.in.h:80
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Byrlwybr bysellfwrdd ar gyfer agor tab newydd"
 
-#: ../src/gnome-terminal.schemas.in.h:81
+#: ../src/cinnamon-terminal.schemas.in.h:81
 msgid "Keyboard shortcut to open a new window"
 msgstr "Byrlwybr bysellfwrdd ar gyfer agor ffenest newydd"
 
-#: ../src/gnome-terminal.schemas.in.h:82
+#: ../src/cinnamon-terminal.schemas.in.h:82
 msgid "Keyboard shortcut to paste text"
 msgstr "Byrlwybr bysellfwrdd ar gyfer gludo testun"
 
-#: ../src/gnome-terminal.schemas.in.h:83
+#: ../src/cinnamon-terminal.schemas.in.h:83
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Byrlwybr bysellfwrdd ar gyfer ailosod a chlirio'r derfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:84
+#: ../src/cinnamon-terminal.schemas.in.h:84
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Byrlwybr bysellfwrdd ar gyfer ailosod y derfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:85
+#: ../src/cinnamon-terminal.schemas.in.h:85
 msgid "Keyboard shortcut to set the terminal title"
 msgstr "Byrlwybr bysellfwrdd ar gyfer gosod teitl y derfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:86
+#: ../src/cinnamon-terminal.schemas.in.h:86
 msgid "Keyboard shortcut to switch to tab 1"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 1"
 
-#: ../src/gnome-terminal.schemas.in.h:87
+#: ../src/cinnamon-terminal.schemas.in.h:87
 msgid "Keyboard shortcut to switch to tab 10"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 10"
 
-#: ../src/gnome-terminal.schemas.in.h:88
+#: ../src/cinnamon-terminal.schemas.in.h:88
 msgid "Keyboard shortcut to switch to tab 11"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 11"
 
-#: ../src/gnome-terminal.schemas.in.h:89
+#: ../src/cinnamon-terminal.schemas.in.h:89
 msgid "Keyboard shortcut to switch to tab 12"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 12"
 
-#: ../src/gnome-terminal.schemas.in.h:90
+#: ../src/cinnamon-terminal.schemas.in.h:90
 msgid "Keyboard shortcut to switch to tab 2"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 2"
 
-#: ../src/gnome-terminal.schemas.in.h:91
+#: ../src/cinnamon-terminal.schemas.in.h:91
 msgid "Keyboard shortcut to switch to tab 3"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 3"
 
-#: ../src/gnome-terminal.schemas.in.h:92
+#: ../src/cinnamon-terminal.schemas.in.h:92
 msgid "Keyboard shortcut to switch to tab 4"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 4"
 
-#: ../src/gnome-terminal.schemas.in.h:93
+#: ../src/cinnamon-terminal.schemas.in.h:93
 msgid "Keyboard shortcut to switch to tab 5"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 5"
 
-#: ../src/gnome-terminal.schemas.in.h:94
+#: ../src/cinnamon-terminal.schemas.in.h:94
 msgid "Keyboard shortcut to switch to tab 6"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 6"
 
-#: ../src/gnome-terminal.schemas.in.h:95
+#: ../src/cinnamon-terminal.schemas.in.h:95
 msgid "Keyboard shortcut to switch to tab 7"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 7"
 
-#: ../src/gnome-terminal.schemas.in.h:96
+#: ../src/cinnamon-terminal.schemas.in.h:96
 msgid "Keyboard shortcut to switch to tab 8"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 8"
 
-#: ../src/gnome-terminal.schemas.in.h:97
+#: ../src/cinnamon-terminal.schemas.in.h:97
 msgid "Keyboard shortcut to switch to tab 9"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at dab 9"
 
-#: ../src/gnome-terminal.schemas.in.h:98
+#: ../src/cinnamon-terminal.schemas.in.h:98
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at y tab nesaf"
 
-#: ../src/gnome-terminal.schemas.in.h:99
+#: ../src/cinnamon-terminal.schemas.in.h:99
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Byrlwybr bysellfwrdd ar gyfer newid at y tab cynt"
 
-#: ../src/gnome-terminal.schemas.in.h:100
+#: ../src/cinnamon-terminal.schemas.in.h:100
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Byrlwybr bysellfwrdd ar gyfer toglu'r modd llenwi'r sgrin"
 
-#: ../src/gnome-terminal.schemas.in.h:101
+#: ../src/cinnamon-terminal.schemas.in.h:101
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Byrlwybr bysellfwrdd ar gyfer toglu gwelededd y bar dewislen"
 
-#: ../src/gnome-terminal.schemas.in.h:102
+#: ../src/cinnamon-terminal.schemas.in.h:102
 msgid "List of available encodings"
 msgstr "Rhestr o amgodiadau sydd ar gael"
 
-#: ../src/gnome-terminal.schemas.in.h:103
+#: ../src/cinnamon-terminal.schemas.in.h:103
 msgid "List of profiles"
 msgstr "Rhestr o broffiliau"
 
-#: ../src/gnome-terminal.schemas.in.h:104
+#: ../src/cinnamon-terminal.schemas.in.h:104
 msgid ""
-"List of profiles known to gnome-terminal. The list contains strings naming "
-"subdirectories relative to /apps/gnome-terminal/profiles."
+"List of profiles known to cinnamon-terminal. The list contains strings naming "
+"subdirectories relative to /apps/cinnamon-terminal/profiles."
 msgstr ""
-"Rhestr o broffiliau sy'n hysbys i gnome-terminal. Mae'r rhestr yn cynnwys "
-"llinynnau yn enwi is-gyfeiriaduron yn gymharol i /apps/gnome-terminal/"
+"Rhestr o broffiliau sy'n hysbys i cinnamon-terminal. Mae'r rhestr yn cynnwys "
+"llinynnau yn enwi is-gyfeiriaduron yn gymharol i /apps/cinnamon-terminal/"
 "profiles."
 
-#: ../src/gnome-terminal.schemas.in.h:105
+#: ../src/cinnamon-terminal.schemas.in.h:105
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -811,11 +811,11 @@ msgstr ""
 "drwy gtkrc (gtk-menu-bar-accel = \"rhywbeth\"). Mae'r opsiwn hwn yn caniatáu "
 "analluogi'r cyflymydd bar dewislen."
 
-#: ../src/gnome-terminal.schemas.in.h:106
+#: ../src/cinnamon-terminal.schemas.in.h:106
 msgid "Number of lines to keep in scrollback"
 msgstr "Y nifer o linellau i'w cadw yn yr hanes"
 
-#: ../src/gnome-terminal.schemas.in.h:107
+#: ../src/cinnamon-terminal.schemas.in.h:107
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -827,13 +827,13 @@ msgstr ""
 "hanes. Byddwch yn ofalus gyda'r gosodiad hwn; y prif ffactor ydyw yn "
 "penderfynu faint o gof fe fydd eich terfynell yn defnyddio."
 
-#: ../src/gnome-terminal.schemas.in.h:108
+#: ../src/cinnamon-terminal.schemas.in.h:108
 msgid "Palette for terminal applications"
 msgstr "Palet rhaglenni terfynell"
 
 #. Translators: S/Key is the name of an application, so it should
 #. not be translated.
-#: ../src/gnome-terminal.schemas.in.h:111
+#: ../src/cinnamon-terminal.schemas.in.h:111
 msgid ""
 "Popup a dialog when an S/Key challenge response query is detected and "
 "clicked on. Typing a password into the dialog will send it to the terminal."
@@ -841,11 +841,11 @@ msgstr ""
 "Dangos blwch deialog pan synhwyrir a chlicir ar gais her-ymateb S/Key. Fe "
 "fydd teipio cyfrinair i'r deialog yn ei anfon at y derfynell."
 
-#: ../src/gnome-terminal.schemas.in.h:112
+#: ../src/cinnamon-terminal.schemas.in.h:112
 msgid "Position of the scrollbar"
 msgstr "Safle'r bar sgrolio"
 
-#: ../src/gnome-terminal.schemas.in.h:113
+#: ../src/cinnamon-terminal.schemas.in.h:113
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -853,23 +853,23 @@ msgstr ""
 "Gwerthoedd posib: \"close\" er mwyn cau'r derfynell, a \"restart\" er mwyn "
 "ailgychwyn y gorchymyn."
 
-#: ../src/gnome-terminal.schemas.in.h:114
+#: ../src/cinnamon-terminal.schemas.in.h:114
 msgid ""
 "Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Y proffeil i'w ddefnyddio wrth agor ffenest neu dab newydd. Rhaid iddo fod "
 "yn profile_list."
 
-#: ../src/gnome-terminal.schemas.in.h:115
+#: ../src/cinnamon-terminal.schemas.in.h:115
 msgid "Profile to use for new terminals"
 msgstr "Y proffeil i'w ddefnyddio ar gyfer terfynellau newydd"
 
-#: ../src/gnome-terminal.schemas.in.h:116
+#: ../src/cinnamon-terminal.schemas.in.h:116
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Gweithredu'r gorchymyn hwn yn lle'r gragen, os mae use_custom_command yn wir."
 
-#: ../src/gnome-terminal.schemas.in.h:117
+#: ../src/cinnamon-terminal.schemas.in.h:117
 msgid ""
 "Sets what code the backspace key generates. Possible values are \"ascii-del"
 "\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII "
@@ -883,7 +883,7 @@ msgstr ""
 "olnod neu Dileu. \"ascii-del\" yw'r gosodiad cywir ar gyfer y fysell Ôlnod "
 "fel arfer."
 
-#: ../src/gnome-terminal.schemas.in.h:118
+#: ../src/cinnamon-terminal.schemas.in.h:118
 msgid ""
 "Sets what code the delete key generates. Possible values are \"ascii-del\" "
 "for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII BS "
@@ -897,7 +897,7 @@ msgstr ""
 "ôlnod neu Ddileu. \"escape-sequence\" yw'r gosodiad cywir ar gyfer y fysell "
 "Dileu fel arfer."
 
-#: ../src/gnome-terminal.schemas.in.h:120
+#: ../src/cinnamon-terminal.schemas.in.h:120
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -907,27 +907,27 @@ msgstr ""
 "ddefnyddio. Dyma'r palet hwnnw, yn y ffurf rhestr colon-whanedig enwau "
 "lliwiau. Dylai enwau lliwiau fod mewn ffurf hecs, e.e. \"#F00FF\""
 
-#: ../src/gnome-terminal.schemas.in.h:121
+#: ../src/cinnamon-terminal.schemas.in.h:121
 msgid "The cursor appearance"
 msgstr ""
 
-#: ../src/gnome-terminal.schemas.in.h:122
+#: ../src/cinnamon-terminal.schemas.in.h:122
 msgid ""
 "The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
 "vertical line cursor, or \"underline\" to use an underline cursor."
 msgstr ""
 
-#: ../src/gnome-terminal.schemas.in.h:123
+#: ../src/cinnamon-terminal.schemas.in.h:123
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgstr ""
 
-#: ../src/gnome-terminal.schemas.in.h:124
+#: ../src/cinnamon-terminal.schemas.in.h:124
 msgid "Title for terminal"
 msgstr "Teitl ar gyfer y derfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:125
+#: ../src/cinnamon-terminal.schemas.in.h:125
 msgid ""
 "Title to display for the terminal window or tab. This title may be replaced "
 "by or combined with the title set by the application inside the terminal, "
@@ -937,7 +937,7 @@ msgstr ""
 "gael ei amnewid neu eu cyfuno gyda'r teitl a osodir gan y rhaglen o fewn y "
 "derfynell, yn dibynnu ar y gosodiad title_mode."
 
-#: ../src/gnome-terminal.schemas.in.h:126
+#: ../src/cinnamon-terminal.schemas.in.h:126
 msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
@@ -945,7 +945,7 @@ msgstr ""
 "Gwir os dylid dangos y bar dewislen mewn ffenestri newydd, ar gyfer "
 "ffenestri tabiau gyda'r proffeil hwn."
 
-#: ../src/gnome-terminal.schemas.in.h:127
+#: ../src/cinnamon-terminal.schemas.in.h:127
 #, fuzzy
 msgid ""
 "Type of terminal background. May be \"solid\" for a solid color, \"image\" "
@@ -955,15 +955,15 @@ msgstr ""
 "Math cefndir y derfynell. Gall fod yn \"solid\" ar gyfer lliw unffurf, "
 "\"image\" ar gyfer delwedd, neu \"transparent\" ar gyfer ffug-ddidreiddedd."
 
-#: ../src/gnome-terminal.schemas.in.h:128
+#: ../src/cinnamon-terminal.schemas.in.h:128
 msgid "What to do with dynamic title"
 msgstr "Beth i'w wneud gyda'r teitl dynamig?"
 
-#: ../src/gnome-terminal.schemas.in.h:129
+#: ../src/cinnamon-terminal.schemas.in.h:129
 msgid "What to do with the terminal when the child command exits"
 msgstr "Beth i'w wneud gyda'r derfynell pan mae'r gorchymyn plentyn yn gorffen"
 
-#: ../src/gnome-terminal.schemas.in.h:130
+#: ../src/cinnamon-terminal.schemas.in.h:130
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
 "single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
@@ -973,7 +973,7 @@ msgstr ""
 "fel geiriau unigol. Gellir rhoi amrediadau fel \"A-Z\". Dylid cysylltnod "
 "llythrennol (sydd ddim yn arwyddo amrediad) fod y nod cyntaf a roddir."
 
-#: ../src/gnome-terminal.schemas.in.h:131
+#: ../src/cinnamon-terminal.schemas.in.h:131
 msgid ""
 "Where to put the terminal scrollbar. Possibilities are \"left\", \"right\", "
 "and \"disabled\"."
@@ -981,20 +981,20 @@ msgstr ""
 "Lle i roi bar sgrolio'r derfynell. Posibiliadau: \"left\", \"right\", a "
 "\"disabled\"."
 
-#: ../src/gnome-terminal.schemas.in.h:132
+#: ../src/cinnamon-terminal.schemas.in.h:132
 msgid "Whether the menubar has access keys"
 msgstr "A oes bysellau cyrchu gan y bar dewislen"
 
-#: ../src/gnome-terminal.schemas.in.h:133
+#: ../src/cinnamon-terminal.schemas.in.h:133
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr ""
 "A ydy'r byrlwybr safonol GTK wedi ei alluogi ar gyfer cyrchu'r bar dewislen"
 
-#: ../src/gnome-terminal.schemas.in.h:134
+#: ../src/cinnamon-terminal.schemas.in.h:134
 msgid "Whether to allow bold text"
 msgstr "A ddylid caniatàu testunau trwm"
 
-#: ../src/gnome-terminal.schemas.in.h:135
+#: ../src/cinnamon-terminal.schemas.in.h:135
 msgid ""
 "Whether to ask for confirmation when closing a terminal window which has "
 "more than one open tab."
@@ -1002,15 +1002,15 @@ msgstr ""
 "A ddylid gofyn am gadarnhad wrth gau ffenest terfynell sydd a mwy na un tab "
 "agored."
 
-#: ../src/gnome-terminal.schemas.in.h:136
+#: ../src/cinnamon-terminal.schemas.in.h:136
 msgid "Whether to ask for confirmation when closing terminal windows"
 msgstr "A ddylid gofyn am gadarnhad wrth gau ffenestri terfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:137
+#: ../src/cinnamon-terminal.schemas.in.h:137
 msgid "Whether to blink the cursor"
 msgstr "A ddylid chwincio'r cyrchydd"
 
-#: ../src/gnome-terminal.schemas.in.h:138
+#: ../src/cinnamon-terminal.schemas.in.h:138
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -1020,44 +1020,44 @@ msgstr ""
 "allent ymyrryd a rhai rhaglenni sy'n rhedeg o fewn y derfynell felly mae'n "
 "bosib eu hanalluogi nhw."
 
-#: ../src/gnome-terminal.schemas.in.h:139
+#: ../src/cinnamon-terminal.schemas.in.h:139
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "A ddylid lansio'r gorchymyn yn y derfynell fel cragen mewngofnodi"
 
-#: ../src/gnome-terminal.schemas.in.h:140
+#: ../src/cinnamon-terminal.schemas.in.h:140
 msgid "Whether to run a custom command instead of the shell"
 msgstr "A ddylid gweithredu gorchymyn yn lle'r gragen"
 
-#: ../src/gnome-terminal.schemas.in.h:141
+#: ../src/cinnamon-terminal.schemas.in.h:141
 msgid "Whether to scroll background image"
 msgstr "A ddylid sgrolio'r ddelwedd cefndir"
 
-#: ../src/gnome-terminal.schemas.in.h:142
+#: ../src/cinnamon-terminal.schemas.in.h:142
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "A ddylid sgrolio i'r gwaelod pan wasgir bysell"
 
-#: ../src/gnome-terminal.schemas.in.h:143
+#: ../src/cinnamon-terminal.schemas.in.h:143
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "A ddylid sgrolio i'r gwaelod pan mae allbwn newydd"
 
-#: ../src/gnome-terminal.schemas.in.h:144
+#: ../src/cinnamon-terminal.schemas.in.h:144
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "A ddylid dangos y bar dewislen mewn tabiau/ffenestri newydd"
 
-#: ../src/gnome-terminal.schemas.in.h:145
+#: ../src/cinnamon-terminal.schemas.in.h:145
 msgid "Whether to silence terminal bell"
 msgstr "A ddylid tawelu cloch y derfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:146
+#: ../src/cinnamon-terminal.schemas.in.h:146
 msgid "Whether to update login records when launching terminal command"
 msgstr ""
 "A ddylid diweddaru cofnodion mewngofnodi wrth lansio gorchymyn terfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:147
+#: ../src/cinnamon-terminal.schemas.in.h:147
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "A ddylid defnyddio'r lliwiau o'r thema ar gyfer y teclyn terfynell"
 
-#: ../src/gnome-terminal.schemas.in.h:148
+#: ../src/cinnamon-terminal.schemas.in.h:148
 msgid "Whether to use the system font"
 msgstr "A ddylid defnyddio ffont y system"
 
@@ -1067,7 +1067,7 @@ msgstr "A ddylid defnyddio ffont y system"
 #. translated. This is provided for customization of the default encoding
 #. menu; see bug 144810 for an use case. In most cases, this should be
 #. left alone.
-#: ../src/gnome-terminal.schemas.in.h:155
+#: ../src/cinnamon-terminal.schemas.in.h:155
 msgid "[UTF-8,current]"
 msgstr "[UTF-8,current,ISO-8859-14]"
 
@@ -1875,16 +1875,16 @@ msgstr "Locale Cyfredol"
 #: ../src/terminal-options.c:174
 #, fuzzy, c-format
 msgid ""
-"Option \"%s\" is no longer supported in this version of gnome-terminal; you "
+"Option \"%s\" is no longer supported in this version of cinnamon-terminal; you "
 "might want to create a profile with the desired setting, and use the new '--"
 "profile' option\n"
 msgstr ""
-"Ni chynhelir yr opsiwn --%s bellach yn fersiwn yma gnome-terminal; efallai "
+"Ni chynhelir yr opsiwn --%s bellach yn fersiwn yma cinnamon-terminal; efallai "
 "hoffwch greu proffeil gyda'r gosodiad priodol, a defnyddio'r opsiwn newydd --"
 "window-with-profile\n"
 
 #: ../src/terminal-options.c:187 ../src/terminal-window.c:3627
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terfynell GNOME"
 
 #: ../src/terminal-options.c:207
@@ -2051,12 +2051,12 @@ msgstr ""
 
 #: ../src/terminal-options.c:1349 ../src/terminal-options.c:1352
 #, fuzzy
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "Terfynell GNOME"
 
 #: ../src/terminal-options.c:1353
 #, fuzzy
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "Terfynell GNOME"
 
 #: ../src/terminal-options.c:1363
@@ -2127,7 +2127,7 @@ msgstr ""
 
 #: ../src/terminal-util.c:329
 msgid ""
-"GNOME Terminal is free software; you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
@@ -2135,7 +2135,7 @@ msgstr ""
 
 #: ../src/terminal-util.c:333
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -2144,7 +2144,7 @@ msgstr ""
 #: ../src/terminal-util.c:337
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"Cinnamon Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 
@@ -2633,7 +2633,7 @@ msgstr ""
 #~ "\": %s\n"
 
 #~ msgid ""
-#~ "GNOME Terminal: font name \"%s\" set in configuration database is not "
+#~ "Cinnamon Terminal: font name \"%s\" set in configuration database is not "
 #~ "valid\n"
 #~ msgstr ""
 #~ "Terfynell GNOME: enw ffont annilys \"%s\" wedi ei osod yn y gronfa data "
@@ -2981,10 +2981,10 @@ msgstr ""
 #~ "sefydlu."
 
 #~ msgid ""
-#~ "It appears that you do not have gnome-terminal.server installed in a "
+#~ "It appears that you do not have cinnamon-terminal.server installed in a "
 #~ "valid location. Factory mode disabled.\n"
 #~ msgstr ""
-#~ "Ymddengys nad yw'r rhaglen gnome-terminal.server wedi ei osod mewn "
+#~ "Ymddengys nad yw'r rhaglen cinnamon-terminal.server wedi ei osod mewn "
 #~ "lleoliad dilys. Analluogwyd y modd ffatri.\n"
 
 #~ msgid ""

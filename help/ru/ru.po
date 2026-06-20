@@ -1,6 +1,6 @@
-# Russian translation for gnome-terminal.
-# Copyright (C) 2013 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Russian translation for cinnamon-terminal.
+# Copyright (C) 2013 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Сергей В. Миронов <sergo@bk.ru>, 2007
 # jdronova <juliette.tux@gmail.com>, 2013, 2014
 # Stas Solovey <whats_up@tut.by>, 2013, 2014
@@ -8,7 +8,7 @@
 # Ser82-png <sw@atrus.ru>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal gnome-3-10\n"
+"Project-Id-Version: cinnamon-terminal gnome-3-10\n"
 "POT-Creation-Date: 2023-11-26 09:33+0000\n"
 "PO-Revision-Date: 2023-12-04 15:57+1000\n"
 "Last-Translator: Ser82-png <asvmail.as@gmail.com>\n"
@@ -1752,14 +1752,14 @@ msgstr "Снимок экрана с <app>Терминалом</app> GNOME"
 #: C/introduction.page:44
 #| msgctxt "_"
 #| msgid ""
-#| "external ref='figures/gnome-terminal-icon.png' "
+#| "external ref='figures/cinnamon-terminal-icon.png' "
 #| "md5='eec073d5291ad14523f66f78811b505a'"
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 
 #. (itstool) path: p/link
@@ -3733,15 +3733,15 @@ msgstr ""
 "с помощью мыши, вам нужно использовать модификатор <key>Shift</key> для "
 "<app>Терминала</app>, чтобы перехватывать ввод с помощью мыши."
 
-#~ msgid "GNOME Terminal"
+#~ msgid "Cinnamon Terminal"
 #~ msgstr "Терминал среды GNOME"
 
 #~ msgctxt "_"
 #~ msgid ""
-#~ "external ref='figures/gnome-terminal.png' "
+#~ "external ref='figures/cinnamon-terminal.png' "
 #~ "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 #~ msgstr ""
-#~ "external ref='figures/gnome-terminal.png' "
+#~ "external ref='figures/cinnamon-terminal.png' "
 #~ "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 
 #~ msgid ""
@@ -4583,10 +4583,10 @@ msgstr ""
 #~ msgstr "Что такое <app>Терминал</app>?"
 
 #~ msgid ""
-#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/gnome-terminal-"
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/cinnamon-terminal-"
 #~ "icon.png\"> </media> Terminal Help"
 #~ msgstr ""
-#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/gnome-terminal-"
+#~ "<media type=\"image\" mime=\"image/png\" src=\"figures/cinnamon-terminal-"
 #~ "icon.png\"> </media> Справка по Терминалу"
 
 #~ msgid ""

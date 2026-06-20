@@ -1,6 +1,6 @@
 # Upstream Tracking
 
-This document explains how Cinnamon Terminal tracks the upstream GNOME Terminal source.
+This document explains how Cinnamon Terminal tracks the upstream Cinnamon Terminal source.
 
 ---
 
@@ -8,9 +8,9 @@ This document explains how Cinnamon Terminal tracks the upstream GNOME Terminal 
 
 | Detail | Value |
 |--------|-------|
-| **Project** | GNOME Terminal |
+| **Project** | Cinnamon Terminal |
 | **Repository** | [gitlab.gnome.org/GNOME/gnome-terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) |
-| **Forked from** | Upstream `master` branch (GNOME Terminal 3.97.x) |
+| **Forked from** | Upstream `master` branch (Cinnamon Terminal 3.97.x) |
 | **License** | GPLv3+ |
 | **Build system** | Meson |
 | **Language** | C/C++ |
@@ -29,7 +29,7 @@ git fetch upstream
 ```
                     ┌──────────────────────┐
                     │   upstream/master    │
-                    │  (GNOME Terminal)    │
+                    │  (Cinnamon Terminal)    │
                     └──────────┬───────────┘
                                │ git fetch upstream
                                ▼
@@ -53,7 +53,7 @@ git fetch upstream
 
 ### Step-by-Step
 
-1. **Fetch upstream** — `git fetch upstream` pulls the latest GNOME Terminal commits
+1. **Fetch upstream** — `git fetch upstream` pulls the latest Cinnamon Terminal commits
 2. **Land on `unstable`** — upstream changes are rebased or cherry-picked onto `unstable`:
    ```bash
    git checkout unstable
@@ -180,8 +180,8 @@ meson setup build-test --prefix=/usr -Dbuildtype=debug
 meson compile -C build-test
 
 # Test basic functionality
-./build-test/gnome-terminal-server --app-id org.gnome.Terminal.test &
-GNOME_TERMINAL_SERVICE=org.gnome.Terminal.test ./build-test/gnome-terminal
+./build-test/cinnamon-terminal-server --app-id org.acreetionos.cinnamon.Terminal.test &
+GNOME_TERMINAL_SERVICE=org.acreetionos.cinnamon.Terminal.test ./build-test/cinnamon-terminal
 
 # Run unit tests
 meson test -C build-test
@@ -197,14 +197,14 @@ This is the most important part of upstream tracking.
 
 ### What We Track
 
-- **CVE announcements** from GNOME Terminal and VTE
+- **CVE announcements** from Cinnamon Terminal and VTE
 - **Commit messages** containing "security", "CVE", "fix", "crash", "vulnerability"
 - **GNOME security advisories** via [discourse.gnome.org](https://discourse.gnome.org/c/security)
 - **VTE security issues** (since we depend on VTE for emulation)
 
 ### Process
 
-1. **Upstream security fix lands** in GNOME Terminal or VTE
+1. **Upstream security fix lands** in Cinnamon Terminal or VTE
 2. **Cherry-pick to `unstable` immediately** — no waiting for normal tracking cycle:
    ```bash
    git checkout unstable
@@ -279,12 +279,12 @@ Use this when performing an upstream sync:
 
 We do **not** push changes back upstream. This is a deliberate decision:
 
-- GNOME Terminal's direction (dropping X11, simplifying) is fundamentally incompatible with ours
+- Cinnamon Terminal's direction (dropping X11, simplifying) is fundamentally incompatible with ours
 - The amount of code we'd need to upstream (X11 compatibility) is stuff upstream explicitly removed
 - We maintain our own release cadence aligned with AcreetionOS releases
 - Focus on our users, not on debating GNOME's priorities
 
-This is a **friendly fork**. We respect upstream GNOME Terminal and its developers. We just disagree with the direction. Our fork lets us serve our community without forcing anyone else to maintain code they don't want.
+This is a **friendly fork**. We respect upstream Cinnamon Terminal and its developers. We just disagree with the direction. Our fork lets us serve our community without forcing anyone else to maintain code they don't want.
 
 ---
 

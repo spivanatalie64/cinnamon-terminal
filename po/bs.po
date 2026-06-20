@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal VERSION\n"
+"Project-Id-Version: cinnamon-terminal VERSION\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "terminal&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-02-26 21:00+0000\n"
@@ -14,27 +14,27 @@ msgstr ""
 "X-Generator: Poedit 1.7.4\n"
 "X-Launchpad-Export-Date: 2015-02-15 06:14+0000\n"
 
-#: ../gnome-terminal.appdata.xml.in.h:1 ../gnome-terminal.desktop.in.in.h:1
+#: ../cinnamon-terminal.appdata.xml.in.h:1 ../cinnamon-terminal.desktop.in.in.h:1
 #: ../src/server.c:157 ../src/terminal-accels.c:222 ../src/terminal.c:243
 #: ../src/terminal-tab-label.c:81 ../src/terminal-tabs-menu.c:180
 #: ../src/terminal-window.c:2582 ../src/terminal-window.c:2937
 msgid "Terminal"
 msgstr "Terminal"
 
-#: ../gnome-terminal.appdata.xml.in.h:2 ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.appdata.xml.in.h:2 ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "Koristi komandnu liniju"
 
-#: ../gnome-terminal.appdata.xml.in.h:3
+#: ../cinnamon-terminal.appdata.xml.in.h:3
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
-"GNOME Terminal je imitator terminalne aplikacije za pristup UNIX shell "
+"Cinnamon Terminal je imitator terminalne aplikacije za pristup UNIX shell "
 "oktuženje koje mogu biti korištene za pokretanje programa dostupne na "
 "sistemu."
 
-#: ../gnome-terminal.appdata.xml.in.h:4
+#: ../cinnamon-terminal.appdata.xml.in.h:4
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
@@ -42,7 +42,7 @@ msgstr ""
 "Podržava nekoliko profila, više kartica i implementira nekoliko tipkovnih "
 "prečica."
 
-#: ../gnome-terminal.desktop.in.in.h:3
+#: ../cinnamon-terminal.desktop.in.in.h:3
 msgid "shell;prompt;command;commandline;"
 msgstr "školjka;ažuriranje;naredba;naredbena linija;"
 
@@ -293,24 +293,24 @@ msgstr "Podrazumijevano"
 msgid "Unnamed"
 msgstr "Neimenovano"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:1
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:1
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'Neimenovani'"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:2
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:2
 msgid "Human-readable name of the profile"
 msgstr "Ime profila u ljudski čitljivom obliku"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:3
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:3
 msgid "Human-readable name of the profile."
 msgstr "Ime profila u ljudski čitljivom obliku."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:4
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:4
 msgid "Default color of text in the terminal"
 msgstr "Uobičajena boja teksta u terminalu"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:5
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:5
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -318,11 +318,11 @@ msgstr ""
 "Uobičajena boja teksta u terminalu, izražena kao specifikacija boje (može "
 "biti heksadecimalni cifre u HTML stilu ili ime boje kao npr. \"red\")."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:6
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:6
 msgid "Default color of terminal background"
 msgstr "Uobičajena boja pozadine terminala"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:7
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:7
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -330,11 +330,11 @@ msgstr ""
 "Uobičajena boja pozadine terminala, izražena kao specifikacija boje (može "
 "biti heksadecimalni cifre u HTML stilu, ili ime boje kao npr. \"red\")."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:8
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:8
 msgid "Default color of bold text in the terminal"
 msgstr "Podrazumijevana boja podebljanog teksta u terminalu"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:9
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:9
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
@@ -345,32 +345,32 @@ msgstr ""
 "engleskom jeziku kao što je „red“ za crvenu). Ovo će biti zanemareno ukoliko "
 "je bold_color_same_as_fg postavljen na „true“ (tačno)."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:10
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:10
 msgid "Whether bold text should use the same color as normal text"
 msgstr "Da li je podebljani tekst iste boje kao i uobičajeni tekst"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:11
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:11
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr ""
 "Ako je postavljeno na „true“ (tačno) podebljani tekst će biti ispisan u "
 "istoj boji kao i uobičajeni tekst."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:12
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:12
 msgid "Whether to allow bold text"
 msgstr "Da li dopustiti masni tekst"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:13
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:13
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
 "Ako je postavljeno, dopusti aplikacijama u terminalu korištenje masnih slova "
 "u tekstu."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:14
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:14
 msgid "Whether to ring the terminal bell"
 msgstr "Bilo da zazvoni zvono terminala."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:15
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:15
 msgid ""
 "List of ASCII punctuation characters that are not to be treated as part of a "
 "word when doing word-wise selection"
@@ -378,20 +378,20 @@ msgstr ""
 "Popis ASCII znakova interpunkcije koji se ne tretiraju kao dio riječi kada "
 "radite mudar izbor riječi"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:16
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:16
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "Da li pokazati traku menija u novima prozorima/karticama"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:17
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:17
 msgid "True if the menubar should be shown in new window"
 msgstr ""
 "Istina ukoliko bi traka izbornika trebala biti prikazana u novom prozoru."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:18
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:18
 msgid "Default number of columns"
 msgstr "Podrazumijevani broj kolona"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:19
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:19
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -400,11 +400,11 @@ msgstr ""
 "„use_custom_default_size“ (koristi podravumevanu proizvoljnu veličinu) nije "
 "postavljen."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:20
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:20
 msgid "Default number of rows"
 msgstr "Podrazumijevani broj redova"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:21
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:21
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -413,15 +413,15 @@ msgstr ""
 "„use_custom_default_size“ (koristi podravumevanu proizvoljnu veličinu) nije "
 "postavljen."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:22
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:22
 msgid "When to show the scrollbar"
 msgstr "Kad prikazati traku za pomicanje"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:23
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:23
 msgid "Number of lines to keep in scrollback"
 msgstr "Broj linija za pomjeranje ispisa unazad"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:24
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:24
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -432,11 +432,11 @@ msgstr ""
 "podešavanjem; ono je osnovni činilac koji određuje koliko memorije vaš "
 "terminal koristi."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:25
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:25
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "Broj linija koje se pamte"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:26
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:26
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -446,29 +446,29 @@ msgstr ""
 "zaboravljanje. Istorijat se čuva privremeno na disk, tako da možete ostati "
 "bez prostora na disku ako ima puno linija u terminalu."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:27
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:27
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Da li će se klizač postaviti na dno kada je tipka pritisnuta"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:28
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:28
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Ako je postavljeno, pritisak tipke pomjera klizač na dno."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:29
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:29
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "Da li će se klizač postaviti na dno pri novom ispisu"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:30
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:30
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr ""
 "Ako je postavljeno, kod svakog novog ispisa će se klizač pomjeriti na dno."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:31
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:31
 msgid "What to do with the terminal when the child command exits"
 msgstr "Šta činiti sa terminalom kada se podređena naredba završi"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:32
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:32
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -476,11 +476,11 @@ msgstr ""
 "Moguće vrijednosti su \"close\" za zatvaranje terminala i \"restart\" za "
 "ponovno pokretanje naredbe."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:33
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:33
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "Da li pokrenuti naredbu u terminalu kao shell za prijavu"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:34
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:34
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -488,11 +488,11 @@ msgstr ""
 "Ako je tacno, naredba u terminalu ci biti pokrenuta kao ljuska pristupa(arv"
 "[0] ci imati crticu ispred )."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:35
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:35
 msgid "Whether to update login records when launching terminal command"
 msgstr "Da li ažurirati zapisnik prijava pri pokretanju naredbe terminala"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:36
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:36
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
@@ -500,11 +500,11 @@ msgstr ""
 "Ako je postavljeno, sistemski zapisnici prijava utmp i wtmp će biti "
 "ažurirani pri pokretanju naredbe u terminalu."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:37
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:37
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Da li pokrenuti vlastitu naredbu umjesto shella"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:38
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:38
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -512,11 +512,11 @@ msgstr ""
 "Ako je postavljeno, vrijednost postavke custom_command će se koristiti "
 "umjesto pokretanja shella."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:39
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:39
 msgid "Whether to blink the cursor"
 msgstr "Da li će kursor treperiti"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:40
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:40
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -525,54 +525,54 @@ msgstr ""
 "kursora ili „on“ i „off“ za neposredno uključivanje ili isključivanje "
 "treperenja."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:41
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:41
 msgid "The cursor appearance"
 msgstr "Izgled kursora"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:42
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:42
 msgid "Custom command to use instead of the shell"
 msgstr "Vlastita komanda koja će se koristiti umjesto shella"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:43
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:43
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Izvrši ovu naredbu umjesto shella ako je postavljena varijabla "
 "use_custom_command."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:44
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:44
 msgid "Palette for terminal applications"
 msgstr "Paleta za aplikacije terminala"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:45
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:45
 msgid "A Pango font name and size"
 msgstr "Ime I velicina Pango fonta"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:46
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:46
 msgid "The code sequence the Backspace key generates"
 msgstr "Kod sekvence koju tipka za pomak unatrag generiše"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:47
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:47
 msgid "The code sequence the Delete key generates"
 msgstr "Kod sekvence koju tipka izbriši generiše"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:48
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:48
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Da li koristiti boje iz teme za grafički element terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:49
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:49
 msgid "Whether to use the system monospace font"
 msgstr "Bilo da koristi sistem monospejs font."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:50
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:50
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr ""
 "Bilo da se ponovo prelomi terminalni sadržaj na promjene veličine prozora"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:51
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:51
 msgid "Which encoding to use"
 msgstr "Koje sifrovanje koristiti"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:52
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:52
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
@@ -580,115 +580,115 @@ msgstr ""
 "Bilo da je dvoznačna širina znakova uska ili široka kada se koristi UTF-8 "
 "kodiranje"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:53
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:53
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Kratica tastature za otvaranje nove kartice"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:54
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:54
 msgid "Keyboard shortcut to open a new window"
 msgstr "Kratica tastature za otvaranje novog prozora"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:55
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:55
 msgid "Keyboard shortcut to create a new profile"
 msgstr "Kratica tastature za stvaranje novog profila"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:56
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:56
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "Prečica za obrazovanje novih profila"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:57
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:57
 msgid "Keyboard shortcut to close a tab"
 msgstr "Kratica tastature za zatvaranje kartice"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:58
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:58
 msgid "Keyboard shortcut to close a window"
 msgstr "Kratica tastature za zatvaranje prozora"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:59
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:59
 msgid "Keyboard shortcut to copy text"
 msgstr "Kratica tastature za kopiranje teksta"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:60
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:60
 msgid "Keyboard shortcut to paste text"
 msgstr "Kratica tastature za umetanje teksta"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:61
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:61
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Kratica tastature za prikaz preko cijelog ekrana"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:62
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:62
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Kratica tastature za vidljivost trake menija"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:63
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:63
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Kratica tastature za resetovanje terminala"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:64
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:64
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Kratica tastature za resetovanje i čišćenje terminala"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:65
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:65
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "Prečac na tipkovnici za otvaranje dijaloškog okvira za pretraživanje"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:66
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:66
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr "Prečac na tipkovnici za pronalaženje sljedećeg traženog pojma"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:67
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:67
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr "Prečac na tipkovnici za pronalaženje prethodno traženog pojma"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:68
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:68
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr "Prečac na tipkovnici za brisanje istaknutog pojma"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:69
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:69
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Kratica tastature za biranje prethodne kartice"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:70
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:70
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Kratica tastature za biranje sljedeće kartice"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:71
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:71
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "Kratice tastature za pomjeranje trenutne kartice u lijevo"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:72
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:72
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "Kratice tastature za pomjeranje trenutne kartice u desno"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:73
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:73
 msgid "Keyboard shortcut to detach current tab"
 msgstr "Kratice tastature za odvajanje trenutne kartice"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:74
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:74
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "Kratice tastature za prebacivanje na numerisane kartice"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:75
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:75
 msgid "Keyboard shortcut to launch help"
 msgstr "Kratica tastature za pokretanje pomoći"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:76
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:76
 msgid "Keyboard shortcut to make font larger"
 msgstr "Kratica tastature za povećavanje fonta"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:77
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:77
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Kratica tastature za smanjivanje fonta"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:78
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:78
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Kratica tastature za postavljanje fonta na normalnu veličinu"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:79
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:79
 msgid "Whether the menubar has access keys"
 msgstr "Da li traka menija ima kraticu tastature"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:80
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:80
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -697,11 +697,11 @@ msgstr ""
 "Da li imati kratice Alt+slovo za traku menija. Moguće je da se miješaju sa "
 "aplikacijama koje su pokrenute u terminalu te ih je zato moguće isključiti."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:81
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:81
 msgid "Whether shortcuts are enabled"
 msgstr "Da li su prečice omogućene"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:82
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:82
 msgid ""
 "Whether shortcuts are enabled. They may interfere with some applications run "
 "inside the terminal so it's possible to turn them off."
@@ -709,11 +709,11 @@ msgstr ""
 "Da li su prečice omogućene. One mogu ometati neke aplikacije pokrenute "
 "unutar terminala tako da ih je moguće isključiti."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:83
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:83
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "Da li je uključena standardna GTK kratica za traku menija"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:84
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:84
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -723,15 +723,15 @@ msgstr ""
 "podesiti preko gtkrc (gtk-menu-bar-accel \"bilo šta\"). Ova opcija "
 "dozvoljava isključivanje standardne kratice za traku menija."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:85
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:85
 msgid "Whether the shell integration is enabled"
 msgstr "Da li je integracija sa školjkom omogućena"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:86
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:86
 msgid "List of available encodings"
 msgstr "Lista dostupnih kodiranja"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:87
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:87
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
 "is a list of encodings to appear there."
@@ -739,19 +739,19 @@ msgstr ""
 "Podskup mogućih kodiranja prikazana su na podizborniku kodiranja. Ovo je "
 "popis skupova koji se tamo pojavljuju."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:88
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:88
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "Da li da pita za potvrdu prije zatvaranja terminala"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:89
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:89
 msgid "Whether to show the menubar in new windows"
 msgstr "Da li da prikaže meni traku u novom prozoru"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:90
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:90
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "Da li da otvori novi terminal kao novi prozore ili tabove"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:91
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:91
 msgid "The position of the tab bar"
 msgstr "Pozicija trake s karticama"
 
@@ -1542,11 +1542,11 @@ msgstr "Otvorite Midnight Commander terminal fajl menadžer."
 
 #: ../src/terminal-options.c:222 ../src/terminal-options.c:235
 #, c-format
-msgid "Option \"%s\" is no longer supported in this version of gnome-terminal."
+msgid "Option \"%s\" is no longer supported in this version of cinnamon-terminal."
 msgstr "Opcija \"%s\" nije više podržana u ovoj verziji gnome-konzole."
 
 #: ../src/terminal-options.c:247 ../src/terminal-util.c:229
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "GNOME terminal"
 
 #: ../src/terminal-options.c:287
@@ -1639,12 +1639,12 @@ msgid "PROFILE-NAME"
 msgstr "NAZIV PROFILA"
 
 #: ../src/terminal-options.c:1239 ../src/terminal-options.c:1245
-msgid "GNOME Terminal Emulator"
-msgstr "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
+msgstr "Cinnamon Terminal Emulator"
 
 #: ../src/terminal-options.c:1246
-msgid "Show GNOME Terminal options"
-msgstr "Prikaži GNOME Terminal opcije"
+msgid "Show Cinnamon Terminal options"
+msgstr "Prikaži Cinnamon Terminal opcije"
 
 #: ../src/terminal-options.c:1256
 msgid ""
@@ -1781,31 +1781,31 @@ msgstr "Ne mogu da otvorim adresu „%s“"
 
 #: ../src/terminal-util.c:381
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"GNOME Terminal je besplatan softver: mozete ga redistribuirati i/ili "
+"Cinnamon Terminal je besplatan softver: mozete ga redistribuirati i/ili "
 "modifikovati pod uslovima GNU Javne licence objavljene od strane fondacija "
 "za besplatne softvere ili verziju 3 licence ili (po vasem izboru) bilo koju "
 "sljedecu verziju."
 
 #: ../src/terminal-util.c:385
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
-"GNOME Terminal se distribuira u nadi da će biti koristan, ali BEZ GARANCIJE "
+"Cinnamon Terminal se distribuira u nadi da će biti koristan, ali BEZ GARANCIJE "
 "čak i bez implicitnog jamstva PRIKLADNOSTI ZA ODREĐENU SVRHU. Vidi GNU "
 "General Public License za više detalja."
 
 #: ../src/terminal-util.c:389
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "Trebalo bi da ste dobili kopiju GNU Javne licence zajedno sa Gnome "
 "terminalom. Ukoliko niste, posjetite <http://www.gnu.org/licences/>."

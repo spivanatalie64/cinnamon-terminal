@@ -3,10 +3,10 @@ base: core24
 version: '3.97.1'
 version-script: |
   git describe --tags 2>/dev/null || echo "3.97.1"
-summary: Cinnamon Terminal — GNOME Terminal fork for Cinnamon Desktop
+summary: Cinnamon Terminal — Cinnamon Terminal fork for Cinnamon Desktop
 description: |
-  Cinnamon Terminal is a fork of GNOME Terminal focused on
-  Cinnamon Desktop integration. It tracks upstream GNOME Terminal
+  Cinnamon Terminal is a fork of Cinnamon Terminal focused on
+  Cinnamon Desktop integration. It tracks upstream Cinnamon Terminal
   while adapting for the Cinnamon desktop environment.
 
   Features:
@@ -23,10 +23,10 @@ compression: lzo
 
 apps:
   cinnamon-terminal:
-    command: usr/bin/gnome-terminal
+    command: usr/bin/cinnamon-terminal
     extensions: [gnome]
-    desktop: usr/share/applications/org.gnome.Terminal.desktop
-    common-id: org.gnome.Terminal
+    desktop: usr/share/applications/org.acreetionos.cinnamon.Terminal.desktop
+    common-id: org.acreetionos.cinnamon.Terminal
     environment:
       # Tell the terminal where to find its schemas
       GSETTINGS_SCHEMA_DIR: $SNAP/usr/share/glib-2.0/schemas
@@ -46,8 +46,8 @@ apps:
       - system-observe
 
   # Server mode for the terminal service
-  gnome-terminal-server:
-    command: usr/libexec/gnome-terminal-server
+  cinnamon-terminal-server:
+    command: usr/libexec/cinnamon-terminal-server
     extensions: [gnome]
     environment:
       GSETTINGS_SCHEMA_DIR: $SNAP/usr/share/glib-2.0/schemas
@@ -86,13 +86,13 @@ parts:
       - libpcre2-8-0
       - libuuid1
     parse-info:
-      - usr/share/metainfo/org.gnome.Terminal.metainfo.xml
+      - usr/share/metainfo/org.acreetionos.cinnamon.Terminal.metainfo.xml
     build-environment:
       - PKG_CONFIG_PATH: ""
     organize:
       usr/libexec/*: usr/libexec/
     prime:
-      - -usr/lib/gnome-terminal/*
+      - -usr/lib/cinnamon-terminal/*
       - -usr/share/man/*
       - -usr/share/doc/*
       - -usr/lib/systemd/*

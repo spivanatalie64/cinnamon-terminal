@@ -1,6 +1,6 @@
-# Brazilian Portuguese translation of gnome-terminal documentation.
+# Brazilian Portuguese translation of cinnamon-terminal documentation.
 # Copyright (C) 2021 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-terminal package.
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Luciana Bastos de Freitas Menezes <lu@via-rs.net>, 2007.
 # Pedro Vaz de Mello de Medeiros <pedrovmm@gmail.com>, 2007.
 # Leonardo Ferreira Fontenelle <leonardof@gnome.org>, 2008.
@@ -14,7 +14,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal documentation\n"
+"Project-Id-Version: cinnamon-terminal documentation\n"
 "POT-Creation-Date: 2021-04-19 15:09+0000\n"
 "PO-Revision-Date: 2021-08-07 15:05-0300\n"
 "Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
@@ -1744,7 +1744,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminal do GNOME"
 
 #. (itstool) path: figure/desc
@@ -1760,10 +1760,10 @@ msgstr "Captura de tela do <app>Terminal</app> do GNOME"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 
 #. (itstool) path: p/link

@@ -1,11 +1,11 @@
-# Korean translation for gnome-terminal.
-# Copyright (C) 2014 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Korean translation for cinnamon-terminal.
+# Copyright (C) 2014 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Seong-ho Cho <shcho@gnome.org>, 2014, 2016, 2018, 2021-2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "POT-Creation-Date: 2023-02-20 21:27+0000\n"
 "PO-Revision-Date: 2023-03-05 00:20+0900\n"
 "Last-Translator: Seong-ho Cho <shcho@gnome.org>\n"
@@ -1681,7 +1681,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "그놈 터미널"
 
 #. (itstool) path: figure/desc
@@ -1697,10 +1697,10 @@ msgstr "그놈 <app>터미널</app> 스크린샷"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 
 #. (itstool) path: p/link

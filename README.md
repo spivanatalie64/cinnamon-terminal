@@ -1,7 +1,7 @@
 # Cinnamon Terminal
 
 > **A terminal for people who actually use terminals.**
-> Forked from [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal), optimized for the [Cinnamon Desktop](https://github.com/linuxmint/cinnamon).
+> Forked from [Cinnamon Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal), optimized for the [Cinnamon Desktop](https://github.com/linuxmint/cinnamon).
 
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 [![Keep a Changelog](https://img.shields.io/badge/Keep%20a%20Changelog-1.1.0-%23E05735)](https://keepachangelog.com)
@@ -12,15 +12,15 @@
 
 ## Why Cinnamon Terminal?
 
-GNOME Terminal was the gold standard for Linux terminals for over two decades. But the GNOME project has been on a trajectory that leaves a lot of users behind:
+Cinnamon Terminal was the gold standard for Linux terminals for over two decades. But the GNOME project has been on a trajectory that leaves a lot of users behind:
 
-### The problem with modern GNOME Terminal
+### The problem with modern Cinnamon Terminal
 
 The GNOME project has been systematically removing X11 support from their applications. They're going **Wayland-only**, which is fine for some, but X11 isn't dead — and Cinnamon Desktop primarily runs on X11. Rather than maintaining coexistence, GNOME is stripping out features and breaking workflows.
 
 ### GNOME Console (kgx) is not the answer
 
-GNOME decided that GNOME Terminal was too complex, so they created **GNOME Console** (kgx) as a replacement. And honestly, it sucks:
+GNOME decided that Cinnamon Terminal was too complex, so they created **GNOME Console** (kgx) as a replacement. And honestly, it sucks:
 
 - ❌ **No tabs** — a modern terminal without tabs in 2026
 - ❌ **No profiles** — can't save configurations for different workflows
@@ -33,7 +33,7 @@ Console is a terminal for people who don't actually use terminals. It looks pret
 
 ### What Cinnamon Terminal does about it
 
-Cinnamon Terminal is our answer. We're forking GNOME Terminal and we're:
+Cinnamon Terminal is our answer. We're forking Cinnamon Terminal and we're:
 
 - ✅ **Keeping the features** — tabs, profiles, transparency, the whole toolkit
 - ✅ **Keeping X11 support** — for people who actually use their desktops
@@ -104,7 +104,7 @@ sudo pacman -S --needed base-devel meson ninja git \
 <summary><b>Debian / Ubuntu</b></summary>
 
 ```bash
-sudo apt-get build-dep gnome-terminal
+sudo apt-get build-dep cinnamon-terminal
 sudo apt-get install meson ninja-build git g++ \
     libglib2.0-dev libgtk-3-dev libgtk-4-dev \
     libadwaita-1-dev libvte-2.91-dev libdconf-dev \
@@ -116,7 +116,7 @@ sudo apt-get install meson ninja-build git g++ \
 <summary><b>Fedora / RHEL</b></summary>
 
 ```bash
-sudo dnf build-dep gnome-terminal
+sudo dnf build-dep cinnamon-terminal
 sudo dnf install meson ninja-build git gcc-c++ \
     glib2-devel gtk3-devel gtk4-devel libadwaita-devel \
     vte291-gtk4-devel dconf-devel pcre2-devel \
@@ -225,14 +225,14 @@ meson setup build-cross --cross-file=/path/to/cross-compile.ini
 meson setup build --prefix=/tmp/cinnamon-terminal
 meson compile -C build
 ninja -C build install
-/tmp/cinnamon-terminal/bin/gnome-terminal
+/tmp/cinnamon-terminal/bin/cinnamon-terminal
 ```
 
 > For detailed build troubleshooting, see [BUILDING.md](https://gitlab.acreetionos.org/acreetionos-code/cinnamon-terminal/-/blob/master/docs/BUILDING.md).
 
 ## Upstream Tracking
 
-This fork tracks upstream [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal). We regularly rebase on upstream updates to pull in security fixes and improvements. Changes pushed upstream are never pushed back — this is a one-way fork with our own release cadence.
+This fork tracks upstream [Cinnamon Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal). We regularly rebase on upstream updates to pull in security fixes and improvements. Changes pushed upstream are never pushed back — this is a one-way fork with our own release cadence.
 
 To see what's changed from upstream:
 
@@ -311,7 +311,7 @@ Comprehensive project documentation is available:
 | [ARCHITECTURE.md](docs/ARCHITECTURE.md) | Technical architecture, component design, X11/Wayland considerations |
 | [BUILDING.md](docs/BUILDING.md) | Build instructions for all 11 supported distributions |
 | [CONTRIBUTING.md](docs/CONTRIBUTING.md) | How to contribute, branch strategy, code review |
-| [UPSTREAM_TRACKING.md](docs/UPSTREAM_TRACKING.md) | How we track and merge upstream GNOME Terminal changes |
+| [UPSTREAM_TRACKING.md](docs/UPSTREAM_TRACKING.md) | How we track and merge upstream Cinnamon Terminal changes |
 | [X11_ROADMAP.md](docs/X11_ROADMAP.md) | X11 porting roadmap, what GNOME removed, what we maintain |
 | [RELEASE_SCHEDULE.md](docs/RELEASE_SCHEDULE.md) | Enterprise release governance, cadence, and process |
 | [RELEASE_PROCESS.md](docs/RELEASE_PROCESS.md) | Step-by-step release operations guide |

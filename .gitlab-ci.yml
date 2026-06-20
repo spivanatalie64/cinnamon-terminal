@@ -6,7 +6,7 @@
 #   - build     — Compile the project (clang, gcc, sanitizers)
 #   - test      — Run unit/integration tests
 #   - package   — Build Arch/Flatpak/Snap packages
-#   - merge     — Upstream merge from GNOME gnome-terminal
+#   - merge     — Upstream merge from GNOME cinnamon-terminal
 #   - release   — Tag-based release creation
 #   - mirror    — Mirror sync health checks
 #

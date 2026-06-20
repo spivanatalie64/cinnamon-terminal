@@ -46,7 +46,7 @@ sudo apt-get install \
     gettext
 
 # Alternatively, use apt-get build-dep to get most deps
-sudo apt-get build-dep gnome-terminal
+sudo apt-get build-dep cinnamon-terminal
 ```
 
 **Note on Debian oldstable (bookworm):** The `libadwaita-1-dev` version might be too old. You may need backports or need to build libadwaita from source.
@@ -326,10 +326,10 @@ You can run from the build directory for testing:
 
 ```bash
 # Start the server
-./build/gnome-terminal-server --app-id org.gnome.Terminal.test
+./build/cinnamon-terminal-server --app-id org.acreetionos.cinnamon.Terminal.test
 
 # In another terminal, launch the client
-GNOME_TERMINAL_SERVICE=org.gnome.Terminal.test ./build/gnome-terminal
+GNOME_TERMINAL_SERVICE=org.acreetionos.cinnamon.Terminal.test ./build/cinnamon-terminal
 ```
 
 Note: Running without install requires setting `GNOME_TERMINAL_SERVICE` environment variable to point at the test server.
@@ -337,7 +337,7 @@ Note: Running without install requires setting `GNOME_TERMINAL_SERVICE` environm
 ### After Install
 
 ```bash
-gnome-terminal
+cinnamon-terminal
 ```
 
 ---
@@ -430,7 +430,7 @@ sudo dnf install libuuid-devel
 
 ### `g_module_open` related warnings at runtime
 
-This is expected. Cinnamon Terminal (like upstream GNOME Terminal) blocks the `pk-gtk-module` from loading via a `g_module_open` interposer in `server.cc`. This prevents PackageKit from auto-installing fonts when the terminal starts. Not a problem.
+This is expected. Cinnamon Terminal (like upstream Cinnamon Terminal) blocks the `pk-gtk-module` from loading via a `g_module_open` interposer in `server.cc`. This prevents PackageKit from auto-installing fonts when the terminal starts. Not a problem.
 
 ### Build fails with `-Werror` about deprecated declarations
 

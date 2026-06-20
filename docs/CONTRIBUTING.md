@@ -15,12 +15,12 @@ Do **not** file issues on mirrors (GitHub, Codeberg). They're read-only and we d
 
 When filing a bug, include:
 - Your **distro and version** (e.g., Arch Linux, Ubuntu 24.04, Fedora 39)
-- **Cinnamon Terminal version** (`gnome-terminal --version` or git commit hash)
+- **Cinnamon Terminal version** (`cinnamon-terminal --version` or git commit hash)
 - **GTK backend** (X11 or Wayland — check `echo $XDG_SESSION_TYPE`)
 - Steps to reproduce
 - What you expected to happen
 - What actually happened
-- Terminal output if there's a crash (run `gnome-terminal` from an existing terminal)
+- Terminal output if there's a crash (run `cinnamon-terminal` from an existing terminal)
 
 ---
 
@@ -93,7 +93,7 @@ Components are file prefixes without the `terminal-` prefix. Examples:
 
 ## Coding Style
 
-This project is a fork of GNOME Terminal and inherits its coding style. When in doubt, match the surrounding code.
+This project is a fork of Cinnamon Terminal and inherits its coding style. When in doubt, match the surrounding code.
 
 ### C++
 
@@ -156,11 +156,11 @@ Before submitting, make sure:
 
 If Cinnamon Terminal crashes:
 
-1. Run from a terminal: `gnome-terminal`
-2. If it crashes on start, use `gnome-terminal --wait` to see the error
+1. Run from a terminal: `cinnamon-terminal`
+2. If it crashes on start, use `cinnamon-terminal --wait` to see the error
 3. Reproduce the crash with `G_DEBUG=fatal-criticals` for more info:
    ```bash
-   G_DEBUG=fatal-criticals gnome-terminal
+   G_DEBUG=fatal-criticals cinnamon-terminal
    ```
 4. Get a backtrace:
    ```bash
@@ -170,7 +170,7 @@ If Cinnamon Terminal crashes:
    sudo meson install -C build-debug
    
    # Run under GDB
-   gdb --args gnome-terminal
+   gdb --args cinnamon-terminal
    (gdb) run
    # After crash:
    (gdb) bt full
@@ -184,12 +184,12 @@ Describe what you need and why. "I wish the terminal had X" is fine, but "I need
 
 ## Translations
 
-Cinnamon Terminal inherits GNOME Terminal's translation infrastructure. Translation files are in `po/`. If you want to add or update a translation, submit a merge request with the updated `.po` file.
+Cinnamon Terminal inherits Cinnamon Terminal's translation infrastructure. Translation files are in `po/`. If you want to add or update a translation, submit a merge request with the updated `.po` file.
 
 Translation template updates:
 ```bash
 cd cinnamon-terminal
-ninja -C build gnome-terminal-pot
+ninja -C build cinnamon-terminal-pot
 ```
 
 ---

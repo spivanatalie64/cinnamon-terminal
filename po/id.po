@@ -1,4 +1,4 @@
-# translation of gnome-terminal to Bahasa Indonesia
+# translation of cinnamon-terminal to Bahasa Indonesia
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -8,7 +8,7 @@
 # Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017-2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-terminal/issues\n"
 "POT-Creation-Date: 2023-07-23 21:46+0000\n"
 "PO-Revision-Date: 2023-07-25 16:15+0700\n"
@@ -22,65 +22,65 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: data/org.gnome.Terminal.desktop.in:3
-#: data/org.gnome.Terminal.metainfo.xml.in:37 src/server.cc:184
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:3
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:37 src/server.cc:184
 #: src/terminal-accels.cc:232 src/terminal-menubar.ui.in:144
 #: src/terminal-tab-label.cc:81 src/terminal-window.cc:1903
 #: src/terminal-window.cc:2207 src/terminal-window.cc:2522 src/terminal.cc:598
 msgid "Terminal"
 msgstr "Terminal"
 
-#: data/org.gnome.Terminal.desktop.in:4
-#: data/org.gnome.Terminal.metainfo.xml.in:38
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:4
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:38
 msgid "Use the command line"
 msgstr "Menggunakan baris perintah"
 
-#: data/org.gnome.Terminal.desktop.in:5
-#: data/org.gnome.Terminal.Preferences.desktop.in:8
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:5
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:8
 msgid "shell;prompt;command;commandline;cmd;"
 msgstr "shell;prompt;perintah;baris perintah;cmd;"
 
-#: data/org.gnome.Terminal.desktop.in:18 src/terminal-accels.cc:127
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:18 src/terminal-accels.cc:127
 msgid "New Window"
 msgstr "Jendela Baru"
 
-#: data/org.gnome.Terminal.desktop.in:22 src/terminal-accels.cc:146
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:22 src/terminal-accels.cc:146
 msgid "Preferences"
 msgstr "Preferensi"
 
-#: data/org.gnome.Terminal.Preferences.desktop.in:4
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:4
 msgid "Configure the command line"
 msgstr "Mengonfigurasi baris perintah"
 
-#: data/org.gnome.Terminal.Preferences.desktop.in:9 src/prefs-main.cc:143
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:9 src/prefs-main.cc:143
 msgid "Terminal Preferences"
 msgstr "Preferensi Terminal"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:34
-#: data/org.gnome.Terminal.metainfo.xml.in:63
-msgid "org.gnome.Terminal.desktop"
-msgstr "org.gnome.Terminal.desktop"
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:34
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:63
+msgid "org.acreetionos.cinnamon.Terminal.desktop"
+msgstr "org.acreetionos.cinnamon.Terminal.desktop"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:35
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:36
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:35
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:36
 msgid "GPL-3.0+ or GFDL-1.3-only"
 msgstr "GPL-3.0+ atau GFDL-1.3-only"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:36
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:37
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:36
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:37
 msgid "GPL-3.0+"
 msgstr "GPL-3.0+"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:40
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:40
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
-"GNOME Terminal adalah aplikasi emulator terminal untuk mengakses lingkungan "
+"Cinnamon Terminal adalah aplikasi emulator terminal untuk mengakses lingkungan "
 "shell UNIX yang dapat dipakai untuk menjalankan program yang tersedia pada "
 "sistem Anda."
 
-#: data/org.gnome.Terminal.metainfo.xml.in:41
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:41
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
@@ -88,77 +88,77 @@ msgstr ""
 "Ini mendukung beberapa profil, tab berganda, dan mengimplementasi beberapa "
 "pintasan papan tik."
 
-#: data/org.gnome.Terminal.metainfo.xml.in:44
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:44
 msgid "console"
 msgstr "konsol"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:45
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:45
 msgid "keyboard"
 msgstr "papan tik"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:46
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:46
 msgid "pointing"
 msgstr "menunjuk"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:50
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:50
 msgid ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
 msgstr ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:54
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:54
 msgid "HiDpiIcon"
 msgstr "HiDpiIcon"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:55
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:55
 msgid "HighContrast"
 msgstr "HighContrast"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:56
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:56
 msgid "ModernToolkit"
 msgstr "ModernToolkit"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:57
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:57
 msgid "SearchProvider"
 msgstr "SearchProvider"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:58
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:58
 msgid "UserDocs"
 msgstr "UserDocs"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:60
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:43
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:60
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:43
 msgid "https://wiki.gnome.org/Apps/Terminal"
 msgstr "https://wiki.gnome.org/Apps/Terminal"
 
 #. This is the name of a colour scheme
-#: data/org.gnome.Terminal.metainfo.xml.in:61
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:44 src/preferences.ui:214
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:61
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:44 src/preferences.ui:214
 msgid "GNOME"
 msgstr "GNOME"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:62
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:45
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:62
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:45
 msgid "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 msgstr "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:34
-msgid "org.gnome.Terminal.Nautilus"
-msgstr "org.gnome.Terminal.Nautilus"
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:34
+msgid "org.acreetionos.cinnamon.Terminal.Nautilus"
+msgstr "org.acreetionos.cinnamon.Terminal.Nautilus"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:35
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:35
 msgid "org.gnome.Nautilus.desktop"
 msgstr "org.gnome.Nautilus.desktop"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:38
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:38
 msgid "Terminal plugin for Files"
 msgstr "Plugin Terminal bagi Berkas"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:39
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:39
 msgid "Open a terminal from Files"
 msgstr "Buka sebuah terminal dari Berkas"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:41
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:41
 msgid ""
 "Open Terminal is a plugin for the Files application that adds a menu item to "
 "the context menu to open a terminal in the currently browsed directory."
@@ -167,29 +167,29 @@ msgstr ""
 "butir menu ke menu konteks untuk membuka sebuah terminal dalam direktori "
 "yang saat ini sedang diramban."
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:46
-msgid "gnome-terminal"
-msgstr "gnome-terminal"
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:46
+msgid "cinnamon-terminal"
+msgstr "cinnamon-terminal"
 
 #. Translators: This needs to be parsed as a GVariant string, so keep the regular single quotes around the string as-is, and do not add extra quotes.
-#: src/org.gnome.Terminal.gschema.xml:133
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:133
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'Tanpa nama'"
 
-#: src/org.gnome.Terminal.gschema.xml:134
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:134
 msgid "Human-readable name of the profile"
 msgstr "Nama profil yang mudah dibaca"
 
-#: src/org.gnome.Terminal.gschema.xml:135
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:135
 msgid "Human-readable name of the profile."
 msgstr "Nama profil yang mudah dibaca."
 
-#: src/org.gnome.Terminal.gschema.xml:139
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:139
 msgid "Default color of text in the terminal"
 msgstr "Warna teks bawaan dalam terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:140
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:140
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -197,11 +197,11 @@ msgstr ""
 "Warna teks bawaan di terminal, sebagai spesifikasi warna (dapat berupa digit "
 "heksa HTML, atau nama warna misalnya \"red\")."
 
-#: src/org.gnome.Terminal.gschema.xml:144
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:144
 msgid "Default color of terminal background"
 msgstr "Warna utama latar terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:145
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:145
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -209,11 +209,11 @@ msgstr ""
 "Warna latar bawaan di terminal, sebagai spesifikasi warna (dapat berupa "
 "digit heksa HTML, atau nama warna misalnya \"red\")."
 
-#: src/org.gnome.Terminal.gschema.xml:149
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:149
 msgid "Default color of bold text in the terminal"
 msgstr "Warna teks tebal bawaan dalam terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:150
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:150
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”). This is ignored if "
@@ -223,17 +223,17 @@ msgstr ""
 "berupa digit heksa HTML, atau nama warna misalnya \"red\"). Ini diabaikan "
 "bila nilai bold_color_same_as_fg true."
 
-#: src/org.gnome.Terminal.gschema.xml:154
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:154
 msgid "Whether bold text should use the same color as normal text"
 msgstr "Apakah teks tebal mesti memakai warna yang sama dengan teks normal"
 
-#: src/org.gnome.Terminal.gschema.xml:155
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:155
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr ""
 "Bila benar, teks tebal akan digambarkan dengan warna sama dengan teks normal."
 
-#: src/org.gnome.Terminal.gschema.xml:160
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:160
 msgid ""
 "Scale factor for the cell height to increase line spacing. (Does not "
 "increase the font’s height.)"
@@ -241,7 +241,7 @@ msgstr ""
 "Faktor skala tinggi sel untuk meningkatkan jarak baris. (Tidak meningkatkan "
 "tinggi fonta.)"
 
-#: src/org.gnome.Terminal.gschema.xml:165
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:165
 msgid ""
 "Scale factor for the cell width to increase letter spacing. (Does not "
 "increase the font’s width.)"
@@ -249,19 +249,19 @@ msgstr ""
 "Faktor skala lebar sel untuk meningkatkan jarak baris. (Tidak meningkatkan "
 "lebar fonta.)"
 
-#: src/org.gnome.Terminal.gschema.xml:169
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:169
 msgid "Whether to use custom cursor colors"
 msgstr "Apakah memakai warna kursor ubahan"
 
-#: src/org.gnome.Terminal.gschema.xml:170
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:170
 msgid "If true, use the cursor colors from the profile."
 msgstr "Bila berisi true, gunakan warna kursor dari profil."
 
-#: src/org.gnome.Terminal.gschema.xml:174
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:174
 msgid "Cursor background color"
 msgstr "Warna latar belakang kursor"
 
-#: src/org.gnome.Terminal.gschema.xml:175
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:175
 msgid ""
 "Custom color of the background of the terminal’s cursor, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
@@ -271,11 +271,11 @@ msgstr ""
 "berupa digit heksa HTML, atau nama warna misalnya \"red\"). Ini diabaikan "
 "bila nilai cursor-colors-set false."
 
-#: src/org.gnome.Terminal.gschema.xml:179
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:179
 msgid "Cursor foreground colour"
 msgstr "Warna latar depan kursor"
 
-#: src/org.gnome.Terminal.gschema.xml:180
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:180
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "cursor position, as a color specification (can be HTML-style hex digits, or "
@@ -285,19 +285,19 @@ msgstr ""
 "sebagai spesifikasi warna (dapat berupa digit heksa HTML, atau nama warna "
 "misalnya \"red\"). Ini diabaikan bila nilai cursor-colors-set false."
 
-#: src/org.gnome.Terminal.gschema.xml:184
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:184
 msgid "Whether to use custom highlight colors"
 msgstr "Apakah akan memakai warna penyorotan ubahan"
 
-#: src/org.gnome.Terminal.gschema.xml:185
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:185
 msgid "If true, use the highlight colors from the profile."
 msgstr "Bila berisi true, gunakan warna penyorotan dari profil."
 
-#: src/org.gnome.Terminal.gschema.xml:189
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:189
 msgid "Highlight background color"
 msgstr "Warna latar sorotan"
 
-#: src/org.gnome.Terminal.gschema.xml:190
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:190
 msgid ""
 "Custom color of the background of the terminal’s highlight, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
@@ -307,11 +307,11 @@ msgstr ""
 "(dapat berupa digit heksa HTML, atau nama warna misalnya \"red\"). Ini "
 "diabaikan bila nilai highlight-colors-set false."
 
-#: src/org.gnome.Terminal.gschema.xml:194
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:194
 msgid "Highlight foreground colour"
 msgstr "Warna latar depan sorotan"
 
-#: src/org.gnome.Terminal.gschema.xml:195
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:195
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "highlight position, as a color specification (can be HTML-style hex digits, "
@@ -323,35 +323,35 @@ msgstr ""
 "nama warna misalnya \"red\"). Ini diabaikan bila nilai cursor-colors-set "
 "false."
 
-#: src/org.gnome.Terminal.gschema.xml:199
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:199
 msgid "Whether to perform bidirectional text rendering"
 msgstr "Apakah akan melakukan rendering teks dua arah"
 
-#: src/org.gnome.Terminal.gschema.xml:200
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:200
 msgid "If true, perform bidirectional text rendering (“BiDi”)."
 msgstr "Jika true, lakukan rendering teks dua arah (\"BiDi\")."
 
-#: src/org.gnome.Terminal.gschema.xml:204
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:204
 msgid "Whether to perform Arabic shaping"
 msgstr "Apakah akan melakukan pembentukan teks Arab"
 
-#: src/org.gnome.Terminal.gschema.xml:205
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:205
 msgid "If true, shape Arabic text."
 msgstr "Jika true, bentuk teks Arab."
 
-#: src/org.gnome.Terminal.gschema.xml:209
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:209
 msgid "Whether to enable SIXEL images"
 msgstr "Apakah akan mengaktifkan citra SIXEL"
 
-#: src/org.gnome.Terminal.gschema.xml:210
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:210
 msgid "If true, SIXEL sequences are parsed and images are rendered."
 msgstr "Jika true, urutan SIXEL diurai dan citra dirender."
 
-#: src/org.gnome.Terminal.gschema.xml:214
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:214
 msgid "Whether bold is also bright"
 msgstr "Apakah tebal juga terang"
 
-#: src/org.gnome.Terminal.gschema.xml:215
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:215
 msgid ""
 "If true, setting bold on the first 8 colors also switches to their bright "
 "variants."
@@ -359,11 +359,11 @@ msgstr ""
 "Jika benar, pengaturan tebal pada 8 warna pertama juga beralih ke varian "
 "terang mereka."
 
-#: src/org.gnome.Terminal.gschema.xml:219
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:219
 msgid "Whether to ring the terminal bell"
 msgstr "Apakah membunyikan bel terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:223
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:223
 msgid ""
 "List of ASCII punctuation characters that are not to be treated as part of a "
 "word when doing word-wise selection"
@@ -371,11 +371,11 @@ msgstr ""
 "Daftar karakter tanda baca ASCII yang tidak diperlakukan sebagai bagian dari "
 "sebuah kata ketika melakukan pemilihan kata"
 
-#: src/org.gnome.Terminal.gschema.xml:228
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:228
 msgid "Default number of columns"
 msgstr "Cacah kolom bawaan"
 
-#: src/org.gnome.Terminal.gschema.xml:229
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:229
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -383,11 +383,11 @@ msgstr ""
 "Cacah kolom pada jendela terminal yang baru dibuat. Tidak berpengaruh bila "
 "use_custom_default_size tidak diaktifkan."
 
-#: src/org.gnome.Terminal.gschema.xml:234
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:234
 msgid "Default number of rows"
 msgstr "Cacah baris bawaan"
 
-#: src/org.gnome.Terminal.gschema.xml:235
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:235
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -395,15 +395,15 @@ msgstr ""
 "Cacah baris pada jendela terminal yang baru dibuat. Tidak berpengaruh bila "
 "use_custom_default_size tidak diaktifkan."
 
-#: src/org.gnome.Terminal.gschema.xml:239
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:239
 msgid "When to show the scrollbar"
 msgstr "Kapan menampilkan bilah penggulir"
 
-#: src/org.gnome.Terminal.gschema.xml:243
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:243
 msgid "Number of lines to keep in scrollback"
 msgstr "Cacah baris yang disisakan pada saat menggulung layar ke belakang"
 
-#: src/org.gnome.Terminal.gschema.xml:244
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:244
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
@@ -414,11 +414,11 @@ msgstr ""
 "tidak cukup akan dibuang. Bila nilai scrollback_unlimited true, nilai ini "
 "diabaikan."
 
-#: src/org.gnome.Terminal.gschema.xml:248
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:248
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "Apakah sejumlah tak terbatas baris gulung mundur mesti dipertahankan"
 
-#: src/org.gnome.Terminal.gschema.xml:249
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:249
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -428,31 +428,31 @@ msgstr ""
 "mundur disimpan sementara di cakram, sehingga ini bisa menyebabkan sistem "
 "kehabisan ruang cakram bila ada banyak keluaran ke terminal."
 
-#: src/org.gnome.Terminal.gschema.xml:253
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:253
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Menggulung layar hingga ke bawah saat tombol ditekan"
 
-#: src/org.gnome.Terminal.gschema.xml:254
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:254
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr ""
 "Bila true, scrollbar akan dikembalikan ke bawah bila ada tombol ditekan."
 
-#: src/org.gnome.Terminal.gschema.xml:258
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:258
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Menggulung layar ke bawah saat ada keluaran baru"
 
-#: src/org.gnome.Terminal.gschema.xml:259
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:259
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
 "Bila true, semua tampilan keluaran dari terminal akan digulung ke bawah."
 
-#: src/org.gnome.Terminal.gschema.xml:263
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:263
 msgid "What to do with the terminal when the child command exits"
 msgstr ""
 "Apa yang dilakukan terminal saat perintah yang dikerjakan sudah selesai"
 
-#: src/org.gnome.Terminal.gschema.xml:264
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:264
 msgid ""
 "Possible values are “close” to close the terminal, “restart” to restart the "
 "command, and “hold” to keep the terminal open with no command running inside."
@@ -461,13 +461,13 @@ msgstr ""
 "untuk memulai ulang perintah, dan \"hold\" untuk mempertahankan terminal "
 "terbuka tanpa perintah yang dijalankan di dalamnya."
 
-#: src/org.gnome.Terminal.gschema.xml:268
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:268
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr ""
 "Menentukan apakah perintah yang dijalankan dalam terminal dijalankan melalui "
 "shell login"
 
-#: src/org.gnome.Terminal.gschema.xml:269
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:269
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -475,12 +475,12 @@ msgstr ""
 "Bila true, perintah dalam terminal akan dijalankan sebagai shell login. "
 "(argv[0] akan memiliki tanda minus di depannya)."
 
-#: src/org.gnome.Terminal.gschema.xml:273
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:273
 msgid "Whether to preserve the working directory when opening a new terminal"
 msgstr ""
 "Apakah mempertahankan direktori kerja ketika membuka sebuah terminal baru"
 
-#: src/org.gnome.Terminal.gschema.xml:274
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:274
 msgid ""
 "Controls when opening a new terminal from a previous one carries over the "
 "working directory of the opening terminal to the new one."
@@ -488,11 +488,11 @@ msgstr ""
 "Mengendalikan ketika membuka sebuah terminal baru dari yang sebelumnya "
 "membawa direktori kerja dari terminal yang terbuka ke yang baru."
 
-#: src/org.gnome.Terminal.gschema.xml:280
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:280
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Peluncuran perintah tertentu dan bukan shell"
 
-#: src/org.gnome.Terminal.gschema.xml:281
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:281
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -500,11 +500,11 @@ msgstr ""
 "Bila true, nilai konfigurasi custom_command akan digunakan pada shell yang "
 "dijalankan."
 
-#: src/org.gnome.Terminal.gschema.xml:285
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:285
 msgid "Whether to blink the cursor"
 msgstr "Menentukan apakah kursor harus berkedip"
 
-#: src/org.gnome.Terminal.gschema.xml:286
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:286
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -512,11 +512,11 @@ msgstr ""
 "Nilai yang mungkin adalah \"system\" untuk memakai pengaturan kedipan kursor "
 "global, atau \"on\" atau \"off\" untuk menata mode secara eksplisit."
 
-#: src/org.gnome.Terminal.gschema.xml:290
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:290
 msgid "The cursor appearance"
 msgstr "Penampilan kursor"
 
-#: src/org.gnome.Terminal.gschema.xml:294
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:294
 msgid ""
 "Possible values are “always” or “never” allow blinking text, or only when "
 "the terminal is “focused” or “unfocused”."
@@ -524,48 +524,48 @@ msgstr ""
 "Nilai yang mungkin adalah \"always\" atau \"never\" mengizinkan teks "
 "berkedip, atau hanya bila terminal \"focused\" atau \"unfocused\"."
 
-#: src/org.gnome.Terminal.gschema.xml:298
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:298
 msgid "Custom command to use instead of the shell"
 msgstr "Jalankan perintah tertentu dan bukan shell"
 
-#: src/org.gnome.Terminal.gschema.xml:299
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:299
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Jalankan perintah ini tanpa shell apabila use_custom_command bernilai true."
 
-#: src/org.gnome.Terminal.gschema.xml:318
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:318
 msgid "Palette for terminal applications"
 msgstr "Palet untuk aplikasi terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:322
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:322
 msgid "A Pango font name and size"
 msgstr "Ukuran dan nama fonta pango"
 
-#: src/org.gnome.Terminal.gschema.xml:326
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:326
 msgid "The code sequence the Backspace key generates"
 msgstr "Urutan kode yang dibangkitkan oleh tombol Backspace"
 
-#: src/org.gnome.Terminal.gschema.xml:330
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:330
 msgid "The code sequence the Delete key generates"
 msgstr "Urutan kode yang dibangkitkan oleh tombol Delete"
 
-#: src/org.gnome.Terminal.gschema.xml:334
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:334
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Penggunaan warna dari tema sistem untuk widget terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:338
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:338
 msgid "Whether to use the system monospace font"
 msgstr "Apakah menggunakan fonta lebar tetap sistem"
 
-#: src/org.gnome.Terminal.gschema.xml:342
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:342
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr "Apakah melipat ulang isi terminal saat ukuran jendela diubah"
 
-#: src/org.gnome.Terminal.gschema.xml:346
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:346
 msgid "Which encoding to use"
 msgstr "Pengkodean mana yang akan dipakai"
 
-#: src/org.gnome.Terminal.gschema.xml:350
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:350
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
@@ -573,182 +573,182 @@ msgstr ""
 "Apakah karakter lebar ambigu itu sempit atau lebar ketika memakai enkoding "
 "UTF-8"
 
-#: src/org.gnome.Terminal.gschema.xml:359
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:359
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Tombol pintas untuk membuka tab baru"
 
-#: src/org.gnome.Terminal.gschema.xml:363
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:363
 msgid "Keyboard shortcut to open a new window"
 msgstr "Tombol pintas untuk membuka jendela baru"
 
-#: src/org.gnome.Terminal.gschema.xml:367
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:367
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "Tombol pintas untuk menyimpan isi tab kini ke berkas"
 
-#: src/org.gnome.Terminal.gschema.xml:371
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:371
 msgid ""
 "Keyboard shortcut to export the current tab contents to file in various "
 "formats"
 msgstr ""
 "Tombol pintas untuk menyimpan isi tab kini ke berkas dalam berbagai format"
 
-#: src/org.gnome.Terminal.gschema.xml:375
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:375
 msgid "Keyboard shortcut to print the current tab contents to printer or file"
 msgstr "Tombol pintas untuk menyimpan isi tab kini ke pencetak atau berkas"
 
-#: src/org.gnome.Terminal.gschema.xml:379
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:379
 msgid "Keyboard shortcut to close a tab"
 msgstr "Tombol pintas untuk menutup tab"
 
-#: src/org.gnome.Terminal.gschema.xml:383
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:383
 msgid "Keyboard shortcut to close a window"
 msgstr "Tombol pintas untuk menutup jendela"
 
-#: src/org.gnome.Terminal.gschema.xml:387
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:387
 msgid "Keyboard shortcut to copy text"
 msgstr "Tombol pintas untuk menyalin teks"
 
-#: src/org.gnome.Terminal.gschema.xml:391
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:391
 msgid "Keyboard shortcut to copy text as HTML"
 msgstr "Tombol pintas untuk menyalin teks sebagai HTML"
 
-#: src/org.gnome.Terminal.gschema.xml:395
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:395
 msgid "Keyboard shortcut to paste text"
 msgstr "Tombol pintas untuk menempelkan teks"
 
-#: src/org.gnome.Terminal.gschema.xml:399
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:399
 msgid "Keyboard shortcut to select all text"
 msgstr "Tombol pintas untuk memilih semua teks"
 
-#: src/org.gnome.Terminal.gschema.xml:403
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:403
 msgid "Keyboard shortcut to open the Preferences dialog"
 msgstr "Tombol pintas untuk membuka dialog Preferensi"
 
-#: src/org.gnome.Terminal.gschema.xml:407
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:407
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Tombol pintas untuk menjungkitkan mode layar penuh"
 
-#: src/org.gnome.Terminal.gschema.xml:411
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:411
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Tombol pintas untuk menjungkitkan kenampakan bilah menu"
 
-#: src/org.gnome.Terminal.gschema.xml:415
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:415
 msgid "Keyboard shortcut to toggle the read-only state"
 msgstr "Tombol pintas untuk menjungkitkan mode hanya-baca"
 
-#: src/org.gnome.Terminal.gschema.xml:419
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:419
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Tombol pintas untuk menata ulang terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:423
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:423
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Tombol pintas untuk menata ulang dan membersihkan layar terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:427
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:427
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "Tombol pintas untuk membuka dialog pencarian"
 
-#: src/org.gnome.Terminal.gschema.xml:431
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:431
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr ""
 "Tombol pintas untuk menemukan kemunculan berikutnya dari kata yang dicari"
 
-#: src/org.gnome.Terminal.gschema.xml:435
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:435
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr ""
 "Tombol pintas untuk menemukan kemunculan sebelumnya dari kata yang dicari"
 
-#: src/org.gnome.Terminal.gschema.xml:439
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:439
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr "Tombol pintas untuk membersihkan penyorotan pencarian"
 
-#: src/org.gnome.Terminal.gschema.xml:443
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:443
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Tombol pintas untuk berpindah ke tab sebelumnya"
 
-#: src/org.gnome.Terminal.gschema.xml:447
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:447
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Tombol pintas untuk berpindah ke tab berikutnya"
 
-#: src/org.gnome.Terminal.gschema.xml:451
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:451
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "Tombol pintas untuk memindah tab kini ke kiri"
 
-#: src/org.gnome.Terminal.gschema.xml:455
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:455
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "Tombol pintas untuk memindah tab kini ke kanan"
 
-#: src/org.gnome.Terminal.gschema.xml:459
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:459
 msgid "Keyboard shortcut to detach current tab"
 msgstr "Tombol pintas untuk melepas tab kini"
 
-#: src/org.gnome.Terminal.gschema.xml:463
-#: src/org.gnome.Terminal.gschema.xml:467
-#: src/org.gnome.Terminal.gschema.xml:471
-#: src/org.gnome.Terminal.gschema.xml:475
-#: src/org.gnome.Terminal.gschema.xml:479
-#: src/org.gnome.Terminal.gschema.xml:483
-#: src/org.gnome.Terminal.gschema.xml:487
-#: src/org.gnome.Terminal.gschema.xml:491
-#: src/org.gnome.Terminal.gschema.xml:495
-#: src/org.gnome.Terminal.gschema.xml:499
-#: src/org.gnome.Terminal.gschema.xml:503
-#: src/org.gnome.Terminal.gschema.xml:507
-#: src/org.gnome.Terminal.gschema.xml:511
-#: src/org.gnome.Terminal.gschema.xml:515
-#: src/org.gnome.Terminal.gschema.xml:519
-#: src/org.gnome.Terminal.gschema.xml:523
-#: src/org.gnome.Terminal.gschema.xml:527
-#: src/org.gnome.Terminal.gschema.xml:531
-#: src/org.gnome.Terminal.gschema.xml:535
-#: src/org.gnome.Terminal.gschema.xml:539
-#: src/org.gnome.Terminal.gschema.xml:543
-#: src/org.gnome.Terminal.gschema.xml:547
-#: src/org.gnome.Terminal.gschema.xml:551
-#: src/org.gnome.Terminal.gschema.xml:555
-#: src/org.gnome.Terminal.gschema.xml:559
-#: src/org.gnome.Terminal.gschema.xml:563
-#: src/org.gnome.Terminal.gschema.xml:567
-#: src/org.gnome.Terminal.gschema.xml:571
-#: src/org.gnome.Terminal.gschema.xml:575
-#: src/org.gnome.Terminal.gschema.xml:579
-#: src/org.gnome.Terminal.gschema.xml:583
-#: src/org.gnome.Terminal.gschema.xml:587
-#: src/org.gnome.Terminal.gschema.xml:591
-#: src/org.gnome.Terminal.gschema.xml:595
-#: src/org.gnome.Terminal.gschema.xml:599
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:463
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:467
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:471
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:475
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:479
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:483
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:487
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:491
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:495
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:499
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:503
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:507
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:511
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:515
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:519
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:523
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:527
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:531
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:535
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:539
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:543
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:547
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:551
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:555
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:559
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:563
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:567
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:571
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:575
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:579
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:583
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:587
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:591
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:595
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:599
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "Tombol pintas untuk berpindah pada tab yang bernomor"
 
-#: src/org.gnome.Terminal.gschema.xml:603
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:603
 msgid "Keyboard shortcut to switch to the last tab"
 msgstr "Tombol pintas untuk berpindah ke tab terakhir"
 
-#: src/org.gnome.Terminal.gschema.xml:607
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:607
 msgid "Keyboard shortcut to launch help"
 msgstr "Tombol pintas untuk meluncurkan bantuan"
 
-#: src/org.gnome.Terminal.gschema.xml:611
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:611
 msgid "Keyboard shortcut to make font larger"
 msgstr "Tombol pintas untuk membuat fonta menjadi lebih besar"
 
-#: src/org.gnome.Terminal.gschema.xml:615
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:615
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Tombol pintas untuk membuat fonta menjadi lebih kecil"
 
-#: src/org.gnome.Terminal.gschema.xml:619
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:619
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Tombol pintas untuk membuat fonta menjadi berukuran normal"
 
-#: src/org.gnome.Terminal.gschema.xml:623
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:623
 msgid "Keyboard shortcut to show the primary menu"
 msgstr "Tombol pintas untuk berpindah ke tab sebelumnyac"
 
-#: src/org.gnome.Terminal.gschema.xml:633
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:633
 msgid "Whether the menubar has access keys"
 msgstr "Menentukan apakah batang menu memiliki tombol akses"
 
-#: src/org.gnome.Terminal.gschema.xml:634
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:634
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it’s possible to turn them "
@@ -758,11 +758,11 @@ msgstr ""
 "Alt+huruf. Ini mungkin dapat mengganggu aplikasi yang berjalan di dalam "
 "terminal sehingga mungkin mematikannya."
 
-#: src/org.gnome.Terminal.gschema.xml:643
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:643
 msgid "Whether shortcuts are enabled"
 msgstr "Apakah pintasan difungsikan"
 
-#: src/org.gnome.Terminal.gschema.xml:644
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:644
 msgid ""
 "Whether shortcuts are enabled. They may interfere with some applications run "
 "inside the terminal so it’s possible to turn them off."
@@ -770,13 +770,13 @@ msgstr ""
 "Apakah pintasan difungsikan. Ini mungkin dapat mengganggu aplikasi yang "
 "berjalan di dalam terminal sehingga mungkin mematikannya."
 
-#: src/org.gnome.Terminal.gschema.xml:653
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:653
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr ""
 "Menentukan apakah tombol singkat GTK standar untuk akses batang menu "
 "diaktifkan"
 
-#: src/org.gnome.Terminal.gschema.xml:654
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:654
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -786,47 +786,47 @@ msgstr ""
 "diatur pula lewat berkas gtkrc (di bagian gtk-menu-bar-accel). Pilihan ini "
 "dapat digunakan untuk mematikan fungsi akselerator batang menu."
 
-#: src/org.gnome.Terminal.gschema.xml:664
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:664
 msgid "Whether the shell integration is enabled"
 msgstr "Apakah integrasi shell difungsikan"
 
-#: src/org.gnome.Terminal.gschema.xml:669
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:669
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "Apakah menanyakan konfirmasi sebelum menutup terminal"
 
-#: src/org.gnome.Terminal.gschema.xml:674
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:674
 msgid "Additional info section items to appear in the context menu"
 msgstr "Butir bagian info tambahan akan muncul di menu konteks"
 
-#: src/org.gnome.Terminal.gschema.xml:679
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:679
 msgid "Whether to show the menubar in new windows"
 msgstr "Apakah menampilkan bilah menu pada jendela baru"
 
-#: src/org.gnome.Terminal.gschema.xml:684
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:684
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "Apakah membuka terminal baru sebagai jendela atau tab"
 
-#: src/org.gnome.Terminal.gschema.xml:689
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:689
 msgid "When to show the tabs bar"
 msgstr "Kapan menampilkan bilah tab"
 
-#: src/org.gnome.Terminal.gschema.xml:694
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:694
 msgid "The position of the tab bar"
 msgstr "Posisi dari bilah tab"
 
-#: src/org.gnome.Terminal.gschema.xml:699
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:699
 msgid "Which theme variant to use"
 msgstr "Varian tema mana yang akan dipakai"
 
-#: src/org.gnome.Terminal.gschema.xml:704
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:704
 msgid ""
 "Whether new tabs should open next to the current one or at the last position"
 msgstr ""
 "Apakah tab baru harus terbuka di sebelah yang sekarang atau di posisi "
 "terakhir"
 
-#: src/org.gnome.Terminal.gschema.xml:711
-msgid "Always check whether GNOME Terminal is the default terminal"
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:711
+msgid "Always check whether Cinnamon Terminal is the default terminal"
 msgstr "Selalu periksa apakah Terminal GNOME adalah terminal bawaan"
 
 #. Open new terminal in new window
@@ -1947,8 +1947,8 @@ msgstr ""
 
 #: src/terminal-options.cc:353 src/terminal-options.cc:366
 #, c-format
-msgid "Option “%s” is no longer supported in this version of gnome-terminal."
-msgstr "Opsi \"%s\" tidak didukung lagi dalam versi gnome-terminal ini."
+msgid "Option “%s” is no longer supported in this version of cinnamon-terminal."
+msgstr "Opsi \"%s\" tidak didukung lagi dalam versi cinnamon-terminal ini."
 
 #: src/terminal-options.cc:438
 #, c-format
@@ -2142,11 +2142,11 @@ msgid "COMMAND"
 msgstr "PERINTAH"
 
 #: src/terminal-options.cc:1701
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "Emulator Terminal GNOME"
 
 #: src/terminal-options.cc:1702
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "Menampilkan opsi Terminal GNOME"
 
 #: src/terminal-options.cc:1712
@@ -2316,7 +2316,7 @@ msgid "A terminal emulator for the GNOME desktop"
 msgstr "Emulator terminal untuk desktop GNOME"
 
 #: src/terminal-util.cc:252
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminal GNOME"
 
 #: src/terminal-util.cc:262
@@ -2335,7 +2335,7 @@ msgstr "Tidak dapat membuka alamat \"%s\""
 
 #: src/terminal-util.cc:406
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -2347,7 +2347,7 @@ msgstr ""
 
 #: src/terminal-util.cc:410
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -2359,7 +2359,7 @@ msgstr ""
 #: src/terminal-util.cc:414
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "Salinan GNU General Public License seharusnya sudah Anda dapatkan bersamaan "
 "dengan Terminal GNOME; bila tidak, lihat <http://www.gnu.org/licenses/>."
@@ -2425,7 +2425,7 @@ msgid "L_eave Full Screen"
 msgstr "Tinggalkan Layar P_enuh"
 
 #: src/terminal-window.cc:2291
-msgid "Set GNOME Terminal as your default terminal?"
+msgid "Set Cinnamon Terminal as your default terminal?"
 msgstr "Atur Terminal GNOME sebagai terminal bawaan Anda?"
 
 #: src/terminal-window.cc:2297
@@ -2477,8 +2477,8 @@ msgstr "Gagal mengurai argumen: \"%s\"\n"
 #~ msgid "Dark"
 #~ msgstr "Gelap"
 
-#~ msgid "org.gnome.Terminal"
-#~ msgstr "org.gnome.Terminal"
+#~ msgid "org.acreetionos.cinnamon.Terminal"
+#~ msgstr "org.acreetionos.cinnamon.Terminal"
 
 #~ msgid "Armenian"
 #~ msgstr "Armenia"

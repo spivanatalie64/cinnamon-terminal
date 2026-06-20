@@ -2,7 +2,7 @@
 
 ## Why We're Keeping X11 Support
 
-GNOME Terminal's upstream maintainers have decided to fully drop X11 support. They're going Wayland-only, which is a reasonable choice for GNOME — but it's not our choice.
+Cinnamon Terminal's upstream maintainers have decided to fully drop X11 support. They're going Wayland-only, which is a reasonable choice for GNOME — but it's not our choice.
 
 Cinnamon Desktop runs primarily on **X11**. Cinnamon's Wayland support is experimental and not yet the default. This means:
 
@@ -18,7 +18,7 @@ Our position is pragmatic, not ideological. X11 works, it's stable, and millions
 
 ## What GNOME Has Removed from Upstream
 
-GNOME Terminal's migration from GTK3 to GTK4 and from X11 to Wayland has involved removing or breaking the following:
+Cinnamon Terminal's migration from GTK3 to GTK4 and from X11 to Wayland has involved removing or breaking the following:
 
 ### 1. X11 GDK Backend Code
 
@@ -87,7 +87,7 @@ GNOME removed conditional compilation paths for X11 throughout the codebase. In 
 
 ### What Works Now (as of the fork point)
 
-These X11 features are **working in our current codebase** (inherited from GNOME Terminal before removal):
+These X11 features are **working in our current codebase** (inherited from Cinnamon Terminal before removal):
 
 - [x] Basic X11 display and window creation
 - [x] `--display` option
@@ -233,7 +233,7 @@ These files contain X11-specific code that needs attention:
 | `src/terminal-options.cc` | `--display`, `--geometry`, `--role` parsing |
 | `src/terminal-window.cc` | Window role, X11 window state hints |
 | `src/server.cc` | X11 display connection, SM protocol |
-| `data/org.gnome.Terminal.desktop.in` | `X-Cinnamon-*` desktop entries (if applicable) |
+| `data/org.acreetionos.cinnamon.Terminal.desktop.in` | `X-Cinnamon-*` desktop entries (if applicable) |
 
 ---
 

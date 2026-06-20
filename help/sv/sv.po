@@ -1,12 +1,12 @@
-# Swedish translation for gnome-terminal-help.
-# Copyright © 2015-2024 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Swedish translation for cinnamon-terminal-help.
+# Copyright © 2015-2024 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2018, 2019, 2020, 2021, 2023, 2024.
 # Sebastian Rasmussen <sebras@gmail.com>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "POT-Creation-Date: 2024-02-10 22:20+0000\n"
 "PO-Revision-Date: 2024-02-11 23:12+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
@@ -1580,10 +1580,10 @@ msgstr "Skärmbild av GNOME <app>Terminal</app>"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 
 #. (itstool) path: p/link

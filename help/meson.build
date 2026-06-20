@@ -14,9 +14,9 @@
 # along with this programme.  If not, see <https://www.gnu.org/licenses/>.
 
 help_media = [
-  'figures/gnome-terminal.png',
+  'figures/cinnamon-terminal.png',
   'figures/keyboard-key-search.svg',
-  'figures/org.gnome.Terminal.svg',
+  'figures/org.acreetionos.cinnamon.Terminal.svg',
 ]
 
 help_pages = [

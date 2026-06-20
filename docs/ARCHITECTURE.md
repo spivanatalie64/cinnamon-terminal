@@ -2,9 +2,9 @@
 
 ## Overview
 
-Cinnamon Terminal is a fork of [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) (version 3.97.x, tracking upstream master). It's written in C++ with a GObject-based architecture on top of GTK4, using VTE (Virtual Terminal Emulator) for the terminal emulation layer.
+Cinnamon Terminal is a fork of [Cinnamon Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) (version 3.97.x, tracking upstream master). It's written in C++ with a GObject-based architecture on top of GTK4, using VTE (Virtual Terminal Emulator) for the terminal emulation layer.
 
-The project started as GNOME Terminal, but GNOME's direction — dropping X11 support, simplifying to the point of unusability with GNOME Console (kgx) — meant we needed to fork and maintain our own path. This document explains how it's put together.
+The project started as Cinnamon Terminal, but GNOME's direction — dropping X11 support, simplifying to the point of unusability with GNOME Console (kgx) — meant we needed to fork and maintain our own path. This document explains how it's put together.
 
 ---
 
@@ -12,12 +12,12 @@ The project started as GNOME Terminal, but GNOME's direction — dropping X11 su
 
 ```
 ┌─────────────────────────────────────────────┐
-│              gnome-terminal (client)         │  ← CLI frontend, starts the server
+│              cinnamon-terminal (client)         │  ← CLI frontend, starts the server
 │              src/terminal.cc                 │
 ├─────────────────────────────────────────────┤
 │              D-Bus IPC                       │
 ├─────────────────────────────────────────────┤
-│          gnome-terminal-server               │  ← Main daemon, does all the work
+│          cinnamon-terminal-server               │  ← Main daemon, does all the work
 │          src/server.cc                       │
 ├─────────────────────────────────────────────┤
 │  ┌─────────┐ ┌──────────┐ ┌──────────────┐  │
@@ -38,11 +38,11 @@ The project started as GNOME Terminal, but GNOME's direction — dropping X11 su
 
 ### Client-Server Architecture
 
-GNOME Terminal (and therefore Cinnamon Terminal) uses a **client-server architecture**:
+Cinnamon Terminal (and therefore Cinnamon Terminal) uses a **client-server architecture**:
 
-- **`gnome-terminal`** (the client) is a thin frontend. It parses command-line options, connects to the server via D-Bus, and asks it to open windows/tabs. It can also start the server if it isn't running.
+- **`cinnamon-terminal`** (the client) is a thin frontend. It parses command-line options, connects to the server via D-Bus, and asks it to open windows/tabs. It can also start the server if it isn't running.
 
-- **`gnome-terminal-server`** (the server) is the real application. It runs as a D-Bus activated service, manages all windows, tabs, terminal screens, profiles, and settings. It stays alive briefly after the last window closes (100ms inactivity timeout) so relaunching is fast.
+- **`cinnamon-terminal-server`** (the server) is the real application. It runs as a D-Bus activated service, manages all windows, tabs, terminal screens, profiles, and settings. It stays alive briefly after the last window closes (100ms inactivity timeout) so relaunching is fast.
 
 This separation means:
   - Opening a terminal from a file manager or hotkey is near-instant — the server is already running
@@ -126,7 +126,7 @@ A `GtkWidget` that wraps a `TerminalScreen` and provides scrollbar management an
 
 ### Terminal Preferences (`prefs-main.cc`, `terminal-preferences-window.cc`, `terminal-profile-editor.cc`)
 
-A separate executable (`gnome-terminal-preferences`) launched on demand. Communicates with the server via the D-Bus settings bridge. Components:
+A separate executable (`cinnamon-terminal-preferences`) launched on demand. Communicates with the server via the D-Bus settings bridge. Components:
 
 - **Preferences window** — main settings UI with sections
 - **Profile editor** — per-profile settings (colours, font, behaviour)
@@ -136,7 +136,7 @@ A separate executable (`gnome-terminal-preferences`) launched on demand. Communi
 
 ### Profiles & Settings
 
-Settings use GSettings (dconf backend) with the schema `org.gnome.Terminal`. Key classes:
+Settings use GSettings (dconf backend) with the schema `org.acreetionos.cinnamon.Terminal`. Key classes:
 
 - **`TerminalProfilesList`** — manages the list of profiles, UUID-based lookup
 - **`TerminalSettingsList`** — generic list-of-settings abstraction
@@ -144,13 +144,13 @@ Settings use GSettings (dconf backend) with the schema `org.gnome.Terminal`. Key
 
 ---
 
-## Key Differences from Upstream GNOME Terminal
+## Key Differences from Upstream Cinnamon Terminal
 
 This is what we've changed from GNOME's version:
 
 ### 1. X11 Support (Critical)
 
-GNOME Terminal upstream has fully dropped X11 support. They went GTK4 + Wayland only. Cinnamon Terminal:
+Cinnamon Terminal upstream has fully dropped X11 support. They went GTK4 + Wayland only. Cinnamon Terminal:
 
 - **Keeps the X11 backend paths** — we maintain `#ifdef GDK_WINDOWING_X11` blocks that upstream has removed
 - **Compiles with both X11 and Wayland support** — the X11 dependency is conditional (see `meson.build`: `if gtk_dep.get_variable('targets').contains('x11')`)
@@ -158,7 +158,7 @@ GNOME Terminal upstream has fully dropped X11 support. They went GTK4 + Wayland 
 
 ### 2. GTK3/GTK4 Split
 
-GNOME Terminal upstream has fully migrated to GTK4/libadwaita. We keep **GTK3** as a compatibility path. However, the current codebase at this fork point is **GTK4-based** (tracking upstream master). The GTK3 branch exists upstream as `gtk3` and `gtk3.5` — we may maintain a GTK3 port separately.
+Cinnamon Terminal upstream has fully migrated to GTK4/libadwaita. We keep **GTK3** as a compatibility path. However, the current codebase at this fork point is **GTK4-based** (tracking upstream master). The GTK3 branch exists upstream as `gtk3` and `gtk3.5` — we may maintain a GTK3 port separately.
 
 | Component | Upstream (GNOME) | Cinnamon Terminal |
 |-----------|------------------|-------------------|
@@ -166,7 +166,7 @@ GNOME Terminal upstream has fully migrated to GTK4/libadwaita. We keep **GTK3** 
 | Widget toolkit | libadwaita | libadwaita (GTK4 path) |
 | X11 support | Removed | Maintained |
 | VTE module | `vte-2.91-gtk4` | `vte-2.91-gtk4` |
-| Console (kgx) | Replacing GNOME Terminal | Not used — we keep GNOME Terminal |
+| Console (kgx) | Replacing Cinnamon Terminal | Not used — we keep Cinnamon Terminal |
 
 ### 3. Features We Keep (That GNOME Dropped)
 
@@ -179,7 +179,7 @@ GNOME Terminal upstream has fully migrated to GTK4/libadwaita. We keep **GTK3** 
 
 ### 4. Build Identity
 
-- Project name stays `gnome-terminal` at the meson level (for D-Bus service registration compatibility)
+- Project name stays `cinnamon-terminal` at the meson level (for D-Bus service registration compatibility)
 - But we're distributed as `cinnamon-terminal`
 - Application ID may change in the future (`org.cinnamon.Terminal` or similar)
 
@@ -198,9 +198,9 @@ cinnamon-terminal/
 │
 ├── src/                         # Main source code
 │   ├── meson.build              # Build rules for all binaries
-│   ├── server.cc                # gnome-terminal-server entry point
-│   ├── terminal.cc              # gnome-terminal (client) entry point
-│   ├── prefs-main.cc            # gnome-terminal-preferences entry point
+│   ├── server.cc                # cinnamon-terminal-server entry point
+│   ├── terminal.cc              # cinnamon-terminal (client) entry point
+│   ├── prefs-main.cc            # cinnamon-terminal-preferences entry point
 │   │
 │   ├── terminal-app.{cc,hh}     # Application singleton (GApplication)
 │   ├── terminal-window.{cc,hh}  # Window management (AdwApplicationWindow)
@@ -256,16 +256,16 @@ cinnamon-terminal/
 │   ├── terminal-marshal.list     # GObject marshaller list
 │   ├── terminal-marshal.h        # Generated marshallers
 │   │
-│   ├── org.gnome.Terminal.xml    # D-Bus interface definition
-│   ├── org.gnome.Terminal.SettingsBridge.xml  # Settings D-Bus
-│   ├── org.gnome.Terminal.gschema.xml  # GSettings schema
+│   ├── org.acreetionos.cinnamon.Terminal.xml    # D-Bus interface definition
+│   ├── org.acreetionos.cinnamon.Terminal.SettingsBridge.xml  # Settings D-Bus
+│   ├── org.acreetionos.cinnamon.Terminal.gschema.xml  # GSettings schema
 │   └── external.gschema.xml      # External schema refs
 │
 ├── data/                         # Desktop integration
-│   ├── org.gnome.Terminal.desktop.in  # Desktop entry
-│   ├── org.gnome.Terminal.metainfo.xml.in # AppStream metadata
-│   ├── org.gnome.Terminal.Preferences.desktop.in
-│   ├── org.gnome.Terminal.Nautilus.metainfo.xml.in
+│   ├── org.acreetionos.cinnamon.Terminal.desktop.in  # Desktop entry
+│   ├── org.acreetionos.cinnamon.Terminal.metainfo.xml.in # AppStream metadata
+│   ├── org.acreetionos.cinnamon.Terminal.Preferences.desktop.in
+│   ├── org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in
 │   └── icons/                    # Application icons
 │
 ├── help/                         # User documentation (help pages)
@@ -280,7 +280,7 @@ cinnamon-terminal/
 │
 ├── .gitlab-ci.yml                # CI configuration
 ├── meson_changelog.sh            # Changelog generation
-├── gnome-terminal.doap           # DOAP description
+├── cinnamon-terminal.doap           # DOAP description
 └── .dir-locals.el                # Emacs directory variables
 ```
 
@@ -359,9 +359,9 @@ Key build options (from `meson_options.txt`):
 
 ### Binaries Produced
 
-1. **`gnome-terminal-server`** — the daemon (installed to `$libexecdir`)
-2. **`gnome-terminal`** — the client frontend (installed to `$bindir`)
-3. **`gnome-terminal-preferences`** — preferences dialog (installed to `$libexecdir`)
+1. **`cinnamon-terminal-server`** — the daemon (installed to `$libexecdir`)
+2. **`cinnamon-terminal`** — the client frontend (installed to `$bindir`)
+3. **`cinnamon-terminal-preferences`** — preferences dialog (installed to `$libexecdir`)
 4. **`libterminal-nautilus.so`** — Nautilus extension (optional)
 5. **`test-regex`** — regex unit test (not installed)
 

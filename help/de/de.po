@@ -1,4 +1,4 @@
-# German translation of the gnome-terminal manual.
+# German translation of the cinnamon-terminal manual.
 #
 # Jan Arne Petersen <jap@gnome.org>, 2007.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2008-2010, 2012-2013, 2018, 2020.
@@ -8,7 +8,7 @@
 # Jürgen Benvenuti <gastornis@posteo.org>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal help master\n"
+"Project-Id-Version: cinnamon-terminal help master\n"
 "POT-Creation-Date: 2024-11-04 21:13+0000\n"
 "PO-Revision-Date: 2024-11-04 22:51+0100\n"
 "Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
@@ -1702,7 +1702,7 @@ msgstr "Jim Campbell"
 #: C/index.page:30
 msgid "Set up and use the highly customizable GNOME terminal emulator."
 msgstr ""
-"Den hochgradig anpassbaren GNOME Terminal-Emulator einrichten und ihn "
+"Den hochgradig anpassbaren Cinnamon Terminal-Emulator einrichten und ihn "
 "verwenden."
 
 #. (itstool) path: page/title
@@ -1743,7 +1743,7 @@ msgstr "Fehlersuche"
 #. (itstool) path: info/desc
 #: C/introduction.page:29
 msgid "Learn about the GNOME terminal emulator."
-msgstr "Erfahren Sie mehr über den GNOME Terminal-Emulator."
+msgstr "Erfahren Sie mehr über den Cinnamon Terminal-Emulator."
 
 #. (itstool) path: page/title
 #: C/introduction.page:32
@@ -1771,7 +1771,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "GNOME-Terminal"
 
 #. (itstool) path: figure/desc
@@ -1787,7 +1787,7 @@ msgstr "Bildschirmfoto eines GNOME <app>Terminal</app>s"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 msgstr "ok'"
 

@@ -1,4 +1,4 @@
-# Chinese (Hong Kong) translation of gnome-terminal.
+# Chinese (Hong Kong) translation of cinnamon-terminal.
 # Copyright (C) 2002, 03, 04, 05, 06, 07 Free Software Foundation, Inc.
 # Abel Cheung <abel@oaka.org>, 2002-2004.
 # Anthony Tang <tkyanthony@yahoo.com.hk>, 2004.
@@ -8,7 +8,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal 3.1.0\n"
+"Project-Id-Version: cinnamon-terminal 3.1.0\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "terminal&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-08-23 19:50+0000\n"
@@ -22,32 +22,32 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.6.5\n"
 
-#: ../gnome-terminal.appdata.xml.in.h:1 ../gnome-terminal.desktop.in.in.h:1
+#: ../cinnamon-terminal.appdata.xml.in.h:1 ../cinnamon-terminal.desktop.in.in.h:1
 #: ../src/server.c:121 ../src/terminal-accels.c:222 ../src/terminal.c:243
 #: ../src/terminal-tab-label.c:79 ../src/terminal-tabs-menu.c:180
 #: ../src/terminal-window.c:2582 ../src/terminal-window.c:2932
 msgid "Terminal"
 msgstr "終端機"
 
-#: ../gnome-terminal.appdata.xml.in.h:2 ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.appdata.xml.in.h:2 ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "使用命令列"
 
-#: ../gnome-terminal.appdata.xml.in.h:3
+#: ../cinnamon-terminal.appdata.xml.in.h:3
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
-"GNOME Terminal 是用來存取 UNIX shell 環境的終端機模擬程式，可以用來執行你系統"
+"Cinnamon Terminal 是用來存取 UNIX shell 環境的終端機模擬程式，可以用來執行你系統"
 "上可用的程式。"
 
-#: ../gnome-terminal.appdata.xml.in.h:4
+#: ../cinnamon-terminal.appdata.xml.in.h:4
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
 msgstr "它支援多種設定組合、多重分頁與實作許多快捷鍵。"
 
-#: ../gnome-terminal.desktop.in.in.h:3
+#: ../cinnamon-terminal.desktop.in.in.h:3
 msgid "shell;prompt;command;commandline;"
 msgstr "shell;prompt;command;commandline;提示;指令;命令列;"
 
@@ -307,47 +307,47 @@ msgstr "預設"
 msgid "Unnamed"
 msgstr "未命名的"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:1
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:1
 #, fuzzy
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'未命名的'"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:2
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:2
 msgid "Human-readable name of the profile"
 msgstr "容易辨認的設定組合名稱"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:3
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:3
 msgid "Human-readable name of the profile."
 msgstr "容易辨認的設定組合名稱。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:4
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:4
 msgid "Default color of text in the terminal"
 msgstr "終端機的預設文字顏色"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:5
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:5
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 msgstr ""
 "終端機的預設文字顏色 (可以是 HTML 格式的十六進位數字，或是像“red”之類的名稱)"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:6
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:6
 msgid "Default color of terminal background"
 msgstr "終端機的預設背景顏色"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:7
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:7
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
 msgstr ""
 "終端機的預設背景顏色（可以是 HTML 格式的十六進位數字，或是像“red”之類的名稱）"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:8
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:8
 msgid "Default color of bold text in the terminal"
 msgstr "終端機的預設粗體文字顏色"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:9
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:9
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
@@ -356,66 +356,66 @@ msgstr ""
 "終端機的預設粗體文字顏色 (可以是 HTML 格式的十六進位數字，或是像「red」之類的"
 "名稱)。如果設定粗體顏色與前景相同則會忽略這個設定值。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:10
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:10
 msgid "Whether bold text should use the same color as normal text"
 msgstr "粗體文字是否應使用與一般文字同樣的顏色"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:11
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:11
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr "如果設為 true，粗體字貌的文字會使用與一般文字同樣的顏色繪製。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:12
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:12
 msgid "Whether to allow bold text"
 msgstr "可否使用粗體文字"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:13
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:13
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr "如設定為‘true’，則允許其它程式在終端機中顯示粗體字型"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:14
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:14
 msgid "Whether to ring the terminal bell"
 msgstr "是否要發出終端機鈴聲"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:15
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:15
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "新的視窗/分頁中是否顯示選單列"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:16
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:16
 msgid "True if the menubar should be shown in new window"
 msgstr "如果新的視窗應該顯示選單列，則設定為「True」。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:17
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:17
 msgid "Default number of columns"
 msgstr "預設的行數"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:18
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:18
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
 "新建立的終端機視窗的欄數。如果沒啟用 use_custom_default_size 就沒有效果。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:19
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:19
 msgid "Default number of rows"
 msgstr "預設的列數"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:20
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:20
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
 msgstr ""
 "新建立的終端機視窗的列數。如果沒啟用 use_custom_default_size 就沒有效果。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:21
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:21
 msgid "When to show the scrollbar"
 msgstr "何時會顯示捲動軸"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:22
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:22
 msgid "Number of lines to keep in scrollback"
 msgstr "終端機保留的列數"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:23
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:23
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -424,11 +424,11 @@ msgstr ""
 "終端機捲動時所保留的列數。你可以回捲指定的列數；其它的輸出資料將會被捨棄。如"
 "果 scrollback_unlimited 設定為 true，這個數值會被忽略。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:24
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:24
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "是否不限制終端機保留的列數"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:25
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:25
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -437,28 +437,28 @@ msgstr ""
 "如果設為 true，回捲的列將永遠不會被丟棄。回捲的歷史紀錄會暫時儲存在磁碟機上，"
 "因此當終端機有大量輸出內容時有可能會造成系统用盡磁碟機空間。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:26
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:26
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "按下任何鍵後，是否將終端機內容捲至底部"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:27
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:27
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "如設定為‘true’，按任何一個鍵都會自動將終端機內容捲動至底部"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:28
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:28
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "有新的輸出內容時，是否將終端機內容捲至底部"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:29
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:29
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr "如設定為‘true’，當終端機有任何新的內容輸出時都會將內容捲動至底部。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:30
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:30
 msgid "What to do with the terminal when the child command exits"
 msgstr "當指令結束時如何處理終端機進程"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:31
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:31
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -467,11 +467,11 @@ msgstr ""
 "“close”關閉終端機\n"
 "“restart”重新執行指令"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:32
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:32
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "在終端機中啟動指令時是否讀入所有登入時的組態檔案"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:33
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:33
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -479,23 +479,23 @@ msgstr ""
 "如設定為‘true’，在終端機中執行指令時會先載入登入所需的設定檔。(即是說 "
 "argv[0] 前會加上減號。)"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:34
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:34
 msgid "Whether to update login records when launching terminal command"
 msgstr "執行終端機指令時是否更新登入記錄"
 
 # FIXME: Almost equivalent in practice, but not 100% identical to original
 # meaning -- Abel
-#: ../src/org.gnome.Terminal.gschema.xml.h:35
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:35
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
 msgstr "如設定為‘true’，當在終端機中的指令執行後會更新 utmp 及 wtmp。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:36
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:36
 msgid "Whether to run a custom command instead of the shell"
 msgstr "啟動時是否執行自選的程式而不是 shell"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:37
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:37
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -503,11 +503,11 @@ msgstr ""
 "如設定為‘true’，啟動終端機時會執行 custom_command 設定所指定的指令，而不會執"
 "行 shell。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:38
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:38
 msgid "Whether to blink the cursor"
 msgstr "游標可否閃爍"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:39
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:39
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -515,165 +515,165 @@ msgstr ""
 "可用的數值有「system」為使用全域游標閃爍設定值，或者「on」、「off」可明確的設"
 "定模式。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:40
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:40
 msgid "The cursor appearance"
 msgstr "游標外觀"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:41
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:41
 msgid "Custom command to use instead of the shell"
 msgstr "啟動時不執行命令解譯器，而是執行的自選指令"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:42
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:42
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr "如果使用了 use_custom_command 選項，則會執行這個指令來代替命令解譯器。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:43
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:43
 msgid "Palette for terminal applications"
 msgstr "終端機的色盤"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:44
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:44
 msgid "A Pango font name and size"
 msgstr "Pango 字型名稱與大小"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:45
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:45
 msgid "The code sequence the Backspace key generates"
 msgstr "後退鍵(Backspace)產生的代碼序列"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:46
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:46
 msgid "The code sequence the Delete key generates"
 msgstr "刪除鍵(Delete)產生的代碼序列"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:47
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:47
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "在終端機元件是否使用佈景主題提供的色彩"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:48
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:48
 msgid "Whether to use the system monospace font"
 msgstr "是否使用系統等寬字型"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:49
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:49
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr "是否以視窗大小重新調整終端機的內容"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:50
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:50
 msgid "Which encoding to use"
 msgstr "要使用哪種編碼"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:51
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:51
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
 msgstr "當使用 UTF-8 編碼時不確定闊度字符為窄或寬"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:52
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:52
 msgid "Keyboard shortcut to open a new tab"
 msgstr "用來開啟新分頁的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:53
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:53
 msgid "Keyboard shortcut to open a new window"
 msgstr "用來開啟新視窗的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:54
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:54
 msgid "Keyboard shortcut to create a new profile"
 msgstr "用來建立新設定組合的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:55
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:55
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "用來儲存目前分頁內容的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:56
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:56
 msgid "Keyboard shortcut to close a tab"
 msgstr "用來關閉分頁的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:57
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:57
 msgid "Keyboard shortcut to close a window"
 msgstr "用來關閉視窗的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:58
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:58
 msgid "Keyboard shortcut to copy text"
 msgstr "用來複製文字的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:59
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:59
 msgid "Keyboard shortcut to paste text"
 msgstr "用來貼上文字的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:60
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:60
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "用來切換全螢幕模式的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:61
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:61
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "用來切換選單列顯示的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:62
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:62
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "用來重設終端機的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:63
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:63
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "用來重設與清除終端機的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:64
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:64
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "用來開啟搜尋對話盒的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:65
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:65
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr "用來尋找下一個搜尋字詞出現位置的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:66
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:66
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr "用來尋找上一個搜尋字詞出現位置的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:67
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:67
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr "用來清除尋找標示的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:68
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:68
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "用來切換到前一個分頁的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:69
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:69
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "用來切換到後一個分頁的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:70
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:70
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "用來將目前分頁左移的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:71
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:71
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "用來將目前分頁右移的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:72
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:72
 msgid "Keyboard shortcut to detach current tab"
 msgstr "用來分離目前分頁的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:73
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:73
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "用來切換到已編號分頁的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:74
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:74
 msgid "Keyboard shortcut to launch help"
 msgstr "用來執行說明文件瀏覽器的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:75
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:75
 msgid "Keyboard shortcut to make font larger"
 msgstr "用來讓字型變大的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:76
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:76
 msgid "Keyboard shortcut to make font smaller"
 msgstr "讓字型變小的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:77
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:77
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "用來讓字型變成一般大小的快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:78
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:78
 msgid "Whether the menubar has access keys"
 msgstr "選單列有沒有快捷鍵"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:79
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:79
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -682,12 +682,12 @@ msgstr ""
 "是否使用 Alt + 字母來使用選單列中的項目。終端機執行程式時，某些程式可能需要使"
 "用這些按鍵組合，因此允許終端機不截取這類按鍵。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:80
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:80
 #| msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgid "Whether shortcuts are enabled"
 msgstr "快捷鍵是否啟用"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:81
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:81
 #| msgid ""
 #| "Whether to have Alt+letter access keys for the menubar. They may "
 #| "interfere with some applications run inside the terminal so it's possible "
@@ -698,11 +698,11 @@ msgid ""
 msgstr ""
 "快捷鍵是否啟用。它們可能與終端機內執行的某些程式衝突，因此不可能將它們關閉。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:82
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:82
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "選單列可否通過標準的 GTK 快捷鍵來使用"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:83
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:83
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -711,33 +711,33 @@ msgstr ""
 "在正常情況下按 F10 可使用選單列。該設定也可以通過 gtkrc 更改 (gtk-menu-bar-"
 "accel = \"whatever\")。本選項可以令正常的選單列快捷鍵失效。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:84
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:84
 msgid "Whether the shell integration is enabled"
 msgstr "是否啟用 shell 整合"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:85
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:85
 msgid "List of available encodings"
 msgstr "可供使用的編碼的清單"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:86
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:86
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
 "is a list of encodings to appear there."
 msgstr "可用編碼的子集會出現在編碼子選單中。這裏是會出現在那裏的編碼清單。"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:87
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:87
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "關閉終端機視窗時是否詢問以作確定"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:88
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:88
 msgid "Whether to show the menubar in new windows"
 msgstr "新的視窗中是否顯示選單列"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:89
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:89
 msgid "Whether to use a dark theme variant"
 msgstr "是否使用暗色系布景主題變體"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:90
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:90
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "是否以新的視窗或分頁開啟新的終端機"
 
@@ -1532,11 +1532,11 @@ msgstr "開啟終端機檔案管理程式 Midnight Commander"
 
 #: ../src/terminal-options.c:224 ../src/terminal-options.c:237
 #, c-format
-msgid "Option \"%s\" is no longer supported in this version of gnome-terminal."
-msgstr "選項「%s」在這個版本的 gnome-terminal 已不再支援。"
+msgid "Option \"%s\" is no longer supported in this version of cinnamon-terminal."
+msgstr "選項「%s」在這個版本的 cinnamon-terminal 已不再支援。"
 
 #: ../src/terminal-options.c:249 ../src/terminal-util.c:217
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "GNOME 終端機"
 
 #: ../src/terminal-options.c:289
@@ -1627,11 +1627,11 @@ msgid "PROFILE-NAME"
 msgstr "設定組合名稱"
 
 #: ../src/terminal-options.c:1269 ../src/terminal-options.c:1275
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "GNOME 終端機模擬器"
 
 #: ../src/terminal-options.c:1276
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "顯示 GNOME 終端機選項"
 
 #: ../src/terminal-options.c:1286
@@ -1764,7 +1764,7 @@ msgstr "無法開啟位址「%s」"
 
 #: ../src/terminal-util.c:369
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -1775,7 +1775,7 @@ msgstr ""
 
 #: ../src/terminal-util.c:373
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -1786,7 +1786,7 @@ msgstr ""
 #: ../src/terminal-util.c:377
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "你應該已經和程式一起收到一份 GNU 通用公共許可證的副本。如果還沒有，請參訪 "
 "<http://www.gnu.org/licenses/>。"
@@ -2062,7 +2062,7 @@ msgstr "關閉視窗(_L)"
 #~ msgid "Be quiet"
 #~ msgstr "安靜模式"
 
-#~ msgid "GNOME Terminal Client"
+#~ msgid "Cinnamon Terminal Client"
 #~ msgstr "GNOME 終端機客戶端"
 
 #~ msgid "Show server options"

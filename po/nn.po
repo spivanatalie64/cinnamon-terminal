@@ -1,5 +1,5 @@
-# Translation of gnome-terminal to Norwegian Nynorsk
-# This file is distributed under the same license as the gnome-terminal package.
+# Translation of cinnamon-terminal to Norwegian Nynorsk
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Copyright (C) 2008, The Free Software Foundation inc.
 #
 # Åsmund Skjæveland <aasmunds@fys.uio.no>, 2003, 2004, 2005, 2006.
@@ -20,13 +20,13 @@ msgstr ""
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 0.3\n"
 
-#: ../gnome-terminal.desktop.in.in.h:1 ../src/gnome-terminal.schemas.in.h:119
+#: ../cinnamon-terminal.desktop.in.in.h:1 ../src/cinnamon-terminal.schemas.in.h:119
 #: ../src/terminal-accels.c:222 ../src/terminal.c:304
 #: ../src/terminal-profile.c:144 ../src/terminal-window.c:1884
 msgid "Terminal"
 msgstr "Terminal"
 
-#: ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "Bruk kommandolinja"
 
@@ -71,7 +71,7 @@ msgstr "Legg til eller fjern terminalteiknkodingar"
 msgid "E_ncodings shown in menu:"
 msgstr "Teiknkodi_ngar som vert viste i menyen:"
 
-#: ../src/gnome-terminal.schemas.in.h:1
+#: ../src/cinnamon-terminal.schemas.in.h:1
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
 "is a list of encodings to appear there. The special encoding name \"current"
@@ -81,7 +81,7 @@ msgstr ""
 "Dette er ei liste over dei teiknkodingane som vert viste der. Den særskilde "
 "teiknkodinga «current» tyder at den noverande teiknkodinga skal visast."
 
-#: ../src/gnome-terminal.schemas.in.h:2
+#: ../src/cinnamon-terminal.schemas.in.h:2
 msgid ""
 "A value between 0.0 and 1.0 indicating how much to darken the background "
 "image. 0.0 means no darkness, 1.0 means fully dark. In the current "
@@ -93,7 +93,7 @@ msgstr ""
 "to nivå mogleg, så denne innstillinga fungerer som ein boolsk verdi der 0,0 "
 "slår av skuggeleggjinga."
 
-#: ../src/gnome-terminal.schemas.in.h:3
+#: ../src/cinnamon-terminal.schemas.in.h:3
 msgid ""
 "Accelerator key to detach current tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -103,7 +103,7 @@ msgstr ""
 "same formatet som i GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:4
+#: ../src/cinnamon-terminal.schemas.in.h:4
 msgid ""
 "Accelerator key to move the current tab to the left. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -115,7 +115,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:5
+#: ../src/cinnamon-terminal.schemas.in.h:5
 msgid ""
 "Accelerator key to move the current tab to the right. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -127,47 +127,47 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:6
+#: ../src/cinnamon-terminal.schemas.in.h:6
 msgid "Accelerator to detach current tab."
 msgstr "Snøggtast som koplar frå fana."
 
-#: ../src/gnome-terminal.schemas.in.h:7
+#: ../src/cinnamon-terminal.schemas.in.h:7
 msgid "Accelerator to move the current tab to the left."
 msgstr "Snøggtast som flyttar fana til venstre."
 
-#: ../src/gnome-terminal.schemas.in.h:8
+#: ../src/cinnamon-terminal.schemas.in.h:8
 msgid "Accelerator to move the current tab to the right."
 msgstr "Snøggtast som flyttar fana til høgre."
 
-#: ../src/gnome-terminal.schemas.in.h:9
+#: ../src/cinnamon-terminal.schemas.in.h:9
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr "Eit Pango-skrifttypenamn. Døme: «Sans 12» eller «Monospace Bold 14»."
 
-#: ../src/gnome-terminal.schemas.in.h:10
+#: ../src/cinnamon-terminal.schemas.in.h:10
 msgid "Background image"
 msgstr "Bakgrunnsbilete"
 
-#: ../src/gnome-terminal.schemas.in.h:11
+#: ../src/cinnamon-terminal.schemas.in.h:11
 msgid "Background type"
 msgstr "Bakgrunnstype"
 
-#: ../src/gnome-terminal.schemas.in.h:12
+#: ../src/cinnamon-terminal.schemas.in.h:12
 msgid "Characters that are considered \"part of a word\""
 msgstr "Teikn som vert rekna som deler av ord"
 
-#: ../src/gnome-terminal.schemas.in.h:13
+#: ../src/cinnamon-terminal.schemas.in.h:13
 msgid "Custom command to use instead of the shell"
 msgstr "Sjølvvald kommando å køyra i staden for skalet"
 
-#: ../src/gnome-terminal.schemas.in.h:14
+#: ../src/cinnamon-terminal.schemas.in.h:14
 msgid "Default"
 msgstr "Standard"
 
-#: ../src/gnome-terminal.schemas.in.h:15
+#: ../src/cinnamon-terminal.schemas.in.h:15
 msgid "Default color of terminal background"
 msgstr "Standard farge på terminalbakgrunnen"
 
-#: ../src/gnome-terminal.schemas.in.h:16
+#: ../src/cinnamon-terminal.schemas.in.h:16
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -175,11 +175,11 @@ msgstr ""
 "Standard farge på terminalbakgrunnen. Fargespesifikasjonen kan vera HTML-"
 "typeheksadesimale verdiar eller engelske fargenamn slik som «red»."
 
-#: ../src/gnome-terminal.schemas.in.h:17
+#: ../src/cinnamon-terminal.schemas.in.h:17
 msgid "Default color of text in the terminal"
 msgstr "Standard farge på tekst i terminalen"
 
-#: ../src/gnome-terminal.schemas.in.h:18
+#: ../src/cinnamon-terminal.schemas.in.h:18
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -187,50 +187,50 @@ msgstr ""
 "Standard farge på tekst i terminalen. Fargespesifikasjonen kan vera HTML-"
 "type heksadesimale verdiar eller engelske fargenamn slik som «red»."
 
-#: ../src/gnome-terminal.schemas.in.h:19
+#: ../src/cinnamon-terminal.schemas.in.h:19
 msgid "Effect of the Backspace key"
 msgstr "Kva rettetasten gjer"
 
-#: ../src/gnome-terminal.schemas.in.h:20
+#: ../src/cinnamon-terminal.schemas.in.h:20
 msgid "Effect of the Delete key"
 msgstr "Kva tasten «Delete» gjer"
 
-#: ../src/gnome-terminal.schemas.in.h:21
+#: ../src/cinnamon-terminal.schemas.in.h:21
 msgid "Filename of a background image."
 msgstr "Fil med bakgrunnsbilete."
 
-#: ../src/gnome-terminal.schemas.in.h:22
+#: ../src/cinnamon-terminal.schemas.in.h:22
 msgid "Font"
 msgstr "Skrifttype"
 
 #. Translators: S/Key is the name of an application, so it should
 #. not be translated.
-#: ../src/gnome-terminal.schemas.in.h:25
+#: ../src/cinnamon-terminal.schemas.in.h:25
 msgid "Highlight S/Key challenges"
 msgstr "Framhev S/Key-utfordringar"
 
-#: ../src/gnome-terminal.schemas.in.h:26
+#: ../src/cinnamon-terminal.schemas.in.h:26
 msgid "How much to darken the background image"
 msgstr "Kor mykje bakgrunnsbiletet skal skuggeleggjast"
 
-#: ../src/gnome-terminal.schemas.in.h:27
+#: ../src/cinnamon-terminal.schemas.in.h:27
 msgid "Human-readable name of the profile"
 msgstr "Forståeleg namn på profilen"
 
-#: ../src/gnome-terminal.schemas.in.h:28
+#: ../src/cinnamon-terminal.schemas.in.h:28
 msgid "Human-readable name of the profile."
 msgstr "Forståeleg namn på profilen."
 
-#: ../src/gnome-terminal.schemas.in.h:29
+#: ../src/cinnamon-terminal.schemas.in.h:29
 msgid "Icon for terminal window"
 msgstr "Ikon til terminalvindauget"
 
-#: ../src/gnome-terminal.schemas.in.h:30
+#: ../src/cinnamon-terminal.schemas.in.h:30
 msgid "Icon to use for tabs/windows containing this profile."
 msgstr ""
 "Ikon som skal brukast til arkfaner og vindauge som inneheld denne profilen."
 
-#: ../src/gnome-terminal.schemas.in.h:31
+#: ../src/cinnamon-terminal.schemas.in.h:31
 msgid ""
 "If the application in the terminal sets the title (most typically people "
 "have their shell set up to do this), the dynamically-set title can erase the "
@@ -242,11 +242,11 @@ msgstr ""
 "faste. Den endra tittelen kan byta ut, stå føre eller stå bak den faste "
 "tittelen. Dei moglege verdiane er «replace», «before», «after» og «ignore»."
 
-#: ../src/gnome-terminal.schemas.in.h:32
+#: ../src/cinnamon-terminal.schemas.in.h:32
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr "Dersom denne er sann, får programma i terminalen bruka feite typar."
 
-#: ../src/gnome-terminal.schemas.in.h:33
+#: ../src/cinnamon-terminal.schemas.in.h:33
 msgid ""
 "If true, don't make a noise when applications send the escape sequence for "
 "the terminal bell."
@@ -254,11 +254,11 @@ msgstr ""
 "Dersom denne er sann, skal ikkje terminalen laga lyd når programma sender "
 "koden for terminalsignalet."
 
-#: ../src/gnome-terminal.schemas.in.h:34
+#: ../src/cinnamon-terminal.schemas.in.h:34
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Dersom sann, vil rullefeltet hoppa til botnen ved tastetrykk."
 
-#: ../src/gnome-terminal.schemas.in.h:35
+#: ../src/cinnamon-terminal.schemas.in.h:35
 msgid ""
 "If true, scroll the background image with the foreground text; if false, "
 "keep the image in a fixed position and scroll the text above it."
@@ -266,7 +266,7 @@ msgstr ""
 "Dersom sann, vil bakgrunnsbiletet rulla med teksten i framgrunnen. Dersom "
 "usann, vil biletet stå i ro, og teksten rulla over."
 
-#: ../src/gnome-terminal.schemas.in.h:36
+#: ../src/cinnamon-terminal.schemas.in.h:36
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell. "
 "(argv[0] will have a hyphen in front of it.)"
@@ -274,7 +274,7 @@ msgstr ""
 "Dersom sann, vil kommandoen i terminalen verta starta som eit "
 "påloggingsskal. (argv[0] vil ha ein bindestrek fyrst.)"
 
-#: ../src/gnome-terminal.schemas.in.h:37
+#: ../src/cinnamon-terminal.schemas.in.h:37
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
@@ -282,7 +282,7 @@ msgstr ""
 "Dersom sann, vil påloggingslistene utmp og wtmp verta oppdaterte når "
 "kommandoen i terminalen vert køyrt."
 
-#: ../src/gnome-terminal.schemas.in.h:38
+#: ../src/cinnamon-terminal.schemas.in.h:38
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -291,7 +291,7 @@ msgstr ""
 "det er ein skrifttype med fast teiknbreidde. Dersom han ikkje har fast "
 "teiknbreidde, vil terminalen velja den med fast teiknbreidde som liknar mest."
 
-#: ../src/gnome-terminal.schemas.in.h:39
+#: ../src/cinnamon-terminal.schemas.in.h:39
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -299,7 +299,7 @@ msgstr ""
 "Dersom sann, vil drakta slik ho ser ut på tekstboksar verta brukte i "
 "terminalen, i staden for fargane brukaren vel."
 
-#: ../src/gnome-terminal.schemas.in.h:40
+#: ../src/cinnamon-terminal.schemas.in.h:40
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -307,14 +307,14 @@ msgstr ""
 "Dersom sann, vil verdien til «custom_command» verta køyrt i staden for eit "
 "skal."
 
-#: ../src/gnome-terminal.schemas.in.h:41
+#: ../src/cinnamon-terminal.schemas.in.h:41
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr ""
 "Dersom sann, vil terminalen rulla til botnen når det kjem meir tekst i "
 "terminalen."
 
-#: ../src/gnome-terminal.schemas.in.h:42
+#: ../src/cinnamon-terminal.schemas.in.h:42
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
@@ -326,7 +326,7 @@ msgstr ""
 "den spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for "
 "denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:43
+#: ../src/cinnamon-terminal.schemas.in.h:43
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -336,7 +336,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:44
+#: ../src/cinnamon-terminal.schemas.in.h:44
 msgid ""
 "Keyboard shortcut key for closing a window. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -347,7 +347,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:45
+#: ../src/cinnamon-terminal.schemas.in.h:45
 msgid ""
 "Keyboard shortcut key for copying selected text to the clipboard. Expressed "
 "as a string in the same format used for GTK+ resource files. If you set the "
@@ -359,7 +359,7 @@ msgstr ""
 "den spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for "
 "denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:46
+#: ../src/cinnamon-terminal.schemas.in.h:46
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -369,7 +369,7 @@ msgstr ""
 "som GTK+-ressursfiler. Dersom du set denne til den spesielle strengen "
 "«disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:47
+#: ../src/cinnamon-terminal.schemas.in.h:47
 msgid ""
 "Keyboard shortcut key for making font larger. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -380,7 +380,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:48
+#: ../src/cinnamon-terminal.schemas.in.h:48
 msgid ""
 "Keyboard shortcut key for making font smaller. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -391,7 +391,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:49
+#: ../src/cinnamon-terminal.schemas.in.h:49
 msgid ""
 "Keyboard shortcut key for making font the normal size. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -403,7 +403,7 @@ msgstr ""
 "den spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for "
 "denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:50
+#: ../src/cinnamon-terminal.schemas.in.h:50
 msgid ""
 "Keyboard shortcut key for opening a new tab. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -414,7 +414,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:51
+#: ../src/cinnamon-terminal.schemas.in.h:51
 msgid ""
 "Keyboard shortcut key for opening a new window. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -425,7 +425,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:52
+#: ../src/cinnamon-terminal.schemas.in.h:52
 msgid ""
 "Keyboard shortcut key for pasting the contents of the clipboard into the "
 "terminal. Expressed as a string in the same format used for GTK+ resource "
@@ -437,7 +437,7 @@ msgstr ""
 "set denne til den spesielle strengen «disabled», vil det ikkje vera nokon "
 "snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:53
+#: ../src/cinnamon-terminal.schemas.in.h:53
 msgid ""
 "Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -448,7 +448,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:54
+#: ../src/cinnamon-terminal.schemas.in.h:54
 msgid ""
 "Keyboard shortcut key for switch to tab 10. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -460,7 +460,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:55
+#: ../src/cinnamon-terminal.schemas.in.h:55
 msgid ""
 "Keyboard shortcut key for switch to tab 11. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -472,7 +472,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:56
+#: ../src/cinnamon-terminal.schemas.in.h:56
 msgid ""
 "Keyboard shortcut key for switch to tab 12. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -484,7 +484,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:57
+#: ../src/cinnamon-terminal.schemas.in.h:57
 msgid ""
 "Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -494,7 +494,7 @@ msgstr ""
 "same formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:58
+#: ../src/cinnamon-terminal.schemas.in.h:58
 msgid ""
 "Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -505,7 +505,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:59
+#: ../src/cinnamon-terminal.schemas.in.h:59
 msgid ""
 "Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -516,7 +516,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:60
+#: ../src/cinnamon-terminal.schemas.in.h:60
 msgid ""
 "Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -526,7 +526,7 @@ msgstr ""
 "same formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:61
+#: ../src/cinnamon-terminal.schemas.in.h:61
 msgid ""
 "Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -537,7 +537,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:62
+#: ../src/cinnamon-terminal.schemas.in.h:62
 msgid ""
 "Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -548,7 +548,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:63
+#: ../src/cinnamon-terminal.schemas.in.h:63
 msgid ""
 "Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -559,7 +559,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:64
+#: ../src/cinnamon-terminal.schemas.in.h:64
 msgid ""
 "Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -570,7 +570,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:65
+#: ../src/cinnamon-terminal.schemas.in.h:65
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -581,7 +581,7 @@ msgstr ""
 "same formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:66
+#: ../src/cinnamon-terminal.schemas.in.h:66
 msgid ""
 "Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -593,7 +593,7 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:67
+#: ../src/cinnamon-terminal.schemas.in.h:67
 msgid ""
 "Keyboard shortcut key to reset the terminal. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -604,7 +604,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:68
+#: ../src/cinnamon-terminal.schemas.in.h:68
 msgid ""
 "Keyboard shortcut key to set the terminal title. Expressed as a string in "
 "the same format used for GTK+ resource files. If you set the option to the "
@@ -615,7 +615,7 @@ msgstr ""
 "same formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:69
+#: ../src/cinnamon-terminal.schemas.in.h:69
 msgid ""
 "Keyboard shortcut key to switch to the next tab. Expressed as a string in "
 "the same format used for GTK+ resource files. If you set the option to the "
@@ -626,7 +626,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:70
+#: ../src/cinnamon-terminal.schemas.in.h:70
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -637,7 +637,7 @@ msgstr ""
 "formatet som GTK+-ressursfiler. Dersom du set denne til den spesielle "
 "strengen «disabled», vil det ikkje vera nokon snøggtast for denne handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:71
+#: ../src/cinnamon-terminal.schemas.in.h:71
 msgid ""
 "Keyboard shortcut key to toggle the visibility of the menubar. Expressed as "
 "a string in the same format used for GTK+ resource files. If you set the "
@@ -649,143 +649,143 @@ msgstr ""
 "spesielle strengen «disabled», vil det ikkje vera nokon snøggtast for denne "
 "handlinga."
 
-#: ../src/gnome-terminal.schemas.in.h:72
+#: ../src/cinnamon-terminal.schemas.in.h:72
 msgid "Keyboard shortcut to close a tab"
 msgstr "Snøggtast som lukkar ei arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:73
+#: ../src/cinnamon-terminal.schemas.in.h:73
 msgid "Keyboard shortcut to close a window"
 msgstr "Snøggtast som lukkar eit vindauge"
 
-#: ../src/gnome-terminal.schemas.in.h:74
+#: ../src/cinnamon-terminal.schemas.in.h:74
 msgid "Keyboard shortcut to copy text"
 msgstr "Snøggtast som kopierer tekst"
 
-#: ../src/gnome-terminal.schemas.in.h:75
+#: ../src/cinnamon-terminal.schemas.in.h:75
 msgid "Keyboard shortcut to create a new profile"
 msgstr "Snøggtast som lagar ein ny profil"
 
-#: ../src/gnome-terminal.schemas.in.h:76
+#: ../src/cinnamon-terminal.schemas.in.h:76
 msgid "Keyboard shortcut to launch help"
 msgstr "Snøggtast som startar hjelp"
 
-#: ../src/gnome-terminal.schemas.in.h:77
+#: ../src/cinnamon-terminal.schemas.in.h:77
 msgid "Keyboard shortcut to make font larger"
 msgstr "Snøggtast som gjer skrifta større"
 
-#: ../src/gnome-terminal.schemas.in.h:78
+#: ../src/cinnamon-terminal.schemas.in.h:78
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Snøggtast som gjer skrifta normal storleik"
 
-#: ../src/gnome-terminal.schemas.in.h:79
+#: ../src/cinnamon-terminal.schemas.in.h:79
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Snøggtast som gjer skrifta mindre"
 
-#: ../src/gnome-terminal.schemas.in.h:80
+#: ../src/cinnamon-terminal.schemas.in.h:80
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Snøggtast som opnar ei ny arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:81
+#: ../src/cinnamon-terminal.schemas.in.h:81
 msgid "Keyboard shortcut to open a new window"
 msgstr "Snøggtast som opnar eit nytt vindauge"
 
-#: ../src/gnome-terminal.schemas.in.h:82
+#: ../src/cinnamon-terminal.schemas.in.h:82
 msgid "Keyboard shortcut to paste text"
 msgstr "Snøggtast som limar inn tekst"
 
-#: ../src/gnome-terminal.schemas.in.h:83
+#: ../src/cinnamon-terminal.schemas.in.h:83
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Snøggtast som nullstiller og tømer terminalen"
 
-#: ../src/gnome-terminal.schemas.in.h:84
+#: ../src/cinnamon-terminal.schemas.in.h:84
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Snøggtast som nullstiller terminalen"
 
-#: ../src/gnome-terminal.schemas.in.h:85
+#: ../src/cinnamon-terminal.schemas.in.h:85
 msgid "Keyboard shortcut to set the terminal title"
 msgstr "Snøggtast som endrar terminaltittelen"
 
-#: ../src/gnome-terminal.schemas.in.h:86
+#: ../src/cinnamon-terminal.schemas.in.h:86
 msgid "Keyboard shortcut to switch to tab 1"
 msgstr "Snøggtast som byter til fyrste arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:87
+#: ../src/cinnamon-terminal.schemas.in.h:87
 msgid "Keyboard shortcut to switch to tab 10"
 msgstr "Snøggtast som byter til tiande arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:88
+#: ../src/cinnamon-terminal.schemas.in.h:88
 msgid "Keyboard shortcut to switch to tab 11"
 msgstr "Snøggtast som byter til ellevte arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:89
+#: ../src/cinnamon-terminal.schemas.in.h:89
 msgid "Keyboard shortcut to switch to tab 12"
 msgstr "Snøggtast som byter til tolvte arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:90
+#: ../src/cinnamon-terminal.schemas.in.h:90
 msgid "Keyboard shortcut to switch to tab 2"
 msgstr "Snøggtast som byter til andre arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:91
+#: ../src/cinnamon-terminal.schemas.in.h:91
 msgid "Keyboard shortcut to switch to tab 3"
 msgstr "Snøggtast som byter til tredje arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:92
+#: ../src/cinnamon-terminal.schemas.in.h:92
 msgid "Keyboard shortcut to switch to tab 4"
 msgstr "Snøggtast som byter til fjerde arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:93
+#: ../src/cinnamon-terminal.schemas.in.h:93
 msgid "Keyboard shortcut to switch to tab 5"
 msgstr "Snøggtast som byter til femte arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:94
+#: ../src/cinnamon-terminal.schemas.in.h:94
 msgid "Keyboard shortcut to switch to tab 6"
 msgstr "Snøggtast som byter til sjette arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:95
+#: ../src/cinnamon-terminal.schemas.in.h:95
 msgid "Keyboard shortcut to switch to tab 7"
 msgstr "Snøggtast som byter til sjuande arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:96
+#: ../src/cinnamon-terminal.schemas.in.h:96
 msgid "Keyboard shortcut to switch to tab 8"
 msgstr "Snøggtast som byter til åttande arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:97
+#: ../src/cinnamon-terminal.schemas.in.h:97
 msgid "Keyboard shortcut to switch to tab 9"
 msgstr "Snøggtast som byter til niande arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:98
+#: ../src/cinnamon-terminal.schemas.in.h:98
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Snøggtast som byter til neste arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:99
+#: ../src/cinnamon-terminal.schemas.in.h:99
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Snøggtast som byter til førre arkfane"
 
-#: ../src/gnome-terminal.schemas.in.h:100
+#: ../src/cinnamon-terminal.schemas.in.h:100
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Snøggtast som byter til fullskjermsmodus"
 
-#: ../src/gnome-terminal.schemas.in.h:101
+#: ../src/cinnamon-terminal.schemas.in.h:101
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Snøggtast som styrer om menylinja er synleg"
 
-#: ../src/gnome-terminal.schemas.in.h:102
+#: ../src/cinnamon-terminal.schemas.in.h:102
 msgid "List of available encodings"
 msgstr "Liste over tilgjengelege teiknkodingar"
 
-#: ../src/gnome-terminal.schemas.in.h:103
+#: ../src/cinnamon-terminal.schemas.in.h:103
 msgid "List of profiles"
 msgstr "Liste over profilar"
 
-#: ../src/gnome-terminal.schemas.in.h:104
+#: ../src/cinnamon-terminal.schemas.in.h:104
 msgid ""
-"List of profiles known to gnome-terminal. The list contains strings naming "
-"subdirectories relative to /apps/gnome-terminal/profiles."
+"List of profiles known to cinnamon-terminal. The list contains strings naming "
+"subdirectories relative to /apps/cinnamon-terminal/profiles."
 msgstr ""
-"Liste over profilar som er kjent for gnome-terminal. Lista inneheld strengar "
-"som namngjev undermapper relativt til /apps/gnome-terminal/profiles."
+"Liste over profilar som er kjent for cinnamon-terminal. Lista inneheld strengar "
+"som namngjev undermapper relativt til /apps/cinnamon-terminal/profiles."
 
-#: ../src/gnome-terminal.schemas.in.h:105
+#: ../src/cinnamon-terminal.schemas.in.h:105
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -795,11 +795,11 @@ msgstr ""
 "i gtkrc (gtk-menu-bar-accel = \"noko\"). Dette valet let deg kopla ut "
 "menylinje-snøggtasten."
 
-#: ../src/gnome-terminal.schemas.in.h:106
+#: ../src/cinnamon-terminal.schemas.in.h:106
 msgid "Number of lines to keep in scrollback"
 msgstr "Talet på linjer å ha i rulleminnet"
 
-#: ../src/gnome-terminal.schemas.in.h:107
+#: ../src/cinnamon-terminal.schemas.in.h:107
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -811,13 +811,13 @@ msgstr ""
 "vert gløymde. Ver varsam med denne innstillinga; ho er den viktigaste "
 "faktoren i minnebruken til terminalen."
 
-#: ../src/gnome-terminal.schemas.in.h:108
+#: ../src/cinnamon-terminal.schemas.in.h:108
 msgid "Palette for terminal applications"
 msgstr "Palett for terminalprogram"
 
 #. Translators: S/Key is the name of an application, so it should
 #. not be translated.
-#: ../src/gnome-terminal.schemas.in.h:111
+#: ../src/cinnamon-terminal.schemas.in.h:111
 msgid ""
 "Popup a dialog when an S/Key challenge response query is detected and "
 "clicked on. Typing a password into the dialog will send it to the terminal."
@@ -825,11 +825,11 @@ msgstr ""
 "Opna ein dialog når ei S/Key-utfordring vert oppdaga og klikka på. Når eit "
 "passord vert skrive inn i dialogen vert det sendt til terminalen."
 
-#: ../src/gnome-terminal.schemas.in.h:112
+#: ../src/cinnamon-terminal.schemas.in.h:112
 msgid "Position of the scrollbar"
 msgstr "Plasseringa av rullefeltet"
 
-#: ../src/gnome-terminal.schemas.in.h:113
+#: ../src/cinnamon-terminal.schemas.in.h:113
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -837,24 +837,24 @@ msgstr ""
 "Moglege verdiar er «close» for å lukka terminalen, og «restart» for å utføra "
 "kommandoen på nytt."
 
-#: ../src/gnome-terminal.schemas.in.h:114
+#: ../src/cinnamon-terminal.schemas.in.h:114
 msgid ""
 "Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Profil som vert brukt når ei ny arkfane eller eit nytt vindauge vert opna. "
 "Må vera i «profile_list»."
 
-#: ../src/gnome-terminal.schemas.in.h:115
+#: ../src/cinnamon-terminal.schemas.in.h:115
 msgid "Profile to use for new terminals"
 msgstr "Profil å bruka i nye terminalar"
 
-#: ../src/gnome-terminal.schemas.in.h:116
+#: ../src/cinnamon-terminal.schemas.in.h:116
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Køyr denne kommandoen i staden for skalet, dersom «use_custom_.command» er "
 "sann."
 
-#: ../src/gnome-terminal.schemas.in.h:117
+#: ../src/cinnamon-terminal.schemas.in.h:117
 msgid ""
 "Sets what code the backspace key generates. Possible values are \"ascii-del"
 "\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII "
@@ -867,7 +867,7 @@ msgstr ""
 "escape-sekvensen som vanlegvis er knytta til Backspace eller Delete. «ascii-"
 "del» vert vanlegvis rekna for den rette innstillinga for Backspace-tasten."
 
-#: ../src/gnome-terminal.schemas.in.h:118
+#: ../src/cinnamon-terminal.schemas.in.h:118
 msgid ""
 "Sets what code the delete key generates. Possible values are \"ascii-del\" "
 "for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII BS "
@@ -880,7 +880,7 @@ msgstr ""
 "escape-sekvensen som vanlegvis er knytta til Backspace eller Delete. «escape-"
 "sequence» vert vanlegvis rekna for den rette innstillinga for Delete-tasten."
 
-#: ../src/gnome-terminal.schemas.in.h:120
+#: ../src/cinnamon-terminal.schemas.in.h:120
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -890,11 +890,11 @@ msgstr ""
 "Dette er den paletten. Han inneheld ei liste over fargenamn, skilde åt med "
 "kolon. Fargenamna skal vera i heksadesimalt format, t.d. «#FF00FF»."
 
-#: ../src/gnome-terminal.schemas.in.h:121
+#: ../src/cinnamon-terminal.schemas.in.h:121
 msgid "The cursor appearance"
 msgstr "Korleis skrivemerket ser ut"
 
-#: ../src/gnome-terminal.schemas.in.h:122
+#: ../src/cinnamon-terminal.schemas.in.h:122
 msgid ""
 "The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
 "vertical line cursor, or \"underline\" to use an underline cursor."
@@ -902,7 +902,7 @@ msgstr ""
 "Moglege verdiar er «block» for å bruka eit blokkforma skrivemerke, «ibeam» for "
 "å bruka ei loddrett line og «underline» for å bruka understreking."
 
-#: ../src/gnome-terminal.schemas.in.h:123
+#: ../src/cinnamon-terminal.schemas.in.h:123
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -911,11 +911,11 @@ msgstr ""
 "korleis skrivemerket skal blinka, eller «on» og «off» for å eksplisitt skru på "
 "eller av."
 
-#: ../src/gnome-terminal.schemas.in.h:124
+#: ../src/cinnamon-terminal.schemas.in.h:124
 msgid "Title for terminal"
 msgstr "Tittel på terminalen"
 
-#: ../src/gnome-terminal.schemas.in.h:125
+#: ../src/cinnamon-terminal.schemas.in.h:125
 msgid ""
 "Title to display for the terminal window or tab. This title may be replaced "
 "by or combined with the title set by the application inside the terminal, "
@@ -925,7 +925,7 @@ msgstr ""
 "ut med eller kombinerast med ein tittel som vert stilt av programmet inni "
 "terminalen, alt etter verdien av «title_mode»."
 
-#: ../src/gnome-terminal.schemas.in.h:126
+#: ../src/cinnamon-terminal.schemas.in.h:126
 msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
@@ -933,7 +933,7 @@ msgstr ""
 "Sann dersom menylinja skal visast i nye vindauge. Gjeld for vindauge og "
 "arkfaner med denne profilen."
 
-#: ../src/gnome-terminal.schemas.in.h:127
+#: ../src/cinnamon-terminal.schemas.in.h:127
 msgid ""
 "Type of terminal background. May be \"solid\" for a solid color, \"image\" "
 "for an image, or \"transparent\" for either real transparency if a "
@@ -944,15 +944,15 @@ msgstr ""
 "dersom ein compositing-vindaugehandsamar køyrer, eller ein pseudo-"
 "gjennomsiktig bakgrunn dersom ikkje."
 
-#: ../src/gnome-terminal.schemas.in.h:128
+#: ../src/cinnamon-terminal.schemas.in.h:128
 msgid "What to do with dynamic title"
 msgstr "Kva skal gjerast med endra tittel"
 
-#: ../src/gnome-terminal.schemas.in.h:129
+#: ../src/cinnamon-terminal.schemas.in.h:129
 msgid "What to do with the terminal when the child command exits"
 msgstr "Kva skal gjerast med terminalen når barneprosessen avsluttar"
 
-#: ../src/gnome-terminal.schemas.in.h:130
+#: ../src/cinnamon-terminal.schemas.in.h:130
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
 "single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
@@ -962,7 +962,7 @@ msgstr ""
 "ord. Område kan skrivast som «A-Z». Bindestrek (som teikn, og ikkje uttrykk "
 "for eit bokstavområde) må vera det fyrste teiknet dersom det skal vera med."
 
-#: ../src/gnome-terminal.schemas.in.h:131
+#: ../src/cinnamon-terminal.schemas.in.h:131
 msgid ""
 "Where to put the terminal scrollbar. Possibilities are \"left\", \"right\", "
 "and \"disabled\"."
@@ -970,19 +970,19 @@ msgstr ""
 "Kor rullefeltet skal plasserast i terminalen. Moglege verdiar er «left», "
 "«right» og «disabled»."
 
-#: ../src/gnome-terminal.schemas.in.h:132
+#: ../src/cinnamon-terminal.schemas.in.h:132
 msgid "Whether the menubar has access keys"
 msgstr "Om menylinja har snøggtastar"
 
-#: ../src/gnome-terminal.schemas.in.h:133
+#: ../src/cinnamon-terminal.schemas.in.h:133
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "Om den vanlege GTK-snøggtasten til menylinja er aktiv"
 
-#: ../src/gnome-terminal.schemas.in.h:134
+#: ../src/cinnamon-terminal.schemas.in.h:134
 msgid "Whether to allow bold text"
 msgstr "Om feite typar skal tillatast"
 
-#: ../src/gnome-terminal.schemas.in.h:135
+#: ../src/cinnamon-terminal.schemas.in.h:135
 msgid ""
 "Whether to ask for confirmation when closing a terminal window which has "
 "more than one open tab."
@@ -990,15 +990,15 @@ msgstr ""
 "Om programmet skal be om stadfesting når eit terminalvindauge med meir enn "
 "ei open arkfane vert lukka."
 
-#: ../src/gnome-terminal.schemas.in.h:136
+#: ../src/cinnamon-terminal.schemas.in.h:136
 msgid "Whether to ask for confirmation when closing terminal windows"
 msgstr "Om programmet skal be om stadfesting når terminalvindauge vert lukka"
 
-#: ../src/gnome-terminal.schemas.in.h:137
+#: ../src/cinnamon-terminal.schemas.in.h:137
 msgid "Whether to blink the cursor"
 msgstr "Om skrivemerket skal blinka"
 
-#: ../src/gnome-terminal.schemas.in.h:138
+#: ../src/cinnamon-terminal.schemas.in.h:138
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -1007,44 +1007,44 @@ msgstr ""
 "Om menylinja skal bruka snøggtastar, t.d. Alt-F for å opna fil-menyen. Dei "
 "kan forstyrra somme program i terminalen, så det er mogleg å slå dei av."
 
-#: ../src/gnome-terminal.schemas.in.h:139
+#: ../src/cinnamon-terminal.schemas.in.h:139
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "Om kommandoen i terminalen skal startast som eit påloggingsskal"
 
-#: ../src/gnome-terminal.schemas.in.h:140
+#: ../src/cinnamon-terminal.schemas.in.h:140
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Om det skal køyrast ein eigendefinert kommando i staden for skalet"
 
-#: ../src/gnome-terminal.schemas.in.h:141
+#: ../src/cinnamon-terminal.schemas.in.h:141
 msgid "Whether to scroll background image"
 msgstr "Om bakgrunnsbiletet skal rulla"
 
-#: ../src/gnome-terminal.schemas.in.h:142
+#: ../src/cinnamon-terminal.schemas.in.h:142
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Om terminalen skal rulla til botnen når ein tast vert trykt"
 
-#: ../src/gnome-terminal.schemas.in.h:143
+#: ../src/cinnamon-terminal.schemas.in.h:143
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "Om terminalen skal rulla til botnen når det kjem nye data i terminalen"
 
-#: ../src/gnome-terminal.schemas.in.h:144
+#: ../src/cinnamon-terminal.schemas.in.h:144
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "Om menylinja skal visast i nye vindauge og arkfaner"
 
-#: ../src/gnome-terminal.schemas.in.h:145
+#: ../src/cinnamon-terminal.schemas.in.h:145
 msgid "Whether to silence terminal bell"
 msgstr "Om terminalsignalet skal dempast"
 
-#: ../src/gnome-terminal.schemas.in.h:146
+#: ../src/cinnamon-terminal.schemas.in.h:146
 msgid "Whether to update login records when launching terminal command"
 msgstr ""
 "Om innloggingslistene skal oppdaterast når kommandoen i terminalen vert køyrt"
 
-#: ../src/gnome-terminal.schemas.in.h:147
+#: ../src/cinnamon-terminal.schemas.in.h:147
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Om fargar frå drakta skal brukast i terminalen"
 
-#: ../src/gnome-terminal.schemas.in.h:148
+#: ../src/cinnamon-terminal.schemas.in.h:148
 msgid "Whether to use the system font"
 msgstr "Om systemskrifttypen skal brukast"
 
@@ -1054,7 +1054,7 @@ msgstr "Om systemskrifttypen skal brukast"
 #. translated. This is provided for customization of the default encoding
 #. menu; see bug 144810 for an use case. In most cases, this should be
 #. left alone.
-#: ../src/gnome-terminal.schemas.in.h:155
+#: ../src/cinnamon-terminal.schemas.in.h:155
 msgid "[UTF-8,current]"
 msgstr "[UTF-8,current,ISO-8859-15]"
 
@@ -1852,16 +1852,16 @@ msgstr "Noverande lokale"
 #: ../src/terminal-options.c:175
 #, c-format
 msgid ""
-"Option \"%s\" is no longer supported in this version of gnome-terminal; you "
+"Option \"%s\" is no longer supported in this version of cinnamon-terminal; you "
 "might want to create a profile with the desired setting, and use the new '--"
 "profile' option\n"
 msgstr ""
-"Valet «%s» er ikkje støtta i denne versjonen av gnome-terminal. Du kan laga "
+"Valet «%s» er ikkje støtta i denne versjonen av cinnamon-terminal. Du kan laga "
 "ein profil med den ynskte innstillinga, og bruka det nye valet «--profile»\n"
 
 #: ../src/terminal-options.c:188 ../src/terminal-window.c:3683
-msgid "GNOME Terminal"
-msgstr "GNOME Terminal"
+msgid "Cinnamon Terminal"
+msgstr "Cinnamon Terminal"
 
 #: ../src/terminal-options.c:208
 #, c-format
@@ -2009,12 +2009,12 @@ msgid "ZOOM"
 msgstr "ZOOM"
 
 #: ../src/terminal-options.c:1355 ../src/terminal-options.c:1358
-msgid "GNOME Terminal Emulator"
-msgstr "GNOME Terminalemulator"
+msgid "Cinnamon Terminal Emulator"
+msgstr "Cinnamon Terminalemulator"
 
 #: ../src/terminal-options.c:1359
-msgid "Show GNOME Terminal options"
-msgstr "Vis brukarval for GNOME Terminal"
+msgid "Show Cinnamon Terminal options"
+msgstr "Vis brukarval for Cinnamon Terminal"
 
 #: ../src/terminal-options.c:1369
 msgid ""
@@ -2084,31 +2084,31 @@ msgstr "Klarte ikkje å opna adressa «%s»"
 
 #: ../src/terminal-util.c:364
 msgid ""
-"GNOME Terminal is free software; you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
 msgstr ""
-"GNOME Terminal er fri programvare. Du kan redistribuera og/eller endra "
+"Cinnamon Terminal er fri programvare. Du kan redistribuera og/eller endra "
 "programmet under vilkåra gjevne i GNU General Public License som utgjeven av "
 "Free Software Foundation; anten versjon 2 av lisensen, eller (viss du "
 "ynskjer det) einkvar seinare versjon."
 
 #: ../src/terminal-util.c:368
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
-"GNOME Terminal vert distribuert i håp om at programmet er nyttig, men utan "
+"Cinnamon Terminal vert distribuert i håp om at programmet er nyttig, men utan "
 "NOKON GARANTI, ikkje eingong implisitt garanti om at det er SALGBART eller "
 "PASSAR EIT BESTEMT FORMÅL. Sjå GNU General Public License for detaljar."
 
 #: ../src/terminal-util.c:372
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"Cinnamon Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 "Du skal ha motteke ein kopi av GNU General Public License saman med GNOME "
@@ -2628,10 +2628,10 @@ msgstr "Rxvt"
 #~ "Klarte ikkje å lasta bakgrunnsbiletet «%s» til terminalprofilen «%s»: %s\n"
 
 #~ msgid ""
-#~ "GNOME Terminal: font name \"%s\" set in configuration database is not "
+#~ "Cinnamon Terminal: font name \"%s\" set in configuration database is not "
 #~ "valid\n"
 #~ msgstr ""
-#~ "GNOME Terminal: Skrifttypenamnet «%s» i oppsettsdatabasen er ikkje gyldig\n"
+#~ "Cinnamon Terminal: Skrifttypenamnet «%s» i oppsettsdatabasen er ikkje gyldig\n"
 
 #~ msgid "Error getting default value of %s: %s\n"
 #~ msgstr "Feil ved henting av standardverdien til «%s»: %s\n"
@@ -2867,10 +2867,10 @@ msgstr "Rxvt"
 #~ msgstr "SKALERINGSFAKTOR"
 
 #~ msgid ""
-#~ "It appears that you do not have gnome-terminal.server installed in a "
+#~ "It appears that you do not have cinnamon-terminal.server installed in a "
 #~ "valid location. Factory mode disabled.\n"
 #~ msgstr ""
-#~ "Det ser ikkje ut til at du har «gnome-terminal.server» installert på rett "
+#~ "Det ser ikkje ut til at du har «cinnamon-terminal.server» installert på rett "
 #~ "plass. Fabrikkmodus kopla ut.\n"
 
 #~ msgid ""

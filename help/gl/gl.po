@@ -1,11 +1,11 @@
-# Galician translation for gnome-terminal.
-# Copyright (C) 2011 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Galician translation for cinnamon-terminal.
+# Copyright (C) 2011 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2011.
 # Fran Dieguez <frandieguez@gnome.org>, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal gnome-3-2\n"
+"Project-Id-Version: cinnamon-terminal gnome-3-2\n"
 "POT-Creation-Date: 2019-09-17 11:04+0000\n"
 "PO-Revision-Date: 2019-12-27 18:19+0100\n"
 "Last-Translator: Fran Diéguez <frandieguez@gnome.org>\n"
@@ -1724,7 +1724,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminal de GNOME"
 
 #. (itstool) path: figure/desc
@@ -1741,14 +1741,14 @@ msgstr ""
 #, fuzzy
 #| msgctxt "_"
 #| msgid ""
-#| "external ref='figures/gnome-terminal-icon.png' "
+#| "external ref='figures/cinnamon-terminal-icon.png' "
 #| "md5='eec073d5291ad14523f66f78811b505a'"
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='9d9d04e06438b67ca403f9e56a6d28cc'"
 msgstr ""
-"external ref='figures/gnome-terminal-icon.png' "
+"external ref='figures/cinnamon-terminal-icon.png' "
 "md5='eec073d5291ad14523f66f78811b505a'"
 
 #. (itstool) path: p/link

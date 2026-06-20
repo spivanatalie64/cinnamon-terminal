@@ -24,11 +24,11 @@ G_BEGIN_DECLS
 
 #define TERMINAL_SCHEMA_VERSION         (3u)
 
-#define TERMINAL_KEYBINDINGS_SCHEMA     "org.gnome.Terminal.Legacy.Keybindings"
-#define TERMINAL_PROFILE_SCHEMA         "org.gnome.Terminal.Legacy.Profile"
-#define TERMINAL_SETTING_SCHEMA         "org.gnome.Terminal.Legacy.Settings"
-#define TERMINAL_SETTINGS_LIST_SCHEMA   "org.gnome.Terminal.SettingsList"
-#define TERMINAL_PROFILES_LIST_SCHEMA   "org.gnome.Terminal.ProfilesList"
+#define TERMINAL_KEYBINDINGS_SCHEMA     "org.acreetionos.cinnamon.Terminal.Legacy.Keybindings"
+#define TERMINAL_PROFILE_SCHEMA         "org.acreetionos.cinnamon.Terminal.Legacy.Profile"
+#define TERMINAL_SETTING_SCHEMA         "org.acreetionos.cinnamon.Terminal.Legacy.Settings"
+#define TERMINAL_SETTINGS_LIST_SCHEMA   "org.acreetionos.cinnamon.Terminal.SettingsList"
+#define TERMINAL_PROFILES_LIST_SCHEMA   "org.acreetionos.cinnamon.Terminal.ProfilesList"
 
 #define TERMINAL_KEYBINDINGS_SCHEMA_PATH "/org/gnome/terminal/legacy/keybindings/"
 

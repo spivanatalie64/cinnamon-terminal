@@ -1,11 +1,11 @@
 # Maintainer: Natalie <natalie@acreetionos.org>
 # Contributor: Natalie <natalie@acreetionos.org>
-# Arch: Cinnamon Terminal - GNOME Terminal fork for Cinnamon Desktop
+# Arch: Cinnamon Terminal - Cinnamon Terminal fork for Cinnamon Desktop
 
 pkgname=cinnamon-terminal
 pkgver=3.97.1
 pkgrel=1
-pkgdesc="Cinnamon Terminal - a fork of GNOME Terminal focused on Cinnamon Desktop integration"
+pkgdesc="Cinnamon Terminal - a fork of Cinnamon Terminal focused on Cinnamon Desktop integration"
 arch=('x86_64')
 url="https://gitlab.acreetionos.org/acreetionos-code/cinnamon-terminal"
 license=('GPL3')
@@ -30,8 +30,8 @@ makedepends=(
 optdepends=(
   'nautilus: for Nautilus extension'
 )
-provides=('gnome-terminal')
-conflicts=('gnome-terminal')
+provides=('cinnamon-terminal')
+conflicts=('cinnamon-terminal')
 source=("$pkgname-$pkgver.tar.gz::https://gitlab.acreetionos.org/acreetionos-code/$pkgname/-/archive/v$pkgver/$pkgname-v$pkgver.tar.gz")
 sha256sums=('SKIP')
 

@@ -2,15 +2,15 @@
 
 ## Cinnamon Terminal
 
-Cinnamon Terminal is a fork of [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal).
+Cinnamon Terminal is a fork of [Cinnamon Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal).
 
 ### Project Maintainers
 
 - **Natalie Spiva** <natalie@acreetionos.org> — Project lead, maintainer
 
-### Upstream GNOME Terminal Authors
+### Upstream Cinnamon Terminal Authors
 
-GNOME Terminal was originally created by Havoc Pennington and is maintained
+Cinnamon Terminal was originally created by Havoc Pennington and is maintained
 by the GNOME community. All upstream authors retain copyright over their
 contributions.
 

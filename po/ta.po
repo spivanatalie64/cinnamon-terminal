@@ -1,5 +1,5 @@
-# translation of gnome-terminal.master.ta.po to Tamil
-# translation of gnome-terminal.HEAD.ta.po to
+# translation of cinnamon-terminal.master.ta.po to Tamil
+# translation of cinnamon-terminal.HEAD.ta.po to
 # Tamil translation of Gnome Terminal.
 # Copyright (C) 2003 Gnome Terminal's copyright holder
 # This file is distributed under the same license as the Gnome Terminal package.
@@ -14,7 +14,7 @@
 # Shantha kumar <shkumar@redhat.com>, 2013, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal.master.ta\n"
+"Project-Id-Version: cinnamon-terminal.master.ta\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "terminal&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-09-14 07:52+0000\n"
@@ -35,26 +35,26 @@ msgstr ""
 "\n"
 "\n"
 
-#: ../gnome-terminal.appdata.xml.in.h:1 ../gnome-terminal.desktop.in.in.h:1
+#: ../cinnamon-terminal.appdata.xml.in.h:1 ../cinnamon-terminal.desktop.in.in.h:1
 #: ../src/server.c:121 ../src/terminal-accels.c:222 ../src/terminal.c:243
 #: ../src/terminal-tab-label.c:79 ../src/terminal-tabs-menu.c:180
 #: ../src/terminal-window.c:2582 ../src/terminal-window.c:2932
 msgid "Terminal"
 msgstr "முனையம்"
 
-#: ../gnome-terminal.appdata.xml.in.h:2 ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.appdata.xml.in.h:2 ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "கட்டளை வரியை பயன்படுத்து"
 
-#: ../gnome-terminal.appdata.xml.in.h:3
+#: ../cinnamon-terminal.appdata.xml.in.h:3
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
 "GNOME முனையம் என்பது உங்கள் கணினியில் இருக்கும் நிரல்களை இயக்கப் பயன்படுகின்ற "
 "UNIX ஷெல் ஒன்றை அணுகுவதற்கான முனைய உருவாக்கப் பயன்பாடு."
 
-#: ../gnome-terminal.appdata.xml.in.h:4
+#: ../cinnamon-terminal.appdata.xml.in.h:4
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
@@ -62,7 +62,7 @@ msgstr ""
 "இது பல தனியமைப்புகளையும் பல கீற்றுகளையும் ஆதரிக்கிறது. பல விசைப்பலகைக் "
 "குறுக்குவழிகளும் உள்ளது."
 
-#: ../gnome-terminal.desktop.in.in.h:3
+#: ../cinnamon-terminal.desktop.in.in.h:3
 msgid "shell;prompt;command;commandline;"
 msgstr "ஷெல்;தூண்டி;கட்டளை;கட்டளை வரி;"
 
@@ -334,24 +334,24 @@ msgstr "முன்னிருப்பு"
 msgid "Unnamed"
 msgstr "பெயரில்லாத"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:1
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:1
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'பெயரில்லாத'"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:2
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:2
 msgid "Human-readable name of the profile"
 msgstr "மனிதனால் படிக்ககூடிய பெயர் விவரம்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:3
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:3
 msgid "Human-readable name of the profile."
 msgstr "மனிதனால் படிக்ககூடிய பெயர் விவரம்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:4
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:4
 msgid "Default color of text in the terminal"
 msgstr "முனையத்தில் உரையில் இயல்பான வண்ணம்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:5
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:5
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -360,11 +360,11 @@ msgstr ""
 "எண்ம "
 "மதிப்பாகவோ அல்லது நிறத்தின் பெயர் \"red\" ஆகவோ இருக்கலாம்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:6
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:6
 msgid "Default color of terminal background"
 msgstr "முனையத்தின் இயல்பான பின்னணி வண்ணம்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:7
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:7
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -373,11 +373,11 @@ msgstr ""
 "எண்ம "
 "மதிப்பாகவோ அல்லது நிறத்தின் பெயர் \"red\" ஆகவோ இருக்கலாம்)."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:8
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:8
 msgid "Default color of bold text in the terminal"
 msgstr "முனையத்தில் தடித்த உரையில் இயல்பான வண்ணம்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:9
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:9
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
@@ -389,40 +389,40 @@ msgstr ""
 "உண்மை "
 "என்ற பட்சத்தில் இதை உதாசீனம் செய்யலாம்."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:10
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:10
 msgid "Whether bold text should use the same color as normal text"
 msgstr "சாதாரண உரையின் வண்னத்திலேயே தடிமனான உரையும் இருக்க வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:11
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:11
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr "உண்மை எனில் தடித்த உரை சாதாரண உரையின் வண்னத்திலேயே அமைக்கப்படும்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:12
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:12
 msgid "Whether to allow bold text"
 msgstr "எல்லா தடித்த உரைகளையும் அனுமதிக்கவா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:13
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:13
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr "உண்மை எனில், முனையத்தில் உள்ள பயன்பாடுகளின் உரையை தடித்த எழுத்தாக்கு"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:14
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:14
 msgid "Whether to ring the terminal bell"
 msgstr "முனைய மணியை ஒலிக்க வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:15
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:15
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "புதிய சாளரம் அல்லது கீற்று  இல் மெனுபட்டியை காட்ட வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:16
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:16
 msgid "True if the menubar should be shown in new window"
 msgstr "மெனுபட்டி தனி சாளரத்தில் காட்டப்பட வேண்டுமெனில், உண்மை."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:17
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:17
 msgid "Default number of columns"
 msgstr "முன்னிருப்பு நெடு வரிசைகளின் எண்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:18
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:18
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -431,11 +431,11 @@ msgstr ""
 "முன்னிருப்பு "
 "அளவை பயன்படுத்து ஐ செயலாக்கி இராவிடில் இதனால் பயனில்லை."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:19
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:19
 msgid "Default number of rows"
 msgstr "முன்னிருப்பு வரிசைகளின் எண்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:20
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:20
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -444,15 +444,15 @@ msgstr ""
 "முன்னிருப்பு அளவை "
 "பயன்படுத்து ஐ செயலாக்கி இராவிடில் இதனால் பயனில்லை."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:21
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:21
 msgid "When to show the scrollbar"
 msgstr "உருள்பட்டியை காட்ட வேன்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:22
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:22
 msgid "Number of lines to keep in scrollback"
 msgstr "உருள்பட்டியில் உள்ள வரிகளின் எண்ணிக்கை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:23
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:23
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -464,11 +464,11 @@ msgstr ""
 "எறியப்படும். "
 "scrollback_unlimited தேர்வு உண்மையானால் இந்த மதிப்பு உதாசீனம் செய்யப்படும். "
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:24
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:24
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "உருள்பட்டியில் பின் செல்ல வரையரை இல்லா வரிகள் இருக்க வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:25
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:25
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -480,28 +480,28 @@ msgstr ""
 "இருப்பின் கணினி "
 "வட்டு இடத்தை முழுதும் இழக்கலாம்."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:26
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:26
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "விசையை நகர்த்தும் போது பட்டனை சுழற்ற வேண்டுமா?"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:27
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:27
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "உண்மையெனில், கீழே உள்ள பயன்பாடு மெனுவுக்காக விசையை அழுத்தவும்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:28
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:28
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "புதிய விளைவுகள் வரும் போது பட்டனை உருட்ட வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:29
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:29
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr "உண்மையெனில், புதிய விளைவின் போது முனையம் கீழே நகரும்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:30
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:30
 msgid "What to do with the terminal when the child command exits"
 msgstr "சேய் கட்டளை இருக்கும் போது முனையத்தை கொண்டு என்ன செய்வது"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:31
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:31
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -509,11 +509,11 @@ msgstr ""
 " \"மூடு\" எனில் முனையம் மூடப்படும், மற்றும் \"மீண்டும்\" முனையம் மீண்டும் "
 "துவங்கும்."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:32
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:32
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "முனையத்தில் நுழையும் போது சில கட்டளைகளை துவக்க வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:33
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:33
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -522,11 +522,11 @@ msgstr ""
 "துவக்கப்படும் (argv[0] "
 "க்கு முன்பு ஒரு நடுக்கோடு இடம்பெறும்)."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:34
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:34
 msgid "Whether to update login records when launching terminal command"
 msgstr "முனையத்தை துவக்கும் போது உள்நுழைந்த தகவலை பதிவு செய்ய வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:35
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:35
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
@@ -534,11 +534,11 @@ msgstr ""
 "உண்மையெனில் கணினி உள்நுழைதல் utmp மற்றும் wtmp ஆகிய தகவல்களை கணினி பதிவு "
 "செய்யும்."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:36
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:36
 msgid "Whether to run a custom command instead of the shell"
 msgstr "செல் கட்டளைக்கு பதில் தனி கட்டளைகளை இயக்க வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:37
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:37
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -546,11 +546,11 @@ msgstr ""
 "உண்மையெனில், செல்லில் இயக்குவதற்கு பதில் தனிப்பயன்_கட்டளையில் மதிப்பு "
 "பயன்படுத்தப்படும்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:38
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:38
 msgid "Whether to blink the cursor"
 msgstr "கர்சர் சிமிட்ட வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:39
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:39
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -559,53 +559,53 @@ msgstr ""
 "அல்லது "
 "\"off\" முறைமையை அமைக்கிறது."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:40
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:40
 msgid "The cursor appearance"
 msgstr "நிலைக்காட்டி தோற்றம்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:41
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:41
 msgid "Custom command to use instead of the shell"
 msgstr "செல் கட்டளைக்கு பதிலாக பயன்படுத்த வேண்டிய தனி கட்டளை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:42
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:42
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr "use_custom_command உண்மையெனில் இந்த கட்டளையை இயக்கவும்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:43
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:43
 msgid "Palette for terminal applications"
 msgstr "முனைய பயன்பாடுகளுக்கான வண்ணப்பெட்டி"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:44
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:44
 msgid "A Pango font name and size"
 msgstr "ஒரு  பாங்கோ எழுத்துரு பெயரும் அளவும்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:45
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:45
 msgid "The code sequence the Backspace key generates"
 msgstr "பின்வெளி விசை உருவாக்கும் கோட் வரிசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:46
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:46
 msgid "The code sequence the Delete key generates"
 msgstr "நீக்கு விசை உருவாக்கும் கோட் வரிசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:47
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:47
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "முனைய சிறுசாளரத்தில் உள்ள நிரலை பயன்படுத்த வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:48
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:48
 msgid "Whether to use the system monospace font"
 msgstr "கணினி  மோனோஸ்பேஸ் எழுத்துருவை பயன்படுத்த வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:49
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:49
 #| msgid "Whether to open new terminals as windows or tabs"
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr ""
 "சாளரத்தின் அளவை மாற்றும் போது முனைய உள்ளடக்கத்தை மீண்டும் மடிக்க வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:50
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:50
 msgid "Which encoding to use"
 msgstr "எந்த குறியாக்க முறையை பயன்படுத்த வேண்டும்?"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:51
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:51
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
@@ -613,128 +613,128 @@ msgstr ""
 "UTF-8 குறியீடாக்கத்தைப் பயன்படுத்தும் போது தெளிவற்ற அகாலமுள்ள எழுத்துகள் "
 "குறுகலாக இருக்குமா அல்லது அகலமாக இருக்குமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:52
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:52
 msgid "Keyboard shortcut to open a new tab"
 msgstr "புதிய கீற்று பை திறக்க பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:53
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:53
 msgid "Keyboard shortcut to open a new window"
 msgstr "புதிய சாளரத்தை திறக்க பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:54
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:54
 msgid "Keyboard shortcut to create a new profile"
 msgstr "புதிய விவரங்களை உருவாக்க பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:55
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:55
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr ""
 "நடப்பு கீற்றின் உள்ளடக்கத்தை கோப்புக்கு எழுத பயன்படும் விசைப்பலகை குறுக்கு "
 "விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:56
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:56
 msgid "Keyboard shortcut to close a tab"
 msgstr "டாபை மூட பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:57
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:57
 msgid "Keyboard shortcut to close a window"
 msgstr "சாளரத்தை மூட பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:58
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:58
 msgid "Keyboard shortcut to copy text"
 msgstr "உரையை நகலெடுக்க பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:59
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:59
 msgid "Keyboard shortcut to paste text"
 msgstr "உரையை ஒட்ட பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:60
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:60
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "முழு திரை காட்சிக்கு நகர குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:61
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:61
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "மெனுபார் காட்சிக்கு குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:62
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:62
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "முனையத்தை மீட்டமைக்க பயன்படும் விசைப்பலகை குறுக்கு விசைகள்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:63
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:63
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr ""
 "முனையத்தை மீட்டமைக்க தூய்மைப்படுத்த பயன்படும் விசைப்பலகை குறுக்கு விசைகள்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:64
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:64
 #| msgid "Keyboard shortcut to reset the terminal"
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "தேடல் உரையாடலைத் திறப்பதற்கான விசைப்பலகை குறுக்கு வழி"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:65
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:65
 #| msgid "Keyboard shortcut to move the current tab to the right"
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr ""
 "தேடல் சொல் இருக்கும் அடுத்த இடத்தைக் கண்டுபிடிப்பதற்கான விசைப்பலகை குறுக்கு "
 "வழி"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:66
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:66
 #| msgid "Keyboard shortcut to move the current tab to the right"
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr ""
 "தேடல் சொல் இருக்கும் முந்தைய இடத்தைக் கண்டுபிடிப்பதற்கான விசைப்பலகை குறுக்கு "
 "வழி"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:67
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:67
 #| msgid "Keyboard shortcut to set the terminal title"
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr ""
 "கண்டுபிடித்தவற்றைத் தனிப்படுத்திக் காட்டுவதை நீக்குவதற்கான விசைப்பலகை "
 "குறுக்கு வழி"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:68
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:68
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "முந்தைய கீற்றுக்கு  நகர குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:69
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:69
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "அடுத்த கீற்றுக்கு  நகர குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:70
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:70
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "நடப்பு கீற்றை இடப்பக்கம் நகர்த்த  பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:71
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:71
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "நடப்பு கீற்றை வலப்பக்கம் நகர்த்த  பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:72
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:72
 msgid "Keyboard shortcut to detach current tab"
 msgstr "நடப்பு கீற்றை பிரிக்க குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:73
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:73
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "எண்ணிட்ட கீற்றுக்கு  நகர குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:74
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:74
 msgid "Keyboard shortcut to launch help"
 msgstr "உதவியை துவக்க பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:75
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:75
 msgid "Keyboard shortcut to make font larger"
 msgstr "எழுத்துருவை பெரிதாக்க பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:76
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:76
 msgid "Keyboard shortcut to make font smaller"
 msgstr "எழுத்துரு அளவை சிறிதாக்க பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:77
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:77
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "எழுத்துரு அளவை இயல்பாக பயன்படும் விசைப்பலகை குறுக்கு விசை"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:78
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:78
 msgid "Whether the menubar has access keys"
 msgstr "மெனுபட்டியில் செயல்பாட்டி விசைகள் உள்ளதா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:79
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:79
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -744,12 +744,12 @@ msgstr ""
 "சில "
 "செயல்பாடுகளில் குறுக்கிட்டு அவைகளை நிறுத்தி வைக்கும்."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:80
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:80
 #| msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgid "Whether shortcuts are enabled"
 msgstr "குறுக்குவழிகள் செயல்படுத்தப்பட்டுள்ளதா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:81
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:81
 #| msgid ""
 #| "Whether to have Alt+letter access keys for the menubar. They may "
 #| "interfere with some applications run inside the terminal so it's possible "
@@ -761,11 +761,11 @@ msgstr ""
 "குறுக்குவழிகள் செயல்படுத்தப்பட்டுள்ளதா. அவை முனையத்திற்குள் இயங்கும் சில "
 "பயன்பாடுகளுடன் குறுக்கிடக்கூடும், ஆகவே அவற்றை அணைத்து வைக்க முடியும்."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:82
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:82
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "GTK குறுக்கு விசைகள் மெனு பட்டியில் செயல்படுத்தப்பட்டதா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:83
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:83
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -777,15 +777,15 @@ msgstr ""
 "மெனு "
 "பட்டியலை செயலிழக்கச்செய்யும்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:84
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:84
 msgid "Whether the shell integration is enabled"
 msgstr "ஷெல் ஒருங்கிணைப்பு செயல்படுத்தப்பட்டுள்ளதா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:85
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:85
 msgid "List of available encodings"
 msgstr "கிடைக்கக்கூடிய குறியீடுகளின் பட்டியல்"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:86
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:86
 #| msgid ""
 #| "A subset of possible encodings are presented in the Encoding submenu. "
 #| "This is a list of encodings to appear there. The special encoding name "
@@ -797,19 +797,19 @@ msgstr ""
 "குறியீடாக்க உபமெனுவில் சாத்தியமுள்ள குறியீடாக்கங்கள் வழங்கப்பட்டுள்ளது. இது "
 "அங்கு காண்பிக்கப்படும் குறியீடாக்கங்களின்ப் பட்டியலாகும்."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:87
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:87
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "முனையத்தை மூடு முன் உறுதிப்படுத்தல் தேவையா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:88
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:88
 msgid "Whether to show the menubar in new windows"
 msgstr "புதிய சாளரங்களில்  மெனுபட்டியை காட்ட வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:89
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:89
 msgid "Whether to use a dark theme variant"
 msgstr "கருமையான தீம் வகையைப் பயன்படுத்த வேண்டுமா"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:90
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:90
 msgid "Whether to open new terminals as windows or tabs"
 msgstr ""
 "புதிய முனையங்களை சாளரங்களாகத் திறக்க வேண்டுமா இல்லை கீற்றுகளாகத் திறக்க "
@@ -1627,11 +1627,11 @@ msgstr "மிட்நைட் கமாண்டர் முனைய கோ
 
 #: ../src/terminal-options.c:224 ../src/terminal-options.c:237
 #, c-format
-msgid "Option \"%s\" is no longer supported in this version of gnome-terminal."
+msgid "Option \"%s\" is no longer supported in this version of cinnamon-terminal."
 msgstr "தேர்வு \"%s\" இந்த பதிப்பு க்னோம் முனையத்தில் ஆதரிக்கப்படவில்லை."
 
 #: ../src/terminal-options.c:249 ../src/terminal-util.c:217
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "கனோம் முனையம்"
 
 #: ../src/terminal-options.c:289
@@ -1725,11 +1725,11 @@ msgid "PROFILE-NAME"
 msgstr "PROFILE-NAME"
 
 #: ../src/terminal-options.c:1269 ../src/terminal-options.c:1275
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "க்னோம் முனைய போன்றி"
 
 #: ../src/terminal-options.c:1276
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "க்னோம் முனைய தேர்வுகளை காட்டுக"
 
 #: ../src/terminal-options.c:1286
@@ -1860,7 +1860,7 @@ msgstr "“%s” முகவரியை திறக்க முடியவ�
 
 #: ../src/terminal-util.c:369
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -1872,7 +1872,7 @@ msgstr ""
 
 #: ../src/terminal-util.c:373
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -1886,7 +1886,7 @@ msgstr ""
 #: ../src/terminal-util.c:377
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 " இத்துடன் ஜிஎன்யு பொது அனுமதிக்கான விதிகளின் பிரதி உங்களுக்கு "
 "கிடைத்திருக்கவேண்டும். "
@@ -2165,7 +2165,7 @@ msgstr "_l சாளரத்தை மூடவும்"
 #~ msgid "Be quiet"
 #~ msgstr "சும்மா இரு"
 
-#~ msgid "GNOME Terminal Client"
+#~ msgid "Cinnamon Terminal Client"
 #~ msgstr "க்னோம் முனையம் சார்ந்தோன்"
 
 #~ msgid "Show server options"
@@ -2893,10 +2893,10 @@ msgstr "_l சாளரத்தை மூடவும்"
 #~ msgstr "விவரங்களின்பட்டியல்"
 
 #~ msgid ""
-#~ "List of profiles known to gnome-terminal. The list contains strings "
-#~ "naming subdirectories relative to /apps/gnome-terminal/profiles."
+#~ "List of profiles known to cinnamon-terminal. The list contains strings "
+#~ "naming subdirectories relative to /apps/cinnamon-terminal/profiles."
 #~ msgstr ""
-#~ "gnome-terminal லுக்கு தெரியந்த விவரங்களின் பட்டியல்.இந்த பட்டியலில் /apps/gnome-"
+#~ "cinnamon-terminal லுக்கு தெரியந்த விவரங்களின் பட்டியல்.இந்த பட்டியலில் /apps/gnome-"
 #~ "terminal/profiles. ஓடு தொடர்புடைய  சரங்களின் பெயர்களும் உப அடைவுகளும் இருக்கும்"
 
 #~ msgid ""
@@ -3038,7 +3038,7 @@ msgstr "_l சாளரத்தை மூடவும்"
 #~ msgstr "செல்லாத வடிவியல் சரம் \"%s\"\n"
 
 #~ msgid ""
-#~ "Option \"%s\" is no longer supported in this version of gnome-terminal; "
+#~ "Option \"%s\" is no longer supported in this version of cinnamon-terminal; "
 #~ "you might want to create a profile with the desired setting, and use the "
 #~ "new '--profile' option\n"
 #~ msgstr ""

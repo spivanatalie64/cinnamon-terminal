@@ -1,11 +1,11 @@
-# Danish translation for gnome-terminal.
-# Copyright (C) 2020 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Danish translation for cinnamon-terminal.
+# Copyright (C) 2020 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 # scootergrisen, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "POT-Creation-Date: 2021-11-16 14:40+0000\n"
 "PO-Revision-Date: 2022-01-26 20:03+0100\n"
 "Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
@@ -1717,8 +1717,8 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
-msgstr "GNOME Terminal"
+msgid "Cinnamon Terminal"
+msgstr "Cinnamon Terminal"
 
 #. (itstool) path: figure/desc
 #: C/introduction.page:43
@@ -1733,7 +1733,7 @@ msgstr "Skærmbillede af GNOME <app>Terminal</app>"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 msgstr "[Anvendes ikke]"
 

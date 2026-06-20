@@ -16,13 +16,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n>1;\n"
 
-#: ../gnome-terminal.desktop.in.in.h:1 ../src/gnome-terminal.schemas.in.h:121
+#: ../cinnamon-terminal.desktop.in.in.h:1 ../src/cinnamon-terminal.schemas.in.h:121
 #: ../src/terminal-accels.c:181 ../src/terminal-profile.c:278
 #: ../src/terminal-window.c:799 ../src/terminal.c:1206 ../src/terminal.c:1638
 msgid "Terminal"
 msgstr "Terminal"
 
-#: ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "Hampiasa ny lazam-baiko"
 
@@ -211,44 +211,44 @@ msgstr ""
 "Nisy olana teo am-panekena ilay fampahafantarana ireo fanovana ny lisitry ny "
 "fanafangoan'ny terminal. (%s)\n"
 
-#: ../src/gnome-terminal.glade2.h:1
+#: ../src/cinnamon-terminal.glade2.h:1
 msgid "    "
 msgstr "    "
 
-#: ../src/gnome-terminal.glade2.h:2
+#: ../src/cinnamon-terminal.glade2.h:2
 msgid "<b>Background</b>"
 msgstr "<b>Afara</b>"
 
-#: ../src/gnome-terminal.glade2.h:3
+#: ../src/cinnamon-terminal.glade2.h:3
 msgid "<b>Command</b>"
 msgstr "<b>Baiko</b>"
 
-#: ../src/gnome-terminal.glade2.h:4
+#: ../src/cinnamon-terminal.glade2.h:4
 msgid "<b>Compatibility</b>"
 msgstr "<b>Fifanarahana</b>"
 
-#: ../src/gnome-terminal.glade2.h:5
+#: ../src/cinnamon-terminal.glade2.h:5
 msgid "<b>Foreground and Background</b>"
 msgstr "<b>Aloha sy afara</b>"
 
-#: ../src/gnome-terminal.glade2.h:6
+#: ../src/cinnamon-terminal.glade2.h:6
 msgid "<b>General</b>"
 msgstr "<b>Ankapobe</b>"
 
-#: ../src/gnome-terminal.glade2.h:7
+#: ../src/cinnamon-terminal.glade2.h:7
 msgid "<b>Palette</b>"
 msgstr "<b>Takela-pisaka</b>"
 
-#: ../src/gnome-terminal.glade2.h:8
+#: ../src/cinnamon-terminal.glade2.h:8
 #, fuzzy
 msgid "<b>Scrolling</b>"
 msgstr "<b>Scrolling</b>"
 
-#: ../src/gnome-terminal.glade2.h:9
+#: ../src/cinnamon-terminal.glade2.h:9
 msgid "<b>Title</b>"
 msgstr "<b>Lohateny</b>"
 
-#: ../src/gnome-terminal.glade2.h:10
+#: ../src/cinnamon-terminal.glade2.h:10
 msgid ""
 "<small><i><b>Note:</b> Terminal applications have these colors available to "
 "them.</i></small>"
@@ -256,7 +256,7 @@ msgstr ""
 "<small><i><b>Note:</b> Ireto ny loko azo ampiasaina amin'ny rindranasan'ny "
 "Terminal.</i></small>"
 
-#: ../src/gnome-terminal.glade2.h:11
+#: ../src/cinnamon-terminal.glade2.h:11
 msgid ""
 "<small><i><b>Note:</b> The command running inside the terminal may "
 "dynamically set a new title.</i></small>"
@@ -264,7 +264,7 @@ msgstr ""
 "<small><i><b>Note:</b> Azon'ny baiko mandeha anatin'ny terminal atao ny "
 "mametraka lohateny vaovao.</i></small>"
 
-#: ../src/gnome-terminal.glade2.h:12
+#: ../src/cinnamon-terminal.glade2.h:12
 msgid ""
 "<small><i><b>Note:</b> These options may cause some applications to behave "
 "incorrectly.  They are only here to allow you to work around certain "
@@ -276,16 +276,16 @@ msgstr ""
 "rindranasa sy rafitra miandrandra fomba fiasa samihafa avy amin'ny terminal."
 "</i></small>"
 
-#: ../src/gnome-terminal.glade2.h:13
+#: ../src/cinnamon-terminal.glade2.h:13
 #, fuzzy
 msgid "<small><i>Maximum</i></small>"
 msgstr "<small><i>Avo indrindra</i></small>"
 
-#: ../src/gnome-terminal.glade2.h:14
+#: ../src/cinnamon-terminal.glade2.h:14
 msgid "<small><i>None</i></small>"
 msgstr "<small><i>Tsy misy</i></small>"
 
-#: ../src/gnome-terminal.glade2.h:15
+#: ../src/cinnamon-terminal.glade2.h:15
 #, fuzzy
 msgid ""
 "ASCII DEL\n"
@@ -296,95 +296,95 @@ msgstr ""
 "Echap misesisesy\n"
 "Control-H"
 
-#: ../src/gnome-terminal.glade2.h:18
+#: ../src/cinnamon-terminal.glade2.h:18
 msgid "A_vailable encodings:"
 msgstr "Fanafangoana _misy:"
 
-#: ../src/gnome-terminal.glade2.h:19
+#: ../src/cinnamon-terminal.glade2.h:19
 msgid "Add encoding to menu."
 msgstr "Ataovy ao anaty tolotra io fanafangoana io."
 
-#: ../src/gnome-terminal.glade2.h:20
+#: ../src/cinnamon-terminal.glade2.h:20
 msgid "Add or Remove Terminal Encodings"
 msgstr "Ampidiro na esory ireo fanafangoan'ny terminal"
 
-#: ../src/gnome-terminal.glade2.h:21
+#: ../src/cinnamon-terminal.glade2.h:21
 msgid "Background _image"
 msgstr "_Sary afara"
 
-#: ../src/gnome-terminal.glade2.h:22
+#: ../src/cinnamon-terminal.glade2.h:22
 msgid "Background image _scrolls"
 msgstr "Ny _scrolln'ny sary afara"
 
-#: ../src/gnome-terminal.glade2.h:23
+#: ../src/cinnamon-terminal.glade2.h:23
 msgid "Built-_in schemes:"
 msgstr "Amboaran-doko ao _anaty:"
 
-#: ../src/gnome-terminal.glade2.h:24
+#: ../src/cinnamon-terminal.glade2.h:24
 msgid "Built-in _schemes:"
 msgstr "Amboaran-doko ao _anaty:"
 
-#: ../src/gnome-terminal.glade2.h:25
+#: ../src/cinnamon-terminal.glade2.h:25
 msgid "C_reate"
 msgstr "_Hamorona"
 
-#: ../src/gnome-terminal.glade2.h:26
+#: ../src/cinnamon-terminal.glade2.h:26
 msgid "Choose A Profile Icon"
 msgstr "Hisafidy kisarina profil"
 
-#: ../src/gnome-terminal.glade2.h:27
+#: ../src/cinnamon-terminal.glade2.h:27
 msgid "Choose Terminal Background Color"
 msgstr "Hisafidy ny lokon'ny afaran'ny terminal"
 
-#: ../src/gnome-terminal.glade2.h:28
+#: ../src/cinnamon-terminal.glade2.h:28
 msgid "Choose Terminal Text Color"
 msgstr "Hisafidy ny lokon'ny lahabolan'ny terminal"
 
-#: ../src/gnome-terminal.glade2.h:29
+#: ../src/cinnamon-terminal.glade2.h:29
 msgid "Color _palette:"
 msgstr "_Takela-pisa-doko:"
 
-#: ../src/gnome-terminal.glade2.h:30
+#: ../src/cinnamon-terminal.glade2.h:30
 msgid "Colors"
 msgstr "Loko"
 
-#: ../src/gnome-terminal.glade2.h:31
+#: ../src/cinnamon-terminal.glade2.h:31
 msgid "Compatibility"
 msgstr "Fifanarahana"
 
-#: ../src/gnome-terminal.glade2.h:32
+#: ../src/cinnamon-terminal.glade2.h:32
 msgid "Cursor blin_ks"
 msgstr "_Fipipin'ny kitondro"
 
-#: ../src/gnome-terminal.glade2.h:33
+#: ../src/cinnamon-terminal.glade2.h:33
 msgid "Custom"
 msgstr "Safidy"
 
-#: ../src/gnome-terminal.glade2.h:34
+#: ../src/cinnamon-terminal.glade2.h:34
 msgid "Custom co_mmand:"
 msgstr "_Baiko safidy:"
 
-#: ../src/gnome-terminal.glade2.h:35
+#: ../src/cinnamon-terminal.glade2.h:35
 #, fuzzy
 msgid "Disable all me_nu access keys (such as Alt+f to open File menu)"
 msgstr ""
 "Atsaharo ny kitendry fanokafana tolotra rehetra (toy ny Alt+f manokatra ny "
 "tolotry ny Rakitra)"
 
-#: ../src/gnome-terminal.glade2.h:36
+#: ../src/cinnamon-terminal.glade2.h:36
 #, fuzzy
 msgid "Disable m_enu shortcut key (F10 by default)"
 msgstr "Atsaharo ny kitendry hitsin-dàlan'ny _tolotra (Tsotra: F10)"
 
-#: ../src/gnome-terminal.glade2.h:37
+#: ../src/cinnamon-terminal.glade2.h:37
 msgid "E_ncodings shown in menu:"
 msgstr "_Fanafangoana miseho anatin'ny tolotra:"
 
-#: ../src/gnome-terminal.glade2.h:38
+#: ../src/cinnamon-terminal.glade2.h:38
 msgid "Effects"
 msgstr "Effect"
 
-#: ../src/gnome-terminal.glade2.h:39
+#: ../src/cinnamon-terminal.glade2.h:39
 msgid ""
 "Exit the terminal\n"
 "Restart the command\n"
@@ -394,27 +394,27 @@ msgstr ""
 "Avereno alefa ilay baiko\n"
 "Aza avela hihidy ilay terminal"
 
-#: ../src/gnome-terminal.glade2.h:42
+#: ../src/cinnamon-terminal.glade2.h:42
 msgid "General"
 msgstr "Ankapobe"
 
-#: ../src/gnome-terminal.glade2.h:43
+#: ../src/cinnamon-terminal.glade2.h:43
 msgid "Image _file:"
 msgstr "_Raki-tsary:"
 
-#: ../src/gnome-terminal.glade2.h:44
+#: ../src/cinnamon-terminal.glade2.h:44
 msgid "Initial _title:"
 msgstr "_Lohateny voalohany:"
 
-#: ../src/gnome-terminal.glade2.h:45
+#: ../src/cinnamon-terminal.glade2.h:45
 msgid "Keyboard Shortcuts"
 msgstr "Hitsin-dàlan'ny kitendry"
 
-#: ../src/gnome-terminal.glade2.h:46 ../src/terminal-accels.c:82
+#: ../src/cinnamon-terminal.glade2.h:46 ../src/terminal-accels.c:82
 msgid "New Profile"
 msgstr "Profil vaovao"
 
-#: ../src/gnome-terminal.glade2.h:47
+#: ../src/cinnamon-terminal.glade2.h:47
 msgid ""
 "On the left side\n"
 "On the right side\n"
@@ -424,27 +424,27 @@ msgstr ""
 "Amin'ny ilany havanana\n"
 "Natsahatra"
 
-#: ../src/gnome-terminal.glade2.h:50
+#: ../src/cinnamon-terminal.glade2.h:50
 msgid "Password:"
 msgstr "Teny fanalahidy:"
 
-#: ../src/gnome-terminal.glade2.h:51
+#: ../src/cinnamon-terminal.glade2.h:51
 msgid "Profile Editor"
 msgstr "Mpanova profil"
 
-#: ../src/gnome-terminal.glade2.h:52
+#: ../src/cinnamon-terminal.glade2.h:52
 msgid "Profile _icon:"
 msgstr "_Kisarin'ny profil:"
 
-#: ../src/gnome-terminal.glade2.h:53
+#: ../src/cinnamon-terminal.glade2.h:53
 msgid "Profile _name:"
 msgstr "_Anaran'ilay profil:"
 
-#: ../src/gnome-terminal.glade2.h:54
+#: ../src/cinnamon-terminal.glade2.h:54
 msgid "Remove encoding from menu."
 msgstr "Esory tanatin'ny tolotra io fanafangoana io."
 
-#: ../src/gnome-terminal.glade2.h:55
+#: ../src/cinnamon-terminal.glade2.h:55
 msgid ""
 "Replaces initial title\n"
 "Goes before initial title\n"
@@ -456,138 +456,138 @@ msgstr ""
 "Aorian'ny lohateny voalohany\n"
 "Tsy aseho"
 
-#: ../src/gnome-terminal.glade2.h:59
+#: ../src/cinnamon-terminal.glade2.h:59
 msgid "Ru_n a custom command instead of my shell"
 msgstr "Baiko safidy A_lefa fa tsy ny akorako"
 
-#: ../src/gnome-terminal.glade2.h:60
+#: ../src/cinnamon-terminal.glade2.h:60
 #, fuzzy
 msgid "S/Key Challenge Response"
 msgstr "S/Key Challenge Response"
 
-#: ../src/gnome-terminal.glade2.h:61
+#: ../src/cinnamon-terminal.glade2.h:61
 msgid "S_hade transparent or image background:"
 msgstr "_Loko tatera-pahazavana na sary afara:"
 
-#: ../src/gnome-terminal.glade2.h:62
+#: ../src/cinnamon-terminal.glade2.h:62
 #, fuzzy
 msgid "Sc_roll on output"
 msgstr "_Scrolling amin'ny fivoahana"
 
-#: ../src/gnome-terminal.glade2.h:63
+#: ../src/cinnamon-terminal.glade2.h:63
 msgid "Scr_ollback:"
 msgstr "Andalana _iverenana:"
 
-#: ../src/gnome-terminal.glade2.h:64
+#: ../src/cinnamon-terminal.glade2.h:64
 msgid "Scroll on _keystroke"
 msgstr "Scrolling amin'ny alalana _tsindry"
 
-#: ../src/gnome-terminal.glade2.h:65
+#: ../src/cinnamon-terminal.glade2.h:65
 msgid "Scrolling"
 msgstr "Scrolling"
 
-#: ../src/gnome-terminal.glade2.h:66
+#: ../src/cinnamon-terminal.glade2.h:66
 msgid "Select Background Image"
 msgstr "Hisafidy ny sary afara"
 
-#: ../src/gnome-terminal.glade2.h:67
+#: ../src/cinnamon-terminal.glade2.h:67
 msgid "Select-by-_word characters:"
 msgstr "Mariky ny fisafidiana araka ny _teny:"
 
-#: ../src/gnome-terminal.glade2.h:68
+#: ../src/cinnamon-terminal.glade2.h:68
 msgid "Show _menubar by default in new terminals"
 msgstr "Asehoy anatin'ny terminal vaovao _anjan'ny tolotra"
 
-#: ../src/gnome-terminal.glade2.h:69
+#: ../src/cinnamon-terminal.glade2.h:69
 msgid "Terminal _bell"
 msgstr "_Feon'ny terminal"
 
-#: ../src/gnome-terminal.glade2.h:70
+#: ../src/cinnamon-terminal.glade2.h:70
 msgid "Title and Command"
 msgstr "Lohateny sy baiko"
 
-#: ../src/gnome-terminal.glade2.h:71
+#: ../src/cinnamon-terminal.glade2.h:71
 msgid "Use colors from s_ystem theme"
 msgstr "Mampiasà loko avy amin'ny endriky ny _rafitra"
 
-#: ../src/gnome-terminal.glade2.h:72
+#: ../src/cinnamon-terminal.glade2.h:72
 msgid "When command _exits:"
 msgstr "Rehefa _mijanona ny baiko:"
 
-#: ../src/gnome-terminal.glade2.h:73
+#: ../src/cinnamon-terminal.glade2.h:73
 msgid "_Allow bold text"
 msgstr "_Ekeo ny soratra matevina"
 
-#: ../src/gnome-terminal.glade2.h:74
+#: ../src/cinnamon-terminal.glade2.h:74
 msgid "_Background color:"
 msgstr "Loko _afara:"
 
-#: ../src/gnome-terminal.glade2.h:75
+#: ../src/cinnamon-terminal.glade2.h:75
 msgid "_Backspace key generates:"
 msgstr "_Mamorona ity ny kitendry miverina:"
 
-#: ../src/gnome-terminal.glade2.h:76
+#: ../src/cinnamon-terminal.glade2.h:76
 msgid "_Base on:"
 msgstr "_Mifototra amin'ny:"
 
-#: ../src/gnome-terminal.glade2.h:77
+#: ../src/cinnamon-terminal.glade2.h:77
 msgid "_Delete key generates:"
 msgstr "_Mamorona ity ny kitendry Mamafa:"
 
-#: ../src/gnome-terminal.glade2.h:78
+#: ../src/cinnamon-terminal.glade2.h:78
 msgid "_Dynamically-set title:"
 msgstr "_Lohateny novaina:"
 
-#: ../src/gnome-terminal.glade2.h:79
+#: ../src/cinnamon-terminal.glade2.h:79
 msgid "_None (use solid color)"
 msgstr "_Tsy misy (loko tokana)"
 
-#: ../src/gnome-terminal.glade2.h:80
+#: ../src/cinnamon-terminal.glade2.h:80
 msgid "_Profile name:"
 msgstr "_Anaran'ilay profil:"
 
-#: ../src/gnome-terminal.glade2.h:81
+#: ../src/cinnamon-terminal.glade2.h:81
 msgid "_Reset Compatibility Options to Defaults"
 msgstr "_Avereno amin'ny toetrany tsotra ireo safidim-pifanarahana"
 
-#: ../src/gnome-terminal.glade2.h:82
+#: ../src/cinnamon-terminal.glade2.h:82
 msgid "_Run command as a login shell"
 msgstr "_Mandefasa baiko atao akora fidirana"
 
-#: ../src/gnome-terminal.glade2.h:83
+#: ../src/cinnamon-terminal.glade2.h:83
 msgid "_Scrollbar is:"
 msgstr "_Ny scrollbar:"
 
-#: ../src/gnome-terminal.glade2.h:84
+#: ../src/cinnamon-terminal.glade2.h:84
 msgid "_Shortcut keys:"
 msgstr "_Kitendry hitsin-dàlana:"
 
-#: ../src/gnome-terminal.glade2.h:85
+#: ../src/cinnamon-terminal.glade2.h:85
 msgid "_Text color:"
 msgstr "Lokon'ny _soratra:"
 
-#: ../src/gnome-terminal.glade2.h:86
+#: ../src/cinnamon-terminal.glade2.h:86
 msgid "_Transparent background"
 msgstr "_Afara tatera-pahazavana"
 
-#: ../src/gnome-terminal.glade2.h:87
+#: ../src/cinnamon-terminal.glade2.h:87
 msgid "_Update login records when command is launched"
 msgstr "_Avaozy ny lazam-pidirana rehefa alefa ilay baiko"
 
-#: ../src/gnome-terminal.glade2.h:88
+#: ../src/cinnamon-terminal.glade2.h:88
 #, fuzzy
 msgid "_Use the system fixed width font"
 msgstr "_Ny endri-tsoratry ny terminaln'ny rafitra ampiasaina"
 
-#: ../src/gnome-terminal.glade2.h:89
+#: ../src/cinnamon-terminal.glade2.h:89
 msgid "_lines"
 msgstr "_andalana"
 
-#: ../src/gnome-terminal.glade2.h:90
+#: ../src/cinnamon-terminal.glade2.h:90
 msgid "kilo_bytes"
 msgstr "kilo_octet"
 
-#: ../src/gnome-terminal.schemas.in.h:1
+#: ../src/cinnamon-terminal.schemas.in.h:1
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
 "is a list of encodings to appear there. The special encoding name \"current"
@@ -598,7 +598,7 @@ msgstr ""
 "manokana \"izao\" dia midika hoe mampiseho ny fanafangoan'ny toerana "
 "ampiasaina izao."
 
-#: ../src/gnome-terminal.schemas.in.h:2
+#: ../src/cinnamon-terminal.schemas.in.h:2
 msgid ""
 "A value between 0.0 and 1.0 indicating how much to darken the background "
 "image. 0.0 means no darkness, 1.0 means fully dark. In the current "
@@ -610,7 +610,7 @@ msgstr ""
 "ny dingam-pahamatrohana misy anatin'ity fametrahana ity. Manaraka fiasa "
 "boleanina ilay fandrindrana izany, ka ny 0.0 dia manafoana ilay fanamtrohana."
 
-#: ../src/gnome-terminal.schemas.in.h:3
+#: ../src/cinnamon-terminal.schemas.in.h:3
 msgid ""
 "Accelerator key to detach current tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -621,7 +621,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:4
+#: ../src/cinnamon-terminal.schemas.in.h:4
 msgid ""
 "Accelerator key to move the current tab to the left. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -633,7 +633,7 @@ msgstr ""
 "rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:5
+#: ../src/cinnamon-terminal.schemas.in.h:5
 msgid ""
 "Accelerator key to move the current tab to the right. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -645,25 +645,25 @@ msgstr ""
 "amin'ny rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:6
+#: ../src/cinnamon-terminal.schemas.in.h:6
 msgid "Accelerator to detach current tab."
 msgstr "Mpanafaingana hanatsoahana ity vakizoro ity."
 
-#: ../src/gnome-terminal.schemas.in.h:7
+#: ../src/cinnamon-terminal.schemas.in.h:7
 msgid "Accelerator to move the current tab to the left."
 msgstr "Mpanafaingana hamindrana ity vakizoro ity eo ankavia."
 
-#: ../src/gnome-terminal.schemas.in.h:8
+#: ../src/cinnamon-terminal.schemas.in.h:8
 msgid "Accelerator to move the current tab to the right."
 msgstr "Mpanafaingana hamindrana ity vakizoro ity eo ankavanana."
 
-#: ../src/gnome-terminal.schemas.in.h:9
+#: ../src/cinnamon-terminal.schemas.in.h:9
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr ""
 "Anaran'endri-tsoratra Pango. Ohatra amin'izany ny \"Sans 12\" na ny "
 "\"Monospace Bold 14\"."
 
-#: ../src/gnome-terminal.schemas.in.h:10
+#: ../src/cinnamon-terminal.schemas.in.h:10
 msgid ""
 "An X font name. See the X man page (type \"man X\") for more details on the "
 "format of X font names."
@@ -671,31 +671,31 @@ msgstr ""
 "Anaran'endri-tsoratra X. Jereo ny pejin'ny X man (soraty hoe \"man X\") "
 "ahalalanao bebe kokoa ny momba ny lamin'ny anaran'endri-tsoratra X."
 
-#: ../src/gnome-terminal.schemas.in.h:11
+#: ../src/cinnamon-terminal.schemas.in.h:11
 msgid "Background image"
 msgstr "Sary afara"
 
-#: ../src/gnome-terminal.schemas.in.h:12
+#: ../src/cinnamon-terminal.schemas.in.h:12
 msgid "Background type"
 msgstr "Karazan'afara"
 
-#: ../src/gnome-terminal.schemas.in.h:13
+#: ../src/cinnamon-terminal.schemas.in.h:13
 msgid "Characters that are considered \"part of a word\""
 msgstr "Marika raisina toy ny \"ampahan-teny iray\""
 
-#: ../src/gnome-terminal.schemas.in.h:14
+#: ../src/cinnamon-terminal.schemas.in.h:14
 msgid "Custom command to use instead of the shell"
 msgstr "Baiko safidy ampiasaina amin'ny toeran'ny akora"
 
-#: ../src/gnome-terminal.schemas.in.h:15
+#: ../src/cinnamon-terminal.schemas.in.h:15
 msgid "Default"
 msgstr "Tsotra"
 
-#: ../src/gnome-terminal.schemas.in.h:16
+#: ../src/cinnamon-terminal.schemas.in.h:16
 msgid "Default color of terminal background"
 msgstr "Loko tsotran'ny afaran'ny terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:17
+#: ../src/cinnamon-terminal.schemas.in.h:17
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -703,11 +703,11 @@ msgstr ""
 "Famaritana ny loko tsotran'ny afaran'ny terminal (mety ho hexadecimal tahaka "
 "ny amin'ny HTML na anaran-doko toy ny \"mena\")."
 
-#: ../src/gnome-terminal.schemas.in.h:18
+#: ../src/cinnamon-terminal.schemas.in.h:18
 msgid "Default color of text in the terminal"
 msgstr "Loko tsotran'ny soratra amin'ilay terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:19
+#: ../src/cinnamon-terminal.schemas.in.h:19
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -715,49 +715,49 @@ msgstr ""
 "Famaritana ny loko tsotran'ny soratra amin'ilay terminal (mety ho "
 "hexadecimal tahaka ny amin'ny HTML na anaran-doko toy ny \"mena\")."
 
-#: ../src/gnome-terminal.schemas.in.h:20
+#: ../src/cinnamon-terminal.schemas.in.h:20
 msgid "Effect of the Backspace key"
 msgstr "Vokatry fanindriana ny kitendry Miverina"
 
-#: ../src/gnome-terminal.schemas.in.h:21
+#: ../src/cinnamon-terminal.schemas.in.h:21
 msgid "Effect of the Delete key"
 msgstr "Vokatry ny fanindriana ny kitendry Mamafa"
 
-#: ../src/gnome-terminal.schemas.in.h:22
+#: ../src/cinnamon-terminal.schemas.in.h:22
 msgid "Filename of a background image."
 msgstr "Anaran-drakitry ny sary afara."
 
-#: ../src/gnome-terminal.schemas.in.h:23
+#: ../src/cinnamon-terminal.schemas.in.h:23
 msgid "Font"
 msgstr "Endri-tsoratra"
 
 #. Translators: S/Key is the name of an application, so it should
 #. not be translated.
-#: ../src/gnome-terminal.schemas.in.h:26
+#: ../src/cinnamon-terminal.schemas.in.h:26
 msgid "Highlight S/Key challenges"
 msgstr "Manasongadina ny challengen'ny S/Key"
 
-#: ../src/gnome-terminal.schemas.in.h:27
+#: ../src/cinnamon-terminal.schemas.in.h:27
 msgid "How much to darken the background image"
 msgstr "Famaritana ny hamatroky ny sary afara"
 
-#: ../src/gnome-terminal.schemas.in.h:28
+#: ../src/cinnamon-terminal.schemas.in.h:28
 msgid "Human-readable name of the profile"
 msgstr "Anaran'ilay profil azon'ny olona vakiana"
 
-#: ../src/gnome-terminal.schemas.in.h:29
+#: ../src/cinnamon-terminal.schemas.in.h:29
 msgid "Human-readable name of the profile."
 msgstr "Anaran'ilay profil azon'ny olona vakiana."
 
-#: ../src/gnome-terminal.schemas.in.h:30
+#: ../src/cinnamon-terminal.schemas.in.h:30
 msgid "Icon for terminal window"
 msgstr "Kisary ho an'ny fikandran'ny terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:31
+#: ../src/cinnamon-terminal.schemas.in.h:31
 msgid "Icon to use for tabs/windows containing this profile."
 msgstr "Kisary ho an'ny vakizoro/fikandrana ahitana io profil io."
 
-#: ../src/gnome-terminal.schemas.in.h:32
+#: ../src/cinnamon-terminal.schemas.in.h:32
 msgid ""
 "If the application in the terminal sets the title (most typically people "
 "have their shell set up to do this), the dynamically-set title can erase the "
@@ -770,13 +770,13 @@ msgstr ""
 "io. \"replace\", \"before\", \"after\", and \"ignore\" no sanda mety "
 "ampiasaina."
 
-#: ../src/gnome-terminal.schemas.in.h:33
+#: ../src/cinnamon-terminal.schemas.in.h:33
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
 "Raha marina, dia avelao hatevina ny endri-tsoratra ny rindranasa anatin'ny "
 "terminal."
 
-#: ../src/gnome-terminal.schemas.in.h:34
+#: ../src/cinnamon-terminal.schemas.in.h:34
 msgid ""
 "If true, don't make a noise when applications send the escape sequence for "
 "the terminal bell."
@@ -784,7 +784,7 @@ msgstr ""
 "Raha marina, dia aza mamoaka feo rehefa mampaneno ny feon'ny terminal "
 "amin'ny alalan'ny Echap misesisesy ny rindranasa."
 
-#: ../src/gnome-terminal.schemas.in.h:35
+#: ../src/cinnamon-terminal.schemas.in.h:35
 msgid ""
 "If true, font anti-aliasing will be disabled when running without the X "
 "RENDER extension, which gives a considerable performance improvement in "
@@ -793,13 +793,13 @@ msgstr ""
 "Raha marina, dia hatsahatra ny fanitsian'endrika rehefa tsy miasa ny tovana "
 "X RENDER, izay manatsara ny fahombiazana amin'ny toe-javatra toy ireny."
 
-#: ../src/gnome-terminal.schemas.in.h:36
+#: ../src/cinnamon-terminal.schemas.in.h:36
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr ""
 "Raha marina, dia mampitsambikina ny scrollbar eny ambany ny fanindriana "
 "kitendry iray."
 
-#: ../src/gnome-terminal.schemas.in.h:37
+#: ../src/cinnamon-terminal.schemas.in.h:37
 msgid ""
 "If true, scroll the background image with the foreground text; if false, "
 "keep the image in a fixed position and scroll the text above it."
@@ -808,7 +808,7 @@ msgstr ""
 "anoloana. Raha diso, dia ny soratra eo ambonin'ilay sary fotsiny no miaka-"
 "midina ."
 
-#: ../src/gnome-terminal.schemas.in.h:38
+#: ../src/cinnamon-terminal.schemas.in.h:38
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell. "
 "(argv[0] will have a hyphen in front of it.)"
@@ -816,7 +816,7 @@ msgstr ""
 "Raha marina, dia halefa toy ny akoram-pidirana ny baiko anatin'ilay "
 "terminal. (hisy tsipi-panohizana eo alohan'ny argv[0].)"
 
-#: ../src/gnome-terminal.schemas.in.h:39
+#: ../src/cinnamon-terminal.schemas.in.h:39
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
@@ -824,7 +824,7 @@ msgstr ""
 "Raha marina, dia havaozina ny lazam-pidirana utmp sy wtmp rehefa alefa ny "
 "baiko anatin'ilay terminal."
 
-#: ../src/gnome-terminal.schemas.in.h:40
+#: ../src/cinnamon-terminal.schemas.in.h:40
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -833,7 +833,7 @@ msgstr ""
 "hampiasain'ilay terminal raha toa monospace ilay izy (izay endri-tsoratra "
 "mitovy kokoa amin'ny raha tsy misy izany)."
 
-#: ../src/gnome-terminal.schemas.in.h:41
+#: ../src/cinnamon-terminal.schemas.in.h:41
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -842,7 +842,7 @@ msgstr ""
 "tsoratra no ampiasaina amin'ilay terminal, fa tsy izay loko lazain'ny "
 "mpampiasa."
 
-#: ../src/gnome-terminal.schemas.in.h:42
+#: ../src/cinnamon-terminal.schemas.in.h:42
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -850,14 +850,14 @@ msgstr ""
 "Raha marina, dia ny sandan'ny fandrindran'ny custom_command no ampiasaina, "
 "fa tsy ilay akora mandeha."
 
-#: ../src/gnome-terminal.schemas.in.h:43
+#: ../src/cinnamon-terminal.schemas.in.h:43
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr ""
 "Raha marina, dia maneho izay voasoratra eny ambany ilay terminal isaka ny "
 "misy laza vaovao."
 
-#: ../src/gnome-terminal.schemas.in.h:44
+#: ../src/cinnamon-terminal.schemas.in.h:44
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
@@ -869,7 +869,7 @@ msgstr ""
 "rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:45
+#: ../src/cinnamon-terminal.schemas.in.h:45
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -880,7 +880,7 @@ msgstr ""
 "Raha toa ka ataonao ilay laha-daza manokana \"disabled\" ilay safidy, dia "
 "tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:46
+#: ../src/cinnamon-terminal.schemas.in.h:46
 msgid ""
 "Keyboard shortcut key for closing a window. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -892,7 +892,7 @@ msgstr ""
 "Raha toa ka ataonao ilay laha-daza manokana \"disabled\" ilay safidy, dia "
 "tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:47
+#: ../src/cinnamon-terminal.schemas.in.h:47
 msgid ""
 "Keyboard shortcut key for copying selected text to the clipboard. Expressed "
 "as a string in the same format used for GTK+ resource files. If you set the "
@@ -905,7 +905,7 @@ msgstr ""
 "daza manokana \"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho "
 "an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:48
+#: ../src/cinnamon-terminal.schemas.in.h:48
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -916,7 +916,7 @@ msgstr ""
 "GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" ilay safidy, "
 "dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:49
+#: ../src/cinnamon-terminal.schemas.in.h:49
 msgid ""
 "Keyboard shortcut key for making font larger. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -928,7 +928,7 @@ msgstr ""
 "rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:50
+#: ../src/cinnamon-terminal.schemas.in.h:50
 msgid ""
 "Keyboard shortcut key for making font smaller. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -940,7 +940,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:51
+#: ../src/cinnamon-terminal.schemas.in.h:51
 msgid ""
 "Keyboard shortcut key for making font the normal size. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -953,7 +953,7 @@ msgstr ""
 "daza manokana \"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho "
 "an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:52
+#: ../src/cinnamon-terminal.schemas.in.h:52
 msgid ""
 "Keyboard shortcut key for opening a new tab. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -965,7 +965,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:53
+#: ../src/cinnamon-terminal.schemas.in.h:53
 msgid ""
 "Keyboard shortcut key for opening a new window. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -977,7 +977,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:54
+#: ../src/cinnamon-terminal.schemas.in.h:54
 msgid ""
 "Keyboard shortcut key for pasting the contents of the clipboard into the "
 "terminal. Expressed as a string in the same format used for GTK+ resource "
@@ -990,7 +990,7 @@ msgstr ""
 "ataonao ilay laha-daza manokana \"disabled\" ilay safidy, dia tsy hisy "
 "fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:55
+#: ../src/cinnamon-terminal.schemas.in.h:55
 msgid ""
 "Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1001,7 +1001,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:56
+#: ../src/cinnamon-terminal.schemas.in.h:56
 msgid ""
 "Keyboard shortcut key for switch to tab 10. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -1013,7 +1013,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:57
+#: ../src/cinnamon-terminal.schemas.in.h:57
 msgid ""
 "Keyboard shortcut key for switch to tab 11. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -1025,7 +1025,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:58
+#: ../src/cinnamon-terminal.schemas.in.h:58
 msgid ""
 "Keyboard shortcut key for switch to tab 12. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -1037,7 +1037,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:59
+#: ../src/cinnamon-terminal.schemas.in.h:59
 msgid ""
 "Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1048,7 +1048,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:60
+#: ../src/cinnamon-terminal.schemas.in.h:60
 msgid ""
 "Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1059,7 +1059,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:61
+#: ../src/cinnamon-terminal.schemas.in.h:61
 msgid ""
 "Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1070,7 +1070,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:62
+#: ../src/cinnamon-terminal.schemas.in.h:62
 msgid ""
 "Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1081,7 +1081,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:63
+#: ../src/cinnamon-terminal.schemas.in.h:63
 msgid ""
 "Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1092,7 +1092,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:64
+#: ../src/cinnamon-terminal.schemas.in.h:64
 msgid ""
 "Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1103,7 +1103,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:65
+#: ../src/cinnamon-terminal.schemas.in.h:65
 msgid ""
 "Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1114,7 +1114,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:66
+#: ../src/cinnamon-terminal.schemas.in.h:66
 msgid ""
 "Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -1125,7 +1125,7 @@ msgstr ""
 "ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" "
 "ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:67
+#: ../src/cinnamon-terminal.schemas.in.h:67
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -1137,7 +1137,7 @@ msgstr ""
 "rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:68
+#: ../src/cinnamon-terminal.schemas.in.h:68
 msgid ""
 "Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -1149,7 +1149,7 @@ msgstr ""
 "rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:69
+#: ../src/cinnamon-terminal.schemas.in.h:69
 msgid ""
 "Keyboard shortcut key to reset the terminal. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -1161,7 +1161,7 @@ msgstr ""
 "GTK+. Raha toa ka ataonao ilay laha-daza manokana \"disabled\" ilay safidy, "
 "dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:70
+#: ../src/cinnamon-terminal.schemas.in.h:70
 msgid ""
 "Keyboard shortcut key to set the terminal title. Expressed as a string in "
 "the same format used for GTK+ resource files. If you set the option to the "
@@ -1173,7 +1173,7 @@ msgstr ""
 "rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:71
+#: ../src/cinnamon-terminal.schemas.in.h:71
 msgid ""
 "Keyboard shortcut key to switch to the next tab. Expressed as a string in "
 "the same format used for GTK+ resource files. If you set the option to the "
@@ -1185,7 +1185,7 @@ msgstr ""
 "amin'ny rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:72
+#: ../src/cinnamon-terminal.schemas.in.h:72
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -1197,7 +1197,7 @@ msgstr ""
 "rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:73
+#: ../src/cinnamon-terminal.schemas.in.h:73
 msgid ""
 "Keyboard shortcut key to toggle the visibility of the menubar. Expressed as "
 "a string in the same format used for GTK+ resource files. If you set the "
@@ -1209,145 +1209,145 @@ msgstr ""
 "amin'ny rakitra ressource GTK+. Raha toa ka ataonao ilay laha-daza manokana "
 "\"disabled\" ilay safidy, dia tsy hisy fitambaran-kitendry ho an'io asa io."
 
-#: ../src/gnome-terminal.schemas.in.h:74
+#: ../src/cinnamon-terminal.schemas.in.h:74
 msgid "Keyboard shortcut to close a tab"
 msgstr "Kitendry hitsin-dàlana fanidiana vakizoro"
 
-#: ../src/gnome-terminal.schemas.in.h:75
+#: ../src/cinnamon-terminal.schemas.in.h:75
 msgid "Keyboard shortcut to close a window"
 msgstr "Kitendry hitsin-dàlana fanidiana fikandrana"
 
-#: ../src/gnome-terminal.schemas.in.h:76
+#: ../src/cinnamon-terminal.schemas.in.h:76
 msgid "Keyboard shortcut to copy text"
 msgstr "Kitendry hitsin-dàlana fandikana lahabolana"
 
-#: ../src/gnome-terminal.schemas.in.h:77
+#: ../src/cinnamon-terminal.schemas.in.h:77
 msgid "Keyboard shortcut to create a new profile"
 msgstr "Kitendry hitsin-dàlana famoronana profil vaovao"
 
-#: ../src/gnome-terminal.schemas.in.h:78
+#: ../src/cinnamon-terminal.schemas.in.h:78
 msgid "Keyboard shortcut to launch help"
 msgstr "Kitendry hitsin-dàlana fanokafana ny toro-làlana"
 
-#: ../src/gnome-terminal.schemas.in.h:79
+#: ../src/cinnamon-terminal.schemas.in.h:79
 msgid "Keyboard shortcut to make font larger"
 msgstr "Kitendry hitsin-dàlana fanabeazana ny endri-tsoratra"
 
-#: ../src/gnome-terminal.schemas.in.h:80
+#: ../src/cinnamon-terminal.schemas.in.h:80
 msgid "Keyboard shortcut to make font normal-size"
 msgstr ""
 "Kitendry hitsin-dàlana fanaovana ny haben'ny endri-tsoratra amin'ny antonony"
 
-#: ../src/gnome-terminal.schemas.in.h:81
+#: ../src/cinnamon-terminal.schemas.in.h:81
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Kitendry hitsin-dàlana fanakelezana ny endri-tsoratra"
 
-#: ../src/gnome-terminal.schemas.in.h:82
+#: ../src/cinnamon-terminal.schemas.in.h:82
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Kitendry hitsin-dàlana fanokafana vakizoro vaovao"
 
-#: ../src/gnome-terminal.schemas.in.h:83
+#: ../src/cinnamon-terminal.schemas.in.h:83
 msgid "Keyboard shortcut to open a new window"
 msgstr "Kitendry hitsin-dàlana fanokafana fikandrana vaovao"
 
-#: ../src/gnome-terminal.schemas.in.h:84
+#: ../src/cinnamon-terminal.schemas.in.h:84
 msgid "Keyboard shortcut to paste text"
 msgstr "Kitendry hitsin-dàlana fametahana lahabolana"
 
-#: ../src/gnome-terminal.schemas.in.h:85
+#: ../src/cinnamon-terminal.schemas.in.h:85
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Kitendry hitsin-dàlana famerenana sy fanafoanana ilay terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:86
+#: ../src/cinnamon-terminal.schemas.in.h:86
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Kitendry hitsin-dàlana famerenana ilay terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:87
+#: ../src/cinnamon-terminal.schemas.in.h:87
 msgid "Keyboard shortcut to set the terminal title"
 msgstr "Kitendry hitsin-dàlana famaritana ny lohatenin'ilay terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:88
+#: ../src/cinnamon-terminal.schemas.in.h:88
 msgid "Keyboard shortcut to switch to tab 1"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 1"
 
-#: ../src/gnome-terminal.schemas.in.h:89
+#: ../src/cinnamon-terminal.schemas.in.h:89
 msgid "Keyboard shortcut to switch to tab 10"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 10"
 
-#: ../src/gnome-terminal.schemas.in.h:90
+#: ../src/cinnamon-terminal.schemas.in.h:90
 msgid "Keyboard shortcut to switch to tab 11"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 11"
 
-#: ../src/gnome-terminal.schemas.in.h:91
+#: ../src/cinnamon-terminal.schemas.in.h:91
 msgid "Keyboard shortcut to switch to tab 12"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 12"
 
-#: ../src/gnome-terminal.schemas.in.h:92
+#: ../src/cinnamon-terminal.schemas.in.h:92
 msgid "Keyboard shortcut to switch to tab 2"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 2"
 
-#: ../src/gnome-terminal.schemas.in.h:93
+#: ../src/cinnamon-terminal.schemas.in.h:93
 msgid "Keyboard shortcut to switch to tab 3"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 3"
 
-#: ../src/gnome-terminal.schemas.in.h:94
+#: ../src/cinnamon-terminal.schemas.in.h:94
 msgid "Keyboard shortcut to switch to tab 4"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 4"
 
-#: ../src/gnome-terminal.schemas.in.h:95
+#: ../src/cinnamon-terminal.schemas.in.h:95
 msgid "Keyboard shortcut to switch to tab 5"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 5"
 
-#: ../src/gnome-terminal.schemas.in.h:96
+#: ../src/cinnamon-terminal.schemas.in.h:96
 msgid "Keyboard shortcut to switch to tab 6"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 6"
 
-#: ../src/gnome-terminal.schemas.in.h:97
+#: ../src/cinnamon-terminal.schemas.in.h:97
 msgid "Keyboard shortcut to switch to tab 7"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 7"
 
-#: ../src/gnome-terminal.schemas.in.h:98
+#: ../src/cinnamon-terminal.schemas.in.h:98
 msgid "Keyboard shortcut to switch to tab 8"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 8"
 
-#: ../src/gnome-terminal.schemas.in.h:99
+#: ../src/cinnamon-terminal.schemas.in.h:99
 msgid "Keyboard shortcut to switch to tab 9"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro 9"
 
-#: ../src/gnome-terminal.schemas.in.h:100
+#: ../src/cinnamon-terminal.schemas.in.h:100
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro eo ankavanana"
 
-#: ../src/gnome-terminal.schemas.in.h:101
+#: ../src/cinnamon-terminal.schemas.in.h:101
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Kitendry hitsin-dàlana fanasongadinana ny vakizoro eo ankavia"
 
-#: ../src/gnome-terminal.schemas.in.h:102
+#: ../src/cinnamon-terminal.schemas.in.h:102
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Kitendry hitsin-dàlana fiovana fomba mameno/tsy mameno efijery"
 
-#: ../src/gnome-terminal.schemas.in.h:103
+#: ../src/cinnamon-terminal.schemas.in.h:103
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Kitendry hitsin-dàlana famaritana ny fahitana ny anjan'ny tolotra"
 
-#: ../src/gnome-terminal.schemas.in.h:104
+#: ../src/cinnamon-terminal.schemas.in.h:104
 msgid "List of available encodings"
 msgstr "Lisitr'ireo fanafangoana misy"
 
-#: ../src/gnome-terminal.schemas.in.h:105
+#: ../src/cinnamon-terminal.schemas.in.h:105
 msgid "List of profiles"
 msgstr "Lisitry ny profil"
 
-#: ../src/gnome-terminal.schemas.in.h:106
+#: ../src/cinnamon-terminal.schemas.in.h:106
 msgid ""
-"List of profiles known to gnome-terminal. The list contains strings naming "
-"subdirectories relative to /apps/gnome-terminal/profiles."
+"List of profiles known to cinnamon-terminal. The list contains strings naming "
+"subdirectories relative to /apps/cinnamon-terminal/profiles."
 msgstr ""
-"Lisitry ny profil fantatry ny gnome-terminal. Misy laha-daza manome anarana "
-"zana-dahatahiry mifandraika amin'ny /apps/gnome-terminal/profiles io lisitra "
+"Lisitry ny profil fantatry ny cinnamon-terminal. Misy laha-daza manome anarana "
+"zana-dahatahiry mifandraika amin'ny /apps/cinnamon-terminal/profiles io lisitra "
 "io."
 
-#: ../src/gnome-terminal.schemas.in.h:107
+#: ../src/cinnamon-terminal.schemas.in.h:107
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -1358,11 +1358,11 @@ msgstr ""
 "koa io hitsin-dàlana io. Io safidy farany io dia ahafahana manatsahatra ny "
 "mpanafaingan'ny anjan'ny tolotra."
 
-#: ../src/gnome-terminal.schemas.in.h:108
+#: ../src/cinnamon-terminal.schemas.in.h:108
 msgid "Number of lines to keep in scrollback"
 msgstr "Isan'ny andalan-teny tanana anatin'ny scrollback"
 
-#: ../src/gnome-terminal.schemas.in.h:109
+#: ../src/cinnamon-terminal.schemas.in.h:109
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -1375,13 +1375,13 @@ msgstr ""
 "mikirakira ity fandrindrana ity. Io no zavatra voalohany entina mamaritra ny "
 "habetsaky ny arika ampiasain'ilay terminal."
 
-#: ../src/gnome-terminal.schemas.in.h:110
+#: ../src/cinnamon-terminal.schemas.in.h:110
 msgid "Palette for terminal applications"
 msgstr "Takela-pisaka ho an'ny rindranasan'ilay terminal"
 
 #. Translators: S/Key is the name of an application, so it should
 #. not be translated.
-#: ../src/gnome-terminal.schemas.in.h:113
+#: ../src/cinnamon-terminal.schemas.in.h:113
 msgid ""
 "Popup a dialog when an S/Key challenge response query is detected and "
 "clicked on. Typing a password into the dialog will send it to the terminal."
@@ -1390,11 +1390,11 @@ msgstr ""
 "challenge response tsikaritra ary voakitika. Ny fanoratana teny fanalahidy "
 "anatin'io takila io dia handefa izany amin'ilay terminal."
 
-#: ../src/gnome-terminal.schemas.in.h:114
+#: ../src/cinnamon-terminal.schemas.in.h:114
 msgid "Position of the scrollbar"
 msgstr "Toerana misy ny scrollbar"
 
-#: ../src/gnome-terminal.schemas.in.h:115
+#: ../src/cinnamon-terminal.schemas.in.h:115
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -1402,24 +1402,24 @@ msgstr ""
 "Ireto ireo sanda mety ampiasaina: \"close\" raha anidy ilay terminal ary "
 "\"restart\" raha hamerina ilay baiko."
 
-#: ../src/gnome-terminal.schemas.in.h:116
+#: ../src/cinnamon-terminal.schemas.in.h:116
 msgid ""
 "Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Ny profil ampiasaina rehefa manokatra fikandrana na vakizoro iray. Tsy "
 "maintsy ao anatin'ny profile_list."
 
-#: ../src/gnome-terminal.schemas.in.h:117
+#: ../src/cinnamon-terminal.schemas.in.h:117
 msgid "Profile to use for new terminals"
 msgstr "Ny profil ampiasaina amin'ny terminal vaovao"
 
-#: ../src/gnome-terminal.schemas.in.h:118
+#: ../src/cinnamon-terminal.schemas.in.h:118
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Ity baiko ity alefa fa tsy ilay akora, raha toa ka marina ny "
 "use_custom_command."
 
-#: ../src/gnome-terminal.schemas.in.h:119
+#: ../src/cinnamon-terminal.schemas.in.h:119
 msgid ""
 "Sets what code the backspace key generates. Possible values are \"ascii-del"
 "\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII "
@@ -1434,7 +1434,7 @@ msgstr ""
 "ny tokony ho izy, dia \"ascii-del\" no sandan'ny kitendry miverina heverina "
 "fa marina."
 
-#: ../src/gnome-terminal.schemas.in.h:120
+#: ../src/cinnamon-terminal.schemas.in.h:120
 msgid ""
 "Sets what code the delete key generates. Possible values are \"ascii-del\" "
 "for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII BS "
@@ -1449,7 +1449,7 @@ msgstr ""
 "ny tokony ho izy, dia \"escape-sequence\" no sandan'ny kitendry mamafa "
 "heverina fa marina."
 
-#: ../src/gnome-terminal.schemas.in.h:122
+#: ../src/cinnamon-terminal.schemas.in.h:122
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -1460,11 +1460,11 @@ msgstr ""
 "teboka roa. Tokony hanaraka lamina hexadecimal toy ny hoe \"#FF00FF\" ireo "
 "anaran-doko."
 
-#: ../src/gnome-terminal.schemas.in.h:123
+#: ../src/cinnamon-terminal.schemas.in.h:123
 msgid "Title for terminal"
 msgstr "Lohateny ho an'ilay terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:124
+#: ../src/cinnamon-terminal.schemas.in.h:124
 msgid ""
 "Title to display for the terminal window or tab. This title may be replaced "
 "by or combined with the title set by the application inside the terminal, "
@@ -1474,7 +1474,7 @@ msgstr ""
 "na ampiarahana amin'ilay lohateny faritan'ny rindranasa anatin'ilay terminal "
 "araka ny fandrindran'ny title_mode io lohateny io;"
 
-#: ../src/gnome-terminal.schemas.in.h:125
+#: ../src/cinnamon-terminal.schemas.in.h:125
 msgid ""
 "True if the cursor should blink when the terminal has focus, for windows/"
 "tabs with this profile."
@@ -1482,7 +1482,7 @@ msgstr ""
 "Marina raha toa ka tokony hipipy ny kitondro rehefa misongadina ilay "
 "terminal, ho an'ny fikandrana/vakizoro manana ity profil ity."
 
-#: ../src/gnome-terminal.schemas.in.h:126
+#: ../src/cinnamon-terminal.schemas.in.h:126
 msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
@@ -1490,7 +1490,7 @@ msgstr ""
 "Marina raha toa ka tokony haseho anatin'ny fikandrana vaovao ny anjan'ny "
 "tolotra, ho an'ny fikandrana/vakizoro manana ity profil ity."
 
-#: ../src/gnome-terminal.schemas.in.h:127
+#: ../src/cinnamon-terminal.schemas.in.h:127
 msgid ""
 "Type of terminal background. May be \"solid\" for a solid color, \"image\" "
 "for an image, or \"transparent\" for pseudo-transparency."
@@ -1498,15 +1498,15 @@ msgstr ""
 "Karazan'ny afaran'ilay terminal. Mety ho \"solid\" raha loko tokana, \"image"
 "\" raha sary, na \"transparent\" raha ohatran'ny tatera-pahazavana."
 
-#: ../src/gnome-terminal.schemas.in.h:128
+#: ../src/cinnamon-terminal.schemas.in.h:128
 msgid "What to do with dynamic title"
 msgstr "Ny anaovana ny lohateny faritan-drindranasa"
 
-#: ../src/gnome-terminal.schemas.in.h:129
+#: ../src/cinnamon-terminal.schemas.in.h:129
 msgid "What to do with the terminal when the child command exits"
 msgstr "Ny atao amin'ny terminal rehefa mijanona ilay zana-baiko"
 
-#: ../src/gnome-terminal.schemas.in.h:130
+#: ../src/cinnamon-terminal.schemas.in.h:130
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
 "single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
@@ -1517,7 +1517,7 @@ msgstr ""
 "panohizana heverina ho soratra (izay tsy mamaritra andiana marika) dia "
 "tokony soratana aloha."
 
-#: ../src/gnome-terminal.schemas.in.h:131
+#: ../src/cinnamon-terminal.schemas.in.h:131
 msgid ""
 "Where to put the terminal scrollbar. Possibilities are \"left\", \"right\", "
 "and \"disabled\"."
@@ -1525,20 +1525,20 @@ msgstr ""
 "Ny toerana asiana ny scrollbarn'ilay terminal. \"left\", \"right\", ary "
 "\"disabled\" no sanda mety."
 
-#: ../src/gnome-terminal.schemas.in.h:132
+#: ../src/cinnamon-terminal.schemas.in.h:132
 msgid "Whether the menubar has access keys"
 msgstr "Raha toa ka manana kitendry mpanokatra ny anjan'ny tolotra"
 
-#: ../src/gnome-terminal.schemas.in.h:133
+#: ../src/cinnamon-terminal.schemas.in.h:133
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr ""
 "Raha mandeha ny hitsin-dàlana GTK tsotra fanokafana ny anjan'ny tolotra"
 
-#: ../src/gnome-terminal.schemas.in.h:134
+#: ../src/cinnamon-terminal.schemas.in.h:134
 msgid "Whether to allow bold text"
 msgstr "Raha ekena ny soratra matevina"
 
-#: ../src/gnome-terminal.schemas.in.h:135
+#: ../src/cinnamon-terminal.schemas.in.h:135
 msgid ""
 "Whether to ask for confirmation when closing a terminal window which has "
 "more than one open tab."
@@ -1546,21 +1546,21 @@ msgstr ""
 "Raha mila mangataka fanamafisana rehefa manidy fikandran-terminal misy "
 "vakizoro misokatra maherin'ny iray."
 
-#: ../src/gnome-terminal.schemas.in.h:136
+#: ../src/cinnamon-terminal.schemas.in.h:136
 msgid "Whether to ask for confirmation when closing terminal windows"
 msgstr "Raha mila mangataka fanamafisana rehefa manidy fikandran-terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:137
+#: ../src/cinnamon-terminal.schemas.in.h:137
 msgid "Whether to blink the cursor"
 msgstr "Raha tokony apipy ny kitondro"
 
-#: ../src/gnome-terminal.schemas.in.h:138
+#: ../src/cinnamon-terminal.schemas.in.h:138
 msgid "Whether to disable anti-aliasing without the X RENDER extension"
 msgstr ""
 "Raha tokony atsahatra ny fanitsian'endrika rehefa tsy miasa ny tovana X "
 "RENDER"
 
-#: ../src/gnome-terminal.schemas.in.h:139
+#: ../src/cinnamon-terminal.schemas.in.h:139
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -1570,45 +1570,45 @@ msgstr ""
 "ny manatsahatra ireo kitendry ireo satria mety hifanosona amin'ny rindranasa "
 "anatin'ilay terminal izy ireo."
 
-#: ../src/gnome-terminal.schemas.in.h:140
+#: ../src/cinnamon-terminal.schemas.in.h:140
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "Raha alefa toy ny akoram-pidirana ny baiko anatin'ilay terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:141
+#: ../src/cinnamon-terminal.schemas.in.h:141
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Raha handefa baiko safidy fa tsy ilay akora"
 
-#: ../src/gnome-terminal.schemas.in.h:142
+#: ../src/cinnamon-terminal.schemas.in.h:142
 msgid "Whether to scroll background image"
 msgstr "Raha tokony hiaka-midina ny sary afara"
 
-#: ../src/gnome-terminal.schemas.in.h:143
+#: ../src/cinnamon-terminal.schemas.in.h:143
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr ""
 "Raha tokony haneho izay voasoratra eny ambany rehefa misy kitendry voatsindry"
 
-#: ../src/gnome-terminal.schemas.in.h:144
+#: ../src/cinnamon-terminal.schemas.in.h:144
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr ""
 "Raha tokony haneho izay voasoratra eny ambanyrehefa ny misy laza vaovao"
 
-#: ../src/gnome-terminal.schemas.in.h:145
+#: ../src/cinnamon-terminal.schemas.in.h:145
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "Raha tokony aseho anaty fikandrana/vakizoro vaovao ny anjan'ny tolotra"
 
-#: ../src/gnome-terminal.schemas.in.h:146
+#: ../src/cinnamon-terminal.schemas.in.h:146
 msgid "Whether to silence terminal bell"
 msgstr "Raha tokony vonoina ny feon'ilay terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:147
+#: ../src/cinnamon-terminal.schemas.in.h:147
 msgid "Whether to update login records when launching terminal command"
 msgstr "Raha tokony havaozina ny lazam-pidirana rehefa mandefa baikon-terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:148
+#: ../src/cinnamon-terminal.schemas.in.h:148
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Raha tokony hampiasa lokon'endrika ho an'ny widgetn'ilay terminal"
 
-#: ../src/gnome-terminal.schemas.in.h:149
+#: ../src/cinnamon-terminal.schemas.in.h:149
 msgid "Whether to use the system font"
 msgstr "Raha tokony hampiasa ny endri-tsoratry ny rafitra"
 
@@ -1618,7 +1618,7 @@ msgstr "Raha tokony hampiasa ny endri-tsoratry ny rafitra"
 #. translated. This is provided for customization of the default encoding
 #. menu; see bug 144810 for an use case. In most cases, this should be
 #. left alone.
-#: ../src/gnome-terminal.schemas.in.h:156
+#: ../src/cinnamon-terminal.schemas.in.h:156
 msgid "[UTF-8,current]"
 msgstr "[UTF-8,current]"
 
@@ -2042,7 +2042,7 @@ msgstr ""
 #: ../src/terminal-profile.c:1894
 #, c-format
 msgid ""
-"GNOME Terminal: font name \"%s\" set in configuration database is not valid\n"
+"Cinnamon Terminal: font name \"%s\" set in configuration database is not valid\n"
 msgstr ""
 "Terminaln'ny GNOME: tsy mety ny anaran'endri-tsoratra \"%s\" voafaritra "
 "anatin'ny soratra fototry ny kirakira\n"
@@ -2406,7 +2406,7 @@ msgid "Close All _Tabs"
 msgstr "Hidio ny _vakizoro rehetra"
 
 #: ../src/terminal-window.c:2908
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminaln'ny GNOME"
 
 #: ../src/terminal-window.c:2910
@@ -2698,11 +2698,11 @@ msgstr "Lehibe loatra ilay anon-jòma \"%g\"; mampiasa ny %g\n"
 #: ../src/terminal.c:1160
 #, c-format
 msgid ""
-"Option --%s is no longer supported in this version of gnome-terminal; you "
+"Option --%s is no longer supported in this version of cinnamon-terminal; you "
 "might want to create a profile with the desired setting, and use the new --"
 "window-with-profile option\n"
 msgstr ""
-"Tsy raisina an-tànana amin'ity kinovan'ny gnome-terminal intsony ny safidy "
+"Tsy raisina an-tànana amin'ity kinovan'ny cinnamon-terminal intsony ny safidy "
 "\"%s\". Mety mila mamorona profil misy ny fandrindrana ilaina ianao ary "
 "mampiasa ny safidy --window-with-profile vaovao\n"
 
@@ -2848,10 +2848,10 @@ msgstr ""
 #: ../src/terminal.c:3835
 #, fuzzy
 msgid ""
-"It appears that you do not have gnome-terminal.server installed in a valid "
+"It appears that you do not have cinnamon-terminal.server installed in a valid "
 "location. Factory mode disabled.\n"
 msgstr ""
-"Ohatra ny voapetraka amin'ny toerana mety ny gnome-terminal.server. "
+"Ohatra ny voapetraka amin'ny toerana mety ny cinnamon-terminal.server. "
 "Atsahatra ny fomba orinasa.\n"
 
 #: ../src/terminal.c:3838

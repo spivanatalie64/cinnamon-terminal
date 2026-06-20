@@ -1,15 +1,15 @@
-# translation of po_gnome-terminal-km.po to Khmer
-# Khmer translation for gnome-terminal
+# translation of po_cinnamon-terminal-km.po to Khmer
+# Khmer translation for cinnamon-terminal
 # Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
-# This file is distributed under the same license as the gnome-terminal package.
+# This file is distributed under the same license as the cinnamon-terminal package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
 # Khoem Sokhem <khoemsokhem@khmeros.info>, 2012.
 # sutha <sutha@khmeros.info>, 2012.
 # Sophea Sok <sophea@open.org.kh>, 2014.
 msgid ""
 msgstr ""
-"Project-Id-Version: po_gnome-terminal-km\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-terminal&keywords=I18N+L10N&component=general\n"
+"Project-Id-Version: po_cinnamon-terminal-km\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=cinnamon-terminal&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2014-04-02 20:07+0000\n"
 "PO-Revision-Date: 2014-04-10 12:04+0700\n"
 "Last-Translator: Sophea Sok <sophea@open.org.kh>\n"
@@ -22,27 +22,27 @@ msgstr ""
 "X-Generator: WordForge 0.8 RC1\n"
 "X-Language: km-KH\n"
 
-#: ../gnome-terminal.appdata.xml.in.h:1 ../gnome-terminal.desktop.in.in.h:1
+#: ../cinnamon-terminal.appdata.xml.in.h:1 ../cinnamon-terminal.desktop.in.in.h:1
 #: ../src/server.c:116 ../src/terminal-accels.c:191 ../src/terminal.c:242
 #: ../src/terminal-screen.c:740 ../src/terminal-screen.c:1587
 #: ../src/terminal-window.c:2652 ../src/terminal-window.c:2977
 msgid "Terminal"
 msgstr "ស្ថានីយ"
 
-#: ../gnome-terminal.appdata.xml.in.h:2 ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.appdata.xml.in.h:2 ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "ប្រើ​បន្ទាត់​ពាក្យបញ្ជា"
 
-#: ../gnome-terminal.appdata.xml.in.h:3
+#: ../cinnamon-terminal.appdata.xml.in.h:3
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
 "ស្ថានីយ GNOME គឺជា​ស្ថានីយ​កម្មវិធី​និម្មិត​សម្រាប់​ចូល​ដំណើរការ​បរិស្ថាន "
 "UNIX សែល ដែល​អាច​ត្រូវ​បាន​ប្រើ​ដើម្បី​ដំណើរការ​កម្មវិធី​ដែល​មាន​នៅ​លើ​ប្រព័"
 "ន្ធ​របស់​អ្នក។"
 
-#: ../gnome-terminal.appdata.xml.in.h:4
+#: ../cinnamon-terminal.appdata.xml.in.h:4
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
@@ -50,7 +50,7 @@ msgstr ""
 "វា​គាំទ្រ​ទម្រង់​ច្រើន ផ្ទាំង​ច្រើន "
 "និង​អនុវត្ត​គ្រាប់ចុច​ផ្លូវកាត់​ជាច្រើន​ផង​ដែរ។"
 
-#: ../gnome-terminal.desktop.in.in.h:3
+#: ../cinnamon-terminal.desktop.in.in.h:3
 msgid "shell;prompt;command;commandline;"
 msgstr "សែល;ប្រអប់​បញ្ចូល;ពាក្យ​បញ្ជា;បន្ទាត់​ពាក្យ​បញ្ជា;"
 
@@ -171,7 +171,7 @@ msgid "Wait until the child exits"
 msgstr "រង់ចាំ​រហូត​ដល់​កូន​ចេញ"
 
 #: ../src/client.c:391
-msgid "GNOME Terminal Client"
+msgid "Cinnamon Terminal Client"
 msgstr "ម៉ាស៊ីន​កូន​ស្ថានីយ GNOME"
 
 #: ../src/client.c:395
@@ -259,25 +259,25 @@ msgstr "លំនាំដើម"
 msgid "Unnamed"
 msgstr "ដែល​គ្មាន​ឈ្មោះ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:1
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:1
 #| msgid "Unnamed"
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'ដែល​គ្មាន​ឈ្មោះ'"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:2
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:2
 msgid "Human-readable name of the profile"
 msgstr "ឈ្មោះ​ទម្រង់​ដែល​មនុស្ស​អាច​អាន​បាន"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:3
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:3
 msgid "Human-readable name of the profile."
 msgstr "ឈ្មោះ​ទម្រង់​ដែល​មនុស្ស​អាច​អាន​បាន។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:4
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:4
 msgid "Default color of text in the terminal"
 msgstr "ពណ៌​លំនាំដើម​របស់​អត្ថបទ​នៅ​ក្នុង​ស្ថានីយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:5
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:5
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -285,11 +285,11 @@ msgstr ""
 "ពណ៌​លំនាំដើម​របស់​អត្ថបទ​នៅ​ក្នុង​ស្ថានីយ ដូចជា​ការ​បញ្ជាក់​ពណ៌​ជាដើម (អាច​ជា​តួលេខ​គោល​ដប់​ប្រាំមួយ​របស់​"
 "រចនាប័ទ្ម HTML  ឬ​ឈ្មោះ​ពណ៌​ដូចជា \"ក្រហម\") ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:6
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:6
 msgid "Default color of terminal background"
 msgstr "ពណ៌​លំនាំដើម​នៃ​​ផ្ទៃខាងក្រោយ​ស្ថានីយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:7
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:7
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -297,11 +297,11 @@ msgstr ""
 "ពណ៌​លំនាំដើម​នៃ​ផ្ទៃខាងក្រោយ​ស្ថានីយ ដូចជា​ការ​បញ្ជាក់​ពណ៌ (អាច​ជា​តួលេខ​គោល​ដប់​ប្រាំមួយ​របស់​រចនាប័ទ្ម HTML "
 "ឬ​ឈ្មោះ​ពណ៌​ដូចជា \"ក្រហម\") ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:8
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:8
 msgid "Default color of bold text in the terminal"
 msgstr "ពណ៌​លំនាំដើម​នៃ​អត្ថបទ​ដិត​នៅ​ក្នុង​ស្ថានីយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:9
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:9
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
@@ -311,28 +311,28 @@ msgstr ""
 "(អាច​ជា​តួលេខ​គោល​ដប់​ប្រាំមួយ​របស់​រចនាប័ទ្ម HTML ឬ​ឈ្មោះ​ពណ៌ ដូចជា "
 "\"ក្រហម\") ។ វា​នឹង​ត្រូវ​បាន​មិន​អើពើ ប្រសិនបើ bold_color_same_as_fg ពិត។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:10
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:10
 msgid "Whether bold text should use the same color as normal text"
 msgstr "ថា​តើ​អត្ថបទ​ដិត​គួរ​ប្រើ​ពណ៌​ដូចគ្នា​នឹង​អត្ថបទ​ធម្មតា​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:11
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:11
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr ""
 "ប្រសិនបើ​ពិត "
 "អត្ថបទ​ដិត​នឹង​ត្រូវ​បាន​បង្ហាញ​ដោយ​ប្រើ​ពណ៌​ដូច​គ្នា​នឹង​អត្ថបទ​ធម្មតា។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:12
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:12
 #| msgid "Terminal"
 msgctxt "title"
 msgid "'Terminal'"
 msgstr "'ស្ថានីយ'"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:13
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:13
 msgid "Title for terminal"
 msgstr "ចំណងជើង​សម្រាប់​ស្ថានីយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:14
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:14
 msgid ""
 "Title to display for the terminal window or tab. This title may be replaced "
 "by or combined with the title set by the application inside the terminal, "
@@ -343,23 +343,23 @@ msgstr ""
 "ឬ​បន្សំ​​ជាមួយ​ចំណង​ជើង​ដែល​បាន​កំណត់​ដោយ​​កម្មវិធី​នៅ​​ខាងក្នុង​ស្ថានីយ "
 "អាស្រ័យ​លើ​ការ​កំណត់​ title_mode ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:15
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:15
 msgid "Whether to allow bold text"
 msgstr "ថា​តើ​ត្រូវ​អនុញ្ញាត​ឲ្យ​មាន​អត្ថបទ​ដិត​ដែរ​ឬទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:16
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:16
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr "ប្រសិនបើ​ពិត អនុញ្ញាត​ឲ្យ​កម្មវិធី​នៅ​ក្នុង​ស្ថានីយ​បង្កើត​អត្ថបទ​ដិត។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:17
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:17
 msgid "Whether to ring the terminal bell"
 msgstr "ថា​តើ​ត្រូវ​​ជូនដំណឹង​​ស្ថានីយ​​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:18
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:18
 msgid "Characters that are considered \"part of a word\""
 msgstr "តួអក្សរ​ដែល​បាន​ចាត់​ទុក​ថា​ជា \"ផ្នែក​នៃ​ពាក្យ\""
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:19
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:19
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
 "single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
@@ -370,19 +370,19 @@ msgstr ""
 "ជួរ​អាច​ត្រូវ​បាន​ផ្ដល់​ជា \"A-Z\" ។ សហសញ្ញា (មិន​បង្ហាញ​ជួរ) "
 "គួរតែ​ជា​តួអក្សរ​ដែល​បាន​ផ្ដល់​ដំបូង។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:20
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:20
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "ថា​តើ​ត្រូវ​បង្ហាញ​របារ​ម៉ឺនុយ​នៅ​ក្នុង​បង្អួច/ផ្ទាំង​ថ្មី​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:21
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:21
 msgid "True if the menubar should be shown in new window"
 msgstr "ប្រសិនបើ​ពិត របារ​ម៉ឺនុយ​នឹង​ត្រូវ​បាន​បង្ហាញ​នៅ​ក្នុង​បង្អួច​ថ្មី"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:22
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:22
 msgid "Whether to use custom terminal size for new windows"
 msgstr "ថា​​តើ​ត្រូវ​ប្រើ​ទំហំ​ស្ថានីយ​ផ្ទាល់ខ្លួន​សម្រាប់​បង្អួច​ថ្មី​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:23
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:23
 msgid ""
 "If true, newly created terminal windows will have custom size specified by "
 "default_size_columns and default_size_rows."
@@ -390,11 +390,11 @@ msgstr ""
 "ប្រសិនបើ​ពិត បង្អួច​ស្ថានីយ​ដែល​បាន​បង្កើត​ថ្មីៗ​នឹង​មាន​ទំហំ​ផ្ទាល់ខ្លួន​ដែល​បញ្ជាក់​ដោយ "
 "default_size_columns និង default_size_rows ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:24
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:24
 msgid "Default number of columns"
 msgstr "ចំនួន​ជួរឈរ​លំនាំដើម"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:25
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:25
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -402,11 +402,11 @@ msgstr ""
 "ចំនួន​ជួរឈរ​នៅ​ក្នុង​បង្អួច​ស្ថានីយ​ដែល​​ទើប​បង្កើត​ថ្មី។ "
 "វា​នឹង​គ្មាន​បែបផែន​ទេ ប្រសិនបើ​មិន​បាន​បើក use_custom_default_size ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:26
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:26
 msgid "Default number of rows"
 msgstr "ចំនួន​ជួរដេក​លំនាំដើម"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:27
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:27
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -414,15 +414,15 @@ msgstr ""
 "ចំនួន​ជួរដេក​នៅ​ក្នុង​បង្អួច​ស្ថានីយ​ដែល​ទើបតែ​បាន​បង្កើត​​ថ្មី​ៗ ។ "
 "នឹង​គ្មាន​បែបផែន​ទេ ប្រសិនបើ​មិន​បាន​បើក use_custom_default_size ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:28
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:28
 msgid "When to show the scrollbar"
 msgstr "នៅ​ពេល​បង្ហាញ​របារ​រមូរ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:29
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:29
 msgid "Number of lines to keep in scrollback"
 msgstr "ចំនួន​បន្ទាត់​ដែល​​​ត្រូវ​រក្សាទុក​ក្នុង​រមូរ​ថយក្រោយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:30
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:30
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -433,11 +433,11 @@ msgstr ""
 "បន្ទាត់​​ដែល​មិន​ត្រូវ​តាម​រមូរ​ថយក្រោយ វា​នឹង​ត្រូវ​បាន​បោះបង់។ ប្រសិនបើ "
 "scrollback_unlimited ពិត តម្លៃ​នេះ​នឹង​ត្រូវ​បាន​មិន​អើពើ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:31
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:31
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "ថា​តើ​ត្រូវ​រក្សាទុក​ចំនួន​បន្ទាត់​​​ដែល​គ្មាន​កំណត់​នៅ​ក្នុង​រមូរ​ថយក្រោយ​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:32
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:32
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -448,28 +448,28 @@ msgstr ""
 "ដូច្នេះ​វា​អាច​នឹង​ធ្វើឲ្យ​ប្រព័ន្ធ​អស់​ទំហំ​ថាស​ទំនេរ "
 "ប្រសិនបើ​មាន​លទ្ធផល​​ច្រើន​ទៅកាន់​ស្ថានីយ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:33
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:33
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "ថា​តើ​ត្រូវ​រមូរ​ទៅ​ក្រោម​ដែរ​ឬទេ ពេល​បាន​ចុច​គ្រាប់ចុច"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:34
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:34
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "ប្រសិនបើ​ពិត ការ​ចុច​គ្រាប់ចុច​នឹង​ធ្វើឲ្យ​របារ​មូរ​លោត​ទៅ​ក្រោម។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:35
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:35
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "ថា​តើ​ត្រូវ​រមូរ​ទៅ​ក្រោម​ដែរ​ឬទេ ពេល​មាន​លទ្ធផល​ថ្មី"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:36
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:36
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr "ប្រសិនបើ​ពិត ស្ថានីយ​នឹង​រមូរ​ទៅ​ក្រោម​នៅ​ពេល​ណា​ដែល​មាន​លទ្ធផល​ថ្មី។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:37
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:37
 msgid "What to do with the terminal when the child command exits"
 msgstr "អ្វី​ដែល​ត្រូវ​ធ្វើ​ជាមួយ​ស្ថានីយ នៅ​ពេល​ពាក្យ​បញ្ជា​រង​ចាកចេញ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:38
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:38
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -477,12 +477,12 @@ msgstr ""
 "តម្លៃ​ដែល​អាច​ប្រើ​បាន​គឺ \"បិទ\" សម្រាប់​បិទ​ស្ថានីយ និង \"ចាប់ផ្ដើម​ឡើងវិញ\" "
 "សម្រាប់​ចាប់ផ្ដើម​ពាក្យ​បញ្ជា​ឡើងវិញ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:39
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:39
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr ""
 "ថា​តើ​ត្រូវ​ចាប់ផ្ដើម​​​ពាក្យ​បញ្ជា​នៅ​ក្នុង​ស្ថានីយ​ដែរ​ឬទេ ពេល​ចូល​សែល"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:40
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:40
 #| msgid ""
 #| "If true, the command inside the terminal will be launched as a login "
 #| "shell. (argv[0] will have a hyphen in front of it.)"
@@ -493,13 +493,13 @@ msgstr ""
 "ប្រសិនបើ​ពិត ពាក្យ​បញ្ជា​នៅ​ខាង​ក្នុង​ស្ថានីយ​នឹង​ត្រូវ​បាន​ចាប ផ្ដើម "
 "ពេល​ចូល​សែល។ (argv[0] នឹង​មាន​សហសញ្ញា​នៅ​ពីមុខ​វា)។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:41
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:41
 msgid "Whether to update login records when launching terminal command"
 msgstr ""
 "ថា​តើ​ត្រូវ​ធ្វើ​បច្ចុប្បន្នភាព​កំណត់ត្រា​ចូល​ដែរ​ឬទេ "
 "ពេល​ចាប់ផ្ដើម​ពាក្យ​បញ្ជា​ស្ថានីយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:42
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:42
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
@@ -508,11 +508,11 @@ msgstr ""
 "នឹង​ត្រូវ​បាន​ធ្វើ​បច្ចុប្បន្នភាព "
 "ពេល​ពាក្យ​បញ្ជា​នៅ​ខាងក្នុង​ស្ថានីយ​ត្រូវ​បាន​ចាប់ផ្ដើម។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:43
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:43
 msgid "Whether to run a custom command instead of the shell"
 msgstr "ថា​តើ​ត្រូវ​ដំណើរការ​ពាក្យ​បញ្ជា​ផ្ទាល់ខ្លួន​ជំនួស​សែល​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:44
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:44
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -520,11 +520,11 @@ msgstr ""
 "ប្រសិនបើ​ពិត តម្លៃ​នៃ​ការ​កំណត់ custom_command "
 "នឹង​ត្រូវ​បាន​ប្រើ​ជំនួស​ឲ្យ​ការ​ដំណើរការ​សែល។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:45
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:45
 msgid "Whether to blink the cursor"
 msgstr "ថា​តើ​ត្រូវ​ធ្វើឲ្យ​ទស្សន៍ទ្រនិច​លោត​ភ្លឹបភ្លែត​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:46
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:46
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -533,178 +533,178 @@ msgstr ""
 "សម្រាប់​ប្រើ​ក្នុង​ការ​កំណត់​ឲ្យ​ទស្សន៍ទ្រនិច​លោត​ភ្លឹបភ្លែត​សាកល ឬ \"on\" និង "
 "\"off\" សម្រាប់​កំណត់​របៀប​ជាក់លាក់។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:47
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:47
 msgid "The cursor appearance"
 msgstr "រូបរាង​ទស្សន៍ទ្រនិច"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:48
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:48
 msgid "Custom command to use instead of the shell"
 msgstr "ពាក្យ​បញ្ជា​ផ្ទាល់ខ្លួន​ដែល​ត្រូវ​ប្រើ​ជំនួស​សែល"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:49
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:49
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "ដំណើរការ​ពាក្យ​បញ្ជា​នេះ​ជំនួស​ឲ្យ​សែល "
 "ប្រសិនបើ​បាន​កំណត់​ការ​ប្រើ​ពាក្យ​បញ្ជា​ផ្ទាល់ខ្លួន​ថា​ពិត។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:50
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:50
 msgid "Palette for terminal applications"
 msgstr "ក្ដារ​លាយ​ពណ៌​សម្រាប់​កម្មវិធី​ស្ថានីយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:51
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:51
 #| msgid "A pango font name and size"
 msgid "A Pango font name and size"
 msgstr "ទំហំ និង​​ឈ្មោះ​ពុម្ព​អក្សរ Pango"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:52
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:52
 msgid "The code sequence the Backspace key generates"
 msgstr "លំដាប់​កូដ​​គ្រាប់ចុច​លុប​ថយក្រោយ​បង្កើត​បាន"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:53
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:53
 msgid "The code sequence the Delete key generates"
 msgstr "លំដាប់​កូដ​គ្រាប់ចុច​លុប​បង្កើត​បាន"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:54
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:54
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "ថា​​តើ​ត្រូវ​ប្រើ​ពណ៌​ពី​រូបរាង​សម្រាប់​ធាតុ​ក្រាហ្វិក​ស្ថានីយ​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:55
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:55
 msgid "Whether to use the system monospace font"
 msgstr "ថា​តើ​ត្រូវ​ប្រើ​ពុម្ពអក្សរ​ monospace ប្រព័ន្ធ​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:56
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:56
 #| msgid "Whether to use custom terminal size for new windows"
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr ""
 "ថា​​តើ​ត្រូវ​រុំ​មាតិកា​ស្ថានីយ​ឡើងវិញ​ដែរ​ឬទេ ពេល​ប្ដូរ​ទំហំ​បង្អួច​ថ្មី"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:57
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:57
 msgid "Which encoding to use"
 msgstr "ការ​បម្លែង​ជា​កូដ​ដែល​ត្រូវ​ប្រើ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:58
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:58
 msgid "Keyboard shortcut to open a new tab"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បើក​ផ្ទាំង​ថ្មី"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:59
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:59
 msgid "Keyboard shortcut to open a new window"
 msgstr "គ្រាប់ចុច​ផ្លូវ​កាត់​សម្រាប់​បើក​បង្អួច​ថ្មី"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:60
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:60
 msgid "Keyboard shortcut to create a new profile"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បង្កើត​ទម្រង់​ថ្មី"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:61
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:61
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr ""
 "គ្រាប់​ចុច​ផ្លូវកាត់​សម្រាប់​រក្សាទុក​មាតិកា​ផ្ទាំង​បច្ចុប្បន្ន​ទៅ​ឯកសារ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:62
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:62
 msgid "Keyboard shortcut to close a tab"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បិទ​ផ្ទាំង"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:63
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:63
 msgid "Keyboard shortcut to close a window"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បិទ​បង្អួច"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:64
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:64
 msgid "Keyboard shortcut to copy text"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​ចម្លង​អត្ថបទ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:65
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:65
 msgid "Keyboard shortcut to paste text"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បិទភ្ជាប់​អត្ថបទ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:66
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:66
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បិទ/បើក​របៀប​ពេញ​អេក្រង់"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:67
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:67
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បិទ/បើក​ភាព​មើល​ឃើញ​នៃ​របារ​ម៉ឺនុយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:68
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:68
 msgid "Keyboard shortcut to set the terminal title"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​កំណត់​ចំណងជើង​ស្ថានីយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:69
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:69
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​កំណត់​ស្ថានីយ​ឡើងវិញ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:70
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:70
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​សម្អាត និង​កំណត់​ស្ថានីយ​ឡើងវិញ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:71
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:71
 #| msgid "Keyboard shortcut to reset the terminal"
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បើក និង​ស្វែងរក​ប្រអប់​បញ្ចូល"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:72
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:72
 #| msgid "Keyboard shortcut to save the current tab contents to file"
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr ""
 "គ្រាប់​ចុច​ផ្លូវកាត់​សម្រាប់​ស្វែងរក​ការ​កើតឡើង​បន្ទាប់​នៃ​ពាក្យ​ស្វែងរក"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:73
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:73
 #| msgid "Keyboard shortcut to switch to the previous tab"
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr "គ្រាប់​ចុច​ផ្លូវកាត់​សម្រាប់​ស្វែងរក​ការ​កើតឡើង​ពីមុន​នៃ​ពាក្យ​ស្វែងរក"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:74
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:74
 #| msgid "Keyboard shortcut to set the terminal title"
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​សម្អាត និង​រកមើល​រំលេច"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:75
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:75
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​ប្ដូរ​ទៅ​ផ្ទាំង​មុន"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:76
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:76
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​ប្ដូរ​ទៅ​ផ្ទាំង​បន្ទាប់"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:77
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:77
 #| msgid "Keyboard shortcut to save the current tab contents to file"
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "គ្រាប់​ចុច​ផ្លូវកាត់​សម្រាប់​ផ្លាស់ទី​ផ្ទាំង​បច្ចុប្បន្ន​ទៅ​ខាងឆ្វេង"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:78
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:78
 #| msgid "Keyboard shortcut to save the current tab contents to file"
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "គ្រាប់​ចុច​ផ្លូវកាត់​សម្រាប់​ផ្លាស់ទី​ផ្ទាំង​បច្ចុប្បន្ន​ទៅ​ខាងស្ដាំ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:79
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:79
 #| msgid "Keyboard shortcut to switch to tab 1"
 msgid "Keyboard shortcut to detach current tab"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​ផ្ដាច់​ផ្ទាំង​បច្ចុប្បន្ន"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:80
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:80
 #| msgid "Keyboard shortcut to switch to the next tab"
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​ប្ដូរ​ទៅ​ផ្ទាំង​លេខ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:81
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:81
 msgid "Keyboard shortcut to launch help"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​បើក​ជំនួយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:82
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:82
 msgid "Keyboard shortcut to make font larger"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​ធ្វើឲ្យ​ទំហំ​ពុម្ពអក្សរ​ធំ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:83
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:83
 msgid "Keyboard shortcut to make font smaller"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​ធ្វើឲ្យ​ទំហំ​ពុម្ពអក្សរ​តូច"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:84
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:84
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "គ្រាប់ចុច​ផ្លូវកាត់​សម្រាប់​ធ្វើឲ្យ​ពុម្ពអក្សរ​មាន​ទំហំ​ធម្មតា"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:85
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:85
 msgid "Whether the menubar has access keys"
 msgstr "ថា​តើ​របារ​ម៉ឺនុយ​មាន​គ្រាប់ចុច​​ចូល​ដំណើរការ​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:86
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:86
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -715,13 +715,13 @@ msgstr ""
 "ពួកវា​អាច​បង្អាក់​​កម្មវិធី​ដំណើរការ​មួយ​ចំនួន​នៅ​ក្នុង​ស្ថានីយ "
 "ដូច្នេះ​គួរតែ​បិទ​ពួកវា។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:87
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:87
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr ""
 "ថា​តើ​ត្រូវ​បើក​គ្រាប់ចុច​ផ្លូវកាត់ GTK "
 "ស្តង់ដារ​សម្រាប់​ការ​ចូល​ដំណើរការ​របារ​ម៉ឺនុយ​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:88
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:88
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -731,15 +731,15 @@ msgstr ""
 "អ្នក​អាច​ប្ដូរ​វា​តាម​តម្រូវការ​បាន​ដោយ​ប្រើ gtkrc (gtk-menu-bar-accel = "
 "\"whatever\") ។ ជម្រើស​នេះ​នឹង​បិទ​គ្រាប់ចុច​ផ្លូវកាត់​របារ​ម៉ឺនុយ​ស្តង់ដារ។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:89
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:89
 msgid "Whether the shell integration is enabled"
 msgstr "ថា​តើ​ត្រូវ​បើក​ការ​រួមបញ្ចូល​សែល​ដែរ​ឬទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:90
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:90
 msgid "List of available encodings"
 msgstr "បញ្ជី​ការ​បម្លែង​ជា​កូដ​ដែល​អាច​ប្រើ​បាន"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:91
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:91
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
 "is a list of encodings to appear there. The special encoding name \"current"
@@ -751,21 +751,21 @@ msgstr ""
 "ការ​បម្លែង​ជា​កូដ​ពិសេស​ឈ្មោះ \"បច្ចុប្បន្ន\" មានន័យថា "
 "ដើម្បី​បង្ហាញ​ការ​បម្លែង​ជា​កូដ​នៃ​ការ​បកប្រែ​​បច្ចុប្បន្ន។"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:92
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:92
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "ថា​​តើ​ត្រូវ​សួរ​រក​ការ​បញ្ជាក់​ដែរ​ឬទេ នៅ​មុន​ពេល​បិទ​បង្អួច​ស្ថានីយ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:93
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:93
 #| msgid "Whether to show menubar in new windows/tabs"
 msgid "Whether to show the menubar in new windows"
 msgstr "ថា​តើ​ត្រូវ​បង្ហាញ​របារ​ម៉ឺនុយ​នៅ​ក្នុង​បង្អួច​ថ្មី​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:94
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:94
 #| msgid "Whether to use the system monospace font"
 msgid "Whether to use a dark theme variant"
 msgstr "ថា​តើ​ត្រូវ​ប្រើ​វ៉ារ្យង់​រូបរាង​ងងឹត​ដែរ​ឬ​ទេ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:95
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:95
 #| msgid "Whether to show menubar in new windows/tabs"
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "ថា​តើ​ត្រូវ​បើក​ស្ថានីយ​ថ្មី​ជា​ផ្ទាំង ឬ​បង្អួច​ដែរ​ឬ​ទេ"
@@ -1595,11 +1595,11 @@ msgstr "បើក​កម្មវិធី​គ្រប់គ្រង​ឯ
 
 #: ../src/terminal-options.c:224 ../src/terminal-options.c:237
 #, c-format
-msgid "Option \"%s\" is no longer supported in this version of gnome-terminal."
+msgid "Option \"%s\" is no longer supported in this version of cinnamon-terminal."
 msgstr "ជម្រើស \"%s\" មិន​គាំទ្រ​នៅ​ក្នុង​កំណែ​ស្ថានីយ​ gnome នេះ​ទៀត​ទេ។"
 
 #: ../src/terminal-options.c:249 ../src/terminal-util.c:217
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "ស្ថានីយ GNOME"
 
 #: ../src/terminal-options.c:289
@@ -1691,11 +1691,11 @@ msgid "PROFILE-NAME"
 msgstr "ឈ្មោះ​ទម្រង់"
 
 #: ../src/terminal-options.c:1269 ../src/terminal-options.c:1275
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "វត្ថុ​ត្រាប់តាម​ស្ថានីយ GNOME"
 
 #: ../src/terminal-options.c:1276
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "បង្ហាញ​ជម្រើស​ស្ថានីយ GNOME"
 
 #: ../src/terminal-options.c:1286
@@ -1822,12 +1822,12 @@ msgstr "មិន​អាច​បើក​អាសយដ្ឋាន “%s”
 
 #: ../src/terminal-util.c:369
 #| msgid ""
-#| "GNOME Terminal is free software; you can redistribute it and/or modify it "
+#| "Cinnamon Terminal is free software; you can redistribute it and/or modify it "
 #| "under the terms of the GNU General Public License as published by the "
 #| "Free Software Foundation; either version 3 of the License, or (at your "
 #| "option) any later version."
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -1839,7 +1839,7 @@ msgstr ""
 
 #: ../src/terminal-util.c:373
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -1852,11 +1852,11 @@ msgstr ""
 #: ../src/terminal-util.c:377
 #| msgid ""
 #| "You should have received a copy of the GNU General Public License along "
-#| "with GNOME Terminal; if not, write to the Free Software Foundation, Inc., "
+#| "with Cinnamon Terminal; if not, write to the Free Software Foundation, Inc., "
 #| "51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "អ្នក​គួរតែ​ទទួល​បាន​ច្បាប់​ចម្លង​អាជ្ញាប័ណ្ណ​សាធារណៈ​ទូទៅ GNU "
 "ដែល​ជាប់​មក​ជាមួយ​ស្ថានីយ GNOME ។ ប្រសិនបើ​មិន​បាន​ទទួល​ទេ សូម​ចូល​ទៅ "
@@ -2325,11 +2325,11 @@ msgstr "បិទ​បង្អួច"
 #~ msgstr "បញ្ជី​ទម្រង់"
 
 #~ msgid ""
-#~ "List of profiles known to gnome-terminal. The list contains strings "
-#~ "naming subdirectories relative to /apps/gnome-terminal/profiles."
+#~ "List of profiles known to cinnamon-terminal. The list contains strings "
+#~ "naming subdirectories relative to /apps/cinnamon-terminal/profiles."
 #~ msgstr ""
-#~ "បញ្ជី​ទម្រង់​ដែល​ gnome-terminal ស្គាល់ ។ បញ្ជី​មាន​ខ្សែ​អក្សរ​​ដែល​កំណត់​ឈ្មោះ​ថត​រង​ទាក់ទង​នឹង /apps/"
-#~ "gnome-terminal/profiles ។"
+#~ "បញ្ជី​ទម្រង់​ដែល​ cinnamon-terminal ស្គាល់ ។ បញ្ជី​មាន​ខ្សែ​អក្សរ​​ដែល​កំណត់​ឈ្មោះ​ថត​រង​ទាក់ទង​នឹង /apps/"
+#~ "cinnamon-terminal/profiles ។"
 
 #~ msgid "Profile to use for new terminals"
 #~ msgstr "ទម្រង់​ត្រូវ​ប្រើ សម្រាប់​ស្ថានីយ​ថ្មី"
@@ -2946,11 +2946,11 @@ msgstr "បិទ​បង្អួច"
 #~ msgstr "ខ្សែ​អក្សរ​ធរណីមាត្រ​មិន​ត្រឹមត្រូវ \"%s\"\n"
 
 #~ msgid ""
-#~ "Option \"%s\" is no longer supported in this version of gnome-terminal; "
+#~ "Option \"%s\" is no longer supported in this version of cinnamon-terminal; "
 #~ "you might want to create a profile with the desired setting, and use the "
 #~ "new '--profile' option\n"
 #~ msgstr ""
-#~ "ជម្រើស \"%s\" មិន​​ត្រូវ​បាន​គាំទ្រ​នៅ​ក្នុង​កំណែ gnome-terminal នេះ​ទៀត​ទេ អ្នក​ប្រហែល​ជា​ចង់​"
+#~ "ជម្រើស \"%s\" មិន​​ត្រូវ​បាន​គាំទ្រ​នៅ​ក្នុង​កំណែ cinnamon-terminal នេះ​ទៀត​ទេ អ្នក​ប្រហែល​ជា​ចង់​"
 #~ "បង្កើត​ទម្រង់​ដែល​មាន​ការ​កំណត់​តាម​តម្រូវការ និង​ប្រើ​ជម្រើស '--profile' ថ្មី\n"
 
 #~ msgid "Save the terminal configuration to a file"

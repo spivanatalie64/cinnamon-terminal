@@ -1,11 +1,11 @@
 # Biełaruski pierakład Gnome.
 # Copyright (C) 2007 gnome.org
-# This file is distributed under the same license as the gnome-terminal package.
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Ihar Hrachyshka <iharh@gnome.org>, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal\n"
+"Project-Id-Version: cinnamon-terminal\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-02-14 03:20+0200\n"
 "PO-Revision-Date: 2009-02-14 03:46+0200\n"
@@ -20,13 +20,13 @@ msgstr ""
 "X-Poedit-Language: Belarusian\n"
 "X-Poedit-Country: BELARUS\n"
 
-#: ../gnome-terminal.desktop.in.in.h:1 ../src/gnome-terminal.schemas.in.h:119
+#: ../cinnamon-terminal.desktop.in.in.h:1 ../src/cinnamon-terminal.schemas.in.h:119
 #: ../src/terminal-accels.c:222 ../src/terminal.c:292
 #: ../src/terminal-profile.c:144 ../src/terminal-window.c:1730
 msgid "Terminal"
 msgstr "Terminał"
 
-#: ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "Užyj zahadny radok"
 
@@ -71,7 +71,7 @@ msgstr "Dadaj ci vydali kadavańni terminału"
 msgid "E_ncodings shown in menu:"
 msgstr "_Pakazanyja ŭ­ menu kadavańni:"
 
-#: ../src/gnome-terminal.schemas.in.h:1
+#: ../src/cinnamon-terminal.schemas.in.h:1
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
 "is a list of encodings to appear there. The special encoding name \"current"
@@ -81,7 +81,7 @@ msgstr ""
 "Heta śpis pakazanych kadavańniaŭ. Admysłovaja nazva kadavańnia \"current\" "
 "značyć, što treba pakazvać kadavańnie dziejnaj lakalnaści."
 
-#: ../src/gnome-terminal.schemas.in.h:2
+#: ../src/cinnamon-terminal.schemas.in.h:2
 msgid ""
 "A value between 0.0 and 1.0 indicating how much to darken the background "
 "image. 0.0 means no darkness, 1.0 means fully dark. In the current "
@@ -93,7 +93,7 @@ msgstr ""
 "dziejnaj implementacyi padtrymvajucca tolki dva ŭzroŭni ciomnaści, tamu "
 "nałada pracuje jak lahičnaja, dzie vartaść 0.0 adklučaje efekt ciomnaści."
 
-#: ../src/gnome-terminal.schemas.in.h:3
+#: ../src/cinnamon-terminal.schemas.in.h:3
 msgid ""
 "Accelerator key to detach current tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -103,7 +103,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:4
+#: ../src/cinnamon-terminal.schemas.in.h:4
 msgid ""
 "Accelerator key to move the current tab to the left. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -115,7 +115,7 @@ msgstr ""
 "vartaść opcyi ŭ \"disabled\", tady dla hetaha dziejańnia nia budzie "
 "vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:5
+#: ../src/cinnamon-terminal.schemas.in.h:5
 msgid ""
 "Accelerator key to move the current tab to the right. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -127,47 +127,47 @@ msgstr ""
 "vartaść opcyi ŭ \"disabled\", tady dla hetaha dziejańnia nia budzie "
 "vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:6
+#: ../src/cinnamon-terminal.schemas.in.h:6
 msgid "Accelerator to detach current tab."
 msgstr "Skarot, kab adłučyć dziejnuju kartku."
 
-#: ../src/gnome-terminal.schemas.in.h:7
+#: ../src/cinnamon-terminal.schemas.in.h:7
 msgid "Accelerator to move the current tab to the left."
 msgstr "Skarot, kab pierasunuć dziejnuju kartku ŭleva."
 
-#: ../src/gnome-terminal.schemas.in.h:8
+#: ../src/cinnamon-terminal.schemas.in.h:8
 msgid "Accelerator to move the current tab to the right."
 msgstr "Skarot, kab pierasunuć dziejnuju kartku ŭprava."
 
-#: ../src/gnome-terminal.schemas.in.h:9
+#: ../src/cinnamon-terminal.schemas.in.h:9
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr "Nazva šryftu Pango. Prykładam, \"Sans 12\" albo \"Monospace Bold 14\"."
 
-#: ../src/gnome-terminal.schemas.in.h:10
+#: ../src/cinnamon-terminal.schemas.in.h:10
 msgid "Background image"
 msgstr "Fonavaja vyjava"
 
-#: ../src/gnome-terminal.schemas.in.h:11
+#: ../src/cinnamon-terminal.schemas.in.h:11
 msgid "Background type"
 msgstr "Typ fonu"
 
-#: ../src/gnome-terminal.schemas.in.h:12
+#: ../src/cinnamon-terminal.schemas.in.h:12
 msgid "Characters that are considered \"part of a word\""
 msgstr "Znaki, jakija źjaŭlajucca \"častkaj słova\""
 
-#: ../src/gnome-terminal.schemas.in.h:13
+#: ../src/cinnamon-terminal.schemas.in.h:13
 msgid "Custom command to use instead of the shell"
 msgstr "Admysłovy zahad, jaki treba ŭžyć zamiest abałonki"
 
-#: ../src/gnome-terminal.schemas.in.h:14
+#: ../src/cinnamon-terminal.schemas.in.h:14
 msgid "Default"
 msgstr "Zmoŭčany"
 
-#: ../src/gnome-terminal.schemas.in.h:15
+#: ../src/cinnamon-terminal.schemas.in.h:15
 msgid "Default color of terminal background"
 msgstr "Zmoŭčany fonavy koler dla terminału"
 
-#: ../src/gnome-terminal.schemas.in.h:16
+#: ../src/cinnamon-terminal.schemas.in.h:16
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -176,11 +176,11 @@ msgstr ""
 "naboram  šasnaccatkovych ličbaŭ u styli HTML albo nazvaj koleru, jak \"red"
 "\")."
 
-#: ../src/gnome-terminal.schemas.in.h:17
+#: ../src/cinnamon-terminal.schemas.in.h:17
 msgid "Default color of text in the terminal"
 msgstr "Zmoŭčany koler tekstu ŭ terminale"
 
-#: ../src/gnome-terminal.schemas.in.h:18
+#: ../src/cinnamon-terminal.schemas.in.h:18
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -189,49 +189,49 @@ msgstr ""
 "naboram  šasnaccatkovych ličbaŭ u styli HTML albo nazvaj koleru, jak \"red"
 "\")."
 
-#: ../src/gnome-terminal.schemas.in.h:19
+#: ../src/cinnamon-terminal.schemas.in.h:19
 msgid "Effect of the Backspace key"
 msgstr "Efekt klavišy Backspace"
 
-#: ../src/gnome-terminal.schemas.in.h:20
+#: ../src/cinnamon-terminal.schemas.in.h:20
 msgid "Effect of the Delete key"
 msgstr "Efekt klavišy Delete"
 
-#: ../src/gnome-terminal.schemas.in.h:21
+#: ../src/cinnamon-terminal.schemas.in.h:21
 msgid "Filename of a background image."
 msgstr "Nazva fajłu z fonavaj vyjavaj."
 
-#: ../src/gnome-terminal.schemas.in.h:22
+#: ../src/cinnamon-terminal.schemas.in.h:22
 msgid "Font"
 msgstr "Šryft"
 
 #. Translators: S/Key is the name of an application, so it should
 #. not be translated.
-#: ../src/gnome-terminal.schemas.in.h:25
+#: ../src/cinnamon-terminal.schemas.in.h:25
 msgid "Highlight S/Key challenges"
 msgstr "Padśviatlaj S/Key challenges"
 
-#: ../src/gnome-terminal.schemas.in.h:26
+#: ../src/cinnamon-terminal.schemas.in.h:26
 msgid "How much to darken the background image"
 msgstr "Stupień zacienienaści fonavaj vyjavy"
 
-#: ../src/gnome-terminal.schemas.in.h:27
+#: ../src/cinnamon-terminal.schemas.in.h:27
 msgid "Human-readable name of the profile"
 msgstr "Čytelnaja nazva profila"
 
-#: ../src/gnome-terminal.schemas.in.h:28
+#: ../src/cinnamon-terminal.schemas.in.h:28
 msgid "Human-readable name of the profile."
 msgstr "Čytelnaja nazva profila."
 
-#: ../src/gnome-terminal.schemas.in.h:29
+#: ../src/cinnamon-terminal.schemas.in.h:29
 msgid "Icon for terminal window"
 msgstr "Ikona dla akna terminału"
 
-#: ../src/gnome-terminal.schemas.in.h:30
+#: ../src/cinnamon-terminal.schemas.in.h:30
 msgid "Icon to use for tabs/windows containing this profile."
 msgstr "Ikona dla kartak/voknaŭ, jakija źmiaščajuć hety profil."
 
-#: ../src/gnome-terminal.schemas.in.h:31
+#: ../src/cinnamon-terminal.schemas.in.h:31
 msgid ""
 "If the application in the terminal sets the title (most typically people "
 "have their shell set up to do this), the dynamically-set title can erase the "
@@ -244,13 +244,13 @@ msgstr ""
 "Mahčymyja vartaści: \"replace\" (zamiani), \"before\" (pierad), \"after"
 "\" (paśla) i \"ignore\" (ihnaruj)."
 
-#: ../src/gnome-terminal.schemas.in.h:32
+#: ../src/cinnamon-terminal.schemas.in.h:32
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
 "Kali opcyja maje vartaść \"Praŭda\", dazvol aplikacyjam u terminale užyć "
 "tłusty vyhlad tekstu."
 
-#: ../src/gnome-terminal.schemas.in.h:33
+#: ../src/cinnamon-terminal.schemas.in.h:33
 msgid ""
 "If true, don't make a noise when applications send the escape sequence for "
 "the terminal bell."
@@ -258,13 +258,13 @@ msgstr ""
 "Kali opcyja maje vartaść \"Praŭda\", zachoŭvaj cišyniu, kali aplikacyi "
 "dasyłajuć kiroŭnyja paśladoŭnaści dla terminalnaha zvanka."
 
-#: ../src/gnome-terminal.schemas.in.h:34
+#: ../src/cinnamon-terminal.schemas.in.h:34
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr ""
 "Kali opcyja maje vartaść \"Praŭda\", nacisk klavišy viartaje pałasu "
 "prakrutki dołu."
 
-#: ../src/gnome-terminal.schemas.in.h:35
+#: ../src/cinnamon-terminal.schemas.in.h:35
 msgid ""
 "If true, scroll the background image with the foreground text; if false, "
 "keep the image in a fixed position and scroll the text above it."
@@ -273,7 +273,7 @@ msgstr ""
 "tekstam; kali opcyja maje vartaść \"Niapraŭda\", prakručvaj tekst pierad "
 "zafiksavanaj vyjavaj."
 
-#: ../src/gnome-terminal.schemas.in.h:36
+#: ../src/cinnamon-terminal.schemas.in.h:36
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell. "
 "(argv[0] will have a hyphen in front of it.)"
@@ -281,7 +281,7 @@ msgstr ""
 "Kali opcyja maje vartaść \"Praŭda\", zahad u terminale budzie vykanany jak "
 "abałonka ŭvachodu (argv[0] budzie mieć złučok na pačatku)."
 
-#: ../src/gnome-terminal.schemas.in.h:37
+#: ../src/cinnamon-terminal.schemas.in.h:37
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
@@ -289,7 +289,7 @@ msgstr ""
 "Kali opcyja maje vartaść \"Praŭda\", systemnyja zapisy ŭvachodu \"utmp\" i "
 "\"wtmp\" buduć aktualizavanyja pry vykanańni zahadu ŭ terminale."
 
-#: ../src/gnome-terminal.schemas.in.h:38
+#: ../src/cinnamon-terminal.schemas.in.h:38
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
 "monospace (and the most similar font it can come up with otherwise)."
@@ -298,7 +298,7 @@ msgstr ""
 "standartny šryft, kali jon niaźmiennaj šyryni (albo najbolš prydatny z "
 "padobnych da jaho)."
 
-#: ../src/gnome-terminal.schemas.in.h:39
+#: ../src/cinnamon-terminal.schemas.in.h:39
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
 "the terminal, instead of colors provided by the user."
@@ -307,7 +307,7 @@ msgstr ""
 "karystalnikam, budzie ŭžyta schiema koleraŭ dla paloŭ uvodu tekstu ź "
 "dziejnaha matyvu."
 
-#: ../src/gnome-terminal.schemas.in.h:40
+#: ../src/cinnamon-terminal.schemas.in.h:40
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -315,14 +315,14 @@ msgstr ""
 "Kali opcyja maje vartaść \"Praŭda\", to vartaść opcyi \"custom_command\" "
 "budzie skarystana jak abałonka."
 
-#: ../src/gnome-terminal.schemas.in.h:41
+#: ../src/cinnamon-terminal.schemas.in.h:41
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr ""
 "Kali opcyja maje vartaść \"Praŭda\", tekst terminału budzie prakručvacca "
 "dołu pry novym vyjści."
 
-#: ../src/gnome-terminal.schemas.in.h:42
+#: ../src/cinnamon-terminal.schemas.in.h:42
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
 "Expressed as a string in the same format used for GTK+ resource files. If "
@@ -333,7 +333,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:43
+#: ../src/cinnamon-terminal.schemas.in.h:43
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -343,7 +343,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:44
+#: ../src/cinnamon-terminal.schemas.in.h:44
 msgid ""
 "Keyboard shortcut key for closing a window. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -354,7 +354,7 @@ msgstr ""
 "ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ \"disabled\", tady "
 "dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:45
+#: ../src/cinnamon-terminal.schemas.in.h:45
 msgid ""
 "Keyboard shortcut key for copying selected text to the clipboard. Expressed "
 "as a string in the same format used for GTK+ resource files. If you set the "
@@ -366,7 +366,7 @@ msgstr ""
 "vartaść opcyi ŭ \"disabled\", tady dla hetaha dziejańnia nia budzie "
 "vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:46
+#: ../src/cinnamon-terminal.schemas.in.h:46
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -376,7 +376,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:47
+#: ../src/cinnamon-terminal.schemas.in.h:47
 msgid ""
 "Keyboard shortcut key for making font larger. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -387,7 +387,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:48
+#: ../src/cinnamon-terminal.schemas.in.h:48
 msgid ""
 "Keyboard shortcut key for making font smaller. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -398,7 +398,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:49
+#: ../src/cinnamon-terminal.schemas.in.h:49
 msgid ""
 "Keyboard shortcut key for making font the normal size. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -409,7 +409,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:50
+#: ../src/cinnamon-terminal.schemas.in.h:50
 msgid ""
 "Keyboard shortcut key for opening a new tab. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -420,7 +420,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:51
+#: ../src/cinnamon-terminal.schemas.in.h:51
 msgid ""
 "Keyboard shortcut key for opening a new window. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -431,7 +431,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:52
+#: ../src/cinnamon-terminal.schemas.in.h:52
 msgid ""
 "Keyboard shortcut key for pasting the contents of the clipboard into the "
 "terminal. Expressed as a string in the same format used for GTK+ resource "
@@ -443,7 +443,7 @@ msgstr ""
 "vartaść opcyi ŭ \"disabled\", tady dla hetaha dziejańnia nia budzie "
 "vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:53
+#: ../src/cinnamon-terminal.schemas.in.h:53
 msgid ""
 "Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -453,7 +453,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:54
+#: ../src/cinnamon-terminal.schemas.in.h:54
 msgid ""
 "Keyboard shortcut key for switch to tab 10. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -464,7 +464,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:55
+#: ../src/cinnamon-terminal.schemas.in.h:55
 msgid ""
 "Keyboard shortcut key for switch to tab 11. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -475,7 +475,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:56
+#: ../src/cinnamon-terminal.schemas.in.h:56
 msgid ""
 "Keyboard shortcut key for switch to tab 12. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -486,7 +486,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:57
+#: ../src/cinnamon-terminal.schemas.in.h:57
 msgid ""
 "Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -496,7 +496,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:58
+#: ../src/cinnamon-terminal.schemas.in.h:58
 msgid ""
 "Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -506,7 +506,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:59
+#: ../src/cinnamon-terminal.schemas.in.h:59
 msgid ""
 "Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -516,7 +516,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:60
+#: ../src/cinnamon-terminal.schemas.in.h:60
 msgid ""
 "Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -526,7 +526,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:61
+#: ../src/cinnamon-terminal.schemas.in.h:61
 msgid ""
 "Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -536,7 +536,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:62
+#: ../src/cinnamon-terminal.schemas.in.h:62
 msgid ""
 "Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -546,7 +546,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:63
+#: ../src/cinnamon-terminal.schemas.in.h:63
 msgid ""
 "Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -556,7 +556,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:64
+#: ../src/cinnamon-terminal.schemas.in.h:64
 msgid ""
 "Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
 "format used for GTK+ resource files. If you set the option to the special "
@@ -566,7 +566,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:65
+#: ../src/cinnamon-terminal.schemas.in.h:65
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -577,7 +577,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:66
+#: ../src/cinnamon-terminal.schemas.in.h:66
 msgid ""
 "Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -588,7 +588,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:67
+#: ../src/cinnamon-terminal.schemas.in.h:67
 msgid ""
 "Keyboard shortcut key to reset the terminal. Expressed as a string in the "
 "same format used for GTK+ resource files. If you set the option to the "
@@ -599,7 +599,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:68
+#: ../src/cinnamon-terminal.schemas.in.h:68
 msgid ""
 "Keyboard shortcut key to set the terminal title. Expressed as a string in "
 "the same format used for GTK+ resource files. If you set the option to the "
@@ -610,7 +610,7 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:69
+#: ../src/cinnamon-terminal.schemas.in.h:69
 msgid ""
 "Keyboard shortcut key to switch to the next tab. Expressed as a string in "
 "the same format used for GTK+ resource files. If you set the option to the "
@@ -621,7 +621,7 @@ msgstr ""
 "jaki vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi "
 "ŭ \"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:70
+#: ../src/cinnamon-terminal.schemas.in.h:70
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
 "in the same format used for GTK+ resource files. If you set the option to "
@@ -633,7 +633,7 @@ msgstr ""
 "vartaść opcyi ŭ \"disabled\", tady dla hetaha dziejańnia nia budzie "
 "vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:71
+#: ../src/cinnamon-terminal.schemas.in.h:71
 msgid ""
 "Keyboard shortcut key to toggle the visibility of the menubar. Expressed as "
 "a string in the same format used for GTK+ resource files. If you set the "
@@ -644,143 +644,143 @@ msgstr ""
 "vykarystoŭvajecca ŭ fajłach resursaŭ GTK+. Kali vystaviš vartaść opcyi ŭ "
 "\"disabled\", tady dla hetaha dziejańnia nia budzie vyznačana skarotu."
 
-#: ../src/gnome-terminal.schemas.in.h:72
+#: ../src/cinnamon-terminal.schemas.in.h:72
 msgid "Keyboard shortcut to close a tab"
 msgstr "Skarot, kab začynić kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:73
+#: ../src/cinnamon-terminal.schemas.in.h:73
 msgid "Keyboard shortcut to close a window"
 msgstr "Skarot, kab začynić akno"
 
-#: ../src/gnome-terminal.schemas.in.h:74
+#: ../src/cinnamon-terminal.schemas.in.h:74
 msgid "Keyboard shortcut to copy text"
 msgstr "Skarot, kab skapijavać tekst"
 
-#: ../src/gnome-terminal.schemas.in.h:75
+#: ../src/cinnamon-terminal.schemas.in.h:75
 msgid "Keyboard shortcut to create a new profile"
 msgstr "Skarot, kab stvaryć novy profil"
 
-#: ../src/gnome-terminal.schemas.in.h:76
+#: ../src/cinnamon-terminal.schemas.in.h:76
 msgid "Keyboard shortcut to launch help"
 msgstr "Skarot, kab pakazać dapamožnik"
 
-#: ../src/gnome-terminal.schemas.in.h:77
+#: ../src/cinnamon-terminal.schemas.in.h:77
 msgid "Keyboard shortcut to make font larger"
 msgstr "Skarot, kab pavialičyć šryft"
 
-#: ../src/gnome-terminal.schemas.in.h:78
+#: ../src/cinnamon-terminal.schemas.in.h:78
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Skarot, kab viarnuć zvyčajny pamier šryftu"
 
-#: ../src/gnome-terminal.schemas.in.h:79
+#: ../src/cinnamon-terminal.schemas.in.h:79
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Skarot, kab pamienšyć šryft"
 
-#: ../src/gnome-terminal.schemas.in.h:80
+#: ../src/cinnamon-terminal.schemas.in.h:80
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Skarot, kab adčynić novuju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:81
+#: ../src/cinnamon-terminal.schemas.in.h:81
 msgid "Keyboard shortcut to open a new window"
 msgstr "Skarot, kab adčynić novaje akno"
 
-#: ../src/gnome-terminal.schemas.in.h:82
+#: ../src/cinnamon-terminal.schemas.in.h:82
 msgid "Keyboard shortcut to paste text"
 msgstr "Skarot, kab ukleić tekst"
 
-#: ../src/gnome-terminal.schemas.in.h:83
+#: ../src/cinnamon-terminal.schemas.in.h:83
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Skarot, kab skinuć i ačyścić terminał"
 
-#: ../src/gnome-terminal.schemas.in.h:84
+#: ../src/cinnamon-terminal.schemas.in.h:84
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Skarot, kab skinuć terminał"
 
-#: ../src/gnome-terminal.schemas.in.h:85
+#: ../src/cinnamon-terminal.schemas.in.h:85
 msgid "Keyboard shortcut to set the terminal title"
 msgstr "Skarot, kab vyznačyć zahałovak terminału"
 
-#: ../src/gnome-terminal.schemas.in.h:86
+#: ../src/cinnamon-terminal.schemas.in.h:86
 msgid "Keyboard shortcut to switch to tab 1"
 msgstr "Skarot, kab pierajści na 1uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:87
+#: ../src/cinnamon-terminal.schemas.in.h:87
 msgid "Keyboard shortcut to switch to tab 10"
 msgstr "Skarot, kab pierajści na 10uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:88
+#: ../src/cinnamon-terminal.schemas.in.h:88
 msgid "Keyboard shortcut to switch to tab 11"
 msgstr "Skarot, kab pierajści na 11uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:89
+#: ../src/cinnamon-terminal.schemas.in.h:89
 msgid "Keyboard shortcut to switch to tab 12"
 msgstr "Skarot, kab pierajści na 12uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:90
+#: ../src/cinnamon-terminal.schemas.in.h:90
 msgid "Keyboard shortcut to switch to tab 2"
 msgstr "Skarot, kab pierajści na 2uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:91
+#: ../src/cinnamon-terminal.schemas.in.h:91
 msgid "Keyboard shortcut to switch to tab 3"
 msgstr "Skarot, kab pierajści na 3uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:92
+#: ../src/cinnamon-terminal.schemas.in.h:92
 msgid "Keyboard shortcut to switch to tab 4"
 msgstr "Skarot, kab pierajści na 4uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:93
+#: ../src/cinnamon-terminal.schemas.in.h:93
 msgid "Keyboard shortcut to switch to tab 5"
 msgstr "Skarot, kab pierajści na 5uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:94
+#: ../src/cinnamon-terminal.schemas.in.h:94
 msgid "Keyboard shortcut to switch to tab 6"
 msgstr "Skarot, kab pierajści na 6uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:95
+#: ../src/cinnamon-terminal.schemas.in.h:95
 msgid "Keyboard shortcut to switch to tab 7"
 msgstr "Skarot, kab pierajści na 7uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:96
+#: ../src/cinnamon-terminal.schemas.in.h:96
 msgid "Keyboard shortcut to switch to tab 8"
 msgstr "Skarot, kab pierajści na 8uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:97
+#: ../src/cinnamon-terminal.schemas.in.h:97
 msgid "Keyboard shortcut to switch to tab 9"
 msgstr "Skarot, kab pierajści na 9uju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:98
+#: ../src/cinnamon-terminal.schemas.in.h:98
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Skarot, kab pierajści na nastupnuju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:99
+#: ../src/cinnamon-terminal.schemas.in.h:99
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Skarot, kab pierajści na papiaredniuju kartku"
 
-#: ../src/gnome-terminal.schemas.in.h:100
+#: ../src/cinnamon-terminal.schemas.in.h:100
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Skarot, kab pieraklučyć poŭnaekranny režym"
 
-#: ../src/gnome-terminal.schemas.in.h:101
+#: ../src/cinnamon-terminal.schemas.in.h:101
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Skarot, kab pakazać/schavać menu"
 
-#: ../src/gnome-terminal.schemas.in.h:102
+#: ../src/cinnamon-terminal.schemas.in.h:102
 msgid "List of available encodings"
 msgstr "Śpis dastupnych kadavańniaŭ"
 
-#: ../src/gnome-terminal.schemas.in.h:103
+#: ../src/cinnamon-terminal.schemas.in.h:103
 msgid "List of profiles"
 msgstr "Śpis profilaŭ"
 
-#: ../src/gnome-terminal.schemas.in.h:104
+#: ../src/cinnamon-terminal.schemas.in.h:104
 msgid ""
-"List of profiles known to gnome-terminal. The list contains strings naming "
-"subdirectories relative to /apps/gnome-terminal/profiles."
+"List of profiles known to cinnamon-terminal. The list contains strings naming "
+"subdirectories relative to /apps/cinnamon-terminal/profiles."
 msgstr ""
-"Śpis profilaŭ, viadomych dla gnome-terminal. Śpis źmiaščaje radki z nazvami "
-"padkatalohaŭ kataloha /apps/gnome-terminal/profiles."
+"Śpis profilaŭ, viadomych dla cinnamon-terminal. Śpis źmiaščaje radki z nazvami "
+"padkatalohaŭ kataloha /apps/cinnamon-terminal/profiles."
 
-#: ../src/gnome-terminal.schemas.in.h:105
+#: ../src/cinnamon-terminal.schemas.in.h:105
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -790,11 +790,11 @@ msgstr ""
 "źmianić praz gtkrc (gtk-menu-bar-accel = \"štości\"). Hetaja opcyja "
 "dazvalaje adklučyć standartny skarot dla menu."
 
-#: ../src/gnome-terminal.schemas.in.h:106
+#: ../src/cinnamon-terminal.schemas.in.h:106
 msgid "Number of lines to keep in scrollback"
 msgstr "Kolkaść radkoŭ, jakija treba zachoŭvać dla abratnaj prakrutki"
 
-#: ../src/gnome-terminal.schemas.in.h:107
+#: ../src/cinnamon-terminal.schemas.in.h:107
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -807,13 +807,13 @@ msgstr ""
 "opcyjaj: heta pieršasny faktar, jaki vyznačaje, kolki pamiaci budzie "
 "vykarystoŭvać terminał."
 
-#: ../src/gnome-terminal.schemas.in.h:108
+#: ../src/cinnamon-terminal.schemas.in.h:108
 msgid "Palette for terminal applications"
 msgstr "Palitra dla terminalnych aplikacyj"
 
 #. Translators: S/Key is the name of an application, so it should
 #. not be translated.
-#: ../src/gnome-terminal.schemas.in.h:111
+#: ../src/cinnamon-terminal.schemas.in.h:111
 msgid ""
 "Popup a dialog when an S/Key challenge response query is detected and "
 "clicked on. Typing a password into the dialog will send it to the terminal."
@@ -821,11 +821,11 @@ msgstr ""
 "Pakazvaj akno, kali vynachodzicca adkaz \"S/Key challenge\", i pa im "
 "klikaješ. Parol, uviedzieny ŭ aknie, budzie dasłany na terminał."
 
-#: ../src/gnome-terminal.schemas.in.h:112
+#: ../src/cinnamon-terminal.schemas.in.h:112
 msgid "Position of the scrollbar"
 msgstr "Pałažeńnie pałasy prakrutki"
 
-#: ../src/gnome-terminal.schemas.in.h:113
+#: ../src/cinnamon-terminal.schemas.in.h:113
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -833,24 +833,24 @@ msgstr ""
 "Mahčymyja vartaści: \"close\", kab začynić terminał, i \"restart\", kab "
 "vykanać zahad nanoŭ."
 
-#: ../src/gnome-terminal.schemas.in.h:114
+#: ../src/cinnamon-terminal.schemas.in.h:114
 msgid ""
 "Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr ""
 "Profil, jaki budzie ŭžyty pry adčynieńni novaha akna albo kartki. Musić być "
 "u \"profile_list\"."
 
-#: ../src/gnome-terminal.schemas.in.h:115
+#: ../src/cinnamon-terminal.schemas.in.h:115
 msgid "Profile to use for new terminals"
 msgstr "Profil, jaki budzie ŭžyty dla novych terminałaŭ"
 
-#: ../src/gnome-terminal.schemas.in.h:116
+#: ../src/cinnamon-terminal.schemas.in.h:116
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Vykanaj hety zahad zamiest abałonki, kali opcyja \"use_custom_command\" maje "
 "vartaść \"Praŭda\"."
 
-#: ../src/gnome-terminal.schemas.in.h:117
+#: ../src/cinnamon-terminal.schemas.in.h:117
 msgid ""
 "Sets what code the backspace key generates. Possible values are \"ascii-del"
 "\" for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII "
@@ -864,7 +864,7 @@ msgstr ""
 "zvyčajna vykarystoŭvajecca dla klavišaŭ Backspace ci Delete. Vartaść \"ascii-"
 "del\" zvyčajna źjaŭlajecca pravilnaj dla klavišy Backspace."
 
-#: ../src/gnome-terminal.schemas.in.h:118
+#: ../src/cinnamon-terminal.schemas.in.h:118
 msgid ""
 "Sets what code the delete key generates. Possible values are \"ascii-del\" "
 "for the ASCII DEL character, \"control-h\" for Control-H (AKA the ASCII BS "
@@ -878,7 +878,7 @@ msgstr ""
 "zvyčajna vykarystoŭvajecca dla klavišaŭ Backspace ci Delete. Vartaść "
 "\"escape-sequence\" zvyčajna źjaŭlajecca pravilnaj dla klavišy Delete."
 
-#: ../src/gnome-terminal.schemas.in.h:120
+#: ../src/cinnamon-terminal.schemas.in.h:120
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
 "use. This is that palette, in the form of a colon-separated list of color "
@@ -889,27 +889,27 @@ msgstr ""
 "padzielenych dvukropjami. Nazvy koleraŭ musiać być u šasnaccatkovym "
 "farmacie, naprykład \"#FF00FF\""
 
-#: ../src/gnome-terminal.schemas.in.h:121
+#: ../src/cinnamon-terminal.schemas.in.h:121
 msgid "The cursor appearance"
 msgstr "Vyhlad kursora"
 
-#: ../src/gnome-terminal.schemas.in.h:122
+#: ../src/cinnamon-terminal.schemas.in.h:122
 msgid ""
 "The possible values are \"block\" to use a block cursor, \"ibeam\" to use a "
 "vertical line cursor, or \"underline\" to use an underline cursor."
 msgstr ""
 
-#: ../src/gnome-terminal.schemas.in.h:123
+#: ../src/cinnamon-terminal.schemas.in.h:123
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
 msgstr ""
 
-#: ../src/gnome-terminal.schemas.in.h:124
+#: ../src/cinnamon-terminal.schemas.in.h:124
 msgid "Title for terminal"
 msgstr "Zahałovak dla terminału"
 
-#: ../src/gnome-terminal.schemas.in.h:125
+#: ../src/cinnamon-terminal.schemas.in.h:125
 msgid ""
 "Title to display for the terminal window or tab. This title may be replaced "
 "by or combined with the title set by the application inside the terminal, "
@@ -919,7 +919,7 @@ msgstr ""
 "zahałovak moža być zamienieny albo spałučany z zahałoŭkam, jaki vyznačaje "
 "terminalnaja aplikacyja, u zaležnaści ad nałady \"title_mode\"."
 
-#: ../src/gnome-terminal.schemas.in.h:126
+#: ../src/cinnamon-terminal.schemas.in.h:126
 msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
@@ -927,7 +927,7 @@ msgstr ""
 "Kali opcyja maje vartaść \"Praŭda\", menu musić pakazvacca ŭ novych voknach/"
 "kartkach hetaha profila."
 
-#: ../src/gnome-terminal.schemas.in.h:127
+#: ../src/cinnamon-terminal.schemas.in.h:127
 msgid ""
 "Type of terminal background. May be \"solid\" for a solid color, \"image\" "
 "for an image, or \"transparent\" for either real transparency if a "
@@ -937,15 +937,15 @@ msgstr ""
 "dla vyjavy albo \"transparent\" dla sapraŭdnaj prazrystaści pry ŭklučanym "
 "kampazytnym kiraŭniku akon albo dla pseŭda-prazrystaści."
 
-#: ../src/gnome-terminal.schemas.in.h:128
+#: ../src/cinnamon-terminal.schemas.in.h:128
 msgid "What to do with dynamic title"
 msgstr "Što rabić z dynamičnym zahałoŭkam"
 
-#: ../src/gnome-terminal.schemas.in.h:129
+#: ../src/cinnamon-terminal.schemas.in.h:129
 msgid "What to do with the terminal when the child command exits"
 msgstr "Što rabić z terminałam, kali zahad-naščadak zakančvaje vykanańnie"
 
-#: ../src/gnome-terminal.schemas.in.h:130
+#: ../src/cinnamon-terminal.schemas.in.h:130
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
 "single words. Ranges can be given as \"A-Z\". Literal hyphen (not expressing "
@@ -955,7 +955,7 @@ msgstr ""
 "zrazumieta jak adzinaje słova. Dyjapazony možna vyznačyć jak \"A-Z\". Znak "
 "złučka (jaki nie aznačaje dyjapazonu) musić być na pačatku śpisu."
 
-#: ../src/gnome-terminal.schemas.in.h:131
+#: ../src/cinnamon-terminal.schemas.in.h:131
 msgid ""
 "Where to put the terminal scrollbar. Possibilities are \"left\", \"right\", "
 "and \"disabled\"."
@@ -963,19 +963,19 @@ msgstr ""
 "Dzie raspałažyć pałasu prakrutki terminału. Mahčymyja varyjanty: \"left"
 "\" (źleva), \"right\" (sprava) i \"disabled\" (adklučana)."
 
-#: ../src/gnome-terminal.schemas.in.h:132
+#: ../src/cinnamon-terminal.schemas.in.h:132
 msgid "Whether the menubar has access keys"
 msgstr "Akreślivaje, ci maje menu klavišy dostupu"
 
-#: ../src/gnome-terminal.schemas.in.h:133
+#: ../src/cinnamon-terminal.schemas.in.h:133
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "Akreślivaje, ci ŭklučany standartny skarot dostupu da menu GTK"
 
-#: ../src/gnome-terminal.schemas.in.h:134
+#: ../src/cinnamon-terminal.schemas.in.h:134
 msgid "Whether to allow bold text"
 msgstr "Akreślivaje, ci dazvoleny tłusty tekst"
 
-#: ../src/gnome-terminal.schemas.in.h:135
+#: ../src/cinnamon-terminal.schemas.in.h:135
 msgid ""
 "Whether to ask for confirmation when closing a terminal window which has "
 "more than one open tab."
@@ -983,17 +983,17 @@ msgstr ""
 "Akreślivaje, ci treba pytacca paćvierdžańnia pry začynieńni terminalnaha "
 "akna, u jakim adčyniena bolš za adnu kartku."
 
-#: ../src/gnome-terminal.schemas.in.h:136
+#: ../src/cinnamon-terminal.schemas.in.h:136
 msgid "Whether to ask for confirmation when closing terminal windows"
 msgstr ""
 "Akreślivaje, ci treba pytacca paćvierdžańnia pry začynieńni terminalnych "
 "voknaŭ"
 
-#: ../src/gnome-terminal.schemas.in.h:137
+#: ../src/cinnamon-terminal.schemas.in.h:137
 msgid "Whether to blink the cursor"
 msgstr "Akreślivaje, ci treba mirhać kursoram"
 
-#: ../src/gnome-terminal.schemas.in.h:138
+#: ../src/cinnamon-terminal.schemas.in.h:138
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -1003,44 +1003,44 @@ msgstr ""
 "mohuć kanfliktavać ź niekatorymi terminalnymi aplikacyjami, dla hetaha "
 "zroblena mahčymaść ich adklučeńnia."
 
-#: ../src/gnome-terminal.schemas.in.h:139
+#: ../src/cinnamon-terminal.schemas.in.h:139
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "Akreślivaje, ci vykonvać zahad u terminale jak abałonku ŭvachodu"
 
-#: ../src/gnome-terminal.schemas.in.h:140
+#: ../src/cinnamon-terminal.schemas.in.h:140
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Akreślivaje, ci vykonvać admysłovy zahad zamiest abałonki"
 
-#: ../src/gnome-terminal.schemas.in.h:141
+#: ../src/cinnamon-terminal.schemas.in.h:141
 msgid "Whether to scroll background image"
 msgstr "Akreślivaje, ci prakručvać fonavuju vyjavu"
 
-#: ../src/gnome-terminal.schemas.in.h:142
+#: ../src/cinnamon-terminal.schemas.in.h:142
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Akreślivaje, ci prakručvać terminał dołu pry nacisku klavišy"
 
-#: ../src/gnome-terminal.schemas.in.h:143
+#: ../src/cinnamon-terminal.schemas.in.h:143
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "Akreślivaje, ci prakručvać terminał dołu pry novym vyjści"
 
-#: ../src/gnome-terminal.schemas.in.h:144
+#: ../src/cinnamon-terminal.schemas.in.h:144
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "Akreślivaje, ci pakazvać menu ŭ novych voknach/kartkach"
 
-#: ../src/gnome-terminal.schemas.in.h:145
+#: ../src/cinnamon-terminal.schemas.in.h:145
 msgid "Whether to silence terminal bell"
 msgstr "Akreślivaje, ci ścišyć zvanok terminału"
 
-#: ../src/gnome-terminal.schemas.in.h:146
+#: ../src/cinnamon-terminal.schemas.in.h:146
 msgid "Whether to update login records when launching terminal command"
 msgstr ""
 "Akreślivaje, ci aktualizavać zapisy ŭvachodu pry vykanańni zahadu ŭ terminale"
 
-#: ../src/gnome-terminal.schemas.in.h:147
+#: ../src/cinnamon-terminal.schemas.in.h:147
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Akreślivaje, ci ŭžyvać kolery matyvu dla widgetu terminału"
 
-#: ../src/gnome-terminal.schemas.in.h:148
+#: ../src/cinnamon-terminal.schemas.in.h:148
 msgid "Whether to use the system font"
 msgstr "Akreślivaje, ci ŭžyvać systemny šryft"
 
@@ -1050,7 +1050,7 @@ msgstr "Akreślivaje, ci ŭžyvać systemny šryft"
 #. translated. This is provided for customization of the default encoding
 #. menu; see bug 144810 for an use case. In most cases, this should be
 #. left alone.
-#: ../src/gnome-terminal.schemas.in.h:155
+#: ../src/cinnamon-terminal.schemas.in.h:155
 msgid "[UTF-8,current]"
 msgstr "[UTF-8,current]"
 
@@ -1848,7 +1848,7 @@ msgstr "Dziejnaja lakalnaść"
 #: ../src/terminal-options.c:174
 #, c-format
 msgid ""
-"Option \"%s\" is no longer supported in this version of gnome-terminal; you "
+"Option \"%s\" is no longer supported in this version of cinnamon-terminal; you "
 "might want to create a profile with the desired setting, and use the new '--"
 "profile' option\n"
 msgstr ""
@@ -1857,7 +1857,7 @@ msgstr ""
 "\"--profile\"\n"
 
 #: ../src/terminal-options.c:187 ../src/terminal-window.c:3472
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminał GNOME"
 
 #: ../src/terminal-options.c:208
@@ -2007,11 +2007,11 @@ msgid "ZOOM"
 msgstr "MAŠTAB"
 
 #: ../src/terminal-options.c:1303 ../src/terminal-options.c:1306
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "Terminalny emulatar GNOME"
 
 #: ../src/terminal-options.c:1307
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "Pakažy opcyi Terminału GNOME"
 
 #: ../src/terminal-options.c:1317
@@ -2087,7 +2087,7 @@ msgstr ""
 
 #: ../src/terminal-util.c:317
 msgid ""
-"GNOME Terminal is free software; you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation; either version 2 of the License, or (at your option) "
 "any later version."
@@ -2099,7 +2099,7 @@ msgstr ""
 
 #: ../src/terminal-util.c:321
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -2112,7 +2112,7 @@ msgstr ""
 #: ../src/terminal-util.c:325
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal; if not, write to the Free Software Foundation, Inc., 51 "
+"Cinnamon Terminal; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA  02110-1301 USA"
 msgstr ""
 "Ty musiŭ atrymać kopiju Ahulnaj hramadzkaj licenzii GNU (GNU GPL) razam z "
@@ -2513,7 +2513,7 @@ msgstr "Ihar Hračyška <iharh@gnome.org>"
 #~ "s\n"
 
 #~ msgid ""
-#~ "GNOME Terminal: font name \"%s\" set in configuration database is not "
+#~ "Cinnamon Terminal: font name \"%s\" set in configuration database is not "
 #~ "valid\n"
 #~ msgstr ""
 #~ "Terminał GNOME: nazva šryftu \"%s\", akreślenaja ŭ bazie kanfihuracyi, "
@@ -2760,10 +2760,10 @@ msgstr "Ihar Hračyška <iharh@gnome.org>"
 #~ msgstr "MAŠTAB"
 
 #~ msgid ""
-#~ "It appears that you do not have gnome-terminal.server installed in a "
+#~ "It appears that you do not have cinnamon-terminal.server installed in a "
 #~ "valid location. Factory mode disabled.\n"
 #~ msgstr ""
-#~ "gnome-terminal.server nie zainstalavany ŭ adpaviednym miescy. Režym "
+#~ "cinnamon-terminal.server nie zainstalavany ŭ adpaviednym miescy. Režym "
 #~ "hieneratara adklučany.\n"
 
 #~ msgid ""

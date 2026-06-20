@@ -33,7 +33,7 @@
 
   <title>
     <media type="image" width="48px" height="48px" its:translate="no"
-      src="figures/org.gnome.Terminal.svg" /> Terminal Help
+      src="figures/org.acreetionos.cinnamon.Terminal.svg" /> Terminal Help
   </title>
 
   <section id="getting-started" style="2column">

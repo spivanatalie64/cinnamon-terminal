@@ -1,6 +1,6 @@
-# Hungarian translation of gnome-terminal help.
+# Hungarian translation of cinnamon-terminal help.
 # Copyright (C) 2013, 2014, 2015, 2018, 2019, 2021, 2023 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-terminal help.
+# This file is distributed under the same license as the cinnamon-terminal help.
 #
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2013, 2014, 2015, 2018.
 # Attila Hammer <hammera at pickup dot hu>, 2014.
@@ -8,7 +8,7 @@
 # Balázs Meskó <mesko.balazs at fsf dot hu>, 2021.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal_help master\n"
+"Project-Id-Version: cinnamon-terminal_help master\n"
 "POT-Creation-Date: 2023-03-05 17:20+0000\n"
 "PO-Revision-Date: 2023-03-08 22:03+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
@@ -1740,7 +1740,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "GNOME Terminál"
 
 #. (itstool) path: figure/desc
@@ -1756,10 +1756,10 @@ msgstr "A GNOME <app>Terminál</app>"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 
 #. (itstool) path: p/link
@@ -3638,7 +3638,7 @@ msgstr ""
 "hagyja a kulcsszóra részben illeszkedő találatokat. Ha például a „gnome”szót "
 "kereste, a <app>Terminál</app> csak a pontosan erre a kulcsszóra illeszkedő "
 "találatokat jeleníti meg, és kihagyja az olyan találatokat, mint például a "
-"„gnome-terminal”."
+"„cinnamon-terminal”."
 
 #. (itstool) path: item/title
 #: C/txt-search.page:68

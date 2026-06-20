@@ -1,11 +1,11 @@
-# Ukrainian translation for gnome-terminal.
-# Copyright (C) 2020 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Ukrainian translation for cinnamon-terminal.
+# Copyright (C) 2020 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 #
 # Yuri Chornoivan <yurchor@ukr.net>, 2020, 2021, 2023, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "POT-Creation-Date: 2024-02-10 22:20+0000\n"
 "PO-Revision-Date: 2024-02-11 19:48+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
@@ -1617,10 +1617,10 @@ msgstr "Знімок вікна <app>Термінала</app> GNOME"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 
 #. (itstool) path: p/link
@@ -3729,5 +3729,5 @@ msgstr ""
 #~ msgid "<keyseq><key>Alt</key><key>P</key></keyseq>"
 #~ msgstr "<keyseq><key>Alt</key><key>P</key></keyseq>"
 
-#~ msgid "GNOME Terminal"
+#~ msgid "Cinnamon Terminal"
 #~ msgstr "Термінал GNOME"

@@ -1,6 +1,6 @@
-# Hungarian translation for gnome-terminal.
+# Hungarian translation for cinnamon-terminal.
 # Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-terminal package.
+# This file is distributed under the same license as the cinnamon-terminal package.
 #
 # Szabolcs Ban <shooby at gnome dot hu>, 2002.
 # Peter Doma <zelin at pointernet dot hu>, 2002.
@@ -14,7 +14,7 @@
 # Balázs Meskó <mesko.balazs at fsf dot hu>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-terminal/issues\n"
 "POT-Creation-Date: 2023-07-23 21:46+0000\n"
 "PO-Revision-Date: 2023-07-29 02:13+0200\n"
@@ -27,65 +27,65 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 23.04.1\n"
 
-#: data/org.gnome.Terminal.desktop.in:3
-#: data/org.gnome.Terminal.metainfo.xml.in:37 src/server.cc:184
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:3
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:37 src/server.cc:184
 #: src/terminal-accels.cc:232 src/terminal-menubar.ui.in:144
 #: src/terminal-tab-label.cc:81 src/terminal-window.cc:1903
 #: src/terminal-window.cc:2207 src/terminal-window.cc:2522 src/terminal.cc:598
 msgid "Terminal"
 msgstr "Terminál"
 
-#: data/org.gnome.Terminal.desktop.in:4
-#: data/org.gnome.Terminal.metainfo.xml.in:38
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:4
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:38
 msgid "Use the command line"
 msgstr "Parancssor használata"
 
-#: data/org.gnome.Terminal.desktop.in:5
-#: data/org.gnome.Terminal.Preferences.desktop.in:8
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:5
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:8
 msgid "shell;prompt;command;commandline;cmd;"
 msgstr "parancsértelmező;prompt;parancs;parancssor;cmd;"
 
-#: data/org.gnome.Terminal.desktop.in:18 src/terminal-accels.cc:127
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:18 src/terminal-accels.cc:127
 msgid "New Window"
 msgstr "Új ablak"
 
-#: data/org.gnome.Terminal.desktop.in:22 src/terminal-accels.cc:146
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:22 src/terminal-accels.cc:146
 msgid "Preferences"
 msgstr "Beállítások"
 
-#: data/org.gnome.Terminal.Preferences.desktop.in:4
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:4
 msgid "Configure the command line"
 msgstr "A parancssor beállítása"
 
-#: data/org.gnome.Terminal.Preferences.desktop.in:9 src/prefs-main.cc:143
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:9 src/prefs-main.cc:143
 msgid "Terminal Preferences"
 msgstr "Terminál beállítások"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:34
-#: data/org.gnome.Terminal.metainfo.xml.in:63
-msgid "org.gnome.Terminal.desktop"
-msgstr "org.gnome.Terminal.desktop"
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:34
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:63
+msgid "org.acreetionos.cinnamon.Terminal.desktop"
+msgstr "org.acreetionos.cinnamon.Terminal.desktop"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:35
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:36
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:35
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:36
 msgid "GPL-3.0+ or GFDL-1.3-only"
 msgstr "GPL-3.0+ vagy csak GFDL-1.3"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:36
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:37
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:36
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:37
 msgid "GPL-3.0+"
 msgstr "GPL-3.0+"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:40
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:40
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
 "A GNOME Terminál egy terminál emulációs alkalmazás, mely hozzáférést nyújt "
 "az UNIX shell környezethez. A shell környezetben futtathatja az Ön "
 "rendszerén elérhető programokat."
 
-#: data/org.gnome.Terminal.metainfo.xml.in:41
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:41
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
@@ -93,77 +93,77 @@ msgstr ""
 "A GNOME Terminál támogatja több profil és több lap használatát, és számos "
 "billentyűkombinációt tartalmaz."
 
-#: data/org.gnome.Terminal.metainfo.xml.in:44
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:44
 msgid "console"
 msgstr "konzol"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:45
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:45
 msgid "keyboard"
 msgstr "billentyűzet"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:46
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:46
 msgid "pointing"
 msgstr "mutatás"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:50
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:50
 msgid ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
 msgstr ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:54
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:54
 msgid "HiDpiIcon"
 msgstr "HiDpiIcon"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:55
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:55
 msgid "HighContrast"
 msgstr "HighContrast"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:56
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:56
 msgid "ModernToolkit"
 msgstr "ModernToolkit"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:57
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:57
 msgid "SearchProvider"
 msgstr "SearchProvider"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:58
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:58
 msgid "UserDocs"
 msgstr "UserDocs"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:60
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:43
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:60
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:43
 msgid "https://wiki.gnome.org/Apps/Terminal"
 msgstr "https://wiki.gnome.org/Apps/Terminal"
 
 #. This is the name of a colour scheme
-#: data/org.gnome.Terminal.metainfo.xml.in:61
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:44 src/preferences.ui:214
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:61
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:44 src/preferences.ui:214
 msgid "GNOME"
 msgstr "GNOME"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:62
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:45
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:62
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:45
 msgid "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 msgstr "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:34
-msgid "org.gnome.Terminal.Nautilus"
-msgstr "org.gnome.Terminal.Nautilus"
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:34
+msgid "org.acreetionos.cinnamon.Terminal.Nautilus"
+msgstr "org.acreetionos.cinnamon.Terminal.Nautilus"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:35
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:35
 msgid "org.gnome.Nautilus.desktop"
 msgstr "org.gnome.Nautilus.desktop"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:38
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:38
 msgid "Terminal plugin for Files"
 msgstr "Terminál bővítmény a Fájlokhoz"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:39
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:39
 msgid "Open a terminal from Files"
 msgstr "Terminál megnyitása a Fájlokban"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:41
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:41
 msgid ""
 "Open Terminal is a plugin for the Files application that adds a menu item to "
 "the context menu to open a terminal in the currently browsed directory."
@@ -172,29 +172,29 @@ msgstr ""
 "menüelemet ad a helyi menühöz, ahonnan terminálablak nyitható az éppen "
 "nyitott mappában."
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:46
-msgid "gnome-terminal"
-msgstr "gnome-terminal"
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:46
+msgid "cinnamon-terminal"
+msgstr "cinnamon-terminal"
 
 #. Translators: This needs to be parsed as a GVariant string, so keep the regular single quotes around the string as-is, and do not add extra quotes.
-#: src/org.gnome.Terminal.gschema.xml:133
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:133
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'Névtelen'"
 
-#: src/org.gnome.Terminal.gschema.xml:134
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:134
 msgid "Human-readable name of the profile"
 msgstr "A profil emberek által olvasható neve"
 
-#: src/org.gnome.Terminal.gschema.xml:135
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:135
 msgid "Human-readable name of the profile."
 msgstr "A profil emberek által olvasható neve."
 
-#: src/org.gnome.Terminal.gschema.xml:139
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:139
 msgid "Default color of text in the terminal"
 msgstr "A terminál szövegének alapértelmezett színe"
 
-#: src/org.gnome.Terminal.gschema.xml:140
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:140
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -202,11 +202,11 @@ msgstr ""
 "A terminál szövegének alapértelmezett színe, színmegadásként (Lehet HTML-"
 "stílusú hexa számjegyekkel vagy színnévvel, például „red” = vörös)."
 
-#: src/org.gnome.Terminal.gschema.xml:144
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:144
 msgid "Default color of terminal background"
 msgstr "A terminálháttér alapértelmezett színe"
 
-#: src/org.gnome.Terminal.gschema.xml:145
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:145
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -214,11 +214,11 @@ msgstr ""
 "A terminál hátterének alapértelmezett színe, színmegadásként (Lehet HTML-"
 "stílusú hexa számjegyekkel vagy színnévvel, például „red” = vörös)."
 
-#: src/org.gnome.Terminal.gschema.xml:149
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:149
 msgid "Default color of bold text in the terminal"
 msgstr "A terminál félkövér szövegének alapértelmezett színe"
 
-#: src/org.gnome.Terminal.gschema.xml:150
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:150
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”). This is ignored if "
@@ -228,18 +228,18 @@ msgstr ""
 "HTML-stílusú hexa számjegyekkel vagy színnévvel, például „red” = vörös). Ez "
 "figyelmen kívül lesz hagyva, ha a bold-color-same-as-fg igaz."
 
-#: src/org.gnome.Terminal.gschema.xml:154
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:154
 msgid "Whether bold text should use the same color as normal text"
 msgstr "A félkövér szöveg a normállal egyező színt használjon-e"
 
-#: src/org.gnome.Terminal.gschema.xml:155
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:155
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr ""
 "Ha igazra van állítva, akkor a félkövér szöveg a normál szövegével egyező "
 "színnel jelenik meg."
 
-#: src/org.gnome.Terminal.gschema.xml:160
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:160
 msgid ""
 "Scale factor for the cell height to increase line spacing. (Does not "
 "increase the font’s height.)"
@@ -247,7 +247,7 @@ msgstr ""
 "A cella magasságának nagyítási tényezője a sortávolság növeléséhez (nem "
 "növeli a betűkészlet magasságát)."
 
-#: src/org.gnome.Terminal.gschema.xml:165
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:165
 msgid ""
 "Scale factor for the cell width to increase letter spacing. (Does not "
 "increase the font’s width.)"
@@ -255,19 +255,19 @@ msgstr ""
 "A cella szélességének nagyítási tényezője a betűköz növeléséhez (nem növeli "
 "a betűkészlet szélességét)."
 
-#: src/org.gnome.Terminal.gschema.xml:169
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:169
 msgid "Whether to use custom cursor colors"
 msgstr "Egyéni kurzor színek legyenek-e használatban"
 
-#: src/org.gnome.Terminal.gschema.xml:170
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:170
 msgid "If true, use the cursor colors from the profile."
 msgstr "Ha igaz, akkor a profil kurzor színei lesznek használatban."
 
-#: src/org.gnome.Terminal.gschema.xml:174
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:174
 msgid "Cursor background color"
 msgstr "Kurzor háttérszíne"
 
-#: src/org.gnome.Terminal.gschema.xml:175
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:175
 msgid ""
 "Custom color of the background of the terminal’s cursor, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
@@ -277,11 +277,11 @@ msgstr ""
 "HTML-stílusú hexa számjegyekkel vagy színnévvel, például „red” = vörös). "
 "Figyelmen kívül lesz hagyva, ha a cursor-colors-set hamis."
 
-#: src/org.gnome.Terminal.gschema.xml:179
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:179
 msgid "Cursor foreground colour"
 msgstr "Kurzor előtérszíne"
 
-#: src/org.gnome.Terminal.gschema.xml:180
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:180
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "cursor position, as a color specification (can be HTML-style hex digits, or "
@@ -292,19 +292,19 @@ msgstr ""
 "például „red” = vörös). Ez figyelmen kívül lesz hagyva, ha a custom-colors-"
 "set hamis."
 
-#: src/org.gnome.Terminal.gschema.xml:184
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:184
 msgid "Whether to use custom highlight colors"
 msgstr "Egyéni kiemelésszínek legyenek-e használatban"
 
-#: src/org.gnome.Terminal.gschema.xml:185
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:185
 msgid "If true, use the highlight colors from the profile."
 msgstr "Ha igaz, akkor a profil kiemelésszínei lesznek használatban."
 
-#: src/org.gnome.Terminal.gschema.xml:189
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:189
 msgid "Highlight background color"
 msgstr "Kiemelés háttérszíne"
 
-#: src/org.gnome.Terminal.gschema.xml:190
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:190
 msgid ""
 "Custom color of the background of the terminal’s highlight, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
@@ -314,11 +314,11 @@ msgstr ""
 "stílusú hexa számjegyekkel vagy angol színnévvel, például „red” = vörös). "
 "Figyelmen kívül lesz hagyva, ha a highlight-colors-set hamis."
 
-#: src/org.gnome.Terminal.gschema.xml:194
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:194
 msgid "Highlight foreground colour"
 msgstr "Kiemelés előtérszíne"
 
-#: src/org.gnome.Terminal.gschema.xml:195
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:195
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "highlight position, as a color specification (can be HTML-style hex digits, "
@@ -330,37 +330,37 @@ msgstr ""
 "színnévvel, például „red” = vörös). Ez figyelmen kívül lesz hagyva, ha a "
 "highlight-colors-set hamis."
 
-#: src/org.gnome.Terminal.gschema.xml:199
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:199
 msgid "Whether to perform bidirectional text rendering"
 msgstr "Hajtson-e végre kétirányú szövegmegjelenítést"
 
-#: src/org.gnome.Terminal.gschema.xml:200
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:200
 msgid "If true, perform bidirectional text rendering (“BiDi”)."
 msgstr "Ha igaz, akkor kétirányú szövegmegjelenítést („BiDi”) hajt végre."
 
-#: src/org.gnome.Terminal.gschema.xml:204
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:204
 msgid "Whether to perform Arabic shaping"
 msgstr "Hajtson-e végre arab formálást"
 
-#: src/org.gnome.Terminal.gschema.xml:205
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:205
 msgid "If true, shape Arabic text."
 msgstr "Ha igaz, akkor megformálja az arab szöveget."
 
-#: src/org.gnome.Terminal.gschema.xml:209
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:209
 msgid "Whether to enable SIXEL images"
 msgstr "Engedélyezze-e a SIXEL-képeket"
 
-#: src/org.gnome.Terminal.gschema.xml:210
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:210
 msgid "If true, SIXEL sequences are parsed and images are rendered."
 msgstr ""
 "Ha igaz, akkor a SIXEL szekvenciák feldolgozásra, a képek pedig "
 "megjelenítésre kerülnek."
 
-#: src/org.gnome.Terminal.gschema.xml:214
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:214
 msgid "Whether bold is also bright"
 msgstr "A félkövér is legyen-e világos"
 
-#: src/org.gnome.Terminal.gschema.xml:215
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:215
 msgid ""
 "If true, setting bold on the first 8 colors also switches to their bright "
 "variants."
@@ -368,11 +368,11 @@ msgstr ""
 "Ha igaz, akkor a félkövér beállítás az első 8 színen is átváltja a világos "
 "változataira."
 
-#: src/org.gnome.Terminal.gschema.xml:219
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:219
 msgid "Whether to ring the terminal bell"
 msgstr "Bekapcsolja-e a terminálcsengőt"
 
-#: src/org.gnome.Terminal.gschema.xml:223
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:223
 msgid ""
 "List of ASCII punctuation characters that are not to be treated as part of a "
 "word when doing word-wise selection"
@@ -380,11 +380,11 @@ msgstr ""
 "ASCII központozási karakterek listája, amelyeket ne kezeljen a szó részeként "
 "a szószintű kijelölés elvégzésekor"
 
-#: src/org.gnome.Terminal.gschema.xml:228
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:228
 msgid "Default number of columns"
 msgstr "Oszlopok alapértelmezett száma"
 
-#: src/org.gnome.Terminal.gschema.xml:229
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:229
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -392,11 +392,11 @@ msgstr ""
 "Oszlopok száma újonnan létrehozott terminálablakokban. Hatástalan, ha a "
 "use_custom_default_size kulcs nincs engedélyezve."
 
-#: src/org.gnome.Terminal.gschema.xml:234
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:234
 msgid "Default number of rows"
 msgstr "Sorok alapértelmezett száma"
 
-#: src/org.gnome.Terminal.gschema.xml:235
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:235
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -404,15 +404,15 @@ msgstr ""
 "Sorok száma újonnan létrehozott terminálablakokban. Hatástalan, ha a "
 "use_custom_default_size kulcs nincs engedélyezve."
 
-#: src/org.gnome.Terminal.gschema.xml:239
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:239
 msgid "When to show the scrollbar"
 msgstr "Mikor jelenjen meg a görgetősáv"
 
-#: src/org.gnome.Terminal.gschema.xml:243
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:243
 msgid "Number of lines to keep in scrollback"
 msgstr "A visszagörgethető sorok száma"
 
-#: src/org.gnome.Terminal.gschema.xml:244
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:244
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
@@ -422,11 +422,11 @@ msgstr ""
 "terminálban; azon sorok, amik nem férnek bele ebbe, el lesznek dobva. Ha a "
 "scrollback_unlimited kulcs értéke igaz, akkor figyelmen kívül marad."
 
-#: src/org.gnome.Terminal.gschema.xml:248
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:248
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "Végtelen számú sor tárolása a visszagörgetéshez"
 
-#: src/org.gnome.Terminal.gschema.xml:249
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:249
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -437,28 +437,28 @@ msgstr ""
 "tárolva, így emiatt a rendszeren elfogyhat a szabad hely, ha túl sok a "
 "kimenet a terminálon."
 
-#: src/org.gnome.Terminal.gschema.xml:253
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:253
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Billentyűleütésre görgessen-e a terminál aljára"
 
-#: src/org.gnome.Terminal.gschema.xml:254
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:254
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Ha be van állítva, gombnyomásra a görgetősáv aljára ugrik."
 
-#: src/org.gnome.Terminal.gschema.xml:258
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:258
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Görgessen-e a terminál aljára ha új kimenet jelenik meg"
 
-#: src/org.gnome.Terminal.gschema.xml:259
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:259
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr "Ha be van állítva, a terminál új kimenet kiírásakor az aljára görget."
 
-#: src/org.gnome.Terminal.gschema.xml:263
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:263
 msgid "What to do with the terminal when the child command exits"
 msgstr "Mi a teendő a terminállal, ha a gyermek parancs kilép"
 
-#: src/org.gnome.Terminal.gschema.xml:264
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:264
 msgid ""
 "Possible values are “close” to close the terminal, “restart” to restart the "
 "command, and “hold” to keep the terminal open with no command running inside."
@@ -466,12 +466,12 @@ msgstr ""
 "Lehetséges értékek: „close” a terminál bezárásához, „restart” a parancs "
 "újraindításához és „hold” a terminál nyitva tartásához, futó parancs nélkül."
 
-#: src/org.gnome.Terminal.gschema.xml:268
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:268
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr ""
 "A parancsot a terminálban bejelentkezési parancsértelmezőként indítsa-e"
 
-#: src/org.gnome.Terminal.gschema.xml:269
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:269
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -479,11 +479,11 @@ msgstr ""
 "Ha be van állítva, a terminálban lévő parancs bejelentkezési "
 "parancsértelmezőként indul (argv[0] kötőjellel fog kezdődni)."
 
-#: src/org.gnome.Terminal.gschema.xml:273
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:273
 msgid "Whether to preserve the working directory when opening a new terminal"
 msgstr "Megőrizze-e a munkakönyvtárat egy új terminál megnyitásakor"
 
-#: src/org.gnome.Terminal.gschema.xml:274
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:274
 msgid ""
 "Controls when opening a new terminal from a previous one carries over the "
 "working directory of the opening terminal to the new one."
@@ -491,11 +491,11 @@ msgstr ""
 "Azt vezérli, hogy ha új terminált nyit egy előzőből, akkor a munkakönyvtár "
 "átkerül-e az előzőből az új terminálablakba."
 
-#: src/org.gnome.Terminal.gschema.xml:280
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:280
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Egyéni parancs futtatása a parancsértelmező helyett"
 
-#: src/org.gnome.Terminal.gschema.xml:281
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:281
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -503,11 +503,11 @@ msgstr ""
 "Ha be van állítva, a custom_command beállítást fogja használni a "
 "parancsértelmező futtatása helyén."
 
-#: src/org.gnome.Terminal.gschema.xml:285
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:285
 msgid "Whether to blink the cursor"
 msgstr "Villogjon-e a kurzor"
 
-#: src/org.gnome.Terminal.gschema.xml:286
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:286
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -515,11 +515,11 @@ msgstr ""
 "A lehetséges értékek: „system” (globális kurzorvillogási beállítás "
 "használata), illetve „on” (be) vagy „off” (ki) a mód explicit beállításához."
 
-#: src/org.gnome.Terminal.gschema.xml:290
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:290
 msgid "The cursor appearance"
 msgstr "A kurzor megjelenése"
 
-#: src/org.gnome.Terminal.gschema.xml:294
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:294
 msgid ""
 "Possible values are “always” or “never” allow blinking text, or only when "
 "the terminal is “focused” or “unfocused”."
@@ -528,49 +528,49 @@ msgstr ""
 "engedélyezéséhez, vagy csak akkor, amikor a terminál „focused” (fókuszba "
 "kerül) vagy „unfocused” (elveszti a fókuszt)."
 
-#: src/org.gnome.Terminal.gschema.xml:298
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:298
 msgid "Custom command to use instead of the shell"
 msgstr "Egyéni parancs futtatása a parancsértelmező helyett"
 
-#: src/org.gnome.Terminal.gschema.xml:299
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:299
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Ezen parancs futtatása a parancsértelmező helyén, ha a use_custom_command "
 "engedélyezett."
 
-#: src/org.gnome.Terminal.gschema.xml:318
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:318
 msgid "Palette for terminal applications"
 msgstr "Paletta a terminálalkalmazásokhoz"
 
-#: src/org.gnome.Terminal.gschema.xml:322
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:322
 msgid "A Pango font name and size"
 msgstr "Egy Pango betűtípus neve és mérete"
 
-#: src/org.gnome.Terminal.gschema.xml:326
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:326
 msgid "The code sequence the Backspace key generates"
 msgstr "A kódsorozat amit a Backspace generál"
 
-#: src/org.gnome.Terminal.gschema.xml:330
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:330
 msgid "The code sequence the Delete key generates"
 msgstr "A kódsorozat amit a Delete generál"
 
-#: src/org.gnome.Terminal.gschema.xml:334
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:334
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Használja-e a terminálelem témájának színeit"
 
-#: src/org.gnome.Terminal.gschema.xml:338
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:338
 msgid "Whether to use the system monospace font"
 msgstr "Használja-e a rendszer rögzített szélességű betűkészletét"
 
-#: src/org.gnome.Terminal.gschema.xml:342
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:342
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr "A terminál tartalma újra legyen-e tördelve az ablak átméretezésekor"
 
-#: src/org.gnome.Terminal.gschema.xml:346
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:346
 msgid "Which encoding to use"
 msgstr "Használandó kódolás"
 
-#: src/org.gnome.Terminal.gschema.xml:350
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:350
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
@@ -578,19 +578,19 @@ msgstr ""
 "A nem egyértelmű szélességű karakterek keskenyek vagy szélesek UTF-8 kódolás "
 "használatakor"
 
-#: src/org.gnome.Terminal.gschema.xml:359
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:359
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Gyorsbillentyű új lap megnyitásához"
 
-#: src/org.gnome.Terminal.gschema.xml:363
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:363
 msgid "Keyboard shortcut to open a new window"
 msgstr "Gyorsbillentyű új ablak megnyitásához"
 
-#: src/org.gnome.Terminal.gschema.xml:367
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:367
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "Gyorsbillentyű az aktuális lap tartalmának fájlba mentéséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:371
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:371
 msgid ""
 "Keyboard shortcut to export the current tab contents to file in various "
 "formats"
@@ -598,164 +598,164 @@ msgstr ""
 "Gyorsbillentyű az aktuális lap tartalmának fájlba exportálásához különböző "
 "formátumokban"
 
-#: src/org.gnome.Terminal.gschema.xml:375
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:375
 msgid "Keyboard shortcut to print the current tab contents to printer or file"
 msgstr ""
 "Gyorsbillentyű az aktuális lap tartalmának fájlba vagy nyomtatóval történő "
 "nyomtatásához"
 
-#: src/org.gnome.Terminal.gschema.xml:379
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:379
 msgid "Keyboard shortcut to close a tab"
 msgstr "Gyorsbillentyű egy lap bezárásához"
 
-#: src/org.gnome.Terminal.gschema.xml:383
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:383
 msgid "Keyboard shortcut to close a window"
 msgstr "Gyorsbillentyű egy ablak bezárásához"
 
-#: src/org.gnome.Terminal.gschema.xml:387
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:387
 msgid "Keyboard shortcut to copy text"
 msgstr "Gyorsbillentyű szöveg másolásához"
 
-#: src/org.gnome.Terminal.gschema.xml:391
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:391
 msgid "Keyboard shortcut to copy text as HTML"
 msgstr "Gyorsbillentyű szöveg HTML-ként való másolásához"
 
-#: src/org.gnome.Terminal.gschema.xml:395
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:395
 msgid "Keyboard shortcut to paste text"
 msgstr "Gyorsbillentyű szöveg beillesztéséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:399
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:399
 msgid "Keyboard shortcut to select all text"
 msgstr "Gyorsbillentyű az összes szöveg kijelöléséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:403
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:403
 msgid "Keyboard shortcut to open the Preferences dialog"
 msgstr "Gyorsbillentyű a beállítások párbeszédablak megnyitásához"
 
-#: src/org.gnome.Terminal.gschema.xml:407
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:407
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Gyorsbillentyű a teljes képernyős mód váltásához"
 
-#: src/org.gnome.Terminal.gschema.xml:411
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:411
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Gyorsbillentyű a menüsor láthatóságának átállításához"
 
-#: src/org.gnome.Terminal.gschema.xml:415
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:415
 msgid "Keyboard shortcut to toggle the read-only state"
 msgstr "Gyorsbillentyű a csak olvasható állapot átállításához"
 
-#: src/org.gnome.Terminal.gschema.xml:419
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:419
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Gyorsbillentyű a terminál visszaállításához"
 
-#: src/org.gnome.Terminal.gschema.xml:423
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:423
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Gyorsbillentyű a terminál visszaállításához és törléséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:427
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:427
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "Gyorsbillentyű a keresés párbeszédablak megnyitásához"
 
-#: src/org.gnome.Terminal.gschema.xml:431
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:431
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr ""
 "Gyorsbillentyű a keresett kifejezés következő előfordulásának kereséséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:435
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:435
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr "Gyorsbillentyű a keresett kifejezés előző előfordulásának kereséséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:439
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:439
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr "Gyorsbillentyű a találat kiemelésének törléséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:443
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:443
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Gyorsbillentyű az előző lapra váltáshoz"
 
-#: src/org.gnome.Terminal.gschema.xml:447
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:447
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Gyorsbillentyű a következő lapra váltáshoz"
 
-#: src/org.gnome.Terminal.gschema.xml:451
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:451
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "Gyorsbillentyű az aktuális lap balra mozgatásához"
 
-#: src/org.gnome.Terminal.gschema.xml:455
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:455
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "Gyorsbillentyű az aktuális lap jobbra mozgatásához"
 
-#: src/org.gnome.Terminal.gschema.xml:459
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:459
 msgid "Keyboard shortcut to detach current tab"
 msgstr "Gyorsbillentyű az aktuális lap leválasztásához"
 
-#: src/org.gnome.Terminal.gschema.xml:463
-#: src/org.gnome.Terminal.gschema.xml:467
-#: src/org.gnome.Terminal.gschema.xml:471
-#: src/org.gnome.Terminal.gschema.xml:475
-#: src/org.gnome.Terminal.gschema.xml:479
-#: src/org.gnome.Terminal.gschema.xml:483
-#: src/org.gnome.Terminal.gschema.xml:487
-#: src/org.gnome.Terminal.gschema.xml:491
-#: src/org.gnome.Terminal.gschema.xml:495
-#: src/org.gnome.Terminal.gschema.xml:499
-#: src/org.gnome.Terminal.gschema.xml:503
-#: src/org.gnome.Terminal.gschema.xml:507
-#: src/org.gnome.Terminal.gschema.xml:511
-#: src/org.gnome.Terminal.gschema.xml:515
-#: src/org.gnome.Terminal.gschema.xml:519
-#: src/org.gnome.Terminal.gschema.xml:523
-#: src/org.gnome.Terminal.gschema.xml:527
-#: src/org.gnome.Terminal.gschema.xml:531
-#: src/org.gnome.Terminal.gschema.xml:535
-#: src/org.gnome.Terminal.gschema.xml:539
-#: src/org.gnome.Terminal.gschema.xml:543
-#: src/org.gnome.Terminal.gschema.xml:547
-#: src/org.gnome.Terminal.gschema.xml:551
-#: src/org.gnome.Terminal.gschema.xml:555
-#: src/org.gnome.Terminal.gschema.xml:559
-#: src/org.gnome.Terminal.gschema.xml:563
-#: src/org.gnome.Terminal.gschema.xml:567
-#: src/org.gnome.Terminal.gschema.xml:571
-#: src/org.gnome.Terminal.gschema.xml:575
-#: src/org.gnome.Terminal.gschema.xml:579
-#: src/org.gnome.Terminal.gschema.xml:583
-#: src/org.gnome.Terminal.gschema.xml:587
-#: src/org.gnome.Terminal.gschema.xml:591
-#: src/org.gnome.Terminal.gschema.xml:595
-#: src/org.gnome.Terminal.gschema.xml:599
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:463
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:467
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:471
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:475
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:479
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:483
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:487
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:491
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:495
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:499
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:503
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:507
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:511
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:515
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:519
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:523
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:527
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:531
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:535
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:539
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:543
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:547
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:551
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:555
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:559
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:563
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:567
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:571
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:575
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:579
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:583
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:587
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:591
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:595
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:599
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "Gyorsbillentyű a számozott lapra váltáshoz"
 
-#: src/org.gnome.Terminal.gschema.xml:603
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:603
 msgid "Keyboard shortcut to switch to the last tab"
 msgstr "Gyorsbillentyű az utolsó lapra váltáshoz"
 
-#: src/org.gnome.Terminal.gschema.xml:607
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:607
 msgid "Keyboard shortcut to launch help"
 msgstr "Gyorsbillentyű a súgó elindításához"
 
-#: src/org.gnome.Terminal.gschema.xml:611
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:611
 msgid "Keyboard shortcut to make font larger"
 msgstr "Gyorsbillentyű a betűméret növeléséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:615
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:615
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Gyorsbillentyű a betűméret csökkentéséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:619
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:619
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Gyorsbillentyű a normál betűmérethez"
 
-#: src/org.gnome.Terminal.gschema.xml:623
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:623
 msgid "Keyboard shortcut to show the primary menu"
 msgstr "Gyorsbillentyű az elsődleges menü megjelenítéséhez"
 
-#: src/org.gnome.Terminal.gschema.xml:633
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:633
 msgid "Whether the menubar has access keys"
 msgstr "A menüsornak legyenek-e gyorsbillentyűi"
 
-#: src/org.gnome.Terminal.gschema.xml:634
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:634
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it’s possible to turn them "
@@ -764,11 +764,11 @@ msgstr ""
 "Legyenek-e Alt+betű gyorsbillentyűk a menüsorhoz. Ezek néhány, a terminálban "
 "futó alkalmazással összeütközhetnek, ezért kikapcsolhatóak."
 
-#: src/org.gnome.Terminal.gschema.xml:643
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:643
 msgid "Whether shortcuts are enabled"
 msgstr "A gyorsbillentyűk engedélyezve vannak-e"
 
-#: src/org.gnome.Terminal.gschema.xml:644
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:644
 msgid ""
 "Whether shortcuts are enabled. They may interfere with some applications run "
 "inside the terminal so it’s possible to turn them off."
@@ -776,11 +776,11 @@ msgstr ""
 "A gyorsbillentyűk engedélyezettek-e. Ezek néhány, a terminálban futó "
 "alkalmazással összeütközhetnek, ezért kikapcsolhatóak."
 
-#: src/org.gnome.Terminal.gschema.xml:653
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:653
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "A menüsor eléréséhez a szabvány GTK gyorsbillentyű engedélyezése"
 
-#: src/org.gnome.Terminal.gschema.xml:654
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:654
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -790,46 +790,46 @@ msgstr ""
 "gtkrc-vel (gtk-menu-bar-accel = „Akármi”). Ezt a gyorsbillentyűt itt "
 "kikapcsolhatja."
 
-#: src/org.gnome.Terminal.gschema.xml:664
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:664
 msgid "Whether the shell integration is enabled"
 msgstr "Meghatározza, hogy a shell integráció engedélyezett-e"
 
-#: src/org.gnome.Terminal.gschema.xml:669
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:669
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "Kérjen-e megerősítést terminálablak bezárása előtt"
 
-#: src/org.gnome.Terminal.gschema.xml:674
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:674
 msgid "Additional info section items to appear in the context menu"
 msgstr "A helyi menüben megjelenítendő további információszakasz-elemek"
 
-#: src/org.gnome.Terminal.gschema.xml:679
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:679
 msgid "Whether to show the menubar in new windows"
 msgstr "Jelenítse-e meg a menüsort az új ablakokban"
 
-#: src/org.gnome.Terminal.gschema.xml:684
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:684
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "Az új terminálok megnyitása ablakokban vagy lapokon"
 
-#: src/org.gnome.Terminal.gschema.xml:689
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:689
 msgid "When to show the tabs bar"
 msgstr "Mikor jelenjen meg a lapsáv"
 
-#: src/org.gnome.Terminal.gschema.xml:694
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:694
 msgid "The position of the tab bar"
 msgstr "A lapsáv elhelyezkedése"
 
-#: src/org.gnome.Terminal.gschema.xml:699
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:699
 msgid "Which theme variant to use"
 msgstr "Használandó témaváltozat"
 
-#: src/org.gnome.Terminal.gschema.xml:704
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:704
 msgid ""
 "Whether new tabs should open next to the current one or at the last position"
 msgstr ""
 "Az új lapok a jelenlegi mellett jelenjenek-e meg, vagy a legutóbbi pozíciónál"
 
-#: src/org.gnome.Terminal.gschema.xml:711
-msgid "Always check whether GNOME Terminal is the default terminal"
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:711
+msgid "Always check whether Cinnamon Terminal is the default terminal"
 msgstr ""
 "Mindig ellenőrizze, hogy a GNOME Terminál az alapértelmezett terminál-e"
 
@@ -1960,7 +1960,7 @@ msgstr ""
 
 #: src/terminal-options.cc:353 src/terminal-options.cc:366
 #, c-format
-msgid "Option “%s” is no longer supported in this version of gnome-terminal."
+msgid "Option “%s” is no longer supported in this version of cinnamon-terminal."
 msgstr ""
 "A(z) „%s” kapcsoló már nem támogatott a gnome-terminál ezen verziójában."
 
@@ -2156,11 +2156,11 @@ msgid "COMMAND"
 msgstr "PARANCS"
 
 #: src/terminal-options.cc:1701
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "GNOME Terminálemulátor"
 
 #: src/terminal-options.cc:1702
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "A GNOME Terminál kapcsolóinak megjelenítése"
 
 #: src/terminal-options.cc:1712
@@ -2330,7 +2330,7 @@ msgid "A terminal emulator for the GNOME desktop"
 msgstr "Terminálemulátor a GNOME asztali környezethez"
 
 #: src/terminal-util.cc:252
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "GNOME Terminál"
 
 #: src/terminal-util.cc:262
@@ -2353,7 +2353,7 @@ msgstr "Nem lehet a(z) „%s” címet megnyitni"
 
 #: src/terminal-util.cc:406
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -2364,7 +2364,7 @@ msgstr ""
 
 #: src/terminal-util.cc:410
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -2377,7 +2377,7 @@ msgstr ""
 #: src/terminal-util.cc:414
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "A GNOME Terminál programhoz a GNU General Public License egy példánya is "
 "jár, ha nem kapta meg, itt elolvashatja: <http://www.gnu.org/licenses/>."
@@ -2443,7 +2443,7 @@ msgid "L_eave Full Screen"
 msgstr "_Teljes képernyő elhagyása"
 
 #: src/terminal-window.cc:2291
-msgid "Set GNOME Terminal as your default terminal?"
+msgid "Set Cinnamon Terminal as your default terminal?"
 msgstr "Beállítja a GNOME Terminált alapértelmezett terminálként?"
 
 #: src/terminal-window.cc:2297

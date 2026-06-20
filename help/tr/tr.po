@@ -1,13 +1,13 @@
-# Turkish translation for gnome-terminal.
-# Copyright (C) 2023 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Turkish translation for cinnamon-terminal.
+# Copyright (C) 2023 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 #
 # Sabri Ünal <libreajans@gmail.com, 2023.
 # Emin Tufan Çetin <etcetin@gmail.com>, 2023.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "POT-Creation-Date: 2024-02-10 22:20+0000\n"
 "PO-Revision-Date: 2024-02-24 23:01+0300\n"
 "Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
@@ -1587,10 +1587,10 @@ msgstr "GNOME <app>Uçbirim</app> ekran görüntüsü"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 
 #. (itstool) path: p/link
@@ -3658,5 +3658,5 @@ msgstr ""
 #~ msgid "<keyseq><key>Alt</key><key>P</key></keyseq>"
 #~ msgstr "<keyseq><key>Alt</key><key>P</key></keyseq>"
 
-#~ msgid "GNOME Terminal"
+#~ msgid "Cinnamon Terminal"
 #~ msgstr "GNOME Uçbirim"

@@ -1,6 +1,6 @@
-# translation of gnome-terminal to Kinyarwanda.
+# translation of cinnamon-terminal to Kinyarwanda.
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the gnome-terminal package.
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Steve Murphy <murf@e-tools.com>, 2005
 # Steve performed initial rough translation from compendium built from translations provided by the following translators:
 # Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
@@ -13,7 +13,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal 2.12\n"
+"Project-Id-Version: cinnamon-terminal 2.12\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-09-06 14:16+0200\n"
 "PO-Revision-Date: 2006-01-04 16:15-0200\n"
@@ -25,13 +25,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../gnome-terminal.desktop.in.in.h:1 ../src/gnome-terminal.schemas.in.h:109
+#: ../cinnamon-terminal.desktop.in.in.h:1 ../src/cinnamon-terminal.schemas.in.h:109
 #: ../src/terminal-accels.c:172 ../src/terminal-profile.c:276
 #: ../src/terminal-window.c:783 ../src/terminal.c:1205 ../src/terminal.c:1604
 msgid "Terminal"
 msgstr ""
 
-#: ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.desktop.in.in.h:2
 #, fuzzy
 msgid "Use the command line"
 msgstr "Umurongo"
@@ -54,7 +54,7 @@ msgstr ""
 msgid "The type of accelerator."
 msgstr "Ubwoko Bya"
 
-#: ../src/eggcellrendererkeys.c:219 ../src/gnome-terminal.glade2.h:33
+#: ../src/eggcellrendererkeys.c:219 ../src/cinnamon-terminal.glade2.h:33
 #: ../src/terminal-accels.c:717
 msgid "Disabled"
 msgstr "Yahagaritswe"
@@ -254,176 +254,176 @@ msgid ""
 "changes. (%s)\n"
 msgstr "Ikosa Kuri Ikimenyetso Bya Imisobekere: Urutonde Amahinduka"
 
-#: ../src/gnome-terminal.glade2.h:1
+#: ../src/cinnamon-terminal.glade2.h:1
 #, fuzzy
 msgid "<b>Background</b>"
 msgstr "<B B"
 
-#: ../src/gnome-terminal.glade2.h:2
+#: ../src/cinnamon-terminal.glade2.h:2
 #, fuzzy
 msgid "<b>Command</b>"
 msgstr "<B B"
 
-#: ../src/gnome-terminal.glade2.h:3
+#: ../src/cinnamon-terminal.glade2.h:3
 #, fuzzy
 msgid "<b>Compatibility</b>"
 msgstr "<B B"
 
-#: ../src/gnome-terminal.glade2.h:4
+#: ../src/cinnamon-terminal.glade2.h:4
 #, fuzzy
 msgid "<b>Foreground and Background</b>"
 msgstr "<B Na B"
 
-#: ../src/gnome-terminal.glade2.h:5
+#: ../src/cinnamon-terminal.glade2.h:5
 #, fuzzy
 msgid "<b>General</b>"
 msgstr "<B B"
 
-#: ../src/gnome-terminal.glade2.h:6
+#: ../src/cinnamon-terminal.glade2.h:6
 #, fuzzy
 msgid "<b>Palette</b>"
 msgstr "<B B"
 
-#: ../src/gnome-terminal.glade2.h:7
+#: ../src/cinnamon-terminal.glade2.h:7
 #, fuzzy
 msgid "<b>Scrolling</b>"
 msgstr "<B B"
 
-#: ../src/gnome-terminal.glade2.h:8
+#: ../src/cinnamon-terminal.glade2.h:8
 #, fuzzy
 msgid "<b>Title</b>"
 msgstr "<B B"
 
-#: ../src/gnome-terminal.glade2.h:9
+#: ../src/cinnamon-terminal.glade2.h:9
 msgid "<big>S/Key Challenge Response</big>"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:10
+#: ../src/cinnamon-terminal.glade2.h:10
 #, fuzzy
 msgid "<small><i>Maximum</i></small>"
 msgstr "<Gitoya i i Gitoya"
 
-#: ../src/gnome-terminal.glade2.h:11
+#: ../src/cinnamon-terminal.glade2.h:11
 #, fuzzy
 msgid "<small><i>None</i></small>"
 msgstr "<Gitoya i i Gitoya"
 
-#: ../src/gnome-terminal.glade2.h:12
+#: ../src/cinnamon-terminal.glade2.h:12
 msgid "ASCII DEL"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:13
+#: ../src/cinnamon-terminal.glade2.h:13
 msgid "A_vailable encodings:"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:14
+#: ../src/cinnamon-terminal.glade2.h:14
 #, fuzzy
 msgid "Add or Remove Terminal Encodings"
 msgstr "Cyangwa"
 
 # wizards/source\formwizard\dbwizres.src:RID_DB_FORM_WIZARD_START_+_55.text
-#: ../src/gnome-terminal.glade2.h:15
+#: ../src/cinnamon-terminal.glade2.h:15
 #, fuzzy
 msgid "Background _image"
 msgstr "Ishusho mbuganyuma"
 
-#: ../src/gnome-terminal.glade2.h:16
+#: ../src/cinnamon-terminal.glade2.h:16
 #, fuzzy
 msgid "Background image _scrolls"
 msgstr "Ishusho"
 
-#: ../src/gnome-terminal.glade2.h:17
+#: ../src/cinnamon-terminal.glade2.h:17
 #, fuzzy
 msgid "Built-_in schemes:"
 msgstr "in"
 
-#: ../src/gnome-terminal.glade2.h:18
+#: ../src/cinnamon-terminal.glade2.h:18
 #, fuzzy
 msgid "Built-in _schemes:"
 msgstr "in"
 
-#: ../src/gnome-terminal.glade2.h:19
+#: ../src/cinnamon-terminal.glade2.h:19
 #, fuzzy
 msgid "Built-in foreground and background color schemes:"
 msgstr "in Na Mbuganyuma Ibara"
 
-#: ../src/gnome-terminal.glade2.h:20
+#: ../src/cinnamon-terminal.glade2.h:20
 #, fuzzy
 msgid "Built-in palette schemes:"
 msgstr "in Urwunge rw'ibara:"
 
-#: ../src/gnome-terminal.glade2.h:21
+#: ../src/cinnamon-terminal.glade2.h:21
 #, fuzzy
 msgid "C_reate"
 msgstr "Kurema"
 
-#: ../src/gnome-terminal.glade2.h:22
+#: ../src/cinnamon-terminal.glade2.h:22
 #, fuzzy
 msgid "Choose terminal background color"
 msgstr "Mbuganyuma Ibara"
 
-#: ../src/gnome-terminal.glade2.h:23
+#: ../src/cinnamon-terminal.glade2.h:23
 #, fuzzy
 msgid "Choose terminal text color"
 msgstr "Umwandiko Ibara"
 
-#: ../src/gnome-terminal.glade2.h:24
+#: ../src/cinnamon-terminal.glade2.h:24
 msgid "Color Selector"
 msgstr ""
 
 # offmgr/sdi\ofaslots.src:SID_GET_COLORTABLE.text
-#: ../src/gnome-terminal.glade2.h:25
+#: ../src/cinnamon-terminal.glade2.h:25
 #, fuzzy
 msgid "Color _palette:"
 msgstr "Urwunge rw'Amabara"
 
 # offmgr/source\offapp\dialog\treeopt.src:RID_OFADLG_OPTIONS_TREE_PAGES.SID_GENERAL_OPTIONS.9.text
-#: ../src/gnome-terminal.glade2.h:26
+#: ../src/cinnamon-terminal.glade2.h:26
 msgid "Colors"
 msgstr "Amabara"
 
-#: ../src/gnome-terminal.glade2.h:27
+#: ../src/cinnamon-terminal.glade2.h:27
 msgid "Compatibility"
 msgstr "Bihuye neza"
 
-#: ../src/gnome-terminal.glade2.h:28
+#: ../src/cinnamon-terminal.glade2.h:28
 #, fuzzy
 msgid "Control-H"
 msgstr "H"
 
-#: ../src/gnome-terminal.glade2.h:29
+#: ../src/cinnamon-terminal.glade2.h:29
 msgid "Cursor blin_ks"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:30
+#: ../src/cinnamon-terminal.glade2.h:30
 #, fuzzy
 msgid "Custom co_mmand:"
 msgstr "Kugena Komandi:"
 
-#: ../src/gnome-terminal.glade2.h:31
+#: ../src/cinnamon-terminal.glade2.h:31
 #, fuzzy
 msgid "Disable all me_nu access keys (such as Alt+f to open File menu)"
 msgstr "Byose Ibikubiyemo Utubuto Nka F Kuri Gufungura Idosiye Ibikubiyemo"
 
-#: ../src/gnome-terminal.glade2.h:32
+#: ../src/cinnamon-terminal.glade2.h:32
 #, fuzzy
 msgid "Disable m_enu shortcut key (F10 by default)"
 msgstr "Ibikubiyemo Iy'ibusamo Urufunguzo ku Mburabuzi"
 
-#: ../src/gnome-terminal.glade2.h:34
+#: ../src/cinnamon-terminal.glade2.h:34
 #, fuzzy
 msgid "E_ncodings shown in menu:"
 msgstr "in Ibikubiyemo"
 
-#: ../src/gnome-terminal.glade2.h:35
+#: ../src/cinnamon-terminal.glade2.h:35
 msgid "Effects"
 msgstr "Ingaruka"
 
-#: ../src/gnome-terminal.glade2.h:36
+#: ../src/cinnamon-terminal.glade2.h:36
 msgid "Escape sequence"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:37
+#: ../src/cinnamon-terminal.glade2.h:37
 #, fuzzy
 msgid "Exit the terminal"
 msgstr "i"
@@ -437,226 +437,226 @@ msgstr "i"
 # #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
 # #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
 # #-#-#-#-#  dbaccess.pot (Gnome 2.12)  #-#-#-#-#
-#: ../src/gnome-terminal.glade2.h:38
+#: ../src/cinnamon-terminal.glade2.h:38
 msgid "General"
 msgstr "Rusange"
 
-#: ../src/gnome-terminal.glade2.h:39
+#: ../src/cinnamon-terminal.glade2.h:39
 #, fuzzy
 msgid "Goes after initial title"
 msgstr "Nyuma Umutwe"
 
-#: ../src/gnome-terminal.glade2.h:40
+#: ../src/cinnamon-terminal.glade2.h:40
 #, fuzzy
 msgid "Goes before initial title"
 msgstr "Mbere Umutwe"
 
-#: ../src/gnome-terminal.glade2.h:41
+#: ../src/cinnamon-terminal.glade2.h:41
 #, fuzzy
 msgid "Hold the terminal open"
 msgstr "Gufungura"
 
-#: ../src/gnome-terminal.glade2.h:42
+#: ../src/cinnamon-terminal.glade2.h:42
 #, fuzzy
 msgid "Image _file:"
 msgstr "IDOSIYE"
 
-#: ../src/gnome-terminal.glade2.h:43
+#: ../src/cinnamon-terminal.glade2.h:43
 #, fuzzy
 msgid "Initial _title:"
 msgstr "Umutwe"
 
-#: ../src/gnome-terminal.glade2.h:44
+#: ../src/cinnamon-terminal.glade2.h:44
 msgid "Isn't displayed"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:45
+#: ../src/cinnamon-terminal.glade2.h:45
 msgid "Keyboard Shortcuts"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:46 ../src/terminal-accels.c:79
+#: ../src/cinnamon-terminal.glade2.h:46 ../src/terminal-accels.c:79
 msgid "New Profile"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:47
+#: ../src/cinnamon-terminal.glade2.h:47
 #, fuzzy
 msgid "On the left side"
 msgstr "Ibumoso:"
 
-#: ../src/gnome-terminal.glade2.h:48
+#: ../src/cinnamon-terminal.glade2.h:48
 #, fuzzy
 msgid "On the right side"
 msgstr "Iburyo:"
 
-#: ../src/gnome-terminal.glade2.h:49
+#: ../src/cinnamon-terminal.glade2.h:49
 #, fuzzy
 msgid "Open a dialog to specify the color"
 msgstr "a Ikiganiro Kuri Ibara"
 
-#: ../src/gnome-terminal.glade2.h:50
+#: ../src/cinnamon-terminal.glade2.h:50
 #, fuzzy
 msgid "Palette entry 1"
 msgstr "Icyinjijwe 1."
 
-#: ../src/gnome-terminal.glade2.h:51
+#: ../src/cinnamon-terminal.glade2.h:51
 #, fuzzy
 msgid "Palette entry 10"
 msgstr "Icyinjijwe 10"
 
-#: ../src/gnome-terminal.glade2.h:52
+#: ../src/cinnamon-terminal.glade2.h:52
 #, fuzzy
 msgid "Palette entry 11"
 msgstr "Icyinjijwe"
 
-#: ../src/gnome-terminal.glade2.h:53
+#: ../src/cinnamon-terminal.glade2.h:53
 #, fuzzy
 msgid "Palette entry 12"
 msgstr "Icyinjijwe 12"
 
-#: ../src/gnome-terminal.glade2.h:54
+#: ../src/cinnamon-terminal.glade2.h:54
 #, fuzzy
 msgid "Palette entry 13"
 msgstr "Icyinjijwe"
 
-#: ../src/gnome-terminal.glade2.h:55
+#: ../src/cinnamon-terminal.glade2.h:55
 #, fuzzy
 msgid "Palette entry 14"
 msgstr "Icyinjijwe 14"
 
-#: ../src/gnome-terminal.glade2.h:56
+#: ../src/cinnamon-terminal.glade2.h:56
 #, fuzzy
 msgid "Palette entry 15"
 msgstr "Icyinjijwe 15"
 
-#: ../src/gnome-terminal.glade2.h:57
+#: ../src/cinnamon-terminal.glade2.h:57
 #, fuzzy
 msgid "Palette entry 16"
 msgstr "Icyinjijwe"
 
-#: ../src/gnome-terminal.glade2.h:58
+#: ../src/cinnamon-terminal.glade2.h:58
 #, fuzzy
 msgid "Palette entry 2"
 msgstr "Icyinjijwe 2."
 
-#: ../src/gnome-terminal.glade2.h:59
+#: ../src/cinnamon-terminal.glade2.h:59
 #, fuzzy
 msgid "Palette entry 3"
 msgstr "Icyinjijwe 3."
 
-#: ../src/gnome-terminal.glade2.h:60
+#: ../src/cinnamon-terminal.glade2.h:60
 #, fuzzy
 msgid "Palette entry 4"
 msgstr "Icyinjijwe 4."
 
-#: ../src/gnome-terminal.glade2.h:61
+#: ../src/cinnamon-terminal.glade2.h:61
 #, fuzzy
 msgid "Palette entry 5"
 msgstr "Icyinjijwe 5"
 
-#: ../src/gnome-terminal.glade2.h:62
+#: ../src/cinnamon-terminal.glade2.h:62
 #, fuzzy
 msgid "Palette entry 6"
 msgstr "Icyinjijwe 6"
 
-#: ../src/gnome-terminal.glade2.h:63
+#: ../src/cinnamon-terminal.glade2.h:63
 #, fuzzy
 msgid "Palette entry 7"
 msgstr "Icyinjijwe 7"
 
-#: ../src/gnome-terminal.glade2.h:64
+#: ../src/cinnamon-terminal.glade2.h:64
 #, fuzzy
 msgid "Palette entry 8"
 msgstr "Icyinjijwe 8"
 
-#: ../src/gnome-terminal.glade2.h:65
+#: ../src/cinnamon-terminal.glade2.h:65
 #, fuzzy
 msgid "Palette entry 9"
 msgstr "Icyinjijwe 9"
 
 # sc/source\ui\src\scstring.src:SCSTR_PASSWORD.text
-#: ../src/gnome-terminal.glade2.h:66
+#: ../src/cinnamon-terminal.glade2.h:66
 msgid "Password:"
 msgstr "Ijambobanga:"
 
-#: ../src/gnome-terminal.glade2.h:67
+#: ../src/cinnamon-terminal.glade2.h:67
 msgid "Profile Editor"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:68
+#: ../src/cinnamon-terminal.glade2.h:68
 #, fuzzy
 msgid "Profile _icon:"
 msgstr "Agashushondanga"
 
 # setup2/source\ui\pages\pprofile.src:RESID_PAGE_PAGEPROFILE.FT_INFO2.text
-#: ../src/gnome-terminal.glade2.h:69
+#: ../src/cinnamon-terminal.glade2.h:69
 #, fuzzy
 msgid "Profile _name:"
 msgstr "Izina ry'ibijyana:"
 
-#: ../src/gnome-terminal.glade2.h:70
+#: ../src/cinnamon-terminal.glade2.h:70
 #, fuzzy
 msgid "Replaces initial title"
 msgstr "Umutwe"
 
-#: ../src/gnome-terminal.glade2.h:71
+#: ../src/cinnamon-terminal.glade2.h:71
 #, fuzzy
 msgid "Restart the command"
 msgstr "Komandi:"
 
-#: ../src/gnome-terminal.glade2.h:72
+#: ../src/cinnamon-terminal.glade2.h:72
 #, fuzzy
 msgid "Ru_n a custom command instead of my shell"
 msgstr "a Kunoza Komandi: Bya Igikonoshwa"
 
-#: ../src/gnome-terminal.glade2.h:73
+#: ../src/cinnamon-terminal.glade2.h:73
 #, fuzzy
 msgid "S_hade transparent or image background:"
 msgstr "Bibonerana Cyangwa Ishusho Mbuganyuma"
 
-#: ../src/gnome-terminal.glade2.h:74
+#: ../src/cinnamon-terminal.glade2.h:74
 #, fuzzy
 msgid "Sc_roll on output"
 msgstr "ku Ibisohoka"
 
-#: ../src/gnome-terminal.glade2.h:75
+#: ../src/cinnamon-terminal.glade2.h:75
 msgid "Scr_ollback:"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:76
+#: ../src/cinnamon-terminal.glade2.h:76
 #, fuzzy
 msgid "Scroll on _keystroke"
 msgstr "ku"
 
-#: ../src/gnome-terminal.glade2.h:77
+#: ../src/cinnamon-terminal.glade2.h:77
 msgid "Scrolling"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:78
+#: ../src/cinnamon-terminal.glade2.h:78
 #, fuzzy
 msgid "Select-by-_word characters:"
 msgstr "ku ijambo Inyuguti"
 
-#: ../src/gnome-terminal.glade2.h:79
+#: ../src/cinnamon-terminal.glade2.h:79
 #, fuzzy
 msgid "Show _menubar by default in new terminals"
 msgstr "ku Mburabuzi in Gishya"
 
-#: ../src/gnome-terminal.glade2.h:80
+#: ../src/cinnamon-terminal.glade2.h:80
 msgid "Terminal _bell"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:81
+#: ../src/cinnamon-terminal.glade2.h:81
 #, fuzzy
 msgid "Terminal applications have these colors available to them."
 msgstr "Porogaramu Amabara Bihari Kuri"
 
-#: ../src/gnome-terminal.glade2.h:82
+#: ../src/cinnamon-terminal.glade2.h:82
 #, fuzzy
 msgid ""
 "The command running inside the terminal may dynamically set a new title."
 msgstr "Komandi: Mo Imbere Gicurasi Gushyiraho a Gishya Umutwe"
 
-#: ../src/gnome-terminal.glade2.h:83
+#: ../src/cinnamon-terminal.glade2.h:83
 #, fuzzy
 msgid ""
 "These options may cause some applications to behave incorrectly.\n"
@@ -665,99 +665,99 @@ msgid ""
 msgstr ""
 "Amahitamo Gicurasi Porogaramu Kuri Kuri Kwemerera Kuri Akazi imyitwarire"
 
-#: ../src/gnome-terminal.glade2.h:86
+#: ../src/cinnamon-terminal.glade2.h:86
 #, fuzzy
 msgid "Title and Command"
 msgstr "Na"
 
-#: ../src/gnome-terminal.glade2.h:87
+#: ../src/cinnamon-terminal.glade2.h:87
 #, fuzzy
 msgid "Use colors from s_ystem theme"
 msgstr "Amabara Bivuye Sisitemu"
 
-#: ../src/gnome-terminal.glade2.h:88
+#: ../src/cinnamon-terminal.glade2.h:88
 #, fuzzy
 msgid "When command _exits:"
 msgstr "Komandi:"
 
-#: ../src/gnome-terminal.glade2.h:89
+#: ../src/cinnamon-terminal.glade2.h:89
 #, fuzzy
 msgid "_Allow bold text"
 msgstr "UTSINDAGIYE Umwandiko"
 
 # svx/source\items\svxitems.src:RID_SVXITEMS_BACKGROUND_COLOR.text
-#: ../src/gnome-terminal.glade2.h:90
+#: ../src/cinnamon-terminal.glade2.h:90
 #, fuzzy
 msgid "_Background color:"
 msgstr "Ibara rya mbuganyuma:"
 
-#: ../src/gnome-terminal.glade2.h:91
+#: ../src/cinnamon-terminal.glade2.h:91
 #, fuzzy
 msgid "_Backspace key generates:"
 msgstr "Urufunguzo"
 
-#: ../src/gnome-terminal.glade2.h:92
+#: ../src/cinnamon-terminal.glade2.h:92
 #, fuzzy
 msgid "_Base on:"
 msgstr "Base ku"
 
-#: ../src/gnome-terminal.glade2.h:93
+#: ../src/cinnamon-terminal.glade2.h:93
 #, fuzzy
 msgid "_Delete key generates:"
 msgstr "Urufunguzo"
 
-#: ../src/gnome-terminal.glade2.h:94
+#: ../src/cinnamon-terminal.glade2.h:94
 #, fuzzy
 msgid "_Dynamically-set title:"
 msgstr "Gushyiraho Umutwe"
 
-#: ../src/gnome-terminal.glade2.h:95
+#: ../src/cinnamon-terminal.glade2.h:95
 #, fuzzy
 msgid "_None (use solid color)"
 msgstr "Gukoresha Gikomeye Ibara"
 
 # setup2/source\ui\pages\pprofile.src:RESID_PAGE_PAGEPROFILE.FT_INFO2.text
-#: ../src/gnome-terminal.glade2.h:96
+#: ../src/cinnamon-terminal.glade2.h:96
 #, fuzzy
 msgid "_Profile name:"
 msgstr "Izina ry'ibijyana:"
 
-#: ../src/gnome-terminal.glade2.h:97
+#: ../src/cinnamon-terminal.glade2.h:97
 #, fuzzy
 msgid "_Reset compatibility options to defaults"
 msgstr "Bihuye neza Amahitamo Kuri"
 
-#: ../src/gnome-terminal.glade2.h:98
+#: ../src/cinnamon-terminal.glade2.h:98
 #, fuzzy
 msgid "_Run command as a login shell"
 msgstr "Komandi: Nka a Ifashayinjira Igikonoshwa"
 
-#: ../src/gnome-terminal.glade2.h:99
+#: ../src/cinnamon-terminal.glade2.h:99
 #, fuzzy
 msgid "_Scrollbar is:"
 msgstr "ni"
 
-#: ../src/gnome-terminal.glade2.h:100
+#: ../src/cinnamon-terminal.glade2.h:100
 #, fuzzy
 msgid "_Shortcut Keys:"
 msgstr "Buto z'Iyubusamo"
 
-#: ../src/gnome-terminal.glade2.h:101
+#: ../src/cinnamon-terminal.glade2.h:101
 #, fuzzy
 msgid "_Text color:"
 msgstr "Ibara ry'Inyandiko..."
 
-#: ../src/gnome-terminal.glade2.h:102
+#: ../src/cinnamon-terminal.glade2.h:102
 #, fuzzy
 msgid "_Transparent background"
 msgstr "Mbuganyuma"
 
-#: ../src/gnome-terminal.glade2.h:103
+#: ../src/cinnamon-terminal.glade2.h:103
 #, fuzzy
 msgid "_Update login records when command is launched"
 msgstr "Ifashayinjira Ibyabitswe Ryari: Komandi: ni"
 
-#: ../src/gnome-terminal.glade2.h:104
+#: ../src/cinnamon-terminal.glade2.h:104
 #, fuzzy
 msgid "_Use the system terminal font"
 msgstr "Sisitemu Intego- nyuguti"
@@ -776,20 +776,20 @@ msgstr "Sisitemu Intego- nyuguti"
 # sch/source\ui\dlg\attrib4.src:TAB_DIAGRAM_STOCK_LOSS.1.RID_SVXPAGE_LINE.text
 # #-#-#-#-#  sch.pot (Gnome 2.12)  #-#-#-#-#
 # sch/source\ui\dlg\attrib4.src:TAB_DIAGRAM_STOCK_PLUS.1.RID_SVXPAGE_LINE.text
-#: ../src/gnome-terminal.glade2.h:105
+#: ../src/cinnamon-terminal.glade2.h:105
 #, fuzzy
 msgid "_lines"
 msgstr "Imirongo"
 
-#: ../src/gnome-terminal.glade2.h:106
+#: ../src/cinnamon-terminal.glade2.h:106
 msgid "kilo_bytes"
 msgstr ""
 
-#: ../src/gnome-terminal.glade2.h:107
+#: ../src/cinnamon-terminal.glade2.h:107
 msgid "kilobytes"
 msgstr ""
 
-#: ../src/gnome-terminal.schemas.in.h:1
+#: ../src/cinnamon-terminal.schemas.in.h:1
 #, fuzzy
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
@@ -800,7 +800,7 @@ msgstr ""
 "Imisobekere: Izina: KIGEZWEHO Kuri Kugaragaza Imisobekere: Bya KIGEZWEHO "
 "Umwanya"
 
-#: ../src/gnome-terminal.schemas.in.h:2
+#: ../src/cinnamon-terminal.schemas.in.h:2
 #, fuzzy
 msgid ""
 "A value between 0.0 and 1.0 indicating how much to darken the background "
@@ -809,12 +809,12 @@ msgid ""
 "setting behaves as a boolean, where 0.0 disables the darkening effect."
 msgstr "0."
 
-#: ../src/gnome-terminal.schemas.in.h:3
+#: ../src/cinnamon-terminal.schemas.in.h:3
 #, fuzzy
 msgid "An Pango font name. Examples are \"Sans 12\" or \"Monospace Bold 14\"."
 msgstr "Intego- nyuguti Izina: 12 Cyangwa 14"
 
-#: ../src/gnome-terminal.schemas.in.h:4
+#: ../src/cinnamon-terminal.schemas.in.h:4
 #, fuzzy
 msgid ""
 "An X font name. See the X man page (type \"man X\") for more details on the "
@@ -824,31 +824,31 @@ msgstr ""
 "Imiterere Bya Intego- nyuguti Amazina"
 
 # wizards/source\formwizard\dbwizres.src:RID_DB_FORM_WIZARD_START_+_55.text
-#: ../src/gnome-terminal.schemas.in.h:5
+#: ../src/cinnamon-terminal.schemas.in.h:5
 msgid "Background image"
 msgstr "Ishusho mbuganyuma"
 
-#: ../src/gnome-terminal.schemas.in.h:6
+#: ../src/cinnamon-terminal.schemas.in.h:6
 #, fuzzy
 msgid "Background type"
 msgstr "Ubwoko"
 
-#: ../src/gnome-terminal.schemas.in.h:7
+#: ../src/cinnamon-terminal.schemas.in.h:7
 #, fuzzy
 msgid "Characters that are considered \"part of a word\""
 msgstr "Bya a ijambo"
 
-#: ../src/gnome-terminal.schemas.in.h:8
+#: ../src/cinnamon-terminal.schemas.in.h:8
 #, fuzzy
 msgid "Custom command to use instead of the shell"
 msgstr "Kugena Komandi: Kuri Gukoresha Bya Igikonoshwa"
 
-#: ../src/gnome-terminal.schemas.in.h:9
+#: ../src/cinnamon-terminal.schemas.in.h:9
 #, fuzzy
 msgid "Default color of terminal background"
 msgstr "Ibara Bya Mbuganyuma"
 
-#: ../src/gnome-terminal.schemas.in.h:10
+#: ../src/cinnamon-terminal.schemas.in.h:10
 #, fuzzy
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
@@ -856,12 +856,12 @@ msgid ""
 msgstr ""
 "Ibara Bya Mbuganyuma Nka a Ibara IMISUSIRE Cyangwa a Ibara Izina: Nka Umutuku"
 
-#: ../src/gnome-terminal.schemas.in.h:11
+#: ../src/cinnamon-terminal.schemas.in.h:11
 #, fuzzy
 msgid "Default color of text in the terminal"
 msgstr "Ibara Bya Umwandiko in"
 
-#: ../src/gnome-terminal.schemas.in.h:12
+#: ../src/cinnamon-terminal.schemas.in.h:12
 #, fuzzy
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
@@ -870,51 +870,51 @@ msgstr ""
 "Ibara Bya Umwandiko in Nka a Ibara IMISUSIRE Cyangwa a Ibara Izina: Nka "
 "Umutuku"
 
-#: ../src/gnome-terminal.schemas.in.h:13
+#: ../src/cinnamon-terminal.schemas.in.h:13
 #, fuzzy
 msgid "Effect of the Backspace key"
 msgstr "Bya Urufunguzo"
 
-#: ../src/gnome-terminal.schemas.in.h:14
+#: ../src/cinnamon-terminal.schemas.in.h:14
 #, fuzzy
 msgid "Effect of the Delete key"
 msgstr "Bya Urufunguzo"
 
-#: ../src/gnome-terminal.schemas.in.h:15
+#: ../src/cinnamon-terminal.schemas.in.h:15
 #, fuzzy
 msgid "Filename of a background image."
 msgstr "Bya a Mbuganyuma Ishusho"
 
-#: ../src/gnome-terminal.schemas.in.h:16
+#: ../src/cinnamon-terminal.schemas.in.h:16
 msgid "Font"
 msgstr "Intego-nyuguti"
 
-#: ../src/gnome-terminal.schemas.in.h:17
+#: ../src/cinnamon-terminal.schemas.in.h:17
 #, fuzzy
 msgid "How much to darken the background image"
 msgstr "Kuri Kwijimisha Mbuganyuma Ishusho"
 
-#: ../src/gnome-terminal.schemas.in.h:18
+#: ../src/cinnamon-terminal.schemas.in.h:18
 #, fuzzy
 msgid "Human-readable name of the profile"
 msgstr "Izina: Bya Ibijyana"
 
-#: ../src/gnome-terminal.schemas.in.h:19
+#: ../src/cinnamon-terminal.schemas.in.h:19
 #, fuzzy
 msgid "Human-readable name of the profile."
 msgstr "Izina: Bya Ibijyana"
 
-#: ../src/gnome-terminal.schemas.in.h:20
+#: ../src/cinnamon-terminal.schemas.in.h:20
 #, fuzzy
 msgid "Icon for terminal window"
 msgstr "kugirango Idirishya"
 
-#: ../src/gnome-terminal.schemas.in.h:21
+#: ../src/cinnamon-terminal.schemas.in.h:21
 #, fuzzy
 msgid "Icon to use for tabs/windows containing this profile."
 msgstr "Kuri Gukoresha kugirango Amasimbuka iyi Ibijyana"
 
-#: ../src/gnome-terminal.schemas.in.h:22
+#: ../src/cinnamon-terminal.schemas.in.h:22
 #, fuzzy
 msgid ""
 "If the application in the terminal sets the title (most typically people "
@@ -926,24 +926,24 @@ msgstr ""
 "Gushyiraho Umutwe Umutwe Gyayo Mbere Gyayo Nyuma Cyangwa Gusimbura Uduciro "
 "Gusimbura Mbere Nyuma Na Kwirengagiza"
 
-#: ../src/gnome-terminal.schemas.in.h:23
+#: ../src/cinnamon-terminal.schemas.in.h:23
 #, fuzzy
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr "NIBYO Kwemerera Porogaramu in Kuri Ubwoko Umwandiko"
 
-#: ../src/gnome-terminal.schemas.in.h:24
+#: ../src/cinnamon-terminal.schemas.in.h:24
 #, fuzzy
 msgid ""
 "If true, don't make a noise when applications send the escape sequence for "
 "the terminal bell."
 msgstr "NIBYO Ubwoko a Ryari: Porogaramu Kohereza kugirango"
 
-#: ../src/gnome-terminal.schemas.in.h:25
+#: ../src/cinnamon-terminal.schemas.in.h:25
 #, fuzzy
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "NIBYO a Urufunguzo Agafashsagenda Kuri Hasi:"
 
-#: ../src/gnome-terminal.schemas.in.h:26
+#: ../src/cinnamon-terminal.schemas.in.h:26
 #, fuzzy
 msgid ""
 "If true, scroll the background image with the foreground text; if false, "
@@ -952,7 +952,7 @@ msgstr ""
 "NIBYO Mbuganyuma Ishusho Na: Umwandiko NIBA SIBYO Ishusho in a BIHAMYE "
 "Ibirindiro Na Umwandiko hejuru"
 
-#: ../src/gnome-terminal.schemas.in.h:27
+#: ../src/cinnamon-terminal.schemas.in.h:27
 #, fuzzy
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell. "
@@ -960,7 +960,7 @@ msgid ""
 msgstr ""
 "NIBYO Komandi: Mo Imbere Nka a Ifashayinjira Igikonoshwa 0 a in Imbere Bya"
 
-#: ../src/gnome-terminal.schemas.in.h:28
+#: ../src/cinnamon-terminal.schemas.in.h:28
 #, fuzzy
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
@@ -968,7 +968,7 @@ msgid ""
 msgstr ""
 "NIBYO Sisitemu Ifashayinjira Ibyabitswe Na Ryari: Komandi: Mo Imbere ni"
 
-#: ../src/gnome-terminal.schemas.in.h:29
+#: ../src/cinnamon-terminal.schemas.in.h:29
 #, fuzzy
 msgid ""
 "If true, the terminal will use the desktop-global standard font if it's "
@@ -977,7 +977,7 @@ msgstr ""
 "NIBYO Gukoresha Ibiro Bisanzwe Intego- nyuguti NIBA Monospace: Na Intego- "
 "nyuguti Hejuru Na:"
 
-#: ../src/gnome-terminal.schemas.in.h:30
+#: ../src/cinnamon-terminal.schemas.in.h:30
 #, fuzzy
 msgid ""
 "If true, the theme color scheme used for text entry boxes will be used for "
@@ -986,20 +986,20 @@ msgstr ""
 "NIBYO Ibara Igishusho kugirango Umwandiko Icyinjijwe kugirango Bya Amabara "
 "ku Ukoresha:"
 
-#: ../src/gnome-terminal.schemas.in.h:31
+#: ../src/cinnamon-terminal.schemas.in.h:31
 #, fuzzy
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
 msgstr "NIBYO Agaciro Bya Igenamiterere in Bya a Igikonoshwa"
 
-#: ../src/gnome-terminal.schemas.in.h:32
+#: ../src/cinnamon-terminal.schemas.in.h:32
 #, fuzzy
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr "NIBYO Gishya Ibisohoka Kuri Hasi:"
 
-#: ../src/gnome-terminal.schemas.in.h:33
+#: ../src/cinnamon-terminal.schemas.in.h:33
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for bringing up the dialog for profile creation. "
@@ -1012,7 +1012,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:34
+#: ../src/cinnamon-terminal.schemas.in.h:34
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for closing a tab. Expressed as a string in the same "
@@ -1024,7 +1024,7 @@ msgstr ""
 "Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho Iy'ibusamo "
 "kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:35
+#: ../src/cinnamon-terminal.schemas.in.h:35
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for closing a window. Expressed as a string in the "
@@ -1037,7 +1037,7 @@ msgstr ""
 "Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho Iy'ibusamo "
 "kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:36
+#: ../src/cinnamon-terminal.schemas.in.h:36
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for copying selected text to the clipboard. Expressed "
@@ -1050,7 +1050,7 @@ msgstr ""
 "Kuri Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:37
+#: ../src/cinnamon-terminal.schemas.in.h:37
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for launching help. Expressed as a string in the same "
@@ -1062,7 +1062,7 @@ msgstr ""
 "Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho Iy'ibusamo "
 "kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:38
+#: ../src/cinnamon-terminal.schemas.in.h:38
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for making font larger. Expressed as a string in the "
@@ -1075,7 +1075,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:39
+#: ../src/cinnamon-terminal.schemas.in.h:39
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for making font smaller. Expressed as a string in the "
@@ -1088,7 +1088,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:40
+#: ../src/cinnamon-terminal.schemas.in.h:40
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for making font the normal size. Expressed as a string "
@@ -1101,7 +1101,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:41
+#: ../src/cinnamon-terminal.schemas.in.h:41
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for opening a new tab. Expressed as a string in the "
@@ -1114,7 +1114,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:42
+#: ../src/cinnamon-terminal.schemas.in.h:42
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for opening a new window. Expressed as a string in the "
@@ -1127,7 +1127,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:43
+#: ../src/cinnamon-terminal.schemas.in.h:43
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for pasting the contents of the clipboard into the "
@@ -1140,7 +1140,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:44
+#: ../src/cinnamon-terminal.schemas.in.h:44
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 1. Expressed as a string in the same "
@@ -1152,7 +1152,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:45
+#: ../src/cinnamon-terminal.schemas.in.h:45
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 10. Expressed as a string in the "
@@ -1165,7 +1165,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:46
+#: ../src/cinnamon-terminal.schemas.in.h:46
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 11. Expressed as a string in the "
@@ -1178,7 +1178,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:47
+#: ../src/cinnamon-terminal.schemas.in.h:47
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 12. Expressed as a string in the "
@@ -1191,7 +1191,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:48
+#: ../src/cinnamon-terminal.schemas.in.h:48
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 2. Expressed as a string in the same "
@@ -1203,7 +1203,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:49
+#: ../src/cinnamon-terminal.schemas.in.h:49
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 3. Expressed as a string in the same "
@@ -1215,7 +1215,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:50
+#: ../src/cinnamon-terminal.schemas.in.h:50
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 4. Expressed as a string in the same "
@@ -1227,7 +1227,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:51
+#: ../src/cinnamon-terminal.schemas.in.h:51
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 5. Expressed as a string in the same "
@@ -1239,7 +1239,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:52
+#: ../src/cinnamon-terminal.schemas.in.h:52
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 6. Expressed as a string in the same "
@@ -1251,7 +1251,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:53
+#: ../src/cinnamon-terminal.schemas.in.h:53
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 7. Expressed as a string in the same "
@@ -1263,7 +1263,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:54
+#: ../src/cinnamon-terminal.schemas.in.h:54
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 8. Expressed as a string in the same "
@@ -1275,7 +1275,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:55
+#: ../src/cinnamon-terminal.schemas.in.h:55
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for switch to tab 9. Expressed as a string in the same "
@@ -1287,7 +1287,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:56
+#: ../src/cinnamon-terminal.schemas.in.h:56
 #, fuzzy
 msgid ""
 "Keyboard shortcut key for toggling full screen mode. Expressed as a string "
@@ -1300,7 +1300,7 @@ msgstr ""
 "Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho Iy'ibusamo "
 "kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:57
+#: ../src/cinnamon-terminal.schemas.in.h:57
 #, fuzzy
 msgid ""
 "Keyboard shortcut key to reset and clear the terminal. Expressed as a string "
@@ -1313,7 +1313,7 @@ msgstr ""
 "Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho Iy'ibusamo "
 "kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:58
+#: ../src/cinnamon-terminal.schemas.in.h:58
 #, fuzzy
 msgid ""
 "Keyboard shortcut key to reset the terminal. Expressed as a string in the "
@@ -1325,7 +1325,7 @@ msgstr ""
 "kugirango Idosiye Gushyiraho Ihitamo Kuri Bidasanzwe Ikurikiranyanyuguti "
 "Yahagaritswe Hanyuma Oya Mwandikisho Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:59
+#: ../src/cinnamon-terminal.schemas.in.h:59
 #, fuzzy
 msgid ""
 "Keyboard shortcut key to set the terminal title. Expressed as a string in "
@@ -1338,7 +1338,7 @@ msgstr ""
 "Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho Iy'ibusamo "
 "kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:60
+#: ../src/cinnamon-terminal.schemas.in.h:60
 #, fuzzy
 msgid ""
 "Keyboard shortcut key to switch to the next tab. Expressed as a string in "
@@ -1351,7 +1351,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:61
+#: ../src/cinnamon-terminal.schemas.in.h:61
 #, fuzzy
 msgid ""
 "Keyboard shortcut key to switch to the previous tab. Expressed as a string "
@@ -1364,7 +1364,7 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:62
+#: ../src/cinnamon-terminal.schemas.in.h:62
 #, fuzzy
 msgid ""
 "Keyboard shortcut key to toggle the visibility of the menubar. Expressed as "
@@ -1377,176 +1377,176 @@ msgstr ""
 "Bidasanzwe Ikurikiranyanyuguti Yahagaritswe Hanyuma Oya Mwandikisho "
 "Iy'ibusamo kugirango iyi Igikorwa"
 
-#: ../src/gnome-terminal.schemas.in.h:63
+#: ../src/cinnamon-terminal.schemas.in.h:63
 #, fuzzy
 msgid "Keyboard shortcut to close a tab"
 msgstr "Iy'ibusamo Kuri Gufunga a Isunika"
 
-#: ../src/gnome-terminal.schemas.in.h:64
+#: ../src/cinnamon-terminal.schemas.in.h:64
 #, fuzzy
 msgid "Keyboard shortcut to close a window"
 msgstr "Iy'ibusamo Kuri Gufunga a Idirishya"
 
-#: ../src/gnome-terminal.schemas.in.h:65
+#: ../src/cinnamon-terminal.schemas.in.h:65
 #, fuzzy
 msgid "Keyboard shortcut to copy text"
 msgstr "Iy'ibusamo Kuri Gukoporora Umwandiko"
 
-#: ../src/gnome-terminal.schemas.in.h:66
+#: ../src/cinnamon-terminal.schemas.in.h:66
 #, fuzzy
 msgid "Keyboard shortcut to create a new profile"
 msgstr "Iy'ibusamo Kuri Kurema a Gishya Ibijyana"
 
-#: ../src/gnome-terminal.schemas.in.h:67
+#: ../src/cinnamon-terminal.schemas.in.h:67
 #, fuzzy
 msgid "Keyboard shortcut to launch help"
 msgstr "Iy'ibusamo Kuri Ifashayobora"
 
-#: ../src/gnome-terminal.schemas.in.h:68
+#: ../src/cinnamon-terminal.schemas.in.h:68
 #, fuzzy
 msgid "Keyboard shortcut to make font larger"
 msgstr "Iy'ibusamo Kuri Ubwoko Intego- nyuguti Kinini"
 
-#: ../src/gnome-terminal.schemas.in.h:69
+#: ../src/cinnamon-terminal.schemas.in.h:69
 #, fuzzy
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Iy'ibusamo Kuri Ubwoko Intego- nyuguti Bisanzwe Ingano"
 
-#: ../src/gnome-terminal.schemas.in.h:70
+#: ../src/cinnamon-terminal.schemas.in.h:70
 #, fuzzy
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Iy'ibusamo Kuri Ubwoko Intego- nyuguti Gitoya"
 
-#: ../src/gnome-terminal.schemas.in.h:71
+#: ../src/cinnamon-terminal.schemas.in.h:71
 #, fuzzy
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Iy'ibusamo Kuri Gufungura a Gishya Isunika"
 
-#: ../src/gnome-terminal.schemas.in.h:72
+#: ../src/cinnamon-terminal.schemas.in.h:72
 #, fuzzy
 msgid "Keyboard shortcut to open a new window"
 msgstr "Iy'ibusamo Kuri Gufungura a Gishya Idirishya"
 
-#: ../src/gnome-terminal.schemas.in.h:73
+#: ../src/cinnamon-terminal.schemas.in.h:73
 #, fuzzy
 msgid "Keyboard shortcut to paste text"
 msgstr "Iy'ibusamo Kuri Komeka Umwandiko"
 
-#: ../src/gnome-terminal.schemas.in.h:74
+#: ../src/cinnamon-terminal.schemas.in.h:74
 #, fuzzy
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Iy'ibusamo Kuri Kugarura Na Gusiba"
 
-#: ../src/gnome-terminal.schemas.in.h:75
+#: ../src/cinnamon-terminal.schemas.in.h:75
 #, fuzzy
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Iy'ibusamo Kuri Kugarura"
 
-#: ../src/gnome-terminal.schemas.in.h:76
+#: ../src/cinnamon-terminal.schemas.in.h:76
 #, fuzzy
 msgid "Keyboard shortcut to set the terminal title"
 msgstr "Iy'ibusamo Kuri Gushyiraho Umutwe"
 
-#: ../src/gnome-terminal.schemas.in.h:77
+#: ../src/cinnamon-terminal.schemas.in.h:77
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 1"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 1."
 
-#: ../src/gnome-terminal.schemas.in.h:78
+#: ../src/cinnamon-terminal.schemas.in.h:78
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 10"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 10"
 
-#: ../src/gnome-terminal.schemas.in.h:79
+#: ../src/cinnamon-terminal.schemas.in.h:79
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 11"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika"
 
-#: ../src/gnome-terminal.schemas.in.h:80
+#: ../src/cinnamon-terminal.schemas.in.h:80
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 12"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 12"
 
-#: ../src/gnome-terminal.schemas.in.h:81
+#: ../src/cinnamon-terminal.schemas.in.h:81
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 2"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 2."
 
-#: ../src/gnome-terminal.schemas.in.h:82
+#: ../src/cinnamon-terminal.schemas.in.h:82
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 3"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 3."
 
-#: ../src/gnome-terminal.schemas.in.h:83
+#: ../src/cinnamon-terminal.schemas.in.h:83
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 4"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 4."
 
-#: ../src/gnome-terminal.schemas.in.h:84
+#: ../src/cinnamon-terminal.schemas.in.h:84
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 5"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 5"
 
-#: ../src/gnome-terminal.schemas.in.h:85
+#: ../src/cinnamon-terminal.schemas.in.h:85
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 6"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 6"
 
-#: ../src/gnome-terminal.schemas.in.h:86
+#: ../src/cinnamon-terminal.schemas.in.h:86
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 7"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 7"
 
-#: ../src/gnome-terminal.schemas.in.h:87
+#: ../src/cinnamon-terminal.schemas.in.h:87
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 8"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 8"
 
-#: ../src/gnome-terminal.schemas.in.h:88
+#: ../src/cinnamon-terminal.schemas.in.h:88
 #, fuzzy
 msgid "Keyboard shortcut to switch to tab 9"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Isunika 9"
 
-#: ../src/gnome-terminal.schemas.in.h:89
+#: ../src/cinnamon-terminal.schemas.in.h:89
 #, fuzzy
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Komeza>> Isunika"
 
-#: ../src/gnome-terminal.schemas.in.h:90
+#: ../src/cinnamon-terminal.schemas.in.h:90
 #, fuzzy
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Iy'ibusamo Kuri Hindura Kuri Ibanjirije Isunika"
 
-#: ../src/gnome-terminal.schemas.in.h:91
+#: ../src/cinnamon-terminal.schemas.in.h:91
 #, fuzzy
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Iy'ibusamo Kuri Mukomatanya Mugaragaza Ubwoko"
 
-#: ../src/gnome-terminal.schemas.in.h:92
+#: ../src/cinnamon-terminal.schemas.in.h:92
 #, fuzzy
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "Iy'ibusamo Kuri Mukomatanya Ukugaragara Bya"
 
-#: ../src/gnome-terminal.schemas.in.h:93
+#: ../src/cinnamon-terminal.schemas.in.h:93
 #, fuzzy
 msgid "List of available encodings"
 msgstr "Bya Bihari"
 
-#: ../src/gnome-terminal.schemas.in.h:94
+#: ../src/cinnamon-terminal.schemas.in.h:94
 #, fuzzy
 msgid "List of profiles"
 msgstr "Bya"
 
-#: ../src/gnome-terminal.schemas.in.h:95
+#: ../src/cinnamon-terminal.schemas.in.h:95
 #, fuzzy
 msgid ""
-"List of profiles known to gnome-terminal. The list contains strings naming "
-"subdirectories relative to /apps/gnome-terminal/profiles."
+"List of profiles known to cinnamon-terminal. The list contains strings naming "
+"subdirectories relative to /apps/cinnamon-terminal/profiles."
 msgstr ""
 "Bya Kuri Urutonde Kirimo Ikurikiranyanyuguti Ububiko bwungirije Bifitanye "
 "isano Kuri"
 
-#: ../src/gnome-terminal.schemas.in.h:96
+#: ../src/cinnamon-terminal.schemas.in.h:96
 #, fuzzy
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
@@ -1554,12 +1554,12 @@ msgid ""
 "standard menubar accelerator to be disabled."
 msgstr "Na: Biturutse Ibikubiyemo accel Ihitamo Bisanzwe Kuri Yahagaritswe"
 
-#: ../src/gnome-terminal.schemas.in.h:97
+#: ../src/cinnamon-terminal.schemas.in.h:97
 #, fuzzy
 msgid "Number of lines to keep in scrollback"
 msgstr "Bya Imirongo Kuri in"
 
-#: ../src/gnome-terminal.schemas.in.h:98
+#: ../src/cinnamon-terminal.schemas.in.h:98
 #, fuzzy
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
@@ -1570,12 +1570,12 @@ msgstr ""
 "Bya Imirongo Kuri Inyuma in ku iyi Umubare Bya Imirongo Imirongo in Na: iyi "
 "Igenamiterere Umubarwa in Ububiko Gukoresha"
 
-#: ../src/gnome-terminal.schemas.in.h:99
+#: ../src/cinnamon-terminal.schemas.in.h:99
 #, fuzzy
 msgid "Palette for terminal applications"
 msgstr "kugirango Porogaramu"
 
-#: ../src/gnome-terminal.schemas.in.h:100
+#: ../src/cinnamon-terminal.schemas.in.h:100
 #, fuzzy
 msgid ""
 "Popup a dialog when an s/key challenge response query is detected and "
@@ -1584,12 +1584,12 @@ msgstr ""
 "a Ikiganiro Ryari: S Urufunguzo Ikibazo# ni Na ku a Ijambobanga... Ikiganiro "
 "Kohereza Kuri"
 
-#: ../src/gnome-terminal.schemas.in.h:101
+#: ../src/cinnamon-terminal.schemas.in.h:101
 #, fuzzy
 msgid "Position of the scrollbar"
 msgstr "Bya Agafashsagenda"
 
-#: ../src/gnome-terminal.schemas.in.h:102
+#: ../src/cinnamon-terminal.schemas.in.h:102
 #, fuzzy
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
@@ -1597,23 +1597,23 @@ msgid ""
 msgstr ""
 "Uduciro Gufunga Kuri Gufunga Na Ongera utangire Kuri Ongera utangire Komandi:"
 
-#: ../src/gnome-terminal.schemas.in.h:103
+#: ../src/cinnamon-terminal.schemas.in.h:103
 #, fuzzy
 msgid ""
 "Profile to be used when opening a new window or tab. Must be in profile_list."
 msgstr "Kuri Ryari: Gufungura%S a Gishya Idirishya Cyangwa Isunika in"
 
-#: ../src/gnome-terminal.schemas.in.h:104
+#: ../src/cinnamon-terminal.schemas.in.h:104
 #, fuzzy
 msgid "Profile to use for new terminals"
 msgstr "Kuri Gukoresha kugirango Gishya"
 
-#: ../src/gnome-terminal.schemas.in.h:105
+#: ../src/cinnamon-terminal.schemas.in.h:105
 #, fuzzy
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr "iyi Komandi: in Bya Igikonoshwa NIBA ni NIBYO"
 
-#: ../src/gnome-terminal.schemas.in.h:106
+#: ../src/cinnamon-terminal.schemas.in.h:106
 #, fuzzy
 msgid ""
 "Sets what code the backspace key generates. Possible values are \"ascii-del"
@@ -1627,7 +1627,7 @@ msgstr ""
 "usubira inyuma Cyangwa Gusiba ASCII Gusiba ni Igenamiterere kugirango "
 "Urufunguzo"
 
-#: ../src/gnome-terminal.schemas.in.h:107
+#: ../src/cinnamon-terminal.schemas.in.h:107
 #, fuzzy
 msgid ""
 "Sets what code the delete key generates. Possible values are \"ascii-del\" "
@@ -1640,11 +1640,11 @@ msgstr ""
 "Igenzura h kugirango H Inyuguti kugirango Kuri Gusiba usubira inyuma Cyangwa "
 "Gusiba ni Igenamiterere kugirango Urufunguzo"
 
-#: ../src/gnome-terminal.schemas.in.h:108
+#: ../src/cinnamon-terminal.schemas.in.h:108
 msgid "Support skey dingus clicking"
 msgstr ""
 
-#: ../src/gnome-terminal.schemas.in.h:110
+#: ../src/cinnamon-terminal.schemas.in.h:110
 #, fuzzy
 msgid ""
 "Terminals have a 16-color palette that applications inside the terminal can "
@@ -1652,12 +1652,12 @@ msgid ""
 "names. Color names should be in hex format e.g. \"#FF00FF\""
 msgstr "g."
 
-#: ../src/gnome-terminal.schemas.in.h:111
+#: ../src/cinnamon-terminal.schemas.in.h:111
 #, fuzzy
 msgid "Title for terminal"
 msgstr "kugirango"
 
-#: ../src/gnome-terminal.schemas.in.h:112
+#: ../src/cinnamon-terminal.schemas.in.h:112
 #, fuzzy
 msgid ""
 "Title to display for the terminal window or tab. This title may be replaced "
@@ -1667,21 +1667,21 @@ msgstr ""
 "Kuri Kugaragaza kugirango Idirishya Cyangwa Isunika Umutwe Gicurasi ku "
 "Cyangwa Na: Umutwe Gushyiraho ku Porogaramu Mo Imbere ku Igenamiterere"
 
-#: ../src/gnome-terminal.schemas.in.h:113
+#: ../src/cinnamon-terminal.schemas.in.h:113
 #, fuzzy
 msgid ""
 "True if the cursor should blink when the terminal has focus, for windows/"
 "tabs with this profile."
 msgstr "NIBA indanga Kunyoteera Ryari: kugirango Amasimbuka Na: iyi Ibijyana"
 
-#: ../src/gnome-terminal.schemas.in.h:114
+#: ../src/cinnamon-terminal.schemas.in.h:114
 #, fuzzy
 msgid ""
 "True if the menubar should be shown in new windows, for windows/tabs with "
 "this profile."
 msgstr "NIBA in Gishya kugirango Amasimbuka Na: iyi Ibijyana"
 
-#: ../src/gnome-terminal.schemas.in.h:115
+#: ../src/cinnamon-terminal.schemas.in.h:115
 #, fuzzy
 msgid ""
 "Type of terminal background. May be \"solid\" for a solid color, \"image\" "
@@ -1690,17 +1690,17 @@ msgstr ""
 "Bya Mbuganyuma Gikomeye kugirango a Gikomeye Ibara Ishusho kugirango Ishusho "
 "Cyangwa Bibonerana kugirango Ibonerana"
 
-#: ../src/gnome-terminal.schemas.in.h:116
+#: ../src/cinnamon-terminal.schemas.in.h:116
 #, fuzzy
 msgid "What to do with dynamic title"
 msgstr "Kuri Na: Umutwe"
 
-#: ../src/gnome-terminal.schemas.in.h:117
+#: ../src/cinnamon-terminal.schemas.in.h:117
 #, fuzzy
 msgid "What to do with the terminal when the child command exits"
 msgstr "Kuri Na: Ryari: Komandi:"
 
-#: ../src/gnome-terminal.schemas.in.h:118
+#: ../src/cinnamon-terminal.schemas.in.h:118
 #, fuzzy
 msgid ""
 "When selecting text by word, sequences of these characters are considered "
@@ -1710,46 +1710,46 @@ msgstr ""
 "Umwandiko ku ijambo Bya Inyuguti UMWE Amagambo Nka A OYA a Urutonde Itangira "
 "Inyuguti"
 
-#: ../src/gnome-terminal.schemas.in.h:119
+#: ../src/cinnamon-terminal.schemas.in.h:119
 #, fuzzy
 msgid ""
 "Where to put the terminal scrollbar. Possibilities are \"left\", \"right\", "
 "and \"disabled\"."
 msgstr "Kuri Gushyira Agafashsagenda Ibumoso: Iburyo: Na Yahagaritswe"
 
-#: ../src/gnome-terminal.schemas.in.h:120
+#: ../src/cinnamon-terminal.schemas.in.h:120
 #, fuzzy
 msgid "Whether the menubar has access keys"
 msgstr "Utubuto"
 
-#: ../src/gnome-terminal.schemas.in.h:121
+#: ../src/cinnamon-terminal.schemas.in.h:121
 #, fuzzy
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "Bisanzwe Iy'ibusamo kugirango ni Bikora"
 
-#: ../src/gnome-terminal.schemas.in.h:122
+#: ../src/cinnamon-terminal.schemas.in.h:122
 #, fuzzy
 msgid "Whether to allow bold text"
 msgstr "Kuri Kwemerera UTSINDAGIYE Umwandiko"
 
-#: ../src/gnome-terminal.schemas.in.h:123
+#: ../src/cinnamon-terminal.schemas.in.h:123
 #, fuzzy
 msgid ""
 "Whether to ask for confirmation when closing a terminal window which has "
 "more than one open tab."
 msgstr "Kuri kugirango Iyemeza Ryari: a Idirishya Birenzeho Gufungura Isunika"
 
-#: ../src/gnome-terminal.schemas.in.h:124
+#: ../src/cinnamon-terminal.schemas.in.h:124
 #, fuzzy
 msgid "Whether to ask for confirmation when closing terminal windows"
 msgstr "Kuri kugirango Iyemeza Ryari:"
 
-#: ../src/gnome-terminal.schemas.in.h:125
+#: ../src/cinnamon-terminal.schemas.in.h:125
 #, fuzzy
 msgid "Whether to blink the cursor"
 msgstr "Kuri Kunyoteera indanga"
 
-#: ../src/gnome-terminal.schemas.in.h:126
+#: ../src/cinnamon-terminal.schemas.in.h:126
 #, fuzzy
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
@@ -1759,52 +1759,52 @@ msgstr ""
 "Kuri Ibaruwa... Utubuto kugirango Gicurasi Na: Porogaramu Gukoresha Mo "
 "Imbere Kuri Bidakora"
 
-#: ../src/gnome-terminal.schemas.in.h:127
+#: ../src/cinnamon-terminal.schemas.in.h:127
 #, fuzzy
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "Kuri Komandi: in Nka a Ifashayinjira Igikonoshwa"
 
-#: ../src/gnome-terminal.schemas.in.h:128
+#: ../src/cinnamon-terminal.schemas.in.h:128
 #, fuzzy
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Kuri Gukoresha a Kunoza Komandi: Bya Igikonoshwa"
 
-#: ../src/gnome-terminal.schemas.in.h:129
+#: ../src/cinnamon-terminal.schemas.in.h:129
 #, fuzzy
 msgid "Whether to scroll background image"
 msgstr "Kuri Mbuganyuma Ishusho"
 
-#: ../src/gnome-terminal.schemas.in.h:130
+#: ../src/cinnamon-terminal.schemas.in.h:130
 #, fuzzy
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Kuri Kuri Hasi: Ryari: a Urufunguzo ni"
 
-#: ../src/gnome-terminal.schemas.in.h:131
+#: ../src/cinnamon-terminal.schemas.in.h:131
 #, fuzzy
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "Kuri Kuri Hasi: Ryari: Gishya Ibisohoka"
 
-#: ../src/gnome-terminal.schemas.in.h:132
+#: ../src/cinnamon-terminal.schemas.in.h:132
 #, fuzzy
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "Kuri Garagaza in Gishya Amasimbuka"
 
-#: ../src/gnome-terminal.schemas.in.h:133
+#: ../src/cinnamon-terminal.schemas.in.h:133
 #, fuzzy
 msgid "Whether to silence terminal bell"
 msgstr "Kuri"
 
-#: ../src/gnome-terminal.schemas.in.h:134
+#: ../src/cinnamon-terminal.schemas.in.h:134
 #, fuzzy
 msgid "Whether to update login records when launching terminal command"
 msgstr "Kuri Kuvugurura Ifashayinjira Ibyabitswe Ryari: Komandi:"
 
-#: ../src/gnome-terminal.schemas.in.h:135
+#: ../src/cinnamon-terminal.schemas.in.h:135
 #, fuzzy
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Kuri Gukoresha Amabara Bivuye kugirango"
 
-#: ../src/gnome-terminal.schemas.in.h:136
+#: ../src/cinnamon-terminal.schemas.in.h:136
 #, fuzzy
 msgid "Whether to use the system font"
 msgstr "Kuri Gukoresha Sisitemu Intego- nyuguti"
@@ -1815,7 +1815,7 @@ msgstr "Kuri Gukoresha Sisitemu Intego- nyuguti"
 #. translated. This is provided for customization of the default encoding
 #. menu; see bug 144810 for an use case. In most cases, this should be
 #. left alone.
-#: ../src/gnome-terminal.schemas.in.h:143
+#: ../src/cinnamon-terminal.schemas.in.h:143
 msgid "[UTF-8,current]"
 msgstr "[UTF-8,current]"
 
@@ -2261,7 +2261,7 @@ msgstr "Kuri Ibirimo Mbuganyuma Ishusho kugirango Ibijyana"
 #: ../src/terminal-profile.c:1870
 #, fuzzy, c-format
 msgid ""
-"GNOME Terminal: font name \"%s\" set in configuration database is not valid\n"
+"Cinnamon Terminal: font name \"%s\" set in configuration database is not valid\n"
 msgstr "Intego- nyuguti Izina: Gushyiraho in Iboneza Ububikoshingiro ni OYA"
 
 #: ../src/terminal-profile.c:2171
@@ -2621,7 +2621,7 @@ msgid "Close All _Tabs"
 msgstr "Funga za simbuka zose"
 
 #: ../src/terminal-window.c:2740
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr ""
 
 #: ../src/terminal-window.c:2744
@@ -2916,7 +2916,7 @@ msgstr "Umubarwa ni Binini ikoresha"
 #: ../src/terminal.c:1159
 #, fuzzy, c-format
 msgid ""
-"Option --%s is no longer supported in this version of gnome-terminal; you "
+"Option --%s is no longer supported in this version of cinnamon-terminal; you "
 "might want to create a profile with the desired setting, and use the new --"
 "window-with-profile option\n"
 msgstr ""
@@ -3066,7 +3066,7 @@ msgstr "IDOSIYE ni Ibuze Porogaramu ni"
 #: ../src/terminal.c:3798
 #, fuzzy
 msgid ""
-"It appears that you do not have gnome-terminal.server installed in a valid "
+"It appears that you do not have cinnamon-terminal.server installed in a valid "
 "location. Factory mode disabled.\n"
 msgstr "OYA Seriveri in a Byemewe Ahantu Ubwoko Yahagaritswe"
 

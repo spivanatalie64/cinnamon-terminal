@@ -92,7 +92,7 @@ git checkout -b release/25.06.0
 Edit `meson.build`:
 
 ```meson
-project('gnome-terminal',
+project('cinnamon-terminal',
   version: '25.06.0',
   ...
 )
@@ -315,7 +315,7 @@ Security:
     (Reported by @security-researcher, !73)
 
 Upstream Sync:
-  - Cherry-picked GNOME Terminal fixes up to commit 4a2b8c1
+  - Cherry-picked Cinnamon Terminal fixes up to commit 4a2b8c1
   - Includes VTE security fix for CVE-2025-4320
 
 X11:
@@ -408,7 +408,7 @@ glab release create v25.06.0 \
 - CVE-2025-4321: Heap buffer overflow in PTY escape sequence parsing (High)
 
 ### Upstream Sync
-- Cherry-picked GNOME Terminal fixes up to commit 4a2b8c1
+- Cherry-picked Cinnamon Terminal fixes up to commit 4a2b8c1
 
 ### X11
 - Restored X11 transparency blend function
@@ -490,8 +490,8 @@ meson compile -C build-fix
 meson test -C build-fix
 
 # Step 4: Manual smoke test
-GDK_BACKEND=x11 ./build-fix/gnome-terminal-server --app-id org.gnome.Terminal.fix &
-GNOME_TERMINAL_SERVICE=org.gnome.Terminal.fix ./build-fix/gnome-terminal --version
+GDK_BACKEND=x11 ./build-fix/cinnamon-terminal-server --app-id org.acreetionos.cinnamon.Terminal.fix &
+GNOME_TERMINAL_SERVICE=org.acreetionos.cinnamon.Terminal.fix ./build-fix/cinnamon-terminal --version
 
 # Step 5: Commit
 git add src/terminal-screen.cc
@@ -748,8 +748,8 @@ meson compile -C build-debug
 meson test -C build-debug --verbose
 
 # Manual smoke tests
-GDK_BACKEND=x11 ./build-release/gnome-terminal-server --app-id org.gnome.Terminal.test &
-GNOME_TERMINAL_SERVICE=org.gnome.Terminal.test ./build-release/gnome-terminal
+GDK_BACKEND=x11 ./build-release/cinnamon-terminal-server --app-id org.acreetionos.cinnamon.Terminal.test &
+GNOME_TERMINAL_SERVICE=org.acreetionos.cinnamon.Terminal.test ./build-release/cinnamon-terminal
 # ... test tabs, profiles, transparency, paste ...
 
 # ---- HARDENING DAY 5: Fix found ----
@@ -963,7 +963,7 @@ meson test -C build-verify
 
 # Verify installed binaries
 sudo meson install -C build-verify
-gnome-terminal --version
+cinnamon-terminal --version
 ```
 
 ---

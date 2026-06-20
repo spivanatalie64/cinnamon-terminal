@@ -1,12 +1,12 @@
-# Indonesian translation for gnome-terminal help
-# Copyright (C) 2016 gnome-terminal's COPYRIGHT HOLDER
-# This file is distributed under the same license as the gnome-terminal package.
+# Indonesian translation for cinnamon-terminal help
+# Copyright (C) 2016 cinnamon-terminal's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cinnamon-terminal package.
 # Kukuh Syafaat <syafaatkukuh@gmail.com>, 2016.
 # Andika Triwidada <andika@gmail.com>, 2020, 2021.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal master\n"
+"Project-Id-Version: cinnamon-terminal master\n"
 "POT-Creation-Date: 2021-04-19 15:09+0000\n"
 "PO-Revision-Date: 2021-08-24 15:51+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
@@ -1718,7 +1718,7 @@ msgstr ""
 
 #. (itstool) path: figure/title
 #: C/introduction.page:42
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminal GNOME"
 
 #. (itstool) path: figure/desc
@@ -1734,10 +1734,10 @@ msgstr "Cuplikan layar <app>Terminal</app> GNOME"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='50826cb88874cf2c3d96ddf0c58d0c05'"
 
 #. (itstool) path: p/link

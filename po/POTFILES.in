@@ -1,10 +1,10 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
-data/org.gnome.Terminal.desktop.in
-data/org.gnome.Terminal.Preferences.desktop.in
-data/org.gnome.Terminal.metainfo.xml.in
-data/org.gnome.Terminal.Nautilus.metainfo.xml.in
-src/org.gnome.Terminal.gschema.xml
+data/org.acreetionos.cinnamon.Terminal.desktop.in
+data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in
+data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in
+data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in
+src/org.acreetionos.cinnamon.Terminal.gschema.xml
 src/preferences.ui
 src/prefs-main.cc
 src/profile-editor.cc

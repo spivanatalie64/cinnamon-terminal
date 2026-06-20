@@ -1,7 +1,7 @@
 # translation of bn_IN.po to Bengali INDIA
 # Bengali India Translation of Gnome-Terminal.
 # Copyright (C)2003 Free Software Foundation,Inc
-# This file is distributed under the same license as the gnome-terminal package.
+# This file is distributed under the same license as the cinnamon-terminal package.
 #
 # Runa Bhattacharjee <runa77@softhome.net>, 2003.
 # Runa Bhattacharjee <runa@bengalinux.org>, 2006.
@@ -27,22 +27,22 @@ msgstr ""
 "X-DamnedLies-Scope: partial\n"
 "X-Generator: Gtranslator 3.38.0\n"
 
-#: org.gnome.Terminal.appdata.xml.in:35
-msgid "org.gnome.Terminal.desktop"
-msgstr "org.gnome.Terminal.desktop"
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:35
+msgid "org.acreetionos.cinnamon.Terminal.desktop"
+msgstr "org.acreetionos.cinnamon.Terminal.desktop"
 
-#: org.gnome.Terminal.appdata.xml.in:36
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:37
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:36
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:37
 msgid "GPL-3.0+ or GFDL-1.3-only"
 msgstr "GPL-3.0 + বা GFDL-1.3-শুধুমাত্র"
 
-#: org.gnome.Terminal.appdata.xml.in:37
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:38
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:37
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:38
 msgid "GPL-3.0+"
 msgstr "GPL-3.0+"
 
 #. VERSION=@VERSION@
-#: org.gnome.Terminal.appdata.xml.in:38 org.gnome.Terminal.desktop.in.in:4
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:38 org.acreetionos.cinnamon.Terminal.desktop.in.in:4
 #: src/server.c:150 src/terminal-accels.c:232 src/terminal.c:570
 #: src/terminal-menubar.ui.in:144 src/terminal-tab-label.c:81
 #: src/terminal-window.c:1869 src/terminal-window.c:2135
@@ -50,20 +50,20 @@ msgstr "GPL-3.0+"
 msgid "Terminal"
 msgstr "টার্মিন্যাল"
 
-#: org.gnome.Terminal.appdata.xml.in:39 org.gnome.Terminal.desktop.in.in:5
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:39 org.acreetionos.cinnamon.Terminal.desktop.in.in:5
 msgid "Use the command line"
 msgstr "কমান্ড লাইন ব্যবহার করুন"
 
-#: org.gnome.Terminal.appdata.xml.in:41
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:41
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
 "GNOME টার্মিন্যাল হল একটি UNIX সেল এনভায়রনমেন্ট অ্যাক্সেস করার একটি টার্মিন্যাল "
 "ইমিউলেটর অ্যাপ্লিকেশন যা আপনার সিস্টেমে উপলব্ধ প্রোগ্রামগুলি চালাতে ব্যবহার করা যেতে "
 "পারে।"
 
-#: org.gnome.Terminal.appdata.xml.in:42
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:42
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
@@ -71,68 +71,68 @@ msgstr ""
 "এটি একাধিক প্রোফাইল, একাধিক ট্যাব সমর্থন করে, এবং একাধিক কীবোর্ড শর্টকাট "
 "বাস্তবায়িত করে।"
 
-#: org.gnome.Terminal.appdata.xml.in:45
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:45
 msgid ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
 msgstr ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-terminal.png"
 
-#: org.gnome.Terminal.appdata.xml.in:48
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:48
 msgid "HiDpiIcon"
 msgstr "HiDpiIcon"
 
-#: org.gnome.Terminal.appdata.xml.in:49
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:49
 msgid "HighContrast"
 msgstr "HighContrast"
 
-#: org.gnome.Terminal.appdata.xml.in:50
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:50
 msgid "ModernToolkit"
 msgstr "ModernToolkit"
 
-#: org.gnome.Terminal.appdata.xml.in:51
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:51
 #| msgid "_Search for:"
 msgid "SearchProvider"
 msgstr "অনুসন্ধানপ্রভাইডার"
 
-#: org.gnome.Terminal.appdata.xml.in:52
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:52
 msgid "UserDocs"
 msgstr "UserDocs"
 
-#: org.gnome.Terminal.appdata.xml.in:54
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:44
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:54
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:44
 msgid "https://wiki.gnome.org/Apps/Terminal"
 msgstr "https://wiki.gnome.org/Apps/Terminal"
 
 #. This is the name of a colour scheme
-#: org.gnome.Terminal.appdata.xml.in:55 org.gnome.Terminal.appdata.xml.in:56
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:45 src/preferences.ui:214
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:55 org.acreetionos.cinnamon.Terminal.appdata.xml.in:56
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:45 src/preferences.ui:214
 msgid "GNOME"
 msgstr "GNOME"
 
-#: org.gnome.Terminal.appdata.xml.in:57
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:46
+#: org.acreetionos.cinnamon.Terminal.appdata.xml.in:57
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:46
 msgid "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 msgstr "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:35
-msgid "org.gnome.Terminal.Nautilus"
-msgstr "org.gnome.Terminal.Nautilus"
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:35
+msgid "org.acreetionos.cinnamon.Terminal.Nautilus"
+msgstr "org.acreetionos.cinnamon.Terminal.Nautilus"
 
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:36
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:36
 msgid "org.gnome.Nautilus.desktop"
 msgstr "org.gnome.Nautilus.desktop"
 
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:39
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:39
 #| msgid "Terminal options:"
 msgid "Terminal plugin for Files"
 msgstr "ফাইলগুলির জন্য টার্মিনাল প্লাগইন"
 
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:40
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:40
 #| msgid "Open a terminal"
 msgid "Open a terminal from Files"
 msgstr "ফাইলগুলি থেকে একটি টার্মিনাল খুলুন"
 
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:42
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:42
 msgid ""
 "Open Terminal is a plugin for the Files application that adds a menu item to "
 "the context menu to open a terminal in the currently browsed directory."
@@ -140,50 +140,50 @@ msgstr ""
 "ওপেন টার্মিনাল ফাইল অ্যাপ্লিকেশনের জন্য একটি প্লাগইন যা বর্তমানে ব্রাউজ ডিরেক্টরিতে "
 "টার্মিনালটি খোলার জন্য প্রসঙ্গ মেনুতে একটি মেনু আইটেম যুক্ত করে।"
 
-#: org.gnome.Terminal.Nautilus.metainfo.xml.in:47
+#: org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:47
 #| msgid "Close Terminal"
-msgid "gnome-terminal"
-msgstr "gnome-terminal"
+msgid "cinnamon-terminal"
+msgstr "cinnamon-terminal"
 
-#: org.gnome.Terminal.desktop.in.in:6
+#: org.acreetionos.cinnamon.Terminal.desktop.in.in:6
 #| msgid "shell;prompt;command;commandline;"
 msgid "shell;prompt;command;commandline;cmd;"
 msgstr "সেল;প্রম্পট;কম্যান্ড;কম্যান্ডলাইন;cmd;"
 
-#: org.gnome.Terminal.desktop.in.in:9
+#: org.acreetionos.cinnamon.Terminal.desktop.in.in:9
 #| msgid "Close Terminal"
-msgid "org.gnome.Terminal"
-msgstr "org.gnome.Terminal"
+msgid "org.acreetionos.cinnamon.Terminal"
+msgstr "org.acreetionos.cinnamon.Terminal"
 
-#: org.gnome.Terminal.desktop.in.in:17 src/terminal-accels.c:127
+#: org.acreetionos.cinnamon.Terminal.desktop.in.in:17 src/terminal-accels.c:127
 #| msgid "Window"
 msgid "New Window"
 msgstr "নতুন উইন্ডো"
 
 # auto translated by TM merge from project: virt-manager, version: 0.9.0, DocId: virt-manager
-#: org.gnome.Terminal.desktop.in.in:21 src/terminal-accels.c:146
+#: org.acreetionos.cinnamon.Terminal.desktop.in.in:21 src/terminal-accels.c:146
 msgid "Preferences"
 msgstr "পছন্দ"
 
 #. Translators: Keep single quote please!
-#: src/org.gnome.Terminal.gschema.xml:133
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:133
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'নামবিহীন'"
 
-#: src/org.gnome.Terminal.gschema.xml:134
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:134
 msgid "Human-readable name of the profile"
 msgstr "প্রোফাইলের জন্য নির্ধারিত পাঠযোগ্য নাম"
 
-#: src/org.gnome.Terminal.gschema.xml:135
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:135
 msgid "Human-readable name of the profile."
 msgstr "প্রোফাইলের জন্য নির্ধারিত পাঠযোগ্য নাম।"
 
-#: src/org.gnome.Terminal.gschema.xml:139
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:139
 msgid "Default color of text in the terminal"
 msgstr "টার্মিন্যালে ব্যবহৃত হরফের ডিফল্ট রং"
 
-#: src/org.gnome.Terminal.gschema.xml:140
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:140
 #| msgid ""
 #| "Default color of text in the terminal, as a color specification (can be "
 #| "HTML-style hex digits, or a color name such as \"red\")."
@@ -194,11 +194,11 @@ msgstr ""
 "রঙের স্পেসিফিকেশন হিসাবে টার্মিনালে পাঠ্যের ডিফল্ট রঙ (এইচটিএমএল-স্টাইলের হেক্স "
 "সংখ্যা বা \"লাল\" এর মতো রঙের নাম হতে পারে)।"
 
-#: src/org.gnome.Terminal.gschema.xml:144
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:144
 msgid "Default color of terminal background"
 msgstr "টার্মিন্যাল পটভূমির ডিফল্ট রং"
 
-#: src/org.gnome.Terminal.gschema.xml:145
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:145
 #| msgid ""
 #| "Default color of terminal background, as a color specification (can be "
 #| "HTML-style hex digits, or a color name such as \"red\")."
@@ -209,11 +209,11 @@ msgstr ""
 "রঙের স্পেসিফিকেশন হিসাবে টার্মিনাল পটভূমির ডিফল্ট রঙ (HTML- শৈলীর হেক্স সংখ্যা বা "
 "\"লাল\" এর মতো রঙের নাম হতে পারে)।"
 
-#: src/org.gnome.Terminal.gschema.xml:149
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:149
 msgid "Default color of bold text in the terminal"
 msgstr "টার্মিন্যালে ব্যবহৃত গাঢ় হরফের ডিফল্ট রং"
 
-#: src/org.gnome.Terminal.gschema.xml:150
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:150
 #| msgid ""
 #| "Default color of bold text in the terminal, as a color specification (can "
 #| "be HTML-style hex digits, or a color name such as \"red\"). This is "
@@ -227,26 +227,26 @@ msgstr ""
 "হেক্স ডিজিট বা \"লাল\" এর মতো রঙের নাম হতে পারে)। যদি গা -়-বর্ণ-একই-হিসাবে-"
 "এফজি সত্য হয় তবে এটি এড়ানো হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:154
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:154
 msgid "Whether bold text should use the same color as normal text"
 msgstr "গাঢ় হরফ ও স্বাভাবিক হরফের জন্য একই রং ব্যবহার করা হবে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:155
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:155
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr "মান true হলে, গাঢ় হরফ ও স্বাভাবিক হরফের জন্য একই রং ব্যবহার করা হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:169
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:169
 #| msgid "Whether to blink the cursor"
 msgid "Whether to use custom cursor colors"
 msgstr "কাস্টম কার্সারের রং ব্যবহার করা হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:174
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:174
 #| msgid "_Background color:"
 msgid "Cursor background color"
 msgstr "কার্সার পটভূমির রঙ"
 
-#: src/org.gnome.Terminal.gschema.xml:175
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:175
 #| msgid ""
 #| "Default color of bold text in the terminal, as a color specification (can "
 #| "be HTML-style hex digits, or a color name such as \"red\"). This is "
@@ -260,7 +260,7 @@ msgstr ""
 "স্টাইলের হেক্স সংখ্যা বা \"লাল\" এর মতো রঙের নাম হতে পারে)। কার্সার-রঙ-সেটটি "
 "মিথ্যা হলে এটি উপেক্ষা করা হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:180
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:180
 #| msgid ""
 #| "Default color of bold text in the terminal, as a color specification (can "
 #| "be HTML-style hex digits, or a color name such as \"red\"). This is "
@@ -274,12 +274,12 @@ msgstr ""
 "হিসাবে (এইচটিএমএল-স্টাইলের হেক্স সংখ্যা বা \"লাল\" এর মতো রঙের নাম হতে পারে)। "
 "কার্সার-রঙ-সেটটি মিথ্যা হলে এটি উপেক্ষা করা হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:189
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:189
 #| msgid "_Background color:"
 msgid "Highlight background color"
 msgstr "পটভূমির রঙ হাইলাইট করুন"
 
-#: src/org.gnome.Terminal.gschema.xml:190
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:190
 #| msgid ""
 #| "Default color of bold text in the terminal, as a color specification (can "
 #| "be HTML-style hex digits, or a color name such as \"red\"). This is "
@@ -293,7 +293,7 @@ msgstr ""
 "স্টাইলের হেক্স সংখ্যা বা \"লাল\" এর মতো রঙের নাম হতে পারে)। হাইলাইট-রঙ-সেটটি "
 "মিথ্যা হলে এটি উপেক্ষা করা হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:195
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:195
 #| msgid ""
 #| "Default color of bold text in the terminal, as a color specification (can "
 #| "be HTML-style hex digits, or a color name such as \"red\"). This is "
@@ -308,20 +308,20 @@ msgstr ""
 "নির্দিষ্টকরণ হিসাবে (এইচটিএমএল-স্টাইলের হেক্স সংখ্যা বা \"লাল\" এর মতো রঙের নাম "
 "হতে পারে)। হাইলাইট-রঙ-সেটটি মিথ্যা হলে এটি উপেক্ষা করা হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:214
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:214
 #| msgid "Whether to allow bold text"
 msgid "Whether bold is also bright"
 msgstr "যখন গাঢ় উজ্জ্বল ও"
 
-#: src/org.gnome.Terminal.gschema.xml:219
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:219
 msgid "Whether to ring the terminal bell"
 msgstr "টার্মিনাল বেল বাজানো হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:228
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:228
 msgid "Default number of columns"
 msgstr "কলামের ডিফল্ট সংখ্যা"
 
-#: src/org.gnome.Terminal.gschema.xml:229
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:229
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -329,11 +329,11 @@ msgstr ""
 "নবনির্মিত টার্মিন্যাল উইন্ডোর মধ্যে প্রদর্শিত কলামের সংখ্যা। use_custom_default_size "
 "সক্রিয় না করা হলে এটি প্রয়োগ করা হবে না।"
 
-#: src/org.gnome.Terminal.gschema.xml:234
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:234
 msgid "Default number of rows"
 msgstr "সারির ডিফল্ট সংখ্যা"
 
-#: src/org.gnome.Terminal.gschema.xml:235
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:235
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -341,15 +341,15 @@ msgstr ""
 "নবনির্মিত টার্মিন্যাল উইন্ডোর মধ্যে প্রদর্শিত সারির সংখ্যা। use_custom_default_size "
 "সক্রিয় না করা হলে এটি প্রয়োগ করা হবে না।"
 
-#: src/org.gnome.Terminal.gschema.xml:239
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:239
 msgid "When to show the scrollbar"
 msgstr "কখন স্ক্রোলবার দেখানো হবে"
 
-#: src/org.gnome.Terminal.gschema.xml:243
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:243
 msgid "Number of lines to keep in scrollback"
 msgstr "স্ক্রোলব্যাকে উপস্থিত পংক্তির সংখ্যা"
 
-#: src/org.gnome.Terminal.gschema.xml:244
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:244
 #| msgid ""
 #| "Number of scrollback lines to keep around. You can scroll back in the "
 #| "terminal by this number of lines; lines that don't fit in the scrollback "
@@ -363,11 +363,11 @@ msgstr ""
 "টার্মিনালে ফিরে যেতে পারবেন; স্ক্রোলব্যাকের মধ্যে উপযুক্ত নয় এমন লাইনগুলি বাতিল করা "
 "হয়। যদি scrollback_unlimited সত্য হয় তবে এই মানটিকে উপেক্ষা করা হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:248
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:248
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "স্ক্রোল-ব্যাকের মধ্যে সীমাহীন পংক্তি সংখ্যা অন্তর্ভুক্ত করা হবে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:249
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:249
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -377,20 +377,20 @@ msgstr ""
 "তথ্য ডিস্কের মধ্যে সংরক্ষণ করা হয় এবং এর ফলে টার্মিন্যাল থেকে বৃহৎ পরিমাণ তথ্য উৎপন্ন "
 "হলে ডিস্কের স্থান পূর্ণ হওয়ার সম্ভাবনা রয়েছে।"
 
-#: src/org.gnome.Terminal.gschema.xml:253
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:253
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "কি টেপা হলে নীচের প্রান্ত অবধি স্ক্রোল করা হবে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:254
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:254
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "মান true (সত্য) হলে, কোনো কি টেপা হলে স্ক্রোলবারটি নীচে স্থানান্তর করা হয়।"
 
-#: src/org.gnome.Terminal.gschema.xml:258
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:258
 #| msgid "Whether to scroll to the bottom when there's new output"
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "যখন নতুন আউটপুট থাকবে তখন নীচে স্ক্রোল করা হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:259
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:259
 #| msgid ""
 #| "If true, whenever there's new output the terminal will scroll to the "
 #| "bottom."
@@ -398,11 +398,11 @@ msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr "যদি সত্য হয়, যখনই কোনও নতুন আউটপুট আসবে তখন টার্মিনালটি নীচে স্ক্রোল করবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:263
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:263
 msgid "What to do with the terminal when the child command exits"
 msgstr "চাইল্ড কমান্ড বন্ধ করা হলে টার্মিন্যালের ক্ষেত্রে করণীয় কর্ম"
 
-#: src/org.gnome.Terminal.gschema.xml:264
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:264
 #| msgid ""
 #| "Possible values are \"close\" to close the terminal, and \"restart\" to "
 #| "restart the command."
@@ -413,11 +413,11 @@ msgstr ""
 "টার্মিনালটি বন্ধ করার জন্য সম্ভাব্য মানগুলি \"close\", কমান্ডটি পুনরায় আরম্ভ করার জন্য "
 "\"restart\" এবং কোনও কমান্ড না দিয়ে টার্মিনালটি উন্মুক্ত রাখতে \"hold\" রাখে।"
 
-#: src/org.gnome.Terminal.gschema.xml:268
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:268
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "টার্মিন্যালের মধ্যে কমান্ডটি লগ-ইন শেল রূপে আরম্ভ করা হবে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:269
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:269
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -425,16 +425,16 @@ msgstr ""
 "মান true (সত্য) হলে, টার্মিন্যালের কমান্ডটি লগ-ইন শেল হিসাবে আরম্ভ করা "
 "হবে(argv[0]-র পূর্বে একটি হাইফেন চিহ্ন উপস্থিত থাকবে।)"
 
-#: src/org.gnome.Terminal.gschema.xml:273
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:273
 #| msgid "Whether to update login records when launching terminal command"
 msgid "Whether to preserve the working directory when opening a new terminal"
 msgstr "নতুন টার্মিনাল খোলার সময় কার্যকারী ডিরেক্টরি সংরক্ষণ করা হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:280
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:280
 msgid "Whether to run a custom command instead of the shell"
 msgstr "শেলের পরিবর্তে নিজস্ব পছন্দ অনুসারে কোনো কমান্ড চালানো হবে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:281
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:281
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -442,11 +442,11 @@ msgstr ""
 "মান true (সত্য) হলে, চলমান শেলের পরিবর্তে custom_command বৈশিষ্ট্যের মান প্রয়োগ "
 "করা হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:285
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:285
 msgid "Whether to blink the cursor"
 msgstr "কার্সার ঝলকানো হবে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:286
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:286
 #| msgid ""
 #| "The possible values are \"system\" to use the global cursor blinking "
 #| "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -457,71 +457,71 @@ msgstr ""
 "সম্ভাব্য মানগুলি হল, কার্সার ঝলকানির সার্বজনীন বৈশিষ্ট্য প্রয়োগের জন্য \"system\", "
 "অথবা সুনির্দিষ্ট রপে সক্রিয় অথবা নিষ্ক্রিয় করার জন্য যথাক্রমনে \"on\" অথবা \"off\"।"
 
-#: src/org.gnome.Terminal.gschema.xml:290
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:290
 msgid "The cursor appearance"
 msgstr "কার্সারের প্রদর্শন"
 
-#: src/org.gnome.Terminal.gschema.xml:298
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:298
 msgid "Custom command to use instead of the shell"
 msgstr "শেলের পরিবর্তে ব্যবহারের জন্য চিহ্নিত স্বনির্বাচিত কমান্ড"
 
-#: src/org.gnome.Terminal.gschema.xml:299
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:299
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "use_custom_command বিকল্পের মান true (সত্য) হলে শেলের পরিবর্তে চিহ্নিত কমান্ডটি "
 "চালানো হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:318
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:318
 msgid "Palette for terminal applications"
 msgstr "টার্মিন্যালের অ্যাপ্লিকেশনের জন্য ব্যবহারযোগ্য প্যালেট"
 
-#: src/org.gnome.Terminal.gschema.xml:322
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:322
 msgid "A Pango font name and size"
 msgstr "একটি Pango ফন্ট নাম এবং মাপ"
 
-#: src/org.gnome.Terminal.gschema.xml:326
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:326
 msgid "The code sequence the Backspace key generates"
 msgstr "ব্যাকস্পেস কী যে কোড ক্রম প্রস্তুত করে"
 
-#: src/org.gnome.Terminal.gschema.xml:330
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:330
 msgid "The code sequence the Delete key generates"
 msgstr "'মুছুন' কী যে কোড ক্রম প্রস্তুত করে"
 
-#: src/org.gnome.Terminal.gschema.xml:334
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:334
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "টার্মিন্যাল উইজেটের ক্ষেত্রে সক্রিয় থিমের রং প্রয়োগ করা হবে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:338
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:338
 msgid "Whether to use the system monospace font"
 msgstr "সিস্টেম মোনোস্পেস ফন্ট ব্যবহার করা হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:342
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:342
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr "উইন্ডো পুনঃমাপে টার্মিন্যাল বিষয়বস্তু পুনঃমোড়ানো হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:346
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:346
 msgid "Which encoding to use"
 msgstr "কোন এনকোডিং ব্যবহার করা হবে"
 
-#: src/org.gnome.Terminal.gschema.xml:350
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:350
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
 msgstr "UTF-8 এনকোডিং ব্যবহারের সময়ে ambiguous-width অক্ষর অপ্রশস্ত না প্রশস্ত তা"
 
-#: src/org.gnome.Terminal.gschema.xml:359
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:359
 msgid "Keyboard shortcut to open a new tab"
 msgstr "নতুন ট্যাব খোলার জন্য ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:363
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:363
 msgid "Keyboard shortcut to open a new window"
 msgstr "নতুন উইন্ডো খোলার জন্য ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:367
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:367
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "বর্তমানে ট্যাবের তথ্য একটি ফাইলের মধ্যে সংরক্ষণের জন্য ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:371
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:371
 #| msgid "Keyboard shortcut to save the current tab contents to file"
 msgid ""
 "Keyboard shortcut to export the current tab contents to file in various "
@@ -529,169 +529,169 @@ msgid ""
 msgstr ""
 "বর্তমান ট্যাব সামগ্রীগুলি বিভিন্ন ফর্ম্যাটে ফাইল করতে এক্সপোর্ট করতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:375
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:375
 #| msgid "Keyboard shortcut to save the current tab contents to file"
 msgid "Keyboard shortcut to print the current tab contents to printer or file"
 msgstr "প্রিন্টার বা ফাইলে বর্তমান ট্যাব বিষয়বস্তু মুদ্রণের জন্য কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:379
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:379
 msgid "Keyboard shortcut to close a tab"
 msgstr "ট্যাব বন্ধ করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:383
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:383
 msgid "Keyboard shortcut to close a window"
 msgstr "উইন্ডো বন্ধ করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:387
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:387
 msgid "Keyboard shortcut to copy text"
 msgstr "টেক্সট কপি করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:391
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:391
 #| msgid "Keyboard shortcut to copy text"
 msgid "Keyboard shortcut to copy text as HTML"
 msgstr "এইচটিএমএল হিসাবে পাঠ্য অনুলিপি করতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:395
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:395
 msgid "Keyboard shortcut to paste text"
 msgstr "টেক্সট পেস্ট করার জন্য ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:399
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:399
 #| msgid "Keyboard shortcut to paste text"
 msgid "Keyboard shortcut to select all text"
 msgstr "সমস্ত পাঠ্য নির্বাচন করতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:403
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:403
 #| msgid "Keyboard shortcut to open the search dialog"
 msgid "Keyboard shortcut to open the Preferences dialog"
 msgstr "পছন্দ ডায়ালগটি খুলতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:407
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:407
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr ""
 "সম্পূর্ণ পর্দাজুড়ে প্রদর্শন ব্যবস্থা সক্রিয় অথবা নিষ্ক্রিয় করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:411
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:411
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "মেনু-বার প্রদর্শন অথবা আড়াল করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:415
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:415
 #| msgid "Keyboard shortcut to toggle full screen mode"
 msgid "Keyboard shortcut to toggle the read-only state"
 msgstr "কেবল পঠনযোগ্য স্থিতিতে টগল করতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:419
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:419
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "টার্মিন্যাল রি-সেট করার উদ্দেশ্যে কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:423
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:423
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "টার্মিন্যাল রি-সেট ও পরিশ্রুত করার উদ্দেশ্যে কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:427
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:427
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "অনুসন্ধান ডায়ালগ খোলার কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:431
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:431
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr "অনুসন্ধান টার্মের পরবর্তী উপস্থিতি খোঁজার কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:435
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:435
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr "অনুসন্ধান টার্মের পূর্ববর্তী উপস্থিত খোঁজার কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:439
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:439
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr "সন্ধান হাইলাইটিং সাফ করতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:443
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:443
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "পূর্ববর্তী ট্যাবে পরিবর্তনের জন্য ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:447
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:447
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "পরবর্তী ট্যাবে পরিবর্তনের জন্য ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:451
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:451
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "বর্তমান ট্যাব বাম দিকে সরাতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:455
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:455
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "বর্তমান ট্যাব ডান দিকে সরাতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:459
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:459
 msgid "Keyboard shortcut to detach current tab"
 msgstr "বর্তমান ট্যাব আলাদা করতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:463
-#: src/org.gnome.Terminal.gschema.xml:467
-#: src/org.gnome.Terminal.gschema.xml:471
-#: src/org.gnome.Terminal.gschema.xml:475
-#: src/org.gnome.Terminal.gschema.xml:479
-#: src/org.gnome.Terminal.gschema.xml:483
-#: src/org.gnome.Terminal.gschema.xml:487
-#: src/org.gnome.Terminal.gschema.xml:491
-#: src/org.gnome.Terminal.gschema.xml:495
-#: src/org.gnome.Terminal.gschema.xml:499
-#: src/org.gnome.Terminal.gschema.xml:503
-#: src/org.gnome.Terminal.gschema.xml:507
-#: src/org.gnome.Terminal.gschema.xml:511
-#: src/org.gnome.Terminal.gschema.xml:515
-#: src/org.gnome.Terminal.gschema.xml:519
-#: src/org.gnome.Terminal.gschema.xml:523
-#: src/org.gnome.Terminal.gschema.xml:527
-#: src/org.gnome.Terminal.gschema.xml:531
-#: src/org.gnome.Terminal.gschema.xml:535
-#: src/org.gnome.Terminal.gschema.xml:539
-#: src/org.gnome.Terminal.gschema.xml:543
-#: src/org.gnome.Terminal.gschema.xml:547
-#: src/org.gnome.Terminal.gschema.xml:551
-#: src/org.gnome.Terminal.gschema.xml:555
-#: src/org.gnome.Terminal.gschema.xml:559
-#: src/org.gnome.Terminal.gschema.xml:563
-#: src/org.gnome.Terminal.gschema.xml:567
-#: src/org.gnome.Terminal.gschema.xml:571
-#: src/org.gnome.Terminal.gschema.xml:575
-#: src/org.gnome.Terminal.gschema.xml:579
-#: src/org.gnome.Terminal.gschema.xml:583
-#: src/org.gnome.Terminal.gschema.xml:587
-#: src/org.gnome.Terminal.gschema.xml:591
-#: src/org.gnome.Terminal.gschema.xml:595
-#: src/org.gnome.Terminal.gschema.xml:599
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:463
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:467
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:471
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:475
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:479
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:483
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:487
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:491
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:495
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:499
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:503
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:507
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:511
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:515
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:519
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:523
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:527
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:531
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:535
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:539
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:543
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:547
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:551
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:555
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:559
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:563
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:567
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:571
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:575
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:579
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:583
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:587
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:591
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:595
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:599
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "সংখ্যা বিশিষ্ট ট্যাবে পরিবর্তনের জন্য ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:603
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:603
 #| msgid "Keyboard shortcut to switch to the next tab"
 msgid "Keyboard shortcut to switch to the last tab"
 msgstr "শেষ ট্যাবে স্যুইচ করতে কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:607
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:607
 msgid "Keyboard shortcut to launch help"
 msgstr "সহায়িকা প্রদর্শন করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:611
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:611
 msgid "Keyboard shortcut to make font larger"
 msgstr "নতুন প্রোফাইল নির্মাণ করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:615
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:615
 msgid "Keyboard shortcut to make font smaller"
 msgstr "ফন্টের মাপ হ্রাস করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:619
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:619
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "ফন্টের মাপ বৃদ্ধি করতে ব্যবহৃত কি-বোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:623
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:623
 #| msgid "Keyboard shortcut to switch to the previous tab"
 msgid "Keyboard shortcut to show the primary menu"
 msgstr "প্রাথমিক মেনুটি দেখানোর জন্য কীবোর্ড শর্টকাট"
 
-#: src/org.gnome.Terminal.gschema.xml:633
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:633
 msgid "Whether the menubar has access keys"
 msgstr "মেনু-বারের মধ্যে অ্যাকসেস-কি উপস্থিত রয়েছে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:634
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:634
 #| msgid ""
 #| "Whether to have Alt+letter access keys for the menubar. They may "
 #| "interfere with some applications run inside the terminal so it's possible "
@@ -704,11 +704,11 @@ msgstr ""
 "মেনুবারের জন্য Alt + অক্ষরের অ্যাক্সেস কী রয়েছে কিনা। তারা টার্মিনালের অভ্যন্তরে "
 "চালিত কিছু অ্যাপ্লিকেশনগুলিতে হস্তক্ষেপ করতে পারে যাতে এগুলি বন্ধ করা সম্ভব।"
 
-#: src/org.gnome.Terminal.gschema.xml:643
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:643
 msgid "Whether shortcuts are enabled"
 msgstr "শর্টকাটগুলি সক্রিয় করা আছে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:644
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:644
 #| msgid ""
 #| "Whether shortcuts are enabled. They may interfere with some applications "
 #| "run inside the terminal so it's possible to turn them off."
@@ -719,11 +719,11 @@ msgstr ""
 "শর্টকাট সক্ষম আছে কিনা। তারা টার্মিনালের অভ্যন্তরে চালিত কিছু অ্যাপ্লিকেশনগুলিতে "
 "হস্তক্ষেপ করতে পারে যাতে এগুলি বন্ধ করা সম্ভব।"
 
-#: src/org.gnome.Terminal.gschema.xml:653
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:653
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "মেনু-বার ব্যবহারের উদ্দেশ্যে প্রমিত GTK শর্টকাট সক্রিয় করা রয়েছে কি না"
 
-#: src/org.gnome.Terminal.gschema.xml:654
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:654
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -733,28 +733,28 @@ msgstr ""
 "accel = \"whatever\") সাহায্যে আপনার পছন্দ অনুসারে এটি পরিবর্তন করা যাবে। এই "
 "বিকল্পের ফলে মেনু-বারের প্রমিত অ্যাকসেলিরেটরগুলি নিষ্ক্রিয় করা হবে।"
 
-#: src/org.gnome.Terminal.gschema.xml:664
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:664
 msgid "Whether the shell integration is enabled"
 msgstr "শেল একত্রিকরণ সক্রিয় আছে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:669
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:669
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "একটি টার্মিনাল বন্ধ করার আগে নিশ্চিতকরণ জিঞ্জাসা করা হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:674
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:674
 msgid "Whether to show the menubar in new windows"
 msgstr "নতুন উইন্ডোতে মেনুবার দেখানো হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:679
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:679
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "নতুন টার্মিন্যালগুলি উইন্ডো বা ট্যাব হিসাবে খোলা হবে কিনা"
 
-#: src/org.gnome.Terminal.gschema.xml:684
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:684
 #| msgid "When to show the scrollbar"
 msgid "When to show the tabs bar"
 msgstr "ট্যাব বারটি কখন প্রদর্শিত হবে"
 
-#: src/org.gnome.Terminal.gschema.xml:694
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:694
 #| msgid "Which encoding to use"
 msgid "Which theme variant to use"
 msgstr "কোন থিমটি ব্যবহার করতে হবে"
@@ -1918,7 +1918,7 @@ msgstr "টার্মিন্যাল বন্ধ করুন (_l)"
 #: src/terminal-options.c:307
 #, c-format
 #| msgid ""
-#| "Option \"%s\" is no longer supported in this version of gnome-terminal."
+#| "Option \"%s\" is no longer supported in this version of cinnamon-terminal."
 msgid ""
 "Option “%s” is deprecated and might be removed in a later version of gnome-"
 "terminal."
@@ -1938,8 +1938,8 @@ msgstr ""
 #: src/terminal-options.c:328 src/terminal-options.c:341
 #, c-format
 #| msgid ""
-#| "Option \"%s\" is no longer supported in this version of gnome-terminal."
-msgid "Option “%s” is no longer supported in this version of gnome-terminal."
+#| "Option \"%s\" is no longer supported in this version of cinnamon-terminal."
+msgid "Option “%s” is no longer supported in this version of cinnamon-terminal."
 msgstr "জিনোম-টার্মিনালের এই সংস্করণে \"%s\" বিকল্পটি আর সমর্থিত নয়।"
 
 #: src/terminal-options.c:413
@@ -2144,12 +2144,12 @@ msgid "COMMAND"
 msgstr "COMMAND"
 
 #: src/terminal-options.c:1654
-msgid "GNOME Terminal Emulator"
-msgstr "GNOME Terminal এমুলেটর"
+msgid "Cinnamon Terminal Emulator"
+msgstr "Cinnamon Terminal এমুলেটর"
 
 #: src/terminal-options.c:1655
-msgid "Show GNOME Terminal options"
-msgstr "GNOME Terminal সংক্রান্ত বিবিধ বিকল্প প্রদর্শন করা হবে"
+msgid "Show Cinnamon Terminal options"
+msgstr "Cinnamon Terminal সংক্রান্ত বিবিধ বিকল্প প্রদর্শন করা হবে"
 
 #: src/terminal-options.c:1665
 msgid ""
@@ -2330,8 +2330,8 @@ msgid "A terminal emulator for the GNOME desktop"
 msgstr "GNOME ডেস্কটপে ব্যবহাযোগ্য একটি টার্মিন্যাল এমুলেটর"
 
 #: src/terminal-util.c:236
-msgid "GNOME Terminal"
-msgstr "GNOME Terminal"
+msgid "Cinnamon Terminal"
+msgstr "Cinnamon Terminal"
 
 #: src/terminal-util.c:246
 msgid "translator-credits"
@@ -2344,7 +2344,7 @@ msgstr "“%s” লক্ষ্যবস্তু খোলা যায়নি"
 
 #: src/terminal-util.c:390
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -2355,7 +2355,7 @@ msgstr ""
 
 #: src/terminal-util.c:394
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -2367,7 +2367,7 @@ msgstr ""
 #: src/terminal-util.c:398
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "GNOME টার্মিন্যালের সঙ্গে আপনি নিশ্চয় GNU জেনারেল পাবলিক লাইসেন্সের একটি অনুলিপি "
 "পেয়েছেন।  না পেয়ে থাকলে, দেখুন <http://www.gnu.org/licenses/>।"
@@ -2787,7 +2787,7 @@ msgstr "উইন্ডো বন্ধ করুন (_l)"
 #~ msgid "Be quiet"
 #~ msgstr "শান্ত থাকুন"
 
-#~ msgid "GNOME Terminal Client"
+#~ msgid "Cinnamon Terminal Client"
 #~ msgstr "GNOME টার্মিনাল ক্লায়েন্ট"
 
 #~ msgid "What to do with dynamic title"

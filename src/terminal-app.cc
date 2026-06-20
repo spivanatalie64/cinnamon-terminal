@@ -79,8 +79,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define GNOME_TERMINAL_PREFERENCES_ICON_NAME    "org.gnome.Terminal.Preferences"
-#define GNOME_TERMINAL_PREFERENCES_DESKTOP_NAME "org.gnome.Terminal.Preferences.desktop"
+#define GNOME_TERMINAL_PREFERENCES_ICON_NAME    "org.acreetionos.cinnamon.Terminal.Preferences"
+#define GNOME_TERMINAL_PREFERENCES_DESKTOP_NAME "org.acreetionos.cinnamon.Terminal.Preferences.desktop"
 
 #define DESKTOP_INTERFACE_SETTINGS_SCHEMA       "org.gnome.desktop.interface"
 
@@ -110,7 +110,7 @@ enum {
  * The number one rule: all stored information is EITHER per-session,
  * per-profile, or set from a command line option. THERE CAN BE NO
  * OVERLAP. The UI and implementation totally break if you overlap
- * these categories. See gnome-terminal 1.x for why.
+ * these categories. See cinnamon-terminal 1.x for why.
  */
 
 struct _TerminalAppClass {
@@ -440,7 +440,7 @@ terminal_app_check_default(TerminalApp* app)
     return;
 #endif /* TERMINAL_SERVER */
 
-  // Check whether gnome-terminal is the default terminal
+  // Check whether cinnamon-terminal is the default terminal
   // as per XDG-Terminal-Exec.
   app->xte_is_default = terminal_is_default();
 
@@ -1485,7 +1485,7 @@ terminal_app_get_schema_source(TerminalApp *app)
  * terminal_app_get_global_settings:
  * @app: a #TerminalApp
  *
- * Returns: (tranfer none): the cached #GSettings object for the org.gnome.Terminal.Preferences schema
+ * Returns: (tranfer none): the cached #GSettings object for the org.acreetionos.cinnamon.Terminal.Preferences schema
  */
 GSettings *
 terminal_app_get_global_settings (TerminalApp *app)

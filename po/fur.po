@@ -1,10 +1,10 @@
-# Friulian translation of gnome-terminal
+# Friulian translation of cinnamon-terminal
 # Copyright (C) 2007 Free Software Foundation, Inc.
 # Massimo Furlani <massimo.furlani@libero.it>, 2007.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal 2.18.x\n"
+"Project-Id-Version: cinnamon-terminal 2.18.x\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-terminal/issues\n"
 "POT-Creation-Date: 2023-01-18 23:54+0000\n"
 "PO-Revision-Date: 2023-01-21 10:59+0000\n"
@@ -18,64 +18,64 @@ msgstr ""
 "X-Editor: HaiPO 1.4 beta\n"
 "X-Generator: Poedit 3.0\n"
 
-#: data/org.gnome.Terminal.desktop.in:3
-#: data/org.gnome.Terminal.metainfo.xml.in:37 src/server.cc:152
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:3
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:37 src/server.cc:152
 #: src/terminal-accels.cc:232 src/terminal-menubar.ui.in:144
 #: src/terminal-tab-label.cc:81 src/terminal-window.cc:1903
 #: src/terminal-window.cc:2207 src/terminal-window.cc:2522 src/terminal.cc:598
 msgid "Terminal"
 msgstr "Terminâl"
 
-#: data/org.gnome.Terminal.desktop.in:4
-#: data/org.gnome.Terminal.metainfo.xml.in:38
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:4
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:38
 msgid "Use the command line"
 msgstr "Dopre la rie di comant"
 
-#: data/org.gnome.Terminal.desktop.in:5
-#: data/org.gnome.Terminal.Preferences.desktop.in:8
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:5
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:8
 msgid "shell;prompt;command;commandline;cmd;"
 msgstr "shell;prompt;terminâl;comant;riedicomant;cmd;"
 
-#: data/org.gnome.Terminal.desktop.in:18 src/terminal-accels.cc:127
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:18 src/terminal-accels.cc:127
 msgid "New Window"
 msgstr "Gnûf barcon"
 
-#: data/org.gnome.Terminal.desktop.in:22 src/terminal-accels.cc:146
+#: data/org.acreetionos.cinnamon.Terminal.desktop.in:22 src/terminal-accels.cc:146
 msgid "Preferences"
 msgstr "Preferencis"
 
-#: data/org.gnome.Terminal.Preferences.desktop.in:4
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:4
 msgid "Configure the command line"
 msgstr "Configure la rie di comant"
 
-#: data/org.gnome.Terminal.Preferences.desktop.in:9 src/prefs-main.cc:143
+#: data/org.acreetionos.cinnamon.Terminal.Preferences.desktop.in:9 src/prefs-main.cc:143
 msgid "Terminal Preferences"
 msgstr "Preferencis dal Terminâl"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:34
-#: data/org.gnome.Terminal.metainfo.xml.in:63
-msgid "org.gnome.Terminal.desktop"
-msgstr "org.gnome.Terminal.desktop"
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:34
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:63
+msgid "org.acreetionos.cinnamon.Terminal.desktop"
+msgstr "org.acreetionos.cinnamon.Terminal.desktop"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:35
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:36
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:35
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:36
 msgid "GPL-3.0+ or GFDL-1.3-only"
 msgstr "GPL-3.0+ o GFDL-1.3-only"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:36
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:37
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:36
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:37
 msgid "GPL-3.0+"
 msgstr "GPL-3.0+"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:40
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:40
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell"
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell"
 " environment which can be used to run programs available on your system."
 msgstr ""
 "Il terminâl di GNOME al è un emuladôr di terminâl par acedi al ambient shell"
 " UNIX. Tu puedis doprâlu par eseguî programs disponibii tal propri sisteme."
 
-#: data/org.gnome.Terminal.metainfo.xml.in:41
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:41
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
@@ -83,19 +83,19 @@ msgstr ""
 "Al supuarte plui profîi, schedis multiplis e al implemente une vore di "
 "scurtis vie tastiere."
 
-#: data/org.gnome.Terminal.metainfo.xml.in:44
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:44
 msgid "console"
 msgstr "console"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:45
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:45
 msgid "keyboard"
 msgstr "tastiere"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:46
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:46
 msgid "pointing"
 msgstr "pontadôr"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:50
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:50
 msgid ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-"
 "terminal.png"
@@ -103,59 +103,59 @@ msgstr ""
 "https://help.gnome.org/users/gnome-terminal/stable/figures/gnome-"
 "terminal.png"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:54
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:54
 msgid "HiDpiIcon"
 msgstr "HiDpiIcon"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:55
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:55
 msgid "HighContrast"
 msgstr "HighContrast"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:56
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:56
 msgid "ModernToolkit"
 msgstr "ModernToolkit"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:57
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:57
 msgid "SearchProvider"
 msgstr "SearchProvider"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:58
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:58
 msgid "UserDocs"
 msgstr "UserDocs"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:60
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:43
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:60
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:43
 msgid "https://wiki.gnome.org/Apps/Terminal"
 msgstr "https://wiki.gnome.org/Apps/Terminal"
 
 #. This is the name of a colour scheme
-#: data/org.gnome.Terminal.metainfo.xml.in:61
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:44 src/preferences.ui:214
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:61
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:44 src/preferences.ui:214
 msgid "GNOME"
 msgstr "GNOME"
 
-#: data/org.gnome.Terminal.metainfo.xml.in:62
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:45
+#: data/org.acreetionos.cinnamon.Terminal.metainfo.xml.in:62
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:45
 msgid "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 msgstr "https://wiki.gnome.org/Apps/Terminal/ReportingBugs"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:34
-msgid "org.gnome.Terminal.Nautilus"
-msgstr "org.gnome.Terminal.Nautilus"
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:34
+msgid "org.acreetionos.cinnamon.Terminal.Nautilus"
+msgstr "org.acreetionos.cinnamon.Terminal.Nautilus"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:35
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:35
 msgid "org.gnome.Nautilus.desktop"
 msgstr "org.gnome.Nautilus.desktop"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:38
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:38
 msgid "Terminal plugin for Files"
 msgstr "Plugin terminâl par File"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:39
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:39
 msgid "Open a terminal from Files"
 msgstr "Vierç un terminâl da File"
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:41
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:41
 msgid ""
 "Open Terminal is a plugin for the Files application that adds a menu item to"
 " the context menu to open a terminal in the currently browsed directory."
@@ -163,30 +163,30 @@ msgstr ""
 "Vierç terminâl al è un plugin par l'aplicazion File che al zonte un element "
 "tal menù di contest, par vierzi un terminâl te cartele atualmentri sfueade."
 
-#: data/org.gnome.Terminal.Nautilus.metainfo.xml.in:46
-msgid "gnome-terminal"
-msgstr "gnome-terminal"
+#: data/org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in:46
+msgid "cinnamon-terminal"
+msgstr "cinnamon-terminal"
 
 #. Translators: This needs to be parsed as a GVariant string, so keep the
 #. regular single quotes around the string as-is, and do not add extra quotes.
-#: src/org.gnome.Terminal.gschema.xml:133
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:133
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'Cence non'"
 
-#: src/org.gnome.Terminal.gschema.xml:134
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:134
 msgid "Human-readable name of the profile"
 msgstr "Non mnemonic pal profîl"
 
-#: src/org.gnome.Terminal.gschema.xml:135
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:135
 msgid "Human-readable name of the profile."
 msgstr "Non mnemonic pal profîl."
 
-#: src/org.gnome.Terminal.gschema.xml:139
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:139
 msgid "Default color of text in the terminal"
 msgstr "Colôr predefinît dal test tal terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:140
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:140
 msgid ""
 "Default color of text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”)."
@@ -194,11 +194,11 @@ msgstr ""
 "Colôr predefinît dal test tal terminâl, come specifiche di colôr (al pues "
 "jessi un numar esadecimâl in stîl HTML opûr il non di un colôr come “red”)."
 
-#: src/org.gnome.Terminal.gschema.xml:144
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:144
 msgid "Default color of terminal background"
 msgstr "Colôr predefinît dal fondâl dal terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:145
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:145
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -206,11 +206,11 @@ msgstr ""
 "Colôr predefinît dal fondâl dal terminâl, come specifiche di colôr (al pues "
 "jessi un numar esadecimâl in stîl HTML opûr il non di un colôr come “red”)."
 
-#: src/org.gnome.Terminal.gschema.xml:149
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:149
 msgid "Default color of bold text in the terminal"
 msgstr "Colôr predefinît pal test in neret tal terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:150
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:150
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be"
 " HTML-style hex digits, or a color name such as “red”). This is ignored if "
@@ -221,18 +221,18 @@ msgstr ""
 " “red”). Chest al ven ignorât se il parametri bold_color_same_as_fg al è "
 "metût a VÊR."
 
-#: src/org.gnome.Terminal.gschema.xml:154
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:154
 msgid "Whether bold text should use the same color as normal text"
 msgstr "Indiche se il test in neret al à di vê il stes colôr dal test normâl"
 
-#: src/org.gnome.Terminal.gschema.xml:155
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:155
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr ""
 "Se VÊR, il test in neret al vignarà visualizât doprant il stes colôr di chel"
 " normâl."
 
-#: src/org.gnome.Terminal.gschema.xml:160
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:160
 msgid ""
 "Scale factor for the cell height to increase line spacing. (Does not "
 "increase the font’s height.)"
@@ -240,7 +240,7 @@ msgstr ""
 "Fatôr di scjale pe altece de cele par aumentâ il spazi tra lis riis. (Nol "
 "aumente la altece dal caratar.)"
 
-#: src/org.gnome.Terminal.gschema.xml:165
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:165
 msgid ""
 "Scale factor for the cell width to increase letter spacing. (Does not "
 "increase the font’s width.)"
@@ -248,19 +248,19 @@ msgstr ""
 "Fatôr di scjale pe largjece de cele par aumentâ il spazi tra lis letaris. "
 "(Nol aumente la largjece dal caratar.)"
 
-#: src/org.gnome.Terminal.gschema.xml:169
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:169
 msgid "Whether to use custom cursor colors"
 msgstr "Indiche se doprâ i colôrs personalizâts dal cursôr"
 
-#: src/org.gnome.Terminal.gschema.xml:170
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:170
 msgid "If true, use the cursor colors from the profile."
 msgstr "Se vêr, dopre i colôrs dal cursôr dal profîl."
 
-#: src/org.gnome.Terminal.gschema.xml:174
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:174
 msgid "Cursor background color"
 msgstr "Colôr dal fondâl dal cursôr"
 
-#: src/org.gnome.Terminal.gschema.xml:175
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:175
 msgid ""
 "Custom color of the background of the terminal’s cursor, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”)."
@@ -271,11 +271,11 @@ msgstr ""
 "colôr come “red”). Chest al ven ignorât se il parametri cursor-colors-set al"
 " è metût a FALS."
 
-#: src/org.gnome.Terminal.gschema.xml:179
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:179
 msgid "Cursor foreground colour"
 msgstr "Colôr di prin plan dal cursôr"
 
-#: src/org.gnome.Terminal.gschema.xml:180
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:180
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "cursor position, as a color specification (can be HTML-style hex digits, or "
@@ -286,19 +286,19 @@ msgstr ""
 "esadecimâl in stîl HTML opûr il non di un colôr come “red”). Chest al ven "
 "ignorât se cursor-colors-set al è FALS."
 
-#: src/org.gnome.Terminal.gschema.xml:184
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:184
 msgid "Whether to use custom highlight colors"
 msgstr "Indiche se doprâ i colôrs di evidenziazion personalizâts"
 
-#: src/org.gnome.Terminal.gschema.xml:185
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:185
 msgid "If true, use the highlight colors from the profile."
 msgstr "Se vêr, al dopre i colôrs di evidenziazion dal profîl."
 
-#: src/org.gnome.Terminal.gschema.xml:189
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:189
 msgid "Highlight background color"
 msgstr "Colôr dal fondâl de evidenziazion"
 
-#: src/org.gnome.Terminal.gschema.xml:190
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:190
 msgid ""
 "Custom color of the background of the terminal’s highlight, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”)."
@@ -309,11 +309,11 @@ msgstr ""
 "non di un colôr come “red”). Chest al ven ignorât se highlight-colors-set al"
 " è FALS."
 
-#: src/org.gnome.Terminal.gschema.xml:194
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:194
 msgid "Highlight foreground colour"
 msgstr "Colôr di prin plan de evidenziazion"
 
-#: src/org.gnome.Terminal.gschema.xml:195
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:195
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "highlight position, as a color specification (can be HTML-style hex digits, "
@@ -325,36 +325,36 @@ msgstr ""
 "numar esadecimâl in stîl HTML opûr il non di un colôr come “red”). Chest al "
 "ven ignorât se highlight-colors-set al è FALS."
 
-#: src/org.gnome.Terminal.gschema.xml:199
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:199
 msgid "Whether to perform bidirectional text rendering"
 msgstr "Indiche se eseguî une visualizazion dal test bidirezionâl"
 
-#: src/org.gnome.Terminal.gschema.xml:200
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:200
 msgid "If true, perform bidirectional text rendering (“BiDi”)."
 msgstr "Se vêr, al fâs visualizâ il test bidirezionâl (“BiDi”)."
 
-#: src/org.gnome.Terminal.gschema.xml:204
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:204
 msgid "Whether to perform Arabic shaping"
 msgstr "Indiche se si à di dâ forme al test in Arap"
 
-#: src/org.gnome.Terminal.gschema.xml:205
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:205
 msgid "If true, shape Arabic text."
 msgstr "Se vêr, da forme al test in Arap."
 
-#: src/org.gnome.Terminal.gschema.xml:209
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:209
 msgid "Whether to enable SIXEL images"
 msgstr "Indiche se abilitâ lis imagjins SIXEL"
 
-#: src/org.gnome.Terminal.gschema.xml:210
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:210
 msgid "If true, SIXEL sequences are parsed and images are rendered."
 msgstr ""
 "Se vêr, lis secuencis SIXEL a vegnin analizadis e lis imagjins visualizadis."
 
-#: src/org.gnome.Terminal.gschema.xml:214
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:214
 msgid "Whether bold is also bright"
 msgstr "Indiche se il test in neret al è ancje luminôs"
 
-#: src/org.gnome.Terminal.gschema.xml:215
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:215
 msgid ""
 "If true, setting bold on the first 8 colors also switches to their bright "
 "variants."
@@ -362,11 +362,11 @@ msgstr ""
 "Se vêr, stabilint il neret sui prins 8 colôrs al cambie ancje lis lôr "
 "variantis luminosis."
 
-#: src/org.gnome.Terminal.gschema.xml:219
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:219
 msgid "Whether to ring the terminal bell"
 msgstr "Indiche se doprâ l'avîs sonôr"
 
-#: src/org.gnome.Terminal.gschema.xml:223
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:223
 msgid ""
 "List of ASCII punctuation characters that are not to be treated as part of a"
 " word when doing word-wise selection"
@@ -374,11 +374,11 @@ msgstr ""
 "Liste di caratars di puntuazion ASCII che no vegnin tratâts come part di une"
 " peraule cuant che si eseguìs la selezion pe peraule"
 
-#: src/org.gnome.Terminal.gschema.xml:228
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:228
 msgid "Default number of columns"
 msgstr "Numar predefinît di colonis"
 
-#: src/org.gnome.Terminal.gschema.xml:229
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:229
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -386,11 +386,11 @@ msgstr ""
 "Numar di colonis intun gnûf barcon dal terminâl. Nol à efiet se "
 "use_custom_default_size nol è abilitât."
 
-#: src/org.gnome.Terminal.gschema.xml:234
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:234
 msgid "Default number of rows"
 msgstr "Numar predefinît di riis"
 
-#: src/org.gnome.Terminal.gschema.xml:235
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:235
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -398,15 +398,15 @@ msgstr ""
 "Numar di riis intun gnûf barcon dal terminâl. Nol à efiet se "
 "use_custom_default_size nol è abilitât."
 
-#: src/org.gnome.Terminal.gschema.xml:239
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:239
 msgid "When to show the scrollbar"
 msgstr "Cuant mostrâ la sbare di scoriment"
 
-#: src/org.gnome.Terminal.gschema.xml:243
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:243
 msgid "Number of lines to keep in scrollback"
 msgstr "Numar di ries di mantignî par scori denant-daûr"
 
-#: src/org.gnome.Terminal.gschema.xml:244
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:244
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are"
@@ -416,13 +416,13 @@ msgstr ""
 "chest numar di riis, lis riis in plui a vignaran scartadis. Se "
 "scrollback_unlimited al è metût VÊR, chest valôr al ven ignorât."
 
-#: src/org.gnome.Terminal.gschema.xml:248
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:248
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr ""
 "Indiche se un numar ilimitât di riis al à di jessi mantignût tal scori "
 "indaûr"
 
-#: src/org.gnome.Terminal.gschema.xml:249
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:249
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is"
 " stored on disk temporarily, so this may cause the system to run out of disk"
@@ -433,30 +433,30 @@ msgstr ""
 "causâ il superament dal spazi disponibil se al è une vore di output tal "
 "terminâl."
 
-#: src/org.gnome.Terminal.gschema.xml:253
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:253
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Indiche se fâ cori viers il bas cuant che al ven scliçât un tast"
 
-#: src/org.gnome.Terminal.gschema.xml:254
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:254
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Se VÊR, fracant un boton al môf la sbare di scoriment viers la fin."
 
-#: src/org.gnome.Terminal.gschema.xml:258
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:258
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Indiche se fâ cori viers il bas cuant che al ven fûr gnûf output"
 
-#: src/org.gnome.Terminal.gschema.xml:259
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:259
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
 "Se VÊR, ogni volte che al saltarà fûr un gnûf output il terminâl al corarà "
 "viers la fin."
 
-#: src/org.gnome.Terminal.gschema.xml:263
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:263
 msgid "What to do with the terminal when the child command exits"
 msgstr "Ce fâ cul terminâl cuant che il procès fi al finis"
 
-#: src/org.gnome.Terminal.gschema.xml:264
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:264
 msgid ""
 "Possible values are “close” to close the terminal, “restart” to restart the "
 "command, and “hold” to keep the terminal open with no command running "
@@ -466,11 +466,11 @@ msgstr ""
 "inviâ il comant e “hold” par tignî il terminâl viert cence comants in "
 "esecuzion jenfri."
 
-#: src/org.gnome.Terminal.gschema.xml:268
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:268
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "Indiche se inviâ il comant tal terminâl come shell di login"
 
-#: src/org.gnome.Terminal.gschema.xml:269
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:269
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -478,12 +478,12 @@ msgstr ""
 "Se VÊR, il comant tal terminâl al vignarà inviât come shell di login. "
 "(argv[0] al varâ un tratut denant)."
 
-#: src/org.gnome.Terminal.gschema.xml:273
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:273
 msgid "Whether to preserve the working directory when opening a new terminal"
 msgstr ""
 "Indiche se preservâ la cartele di lavôr cuant che si vierç un gnûf terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:274
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:274
 msgid ""
 "Controls when opening a new terminal from a previous one carries over the "
 "working directory of the opening terminal to the new one."
@@ -491,11 +491,11 @@ msgstr ""
 "Cuant che si vierç un gnûf terminâl di un precedent, al controle che chel "
 "gnûf al puartedi cun se la cartele di lavôr dal terminâl viert."
 
-#: src/org.gnome.Terminal.gschema.xml:280
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:280
 msgid "Whether to run a custom command instead of the shell"
 msgstr "Indiche se eseguî un comant personalizât invezit da shell"
 
-#: src/org.gnome.Terminal.gschema.xml:281
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:281
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -503,11 +503,11 @@ msgstr ""
 "Se VÊR, al vignarà doprât il valôr de impostazion custom_command invezit di "
 "inviâ une shell."
 
-#: src/org.gnome.Terminal.gschema.xml:285
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:285
 msgid "Whether to blink the cursor"
 msgstr "Indiche se il cursôr al à di lampâ"
 
-#: src/org.gnome.Terminal.gschema.xml:286
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:286
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings,"
 " or “on” or “off” to set the mode explicitly."
@@ -515,11 +515,11 @@ msgstr ""
 "I valôrs pussibii a son “system”, par doprâ lis impostazions globâls di "
 "lampament dal cursôr, o “on” o “off” par stabilî in mût esplicit."
 
-#: src/org.gnome.Terminal.gschema.xml:290
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:290
 msgid "The cursor appearance"
 msgstr "L'aspiet dal cursôr"
 
-#: src/org.gnome.Terminal.gschema.xml:294
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:294
 msgid ""
 "Possible values are “always” or “never” allow blinking text, or only when "
 "the terminal is “focused” or “unfocused”."
@@ -528,50 +528,50 @@ msgstr ""
 " dome cuant che il terminâl al è focalizât “focused” o cence metude a fûc "
 "“unfocused”."
 
-#: src/org.gnome.Terminal.gschema.xml:298
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:298
 msgid "Custom command to use instead of the shell"
 msgstr "Comant personalizât di doprâ invezir da shell"
 
-#: src/org.gnome.Terminal.gschema.xml:299
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:299
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Eseguìs chest comant al puest de shell se use_custom_command al è VÊR."
 
-#: src/org.gnome.Terminal.gschema.xml:318
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:318
 msgid "Palette for terminal applications"
 msgstr "Taule di colôrs pes aplicazions dal terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:322
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:322
 msgid "A Pango font name and size"
 msgstr "Non e dimension di un caratar Pango"
 
-#: src/org.gnome.Terminal.gschema.xml:326
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:326
 msgid "The code sequence the Backspace key generates"
 msgstr "La secuence di codiç gjenerade dal boton Backspace"
 
-#: src/org.gnome.Terminal.gschema.xml:330
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:330
 msgid "The code sequence the Delete key generates"
 msgstr "La secuence di codiç gjenerade dal boton Canc"
 
-#: src/org.gnome.Terminal.gschema.xml:334
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:334
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Indiche se doprâ i colôrs dal teme pal widget dal terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:338
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:338
 msgid "Whether to use the system monospace font"
 msgstr "Indiche se doprâ il caratar di sisteme a spazi fis"
 
-#: src/org.gnome.Terminal.gschema.xml:342
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:342
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr ""
 "Indiche se tornâ a adatâ in automatic i contignûts dal terminâl al modificâ "
 "de dimension dal barcon"
 
-#: src/org.gnome.Terminal.gschema.xml:346
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:346
 msgid "Which encoding to use"
 msgstr "Codifiche di doprâ"
 
-#: src/org.gnome.Terminal.gschema.xml:350
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:350
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
@@ -579,19 +579,19 @@ msgstr ""
 "Indiche se i caratars a largjece ambigue a son strets o estês cuant che si "
 "dopre la codifiche UTF-8"
 
-#: src/org.gnome.Terminal.gschema.xml:359
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:359
 msgid "Keyboard shortcut to open a new tab"
 msgstr "Scurte di tastiere par vierzi une gnove schede"
 
-#: src/org.gnome.Terminal.gschema.xml:363
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:363
 msgid "Keyboard shortcut to open a new window"
 msgstr "Scurte di tastiere par vierzi un gnûf barcon"
 
-#: src/org.gnome.Terminal.gschema.xml:367
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:367
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "Scurte di tastiere par salvâ i contignûts de schede atuâl intun file"
 
-#: src/org.gnome.Terminal.gschema.xml:371
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:371
 msgid ""
 "Keyboard shortcut to export the current tab contents to file in various "
 "formats"
@@ -599,165 +599,165 @@ msgstr ""
 "Scurte di tastiere par espuartâ i contignûts de schede atuâl intun file in "
 "varis formâts"
 
-#: src/org.gnome.Terminal.gschema.xml:375
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:375
 msgid "Keyboard shortcut to print the current tab contents to printer or file"
 msgstr ""
 "Scurte di tastiere par stampâ i contignûts de schede atuâl cuntune stampant "
 "o suntun file"
 
-#: src/org.gnome.Terminal.gschema.xml:379
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:379
 msgid "Keyboard shortcut to close a tab"
 msgstr "Scurte di tastiere par sierâ une schede"
 
-#: src/org.gnome.Terminal.gschema.xml:383
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:383
 msgid "Keyboard shortcut to close a window"
 msgstr "Scurte di tastiere par sierâ un barcon"
 
-#: src/org.gnome.Terminal.gschema.xml:387
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:387
 msgid "Keyboard shortcut to copy text"
 msgstr "Scurte di tastiere par copiâ il test"
 
-#: src/org.gnome.Terminal.gschema.xml:391
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:391
 msgid "Keyboard shortcut to copy text as HTML"
 msgstr "Scurte di tastiere par copiâ il test come HTML"
 
-#: src/org.gnome.Terminal.gschema.xml:395
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:395
 msgid "Keyboard shortcut to paste text"
 msgstr "Scurte di tastiere par tacâ il test"
 
-#: src/org.gnome.Terminal.gschema.xml:399
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:399
 msgid "Keyboard shortcut to select all text"
 msgstr "Scurte di tastiere par selezionâ dut il test"
 
-#: src/org.gnome.Terminal.gschema.xml:403
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:403
 msgid "Keyboard shortcut to open the Preferences dialog"
 msgstr "Scurte di tastiere par vierzi il dialic des preferencis"
 
-#: src/org.gnome.Terminal.gschema.xml:407
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:407
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "Scurte di tastiere par passâ a plen visôr"
 
-#: src/org.gnome.Terminal.gschema.xml:411
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:411
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr ""
 "Scurte di tastiere par ativâ/disativâ la visualizazion de sbare dai menù"
 
-#: src/org.gnome.Terminal.gschema.xml:415
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:415
 msgid "Keyboard shortcut to toggle the read-only state"
 msgstr "Scurte di tastiere par passâ al stât dome-leture"
 
-#: src/org.gnome.Terminal.gschema.xml:419
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:419
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "Scurte di tastiere par ripristinâ il terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:423
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:423
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "Scurte di tastiere par ripristinâ e netâ il terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:427
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:427
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "Scurte di tastiere par vierzi il dialic di ricercje"
 
-#: src/org.gnome.Terminal.gschema.xml:431
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:431
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr "Scurte di tastiere par cjatâ la presince sucessive dal tiermin cirût"
 
-#: src/org.gnome.Terminal.gschema.xml:435
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:435
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr "Scurte di tastiere par cjatâ la presince precedent dal tiermin cirût"
 
-#: src/org.gnome.Terminal.gschema.xml:439
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:439
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr ""
 "Scurte di tastiere par netâ la evidenziazion dai risultâts de ricercje"
 
-#: src/org.gnome.Terminal.gschema.xml:443
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:443
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "Scurte di tastiere par passâ a la schede precedent"
 
-#: src/org.gnome.Terminal.gschema.xml:447
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:447
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "Scurte di tastiere par passâ ae schede sucessive"
 
-#: src/org.gnome.Terminal.gschema.xml:451
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:451
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "Scurte di tastiere par spostâ la schede atuâl a çampe"
 
-#: src/org.gnome.Terminal.gschema.xml:455
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:455
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "Scurte di tastiere par spostâ la schede atuâl a drete"
 
-#: src/org.gnome.Terminal.gschema.xml:459
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:459
 msgid "Keyboard shortcut to detach current tab"
 msgstr "Scurte di tastiere par stacâ la schede atuâl"
 
-#: src/org.gnome.Terminal.gschema.xml:463
-#: src/org.gnome.Terminal.gschema.xml:467
-#: src/org.gnome.Terminal.gschema.xml:471
-#: src/org.gnome.Terminal.gschema.xml:475
-#: src/org.gnome.Terminal.gschema.xml:479
-#: src/org.gnome.Terminal.gschema.xml:483
-#: src/org.gnome.Terminal.gschema.xml:487
-#: src/org.gnome.Terminal.gschema.xml:491
-#: src/org.gnome.Terminal.gschema.xml:495
-#: src/org.gnome.Terminal.gschema.xml:499
-#: src/org.gnome.Terminal.gschema.xml:503
-#: src/org.gnome.Terminal.gschema.xml:507
-#: src/org.gnome.Terminal.gschema.xml:511
-#: src/org.gnome.Terminal.gschema.xml:515
-#: src/org.gnome.Terminal.gschema.xml:519
-#: src/org.gnome.Terminal.gschema.xml:523
-#: src/org.gnome.Terminal.gschema.xml:527
-#: src/org.gnome.Terminal.gschema.xml:531
-#: src/org.gnome.Terminal.gschema.xml:535
-#: src/org.gnome.Terminal.gschema.xml:539
-#: src/org.gnome.Terminal.gschema.xml:543
-#: src/org.gnome.Terminal.gschema.xml:547
-#: src/org.gnome.Terminal.gschema.xml:551
-#: src/org.gnome.Terminal.gschema.xml:555
-#: src/org.gnome.Terminal.gschema.xml:559
-#: src/org.gnome.Terminal.gschema.xml:563
-#: src/org.gnome.Terminal.gschema.xml:567
-#: src/org.gnome.Terminal.gschema.xml:571
-#: src/org.gnome.Terminal.gschema.xml:575
-#: src/org.gnome.Terminal.gschema.xml:579
-#: src/org.gnome.Terminal.gschema.xml:583
-#: src/org.gnome.Terminal.gschema.xml:587
-#: src/org.gnome.Terminal.gschema.xml:591
-#: src/org.gnome.Terminal.gschema.xml:595
-#: src/org.gnome.Terminal.gschema.xml:599
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:463
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:467
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:471
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:475
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:479
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:483
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:487
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:491
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:495
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:499
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:503
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:507
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:511
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:515
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:519
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:523
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:527
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:531
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:535
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:539
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:543
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:547
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:551
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:555
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:559
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:563
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:567
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:571
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:575
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:579
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:583
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:587
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:591
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:595
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:599
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "Scurte di tastiere par passâ ae schede numerade"
 
-#: src/org.gnome.Terminal.gschema.xml:603
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:603
 msgid "Keyboard shortcut to switch to the last tab"
 msgstr "Scurte di tastiere par passâ ae ultime schede"
 
-#: src/org.gnome.Terminal.gschema.xml:607
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:607
 msgid "Keyboard shortcut to launch help"
 msgstr "Scurte di tastiere par vierzi la guide"
 
-#: src/org.gnome.Terminal.gschema.xml:611
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:611
 msgid "Keyboard shortcut to make font larger"
 msgstr "Scurte di tastiere par aumentâ la dimension dal caratar"
 
-#: src/org.gnome.Terminal.gschema.xml:615
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:615
 msgid "Keyboard shortcut to make font smaller"
 msgstr "Scurte di tastiere par ridusi la dimension dal caratar"
 
-#: src/org.gnome.Terminal.gschema.xml:619
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:619
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "Scurte di tastiere par configurâ il caratar ae dimension normâl"
 
-#: src/org.gnome.Terminal.gschema.xml:623
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:623
 msgid "Keyboard shortcut to show the primary menu"
 msgstr "Scurte di tastiere par mostrâ il menù primari"
 
-#: src/org.gnome.Terminal.gschema.xml:633
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:633
 msgid "Whether the menubar has access keys"
 msgstr "Indiche se te sbare dai menù a son tascj aceleradôrs"
 
-#: src/org.gnome.Terminal.gschema.xml:634
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:634
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it’s possible to turn them"
@@ -767,11 +767,11 @@ msgstr ""
 "interferî cun cualchi aplicazion che e je stade inviade dal terminâl, cussì "
 "si puedin disabilitâlis."
 
-#: src/org.gnome.Terminal.gschema.xml:643
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:643
 msgid "Whether shortcuts are enabled"
 msgstr "Indiche se lis scurtis a son abilitadis"
 
-#: src/org.gnome.Terminal.gschema.xml:644
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:644
 msgid ""
 "Whether shortcuts are enabled. They may interfere with some applications run"
 " inside the terminal so it’s possible to turn them off."
@@ -779,13 +779,13 @@ msgstr ""
 "Indiche se lis scurtis a son abilitadis. Chestis a podaressin interferî cun "
 "cualchi aplicazion inviade dal terminâl, cussì al è pussibil disabilitâlis."
 
-#: src/org.gnome.Terminal.gschema.xml:653
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:653
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr ""
 "Indiche se la scurte predefinide di GTK par acedi ae sbare dai menù e je "
 "abilitade"
 
-#: src/org.gnome.Terminal.gschema.xml:654
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:654
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -795,48 +795,48 @@ msgstr ""
 "puedis personalizâ cun gtkrc (gtk-menu-bar-accel = \"whatever\"). Cun cheste"
 " opzion tu puedis disabilitâ l'aceleradôr predefinît pe sbare di menù."
 
-#: src/org.gnome.Terminal.gschema.xml:664
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:664
 msgid "Whether the shell integration is enabled"
 msgstr "Indiche se la integrazion de shell e je abilitade"
 
-#: src/org.gnome.Terminal.gschema.xml:669
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:669
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "Indiche se domandâ conferme prime di sierâ un terminâl"
 
-#: src/org.gnome.Terminal.gschema.xml:674
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:674
 msgid "Additional info section items to appear in the context menu"
 msgstr ""
 "Elements de sezion di informazions adizionâls di mostrâ tal menù contestuâl"
 
-#: src/org.gnome.Terminal.gschema.xml:679
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:679
 msgid "Whether to show the menubar in new windows"
 msgstr "Indiche se mostrâ la sbare dai menù intai gnûfs barcons"
 
-#: src/org.gnome.Terminal.gschema.xml:684
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:684
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "Indiche se vierzi i gnûfs terminâi come barcons o schedis"
 
-#: src/org.gnome.Terminal.gschema.xml:689
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:689
 msgid "When to show the tabs bar"
 msgstr "Cuant mostrâ la sbare di scoriment"
 
-#: src/org.gnome.Terminal.gschema.xml:694
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:694
 msgid "The position of the tab bar"
 msgstr "La posizion de sbare des schedis"
 
-#: src/org.gnome.Terminal.gschema.xml:699
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:699
 msgid "Which theme variant to use"
 msgstr "Cuale variant dal teme di doprâ"
 
-#: src/org.gnome.Terminal.gschema.xml:704
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:704
 msgid ""
 "Whether new tabs should open next to the current one or at the last position"
 msgstr ""
 "Indiche se lis gnovis schedis a àn di vierzisi dongje di chê atuâl o te "
 "ultime posizion"
 
-#: src/org.gnome.Terminal.gschema.xml:711
-msgid "Always check whether GNOME Terminal is the default terminal"
+#: src/org.acreetionos.cinnamon.Terminal.gschema.xml:711
+msgid "Always check whether Cinnamon Terminal is the default terminal"
 msgstr "Controle simpri se Terminâl di GNOME al è il terminâl predefinît"
 
 #. Open new terminal in new window
@@ -1957,7 +1957,7 @@ msgstr "Dopre “%s” par terminâ lis opzions e met daspò il comant di esegu�
 
 #: src/terminal-options.cc:353 src/terminal-options.cc:366
 #, c-format
-msgid "Option “%s” is no longer supported in this version of gnome-terminal."
+msgid "Option “%s” is no longer supported in this version of cinnamon-terminal."
 msgstr ""
 "La opzion “%s” no je plui disponibile in cheste version di Terminâl di "
 "GNOME."
@@ -2154,11 +2154,11 @@ msgid "COMMAND"
 msgstr "COMANT"
 
 #: src/terminal-options.cc:1701
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "Emuladôr di Terminâl di GNOME"
 
 #: src/terminal-options.cc:1702
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "Mostre lis opzions dal Terminâl di GNOME"
 
 #: src/terminal-options.cc:1712
@@ -2332,7 +2332,7 @@ msgid "A terminal emulator for the GNOME desktop"
 msgstr "Un emuladôr di terminâl par GNOME"
 
 #: src/terminal-util.cc:252
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminâl di GNOME"
 
 #: src/terminal-util.cc:262
@@ -2350,7 +2350,7 @@ msgstr "Impussibil vierzi la direzion “%s”"
 
 #: src/terminal-util.cc:406
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -2361,7 +2361,7 @@ msgstr ""
 
 #: src/terminal-util.cc:410
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for"
 " more details."
@@ -2374,7 +2374,7 @@ msgstr ""
 #: src/terminal-util.cc:414
 msgid ""
 "You should have received a copy of the GNU General Public License along with"
-" GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+" Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "Cun Terminâl di GNOME ti varessin di vê dât ancje une copie de licence GNU "
 "General Public License, in câs diviers consultâ la pagjine "
@@ -2441,7 +2441,7 @@ msgid "L_eave Full Screen"
 msgstr "Barcon nor_mâl"
 
 #: src/terminal-window.cc:2291
-msgid "Set GNOME Terminal as your default terminal?"
+msgid "Set Cinnamon Terminal as your default terminal?"
 msgstr "Stabilî Terminâl di GNOME tant che terminâl predefinît?"
 
 #: src/terminal-window.cc:2297
@@ -2485,8 +2485,8 @@ msgstr "_Siere barcon"
 msgid "Failed to parse arguments: %s\n"
 msgstr "Analisi dai argoments falide: %s\n"
 
-#~ msgid "org.gnome.Terminal"
-#~ msgstr "org.gnome.Terminal"
+#~ msgid "org.acreetionos.cinnamon.Terminal"
+#~ msgstr "org.acreetionos.cinnamon.Terminal"
 
 #~ msgid "Armenian"
 #~ msgstr "Armen"
@@ -3478,11 +3478,11 @@ msgstr "Analisi dai argoments falide: %s\n"
 #~ msgstr "Liste dai profî"
 
 #~ msgid ""
-#~ "List of profiles known to gnome-terminal. The list contains strings naming "
-#~ "subdirectories relative to /apps/gnome-terminal/profiles."
+#~ "List of profiles known to cinnamon-terminal. The list contains strings naming "
+#~ "subdirectories relative to /apps/cinnamon-terminal/profiles."
 #~ msgstr ""
-#~ "Liste dai profî cognossûts di gnome-terminal. La liste a jà dentri i noms "
-#~ "des sottodirectory relatives a /apps/gnome-terminal/profiles."
+#~ "Liste dai profî cognossûts di cinnamon-terminal. La liste a jà dentri i noms "
+#~ "des sottodirectory relatives a /apps/cinnamon-terminal/profiles."
 
 #~ msgid ""
 #~ "Popup a dialog when an S/Key challenge response query is detected and "
@@ -3867,10 +3867,10 @@ msgstr "Analisi dai argoments falide: %s\n"
 #~ "tal mût coret."
 
 #~ msgid ""
-#~ "It appears that you do not have gnome-terminal.server installed in a valid "
+#~ "It appears that you do not have cinnamon-terminal.server installed in a valid "
 #~ "location. Factory mode disabled.\n"
 #~ msgstr ""
-#~ "Al samee che gnome-terminal.server nol sedi instalât intune posizion valide."
+#~ "Al samee che cinnamon-terminal.server nol sedi instalât intune posizion valide."
 #~ " La modalitât \"fabriche\" a vegnarâ disabilitade.\n"
 
 #~ msgid ""

@@ -26,7 +26,7 @@
 
 G_BEGIN_DECLS
 
-#define GNOME_TERMINAL_ICON_NAME "org.gnome.Terminal"
+#define GNOME_TERMINAL_ICON_NAME "org.acreetionos.cinnamon.Terminal"
 
 #define GNOME_TERMINAL_ICON_SYMBOLIC_NAME GNOME_TERMINAL_ICON_NAME "-symbolic"
 

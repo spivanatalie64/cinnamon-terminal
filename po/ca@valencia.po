@@ -1,4 +1,4 @@
-# Catalan translation of gnome-terminal.
+# Catalan translation of cinnamon-terminal.
 # Copyright © 2002, 2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
 # <qk269@hotmail.com>, 2002.
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005.
@@ -9,7 +9,7 @@
 # Xavi Ivars <xavi.ivars@gmail.com>, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal\n"
+"Project-Id-Version: cinnamon-terminal\n"
 "Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
 "terminal&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2017-09-11 19:16+0000\n"
@@ -24,29 +24,29 @@ msgstr ""
 "X-Generator: Poedit 1.8.11\n"
 "X-Project-Style: gnome\n"
 
-#: ../org.gnome.Terminal.appdata.xml.in.h:1
-#: ../org.gnome.Terminal.desktop.in.in.h:1 ../src/server.c:161
+#: ../org.acreetionos.cinnamon.Terminal.appdata.xml.in.h:1
+#: ../org.acreetionos.cinnamon.Terminal.desktop.in.in.h:1 ../src/server.c:161
 #: ../src/terminal-accels.c:237 ../src/terminal.c:384
 #: ../src/terminal-tab-label.c:81 ../src/terminal-tabs-menu.c:180
 #: ../src/terminal-window.c:2734 ../src/terminal-window.c:3093
 msgid "Terminal"
 msgstr "Terminal"
 
-#: ../org.gnome.Terminal.appdata.xml.in.h:2
-#: ../org.gnome.Terminal.desktop.in.in.h:2
+#: ../org.acreetionos.cinnamon.Terminal.appdata.xml.in.h:2
+#: ../org.acreetionos.cinnamon.Terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "Obriu la línia d'ordes"
 
-#: ../org.gnome.Terminal.appdata.xml.in.h:3
+#: ../org.acreetionos.cinnamon.Terminal.appdata.xml.in.h:3
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
 "El Terminal del GNOME és una aplicació d'emulació de terminal per accedir a "
 "un intèrpret d'ordes UNIX que es pot utilitzar per executar programes del "
 "sistema."
 
-#: ../org.gnome.Terminal.appdata.xml.in.h:4
+#: ../org.acreetionos.cinnamon.Terminal.appdata.xml.in.h:4
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
@@ -54,15 +54,15 @@ msgstr ""
 "Permet l'ús de diferents perfils, múltiples pestanyes i a més implementa "
 "diferents dreceres de teclat."
 
-#: ../org.gnome.Terminal.Nautilus.metainfo.xml.in.h:1
+#: ../org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in.h:1
 msgid "Terminal plugin for Files"
 msgstr "Connector de terminal per als fitxers"
 
-#: ../org.gnome.Terminal.Nautilus.metainfo.xml.in.h:2
+#: ../org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in.h:2
 msgid "Open a terminal from Files"
 msgstr "Obri un terminal per als fitxers"
 
-#: ../org.gnome.Terminal.Nautilus.metainfo.xml.in.h:3
+#: ../org.acreetionos.cinnamon.Terminal.Nautilus.metainfo.xml.in.h:3
 msgid ""
 "Open Terminal is a plugin for the Files application that adds a menu item to "
 "the context menu to open a terminal in the currently browsed directory."
@@ -71,7 +71,7 @@ msgstr ""
 "element de menú al menú contextual per obrir un terminal al directori actual "
 "de navegació."
 
-#: ../org.gnome.Terminal.desktop.in.in.h:3
+#: ../org.acreetionos.cinnamon.Terminal.desktop.in.in.h:3
 msgid "shell;prompt;command;commandline;cmd;"
 msgstr "intèrpret d'ordes;indicador;orde;línia d'ordes;"
 
@@ -298,24 +298,24 @@ msgid "Unnamed"
 msgstr "Sense nom"
 
 #. Translators: Keep single quote please!
-#: ../src/org.gnome.Terminal.gschema.xml.h:2
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:2
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'Sense nom'"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:3
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:3
 msgid "Human-readable name of the profile"
 msgstr "Nom del perfil llegible per humans"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:4
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:4
 msgid "Human-readable name of the profile."
 msgstr "Nom del perfil llegible per humans."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:5
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:5
 msgid "Default color of text in the terminal"
 msgstr "Color predeterminat del text al terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:6
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:6
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -324,11 +324,11 @@ msgstr ""
 "poden ser dígits hexadecimals en estil HTML o un nom de color tal com "
 "«red» (roig)."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:7
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:7
 msgid "Default color of terminal background"
 msgstr "El color de fons del terminal per defecte"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:8
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:8
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as “red”)."
@@ -337,11 +337,11 @@ msgstr ""
 "poden ser dígits hexadecimals en estil HTML, o un nom de color tal com "
 "«red» (roig)."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:9
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:9
 msgid "Default color of bold text in the terminal"
 msgstr "Color predeterminat del text en negreta al terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:10
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:10
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as “red”). This is ignored if "
@@ -351,31 +351,31 @@ msgstr ""
 "de color: poden ser dígits hexadecimals en estil HTML o un nom de color tal "
 "com «red» (roig). S'ignorarà si «bold_color_same_as_fg» està habilitat."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:11
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:11
 msgid "Whether bold text should use the same color as normal text"
 msgstr ""
 "Si el text en negreta hauria d'utilitzar el mateix color que el text normal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:12
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:12
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr ""
 "Si és «True» (cert) es renderitzarà el text en negreta utilitzant el mateix "
 "color que el text normal."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:13
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:13
 msgid "Whether to use custom cursor colors"
 msgstr "Si s'han d'usar colors de cursor personalitzats"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:14
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:14
 msgid "If true, use the cursor colors from the profile."
 msgstr "Si és «True» (cert) usa els colors de cursos del perfil."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:15
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:15
 msgid "Cursor background color"
 msgstr "Color de fons del cursor"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:16
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:16
 msgid ""
 "Custom color of the background of the terminal’s cursor, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
@@ -385,11 +385,11 @@ msgstr ""
 "de color: poden ser dígits hexadecimals en estil HTML o un nom de color tal "
 "com «red» (roig). S'ignorarà si «cursor-colors-set» està habilitat."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:17
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:17
 msgid "Cursor foreground colour"
 msgstr "Color del primer pla"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:18
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:18
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "cursor position, as a color specification (can be HTML-style hex digits, or "
@@ -400,19 +400,19 @@ msgstr ""
 "nom de color tal com «red» (roig). S'ignorarà si «cursor-colors-set» està "
 "habilitat."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:19
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:19
 msgid "Whether to use custom highlight colors"
 msgstr "Si s'usen els colors ressaltats personalitzats"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:20
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:20
 msgid "If true, use the highlight colors from the profile."
 msgstr "Si és «True» (cert) usa els colors ressaltats del perfil."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:21
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:21
 msgid "Highlight background color"
 msgstr "Color del fons ressaltat"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:22
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:22
 msgid ""
 "Custom color of the background of the terminal’s highlight, as a color "
 "specification (can be HTML-style hex digits, or a color name such as “red”). "
@@ -422,11 +422,11 @@ msgstr ""
 "de color: poden ser dígits hexadecimals en estil HTML o un nom de color tal "
 "com «red» (roig). S'ignorarà si «highlight-colors-set» està habilitat."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:23
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:23
 msgid "Highlight foreground colour"
 msgstr "Color de primer pla ressaltat"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:24
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:24
 msgid ""
 "Custom color for the foreground of the text character at the terminal’s "
 "highlight position, as a color specification (can be HTML-style hex digits, "
@@ -438,21 +438,21 @@ msgstr ""
 "nom de color tal com «red» (roig). S'ignorarà si «bold_color_same_as_fg» "
 "està habilitat."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:25
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:25
 msgid "Whether to allow bold text"
 msgstr "Si es permet o no text en negreta"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:26
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:26
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
 "Si és «True» (cert) permet a les aplicacions dins del terminal mostrar text "
 "en negreta."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:27
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:27
 msgid "Whether to ring the terminal bell"
 msgstr "Si ha de sonar l'avís sonor del terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:28
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:28
 msgid ""
 "List of ASCII punctuation characters that are not to be treated as part of a "
 "word when doing word-wise selection"
@@ -460,21 +460,21 @@ msgstr ""
 "Llista de caràcters de puntuació ASCII que no seran tractats com a part "
 "d'una paraula en seleccionar per paraules"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:29
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:29
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "Si s'ha de mostrar la barra de menú a les finestres/pestanyes noves"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:30
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:30
 msgid "True if the menubar should be shown in new window"
 msgstr ""
 "Establiu-ho a «True» (cert) si la barra de menú s'ha de mostrar a les noves "
 "finestres"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:31
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:31
 msgid "Default number of columns"
 msgstr "Nombre predeterminat de columnes"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:32
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:32
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -482,11 +482,11 @@ msgstr ""
 "Nombre de columnes en les finestres de terminal acabades de crear. No té cap "
 "efecte si «use_custom_default_size» no està habilitat."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:33
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:33
 msgid "Default number of rows"
 msgstr "Nombre predeterminat de files"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:34
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:34
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -494,15 +494,15 @@ msgstr ""
 "Nombre de files en les finestres de terminal acabades de crear. No té cap "
 "efecte si «use_custom_default_size» no està habilitat."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:35
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:35
 msgid "When to show the scrollbar"
 msgstr "Si s'ha de mostrar la barra de desplaçament"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:36
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:36
 msgid "Number of lines to keep in scrollback"
 msgstr "Nombre de línies a mantindre en el desplaçament"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:37
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:37
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don’t fit in the scrollback are "
@@ -513,12 +513,12 @@ msgstr ""
 "desplaçament es descarten. Si «scrollback_unlimited» està habilitat, "
 "s'ignorarà este valor."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:38
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:38
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr ""
 "Si s'hauria de mantindre un nombre de línies il·limitat en el desplaçament"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:39
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:39
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -529,30 +529,30 @@ msgstr ""
 "que això pot provocar que el sistema es quede sense espai al disc si hi ha "
 "molta eixida al terminal."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:40
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:40
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "Si s'ha de desplaçar al final quan es prem una tecla"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:41
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:41
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "Si és «True» (cert) en prémer una tecla farà que es desplaci al final."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:42
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:42
 msgid "Whether to scroll to the bottom when there’s new output"
 msgstr "Si s'ha de desplaçar al final quan hi ha una eixida nova"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:43
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:43
 msgid ""
 "If true, whenever there’s new output the terminal will scroll to the bottom."
 msgstr ""
 "Si és «True» (cert) quan hi haja nova eixida el terminal es desplaçarà al "
 "fons."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:44
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:44
 msgid "What to do with the terminal when the child command exits"
 msgstr "Què cal fer amb el terminal quan l'orde del subprocés ix"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:45
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:45
 msgid ""
 "Possible values are “close” to close the terminal, “restart” to restart the "
 "command, and “hold” to keep the terminal open with no command running inside."
@@ -561,12 +561,12 @@ msgstr ""
 "tornar a executar l'orde, i «hold» per mantindre el terminal obert sense "
 "ordes executant-se per dins."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:46
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:46
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr ""
 "Si s'ha d'executar l'orde dins del terminal com un intèrpret d'entrada"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:47
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:47
 msgid ""
 "If true, the command inside the terminal will be launched as a login shell "
 "(argv[0] will have a hyphen in front of it)."
@@ -574,12 +574,12 @@ msgstr ""
 "Si és «True» (cert) l'orde dins del terminal s'iniciarà com a un intèrpret "
 "d'entrada (argv[0] tindrà un guió davant seu)."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:48
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:48
 msgid "Whether to run a custom command instead of the shell"
 msgstr ""
 "Si s'executa o no una orde personalitzada en comptes de l'intèrpret d'ordes"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:49
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:49
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
@@ -587,11 +587,11 @@ msgstr ""
 "Si és «True» (cert) el valor de la configuració «custom_command» "
 "s'utilitzarà en comptes d'executar un intèrpret."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:50
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:50
 msgid "Whether to blink the cursor"
 msgstr "Si el cursor ha de parpellejar"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:51
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:51
 msgid ""
 "The possible values are “system” to use the global cursor blinking settings, "
 "or “on” or “off” to set the mode explicitly."
@@ -600,55 +600,55 @@ msgstr ""
 "parpelleig del cursor global, «on» (activat) o «off» (apagat) per establir "
 "explícitament el mode."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:52
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:52
 msgid "The cursor appearance"
 msgstr "L'aparença del cursor"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:53
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:53
 msgid "Custom command to use instead of the shell"
 msgstr "L'orde personalitzada a utilitzar en comptes de l'intèrpret d'ordes"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:54
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:54
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr ""
 "Executa esta orde en comptes de l'intèrpret, si «use_custom_command» és "
 "cert."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:55
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:55
 msgid "Palette for terminal applications"
 msgstr "Paleta per a les aplicacions de terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:56
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:56
 msgid "A Pango font name and size"
 msgstr "Un nom i mida de tipus de lletra Pango"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:57
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:57
 msgid "The code sequence the Backspace key generates"
 msgstr "La seqüència de codi que genera la tecla de retrocés"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:58
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:58
 msgid "The code sequence the Delete key generates"
 msgstr "La seqüència de codi que genera la tecla de suprimir"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:59
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:59
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "Si s'han d'utilitzar els colors del tema per al giny del terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:60
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:60
 msgid "Whether to use the system monospace font"
 msgstr "Si s'ha d'utilitzar el tipus de lletra d'amplària fixa del sistema"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:61
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:61
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr ""
 "Si s'han de reajustar els continguts del terminal en redimensionar la "
 "finestra"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:62
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:62
 msgid "Which encoding to use"
 msgstr "Quina codificació s'ha d'utilitzar"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:63
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:63
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
@@ -656,135 +656,135 @@ msgstr ""
 "Si els caràcters d'amplària incerta són estrets o amples quan s'utilitze la "
 "codificació UTF-8"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:64
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:64
 msgid "Keyboard shortcut to open a new tab"
 msgstr "La drecera per obrir una pestanya nova"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:65
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:65
 msgid "Keyboard shortcut to open a new window"
 msgstr "La drecera per obrir una finestra nova"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:66
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:66
 msgid "Keyboard shortcut to create a new profile"
 msgstr "La drecera per crear un perfil nou"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:67
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:67
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "La drecera per guardar els continguts de la pestanya actual a un fitxer"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:68
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:68
 msgid "Keyboard shortcut to close a tab"
 msgstr "La drecera per tancar una pestanya"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:69
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:69
 msgid "Keyboard shortcut to close a window"
 msgstr "La drecera per tancar una finestra"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:70
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:70
 msgid "Keyboard shortcut to copy text"
 msgstr "La drecera per copiar text"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:71
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:71
 msgid "Keyboard shortcut to copy text as HTML"
 msgstr "La drecera del teclat  per copiar text com a HTML"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:72
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:72
 msgid "Keyboard shortcut to paste text"
 msgstr "La drecera per enganxar text"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:73
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:73
 msgid "Keyboard shortcut to select all text"
 msgstr "La drecera per seleccionar tot el text"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:74
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:74
 msgid "Keyboard shortcut to open the Preferences dialog"
 msgstr "La drecera per obrir el diàleg de preferències"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:75
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:75
 msgid "Keyboard shortcut to open the current profile’s Preferences dialog"
 msgstr "La drecera per obrir el diàleg de preferències del perfil actual"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:76
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:76
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "La drecera per commutar el mode a pantalla sencera"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:77
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:77
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "La drecera per canviar la visibilitat de la barra del menú"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:78
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:78
 msgid "Keyboard shortcut to toggle the read-only state"
 msgstr "La drecera per commutar l'estat a sols lectura"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:79
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:79
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "La drecera per reiniciar el terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:80
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:80
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "La drecera per reiniciar i netejar el terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:81
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:81
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "La drecera per obrir el diàleg de busca"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:82
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:82
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr "La drecera per trobar el resultat següent del terme de busca"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:83
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:83
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr "La drecera per trobar el resultat anterior del terme de busca"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:84
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:84
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr "La drecera per netejar el realçat de busca"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:85
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:85
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "La drecera per canviar a la pestanya anterior"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:86
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:86
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "La drecera per canviar a la pestanya següent"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:87
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:87
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "La drecera per moure la pestanya actual a l'esquerra"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:88
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:88
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "La drecera per moure la pestanya actual a la dreta"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:89
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:89
 msgid "Keyboard shortcut to detach current tab"
 msgstr "La drecera per separar la pestanya actual"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:90
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:90
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "La drecera per canviar a la pestanya numerada"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:91
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:91
 msgid "Keyboard shortcut to launch help"
 msgstr "La drecera per llançar l'ajuda"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:92
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:92
 msgid "Keyboard shortcut to make font larger"
 msgstr "La drecera per fer el tipus de lletra més gran"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:93
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:93
 msgid "Keyboard shortcut to make font smaller"
 msgstr "La drecera per fer el tipus de lletra més petit"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:94
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:94
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "La drecera per fer el tipus de lletra de mida normal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:95
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:95
 msgid "Whether the menubar has access keys"
 msgstr "Si la barra de menú té dreceres"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:96
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:96
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it’s possible to turn them "
@@ -794,11 +794,11 @@ msgstr ""
 "interferir amb algunes aplicacions dins del terminal així doncs és possible "
 "inhabilitar-les."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:97
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:97
 msgid "Whether shortcuts are enabled"
 msgstr "Si les dreceres estan habilitades"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:98
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:98
 msgid ""
 "Whether shortcuts are enabled. They may interfere with some applications run "
 "inside the terminal so it’s possible to turn them off."
@@ -806,12 +806,12 @@ msgstr ""
 "Si les dreceres estan habilitades. Poden interferir amb algunes aplicacions "
 "dins del terminal, per este motiu és possible inhabilitar-les."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:99
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:99
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr ""
 "Si la drecera estàndard de GTK per accedir a les barres de menú està activada"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:100
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:100
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -822,15 +822,15 @@ msgstr ""
 "siga»). Esta opció permet que l'accelerador de barra de menú estàndard "
 "es puga inhabilitar."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:101
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:101
 msgid "Whether the shell integration is enabled"
 msgstr "Si s'habilita la integració amb l'intèrpret d'ordes"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:102
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:102
 msgid "List of available encodings"
 msgstr "Llista de codificacions disponibles"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:103
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:103
 msgid ""
 "A subset of possible encodings are presented in the Encoding submenu. This "
 "is a list of encodings to appear there."
@@ -838,27 +838,27 @@ msgstr ""
 "En el submenú Codificacions es mostra un subconjunt de les codificacions "
 "possibles. Esta és la llista de codificacions que apareixen allí."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:104
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:104
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "Si s'ha de demanar confirmació abans de tancar el terminal"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:105
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:105
 msgid "Whether to show the menubar in new windows"
 msgstr "Si s'ha de mostrar la barra de menú a les finestres noves"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:106
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:106
 msgid "Whether to open new terminals as windows or tabs"
 msgstr "Si s'han d'obrir els terminals nous a finestres o a pestanyes"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:107
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:107
 msgid "When to show the tabs bar"
 msgstr "Si s'ha de mostrar la barra de pestanyes"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:108
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:108
 msgid "The position of the tab bar"
 msgstr "La posició de la barra de pestanyes"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:109
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:109
 msgid "Which theme variant to use"
 msgstr "Quina variant del tema s'ha d'utilitzar"
 
@@ -1749,7 +1749,7 @@ msgid ""
 "terminal."
 msgstr ""
 "L'opció «%s» ja no és compatible i pot ser suprimida en una versió futura "
-"del gnome-terminal."
+"del cinnamon-terminal."
 
 #. %s is being replaced with "-- " (without quotes), which must be used literally, not translatable
 #: ../src/terminal-options.c:234
@@ -1763,12 +1763,12 @@ msgstr ""
 
 #: ../src/terminal-options.c:244 ../src/terminal-options.c:257
 #, c-format
-msgid "Option “%s” is no longer supported in this version of gnome-terminal."
+msgid "Option “%s” is no longer supported in this version of cinnamon-terminal."
 msgstr ""
-"L'opció «%s» ja no és compatible amb esta versió del gnome-terminal."
+"L'opció «%s» ja no és compatible amb esta versió del cinnamon-terminal."
 
 #: ../src/terminal-options.c:269 ../src/terminal-util.c:239
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "Terminal del GNOME"
 
 #: ../src/terminal-options.c:270 ../src/terminal-util.c:226
@@ -1885,11 +1885,11 @@ msgid "COMMAND"
 msgstr "ORDRE"
 
 #: ../src/terminal-options.c:1334
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "Emulador de terminal del GNOME"
 
 #: ../src/terminal-options.c:1335
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "Mostra les opcions del terminal del GNOME"
 
 #: ../src/terminal-options.c:1345
@@ -2024,7 +2024,7 @@ msgstr "No s'ha pogut obrir l'adreça «%s»"
 
 #: ../src/terminal-util.c:394
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -2036,7 +2036,7 @@ msgstr ""
 
 #: ../src/terminal-util.c:398
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -2049,7 +2049,7 @@ msgstr ""
 #: ../src/terminal-util.c:402
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "Hauríeu d'haver rebut una còpia de la Llicència Pública General GNU "
 "juntament amb el terminal del GNOME. En cas contrari, vegeu <http://www.gnu."

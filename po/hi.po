@@ -31,30 +31,30 @@ msgstr ""
 "\n"
 "\n"
 
-#: ../gnome-terminal.appdata.xml.in.h:1 ../gnome-terminal.desktop.in.in.h:1
+#: ../cinnamon-terminal.appdata.xml.in.h:1 ../cinnamon-terminal.desktop.in.in.h:1
 #: ../src/server.c:121 ../src/terminal-accels.c:222 ../src/terminal.c:243
 #: ../src/terminal-tab-label.c:79 ../src/terminal-tabs-menu.c:180
 #: ../src/terminal-window.c:2582 ../src/terminal-window.c:2932
 msgid "Terminal"
 msgstr "टर्मिनल"
 
-#: ../gnome-terminal.appdata.xml.in.h:2 ../gnome-terminal.desktop.in.in.h:2
+#: ../cinnamon-terminal.appdata.xml.in.h:2 ../cinnamon-terminal.desktop.in.in.h:2
 msgid "Use the command line"
 msgstr "कमांड लाइन का प्रयोग करें"
 
-#: ../gnome-terminal.appdata.xml.in.h:3
+#: ../cinnamon-terminal.appdata.xml.in.h:3
 msgid ""
-"GNOME Terminal is a terminal emulator application for accessing a UNIX shell "
+"Cinnamon Terminal is a terminal emulator application for accessing a UNIX shell "
 "environment which can be used to run programs available on your system."
 msgstr ""
 
-#: ../gnome-terminal.appdata.xml.in.h:4
+#: ../cinnamon-terminal.appdata.xml.in.h:4
 msgid ""
 "It supports several profiles, multiple tabs and implements several keyboard "
 "shortcuts."
 msgstr ""
 
-#: ../gnome-terminal.desktop.in.in.h:3
+#: ../cinnamon-terminal.desktop.in.in.h:3
 msgid "shell;prompt;command;commandline;"
 msgstr "शेल;प्रांप्ट;कमांड;कमांडलाइन;"
 
@@ -324,25 +324,25 @@ msgstr "तयशुदा"
 msgid "Unnamed"
 msgstr "बेनाम"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:1
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:1
 #| msgid "Unnamed"
 msgctxt "visible-name"
 msgid "'Unnamed'"
 msgstr "'बेनाम'"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:2
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:2
 msgid "Human-readable name of the profile"
 msgstr "प्रोफ़ाइल का मनुष्य द्वारा पढ़ सकने योग्य नाम"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:3
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:3
 msgid "Human-readable name of the profile."
 msgstr "इस प्रोफ़ाइल का मनुष्य द्वारा पढ़ सकने योग्य नाम."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:4
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:4
 msgid "Default color of text in the terminal"
 msgstr "टर्मिनल में पाठ का तयशुदा रंग"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:5
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:5
 msgid ""
 "Default color of text in the terminal, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -351,11 +351,11 @@ msgstr ""
 "digits हो सकता "
 "है, या कि रंग नाम जैसे कि \"red\")."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:6
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:6
 msgid "Default color of terminal background"
 msgstr "टर्मिनल पृष्ठभूमि का तयशुदा रंग"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:7
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:7
 msgid ""
 "Default color of terminal background, as a color specification (can be HTML-"
 "style hex digits, or a color name such as \"red\")."
@@ -364,11 +364,11 @@ msgstr ""
 "digits, या रंग "
 "नाम जैसे कि  \"red\")."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:8
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:8
 msgid "Default color of bold text in the terminal"
 msgstr "टर्मिनल में बोल्ड पाठ के मूलभूत रंग"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:9
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:9
 msgid ""
 "Default color of bold text in the terminal, as a color specification (can be "
 "HTML-style hex digits, or a color name such as \"red\"). This is ignored if "
@@ -380,11 +380,11 @@ msgstr ""
 "नजरअंदाज "
 "कर दिया है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:10
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:10
 msgid "Whether bold text should use the same color as normal text"
 msgstr "क्या बोल्ड पाठ सामान्य पाठ के रूप में एक ही रंग का उपयोग करना चाहिए"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:11
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:11
 msgid ""
 "If true, boldface text will be rendered using the same color as normal text."
 msgstr ""
@@ -392,32 +392,32 @@ msgstr ""
 "किया "
 "जाएगा."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:12
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:12
 msgid "Whether to allow bold text"
 msgstr "क्या गाढ़ा पाठ स्वीकार करना है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:13
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:13
 msgid "If true, allow applications in the terminal to make text boldface."
 msgstr ""
 "यदि सही है, अनुप्रयोगों को टर्मिनल में पाठ को गहरा बनाने हेतु स्वीकारें."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:14
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:14
 msgid "Whether to ring the terminal bell"
 msgstr "क्या टर्मिनल की घंटी बजाना चहिए"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:15
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:15
 msgid "Whether to show menubar in new windows/tabs"
 msgstr "क्या नए विंडोज़/टैब्स में मेन्यू-पट्टी दिखाना है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:16
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:16
 msgid "True if the menubar should be shown in new window"
 msgstr "सही अगर मेनूबार नये विंडो में दिखाया जाता है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:17
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:17
 msgid "Default number of columns"
 msgstr "स्तंभों की मूलभूत संख्या"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:18
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:18
 msgid ""
 "Number of columns in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -425,11 +425,11 @@ msgstr ""
 "नव निर्मित टर्मिनल खिड़कियों में स्तंभों की संख्या.कोई प्रभाव नहीं है यदि "
 "use_custom_default_size सक्षम नहीं है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:19
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:19
 msgid "Default number of rows"
 msgstr "पंक्तियों की मूलभूत संख्या"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:20
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:20
 msgid ""
 "Number of rows in newly created terminal windows. Has no effect if "
 "use_custom_default_size is not enabled."
@@ -437,15 +437,15 @@ msgstr ""
 "नव निर्मित टर्मिनल खिड़कियों में पंक्तियों की संख्या.कोई प्रभाव नहीं है यदि "
 "use_custom_default_size सक्षम नहीं है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:21
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:21
 msgid "When to show the scrollbar"
 msgstr "जब स्क्रॉलबार को दिखाने के लिए"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:22
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:22
 msgid "Number of lines to keep in scrollback"
 msgstr "स्क्रॉलबैक में रखने हेतु पंक्तियों की संख्या"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:23
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:23
 msgid ""
 "Number of scrollback lines to keep around. You can scroll back in the "
 "terminal by this number of lines; lines that don't fit in the scrollback are "
@@ -456,11 +456,11 @@ msgstr ""
 "स्क्रॉल कर सकते हैं, स्क्रॉलबैक में फिट नहीं लाइनों कि खारिज कर रहे हैं. यदि "
 "scrollback_unlimited सच है, इस मान को नजरअंदाज कर दिया है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:24
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:24
 msgid "Whether an unlimited number of lines should be kept in scrollback"
 msgstr "क्या लाइनों के एक असीमित संख्या स्क्रॉलबैक में रखा जाना चाहिए"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:25
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:25
 msgid ""
 "If true, scrollback lines will never be discarded. The scrollback history is "
 "stored on disk temporarily, so this may cause the system to run out of disk "
@@ -472,29 +472,29 @@ msgstr ""
 "सकता है "
 "अगर वहाँ टर्मिनल के लिए उत्पादन का एक बहुत कुछ है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:26
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:26
 msgid "Whether to scroll to the bottom when a key is pressed"
 msgstr "जब एक कुंजी को दबाया जाए तो क्या तल पर स्क्रॉल करें"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:27
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:27
 msgid "If true, pressing a key jumps the scrollbar to the bottom."
 msgstr "यदि सही है, कोई कुंजी दबाने पर स्क्रॉल-पट्टी तल पर कूद जाएगा."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:28
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:28
 msgid "Whether to scroll to the bottom when there's new output"
 msgstr "जब नया आउटपुट हो तो क्या तल पर स्क्रॉल करें"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:29
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:29
 msgid ""
 "If true, whenever there's new output the terminal will scroll to the bottom."
 msgstr ""
 "यदि सही है, जब भी वहाँ एक नया आउटपुट होगा, टर्मिनल तल पर स्क्रॉल करेगा."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:30
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:30
 msgid "What to do with the terminal when the child command exits"
 msgstr "टर्मिनल के साथ क्या किया जाए जब शिशु कमांड बाहर हो जाए"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:31
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:31
 msgid ""
 "Possible values are \"close\" to close the terminal, and \"restart\" to "
 "restart the command."
@@ -503,11 +503,11 @@ msgstr ""
 "आरंभ करने "
 "के लिए."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:32
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:32
 msgid "Whether to launch the command in the terminal as a login shell"
 msgstr "क्या लॉगइन शैल के रूप में टर्मिनल में कमांड चलाएँ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:33
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:33
 #| msgid ""
 #| "If true, the command inside the terminal will be launched as a login "
 #| "shell. (argv[0] will have a hyphen in front of it.)"
@@ -518,11 +518,11 @@ msgstr ""
 "अगर सही है, टर्मिनल के अंदर का कमांड एक लॉगिन शेल के रूप में लांच होगा "
 "(argv[0] इसके सामने एक हाइफन रखेगा)."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:34
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:34
 msgid "Whether to update login records when launching terminal command"
 msgstr "क्या लॉगिन रिकार्ड को अद्यतन करना है जब टर्मिनल कमांड चलाएँ"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:35
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:35
 msgid ""
 "If true, the system login records utmp and wtmp will be updated when the "
 "command inside the terminal is launched."
@@ -531,22 +531,22 @@ msgstr ""
 "जायेगा जब "
 "टर्मिनल के अंदर कमांड लांच किया जाता है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:36
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:36
 msgid "Whether to run a custom command instead of the shell"
 msgstr "क्या शैल के बदले अनुकूलित कमांड चलाना है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:37
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:37
 msgid ""
 "If true, the value of the custom_command setting will be used in place of "
 "running a shell."
 msgstr ""
 "अगर सही है, custom_command सेटिंग का मान शेल के चलाने के बजाय प्रयुक्त होगा."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:38
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:38
 msgid "Whether to blink the cursor"
 msgstr "क्या संकेतक को टिमटिमाना करना है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:39
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:39
 msgid ""
 "The possible values are \"system\" to use the global cursor blinking "
 "settings, or \"on\" or \"off\" to set the mode explicitly."
@@ -555,171 +555,171 @@ msgstr ""
 "लिए, या \"on\" "
 "या \"off\" मोड को विस्तार से सेट करने के लिए."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:40
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:40
 msgid "The cursor appearance"
 msgstr "कर्सर रूपाकार"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:41
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:41
 msgid "Custom command to use instead of the shell"
 msgstr "शैल के बदले अनुकूलित कमांड जिसे चलाना है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:42
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:42
 msgid "Run this command in place of the shell, if use_custom_command is true."
 msgstr "शेल पर यह कमांड चलायें, अगर use_custom_command सही है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:43
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:43
 msgid "Palette for terminal applications"
 msgstr "टर्मिनल अनुप्रयोगों हेतु पटल"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:44
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:44
 msgid "A Pango font name and size"
 msgstr "पैंगो फंट नाम और आकार"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:45
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:45
 msgid "The code sequence the Backspace key generates"
 msgstr "कोड अनुक्रम बैकस्पेस कुंजी उत्पन्न"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:46
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:46
 msgid "The code sequence the Delete key generates"
 msgstr "कोड अनुक्रम हटाएँ कुंजी उत्पन्न करता है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:47
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:47
 msgid "Whether to use the colors from the theme for the terminal widget"
 msgstr "क्या टर्मिनल विज़ेट हेतु प्रसंग से रंगों का उपयोग करना है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:48
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:48
 msgid "Whether to use the system monospace font"
 msgstr "क्या प्रणाली मोनोस्पेस फ़ॉन्ट का उपयोग करने के लिए है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:49
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:49
 #| msgid "Whether to use custom terminal size for new windows"
 msgid "Whether to rewrap the terminal contents on window resize"
 msgstr ""
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:50
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:50
 msgid "Which encoding to use"
 msgstr "उपयोग करने के लिए एन्कोडिंग"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:51
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:51
 msgid ""
 "Whether ambiguous-width characters are narrow or wide when using UTF-8 "
 "encoding"
 msgstr ""
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:52
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:52
 msgid "Keyboard shortcut to open a new tab"
 msgstr "नया टैब खोलने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:53
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:53
 msgid "Keyboard shortcut to open a new window"
 msgstr "एक नया विंडो खोलने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:54
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:54
 msgid "Keyboard shortcut to create a new profile"
 msgstr "नया प्रोफ़ाइल बनाने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:55
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:55
 msgid "Keyboard shortcut to save the current tab contents to file"
 msgstr "कुंजीपटल शॉर्टकट वर्तमान टैब सामग्री फाइल को बचाने के लिए"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:56
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:56
 msgid "Keyboard shortcut to close a tab"
 msgstr "टैब बन्द करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:57
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:57
 msgid "Keyboard shortcut to close a window"
 msgstr "विंडो बन्द करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:58
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:58
 msgid "Keyboard shortcut to copy text"
 msgstr "पाठ प्रतिलिपि करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:59
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:59
 msgid "Keyboard shortcut to paste text"
 msgstr "पाठ चिपकाने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:60
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:60
 msgid "Keyboard shortcut to toggle full screen mode"
 msgstr "पूर्ण स्क्रीन मोड टॉगल करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:61
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:61
 msgid "Keyboard shortcut to toggle the visibility of the menubar"
 msgstr "मेन्यू पट्टी की दृश्यता को टॉगल करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:62
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:62
 msgid "Keyboard shortcut to reset the terminal"
 msgstr "टर्मिनल रीसेट करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:63
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:63
 msgid "Keyboard shortcut to reset and clear the terminal"
 msgstr "टर्मिनल रीसेट करने तथा साफ करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:64
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:64
 #| msgid "Keyboard shortcut to reset the terminal"
 msgid "Keyboard shortcut to open the search dialog"
 msgstr "खोज संवाद खोलने के लिये कुंजीपटल शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:65
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:65
 #| msgid "Keyboard shortcut to move the current tab to the right"
 msgid "Keyboard shortcut to find the next occurrence of the search term"
 msgstr ""
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:66
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:66
 #| msgid "Keyboard shortcut to move the current tab to the right"
 msgid "Keyboard shortcut to find the previous occurrence of the search term"
 msgstr ""
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:67
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:67
 #| msgid "Keyboard shortcut to set the terminal title"
 msgid "Keyboard shortcut to clear the find highlighting"
 msgstr ""
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:68
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:68
 msgid "Keyboard shortcut to switch to the previous tab"
 msgstr "पिछले टैब में स्विच करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:69
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:69
 msgid "Keyboard shortcut to switch to the next tab"
 msgstr "अगले टैब पर स्विच करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:70
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:70
 msgid "Keyboard shortcut to move the current tab to the left"
 msgstr "ओर मौजूदा टैब को स्थानांतरित करने के लिए कुंजीपटल शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:71
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:71
 msgid "Keyboard shortcut to move the current tab to the right"
 msgstr "दायीं ओर मौजूदा टैब को स्थानांतरित करने के लिए कुंजीपटल शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:72
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:72
 msgid "Keyboard shortcut to detach current tab"
 msgstr "कुंजीपटल मौजूदा टैब से अलग शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:73
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:73
 #| msgid "Keyboard shortcut to switch to the next tab"
 msgid "Keyboard shortcut to switch to the numbered tab"
 msgstr "क्रमांकित टैब पर स्विच करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:74
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:74
 msgid "Keyboard shortcut to launch help"
 msgstr "मदद प्रारंभ करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:75
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:75
 msgid "Keyboard shortcut to make font larger"
 msgstr "फ़ॉन्ट बड़ा करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:76
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:76
 msgid "Keyboard shortcut to make font smaller"
 msgstr "फ़ॉन्ट छोटा करने हेतु कुंजीपट शॉर्टकट"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:77
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:77
 msgid "Keyboard shortcut to make font normal-size"
 msgstr "फ़ॉन्ट को सामान्य-आकार बनाने हेतु कुंजीपट शॉर्टकट   "
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:78
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:78
 msgid "Whether the menubar has access keys"
 msgstr "क्या मेन्यू-पट्टी में पहुँच कुंजियाँ हैं"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:79
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:79
 msgid ""
 "Whether to have Alt+letter access keys for the menubar. They may interfere "
 "with some applications run inside the terminal so it's possible to turn them "
@@ -729,12 +729,12 @@ msgstr ""
 "वाले अनुप्रयोग "
 "में व्यवधान कर सकते हैं इसलिये उन्हें ऑफ कर चलाना संभव है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:80
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:80
 #| msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgid "Whether shortcuts are enabled"
 msgstr "क्या शॉर्टकट सक्षम है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:81
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:81
 #| msgid ""
 #| "Whether to have Alt+letter access keys for the menubar. They may "
 #| "interfere with some applications run inside the terminal so it's possible "
@@ -746,11 +746,11 @@ msgstr ""
 "क्या शॉर्टकट सक्षम है. वे टर्मिनल के अंदर चलने वाले अनुप्रयोग में व्यवधान कर "
 "सकते हैं इसलिये उन्हें ऑफ कर चलाना संभव है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:82
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:82
 msgid "Whether the standard GTK shortcut for menubar access is enabled"
 msgstr "क्या मेन्यू-पट्टी पहुँच हेतु मानक जीटीके शॉर्टकट सक्षम है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:83
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:83
 msgid ""
 "Normally you can access the menubar with F10. This can also be customized "
 "via gtkrc (gtk-menu-bar-accel = \"whatever\"). This option allows the "
@@ -762,15 +762,15 @@ msgstr ""
 "को "
 "निष्क्रिय करने की अनुमति देता है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:84
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:84
 msgid "Whether the shell integration is enabled"
 msgstr "क्या शेल एकीकरण सक्रिय किया हुआ है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:85
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:85
 msgid "List of available encodings"
 msgstr "उपलब्घ एन्कोडिंग की सूची"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:86
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:86
 #| msgid ""
 #| "A subset of possible encodings are presented in the Encoding submenu. "
 #| "This is a list of encodings to appear there. The special encoding name "
@@ -782,20 +782,20 @@ msgstr ""
 "संभावित एन्कोडिंग का उपसमुच्चय एन्कोडिंग मेन्यू में दिखाया गया है. यह "
 "एन्कोडिंग के यहां प्रकट होने की सूची है."
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:87
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:87
 msgid "Whether to ask for confirmation before closing a terminal"
 msgstr "क्या एक टर्मिनल को बंद करने से पहले पुष्टि करने के लिए पूछने के लिए"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:88
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:88
 msgid "Whether to show the menubar in new windows"
 msgstr "क्या नए विंडोज़ में मेन्यू-पट्टी दिखाना है"
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:89
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:89
 #| msgid "Whether to use the system monospace font"
 msgid "Whether to use a dark theme variant"
 msgstr ""
 
-#: ../src/org.gnome.Terminal.gschema.xml.h:90
+#: ../src/org.acreetionos.cinnamon.Terminal.gschema.xml.h:90
 #| msgid "Whether to show menubar in new windows/tabs"
 msgid "Whether to open new terminals as windows or tabs"
 msgstr ""
@@ -1617,11 +1617,11 @@ msgstr "टर्मिनल फ़ाइल प्रबंधक मिडन
 
 #: ../src/terminal-options.c:224 ../src/terminal-options.c:237
 #, c-format
-msgid "Option \"%s\" is no longer supported in this version of gnome-terminal."
+msgid "Option \"%s\" is no longer supported in this version of cinnamon-terminal."
 msgstr "विकल्प \"%s\"  गनोम टर्मिनल के इस संस्करण में नहीं रह समर्थित है."
 
 #: ../src/terminal-options.c:249 ../src/terminal-util.c:217
-msgid "GNOME Terminal"
+msgid "Cinnamon Terminal"
 msgstr "गनोम टर्मिनल"
 
 #: ../src/terminal-options.c:289
@@ -1715,11 +1715,11 @@ msgid "PROFILE-NAME"
 msgstr "PROFILE-NAME"
 
 #: ../src/terminal-options.c:1269 ../src/terminal-options.c:1275
-msgid "GNOME Terminal Emulator"
+msgid "Cinnamon Terminal Emulator"
 msgstr "गनोम टर्मिनल एमुलेटर"
 
 #: ../src/terminal-options.c:1276
-msgid "Show GNOME Terminal options"
+msgid "Show Cinnamon Terminal options"
 msgstr "गनोम टर्मिनल विकल्प दिखाएँ"
 
 #: ../src/terminal-options.c:1286
@@ -1854,7 +1854,7 @@ msgstr "पता “%s” खोल नहीं पाया"
 
 #: ../src/terminal-util.c:369
 msgid ""
-"GNOME Terminal is free software: you can redistribute it and/or modify it "
+"Cinnamon Terminal is free software: you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
 "Software Foundation, either version 3 of the License, or (at your option) "
 "any later version."
@@ -1867,12 +1867,12 @@ msgstr ""
 
 #: ../src/terminal-util.c:373
 msgid ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
 msgstr ""
-"GNOME Terminal is distributed in the hope that it will be useful, but "
+"Cinnamon Terminal is distributed in the hope that it will be useful, but "
 "WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
 "or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
 "more details."
@@ -1880,7 +1880,7 @@ msgstr ""
 #: ../src/terminal-util.c:377
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
-"GNOME Terminal.  If not, see <http://www.gnu.org/licenses/>."
+"Cinnamon Terminal.  If not, see <http://www.gnu.org/licenses/>."
 msgstr ""
 "गनोम टर्मिनल के साथ आपको ग्नू - जनरल पब्लिक लाइसेंस की प्रतिलिपि मिलनी चाहिए "
 "यदि नहीं "
@@ -2160,8 +2160,8 @@ msgstr "विंडो बंद करें (_l)"
 #~ msgid "Be quiet"
 #~ msgstr "चुप रहो"
 
-#~| msgid "GNOME Terminal"
-#~ msgid "GNOME Terminal Client"
+#~| msgid "Cinnamon Terminal"
+#~ msgid "Cinnamon Terminal Client"
 #~ msgstr "गनोम टर्मिनल क्लाइंट"
 
 #~| msgid "Show per-terminal options"
@@ -2777,10 +2777,10 @@ msgstr "विंडो बंद करें (_l)"
 #~ msgstr "प्रोफ़ाइल्स की सूची"
 
 #~ msgid ""
-#~ "List of profiles known to gnome-terminal. The list contains strings "
-#~ "naming subdirectories relative to /apps/gnome-terminal/profiles."
+#~ "List of profiles known to cinnamon-terminal. The list contains strings "
+#~ "naming subdirectories relative to /apps/cinnamon-terminal/profiles."
 #~ msgstr ""
-#~ "gnome-terminal को ज्ञात प्रोफ़ाइल की सूची. सूची में /apps/gnome-terminal/"
+#~ "cinnamon-terminal को ज्ञात प्रोफ़ाइल की सूची. सूची में /apps/cinnamon-terminal/"
 #~ "profiles के सापेक्ष स्ट्रिंग नामित उपनिर्देशिका है."
 
 #~ msgid ""
@@ -3023,11 +3023,11 @@ msgstr "विंडो बंद करें (_l)"
 #~ msgstr "वर्णन (_D)"
 
 #~ msgid ""
-#~ "Option \"%s\" is no longer supported in this version of gnome-terminal; "
+#~ "Option \"%s\" is no longer supported in this version of cinnamon-terminal; "
 #~ "you might want to create a profile with the desired setting, and use the "
 #~ "new '--profile' option\n"
 #~ msgstr ""
-#~ "विकल्प --\"%s\" अब समर्थित नहीं है gnome-terminal के इस संस्करण में; आपको इच्छित "
+#~ "विकल्प --\"%s\" अब समर्थित नहीं है cinnamon-terminal के इस संस्करण में; आपको इच्छित "
 #~ "सेटिंग के साथ एक प्रोफ़ाइल बना सकते हैं और नया '--profile' विकल्प का प्रयोग कर सकते "
 #~ "हैं\n"
 

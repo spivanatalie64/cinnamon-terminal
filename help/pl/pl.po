@@ -1,12 +1,12 @@
-# Polish translation for gnome-terminal help.
-# Copyright © 2017-2024 the gnome-terminal authors.
-# This file is distributed under the same license as the gnome-terminal help.
+# Polish translation for cinnamon-terminal help.
+# Copyright © 2017-2024 the cinnamon-terminal authors.
+# This file is distributed under the same license as the cinnamon-terminal help.
 # Piotr Drąg <piotrdrag@gmail.com>, 2017-2024.
 # Aviary.pl <community-poland@mozilla.org>, 2017-2024.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-terminal-help\n"
+"Project-Id-Version: cinnamon-terminal-help\n"
 "POT-Creation-Date: 2024-10-03 19:50+0000\n"
 "PO-Revision-Date: 2024-10-05 15:10+0200\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
@@ -1571,10 +1571,10 @@ msgstr "Zrzut ekranu <app>Terminala</app> GNOME"
 #: C/introduction.page:44
 msgctxt "_"
 msgid ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 msgstr ""
-"external ref='figures/gnome-terminal.png' "
+"external ref='figures/cinnamon-terminal.png' "
 "md5='44213071a02d8e193ef33f6987afa39a'"
 
 #. (itstool) path: p/link

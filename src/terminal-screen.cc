@@ -1950,7 +1950,7 @@ terminal_screen_get_child_environment (TerminalScreen *screen,
   // Force ncurses to not use the dec graphics charset
   g_hash_table_replace (env_table, g_strdup("NCURSES_NO_UTF8_ACS"), g_strdup("1"));
 
-  /* Add gnome-terminal private env vars used to communicate back to g-t-server */
+  /* Add cinnamon-terminal private env vars used to communicate back to g-t-server */
   GDBusConnection *connection = g_application_get_dbus_connection (G_APPLICATION (app));
   g_hash_table_replace (env_table, g_strdup (TERMINAL_ENV_SERVICE_NAME),
                         g_strdup (g_dbus_connection_get_unique_name (connection)));

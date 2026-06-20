@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# merge-upstream.sh — Merge upstream gnome-terminal changes into unstable
+# merge-upstream.sh — Merge upstream cinnamon-terminal changes into unstable
 #
 # Copyright © 2025 Natalie Spiva
 #
@@ -144,7 +144,7 @@ fi
 info "Upstream has $COUNT new commit(s) to merge."
 
 # Attempt the merge
-MERGE_MSG="chore: merge upstream gnome-terminal changes
+MERGE_MSG="chore: merge upstream cinnamon-terminal changes
 
 Merge upstream/$UPSTREAM_BRANCH ($UPSTREAM_SHA dated $UPSTREAM_DATE)
 into $TARGET_BRANCH.
